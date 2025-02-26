@@ -45,7 +45,7 @@ const Page = () => {
 
             <div className="container">
                 <div className="sm:py-[40px] py-8 lg:mt-[50px]">
-                    <div className='bg-white md:p-10 p-4 rounded-lg grid sm:grid-cols-2 grid-cols-1 gap-y-6'>
+                    <div className='bg-white md:p-10 p-4 rounded-lg flex flex-col-reverse sm:grid sm:grid-cols-2 gap-y-6 '>
                         <div className='border-r flex-1 pr-2'>
                             <div>
                                 <h2 className="text-[30px] lg:text-[50px] xl:text-[55px] font-bold pb-2">
@@ -118,7 +118,7 @@ const Page = () => {
             </div>
 
             <div className="container">
-                <div className="bg-cover bg-center rounded-[10px] py-[40px] md:mt-[85px] mt-12" style={{ backgroundImage: `url(${Servicebg.src})`, }}>
+                <div className="bg-cover bg-center rounded-[10px] py-[40px] md:mt-[85px] mt-5 sm:mt-12" style={{ backgroundImage: `url(${Servicebg.src})`, }}>
                     <div>
                         <h2 className="text-[30px] lg:text-[50px] xl:text-[55px] font-bold text-white leading-[1.25] text-center">
                             Our Approach

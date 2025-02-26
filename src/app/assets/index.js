@@ -136,6 +136,8 @@ import sliderInLogonnjdvd from './images/sliderLogo/brand-14.0076c848.png';
 import sliderInLogonncsmig from './images/sliderLogo/logo.351d9dae.png';
 import sliderInLogonncssada from './images/sliderLogo/robo-logo.svg';
 
+import downArrow from './images/pseo-agenchy/arrowdown.svg'
+
 export {
     sliderInLogoOne,sliderInLogoTwo,sliderInLogoThree,sliderInLogoTdffe,sliderInLogolop,
     Greenfooterlogo,Greenlogo,sliderInLogoafr,sliderInLogojjjd,sliderInLogonnjdvd,
@@ -164,5 +166,7 @@ export {
     Marketingschool,Levelingup,Bulletpoint,
 
     work1,work2,work3,work4,work5,work6,
-    SearchEngineOptimization,PaidAdvertising,SocialMediaMarketing,EmailMarketing,abtWwa,abtBnnr,IserviceBannerOne
+    SearchEngineOptimization,PaidAdvertising,SocialMediaMarketing,EmailMarketing,abtWwa,abtBnnr,IserviceBannerOne,
+
+    downArrow
 }

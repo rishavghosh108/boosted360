@@ -7,7 +7,7 @@ import Link from 'next/link';
 import { BtnArrow } from '@/app/assets';
 import Growing from '@/app/Component/Widgets/Homepagegreen/Growing';
 import WorkWthUsModal from "../../Component/Widgets/Modal/WorkWithUs/WorkWthUsModal"
-import { BgGrain, IserviceBannerOne, Servicebg, ServiceIconone, ServiceIcontwo, ServiceIconthree } from "../../assets/index";
+import { BgGrain, IserviceBannerOne, Servicebg, ServiceIconone, ServiceIcontwo, ServiceIconthree, downArrow } from "../../assets/index";
 
 const Page = () => {
     const [isModalOpen, setIsModalOpen] = useState(false);
@@ -16,7 +16,7 @@ const Page = () => {
 
     const [activeTab, setActiveTab] = useState("tab1");
 
-    const [activeIndex, setActiveIndex] = useState(null);
+    const [activeIndex, setActiveIndex] = useState(0);
 
     // const handleMouseEnter = (index) => {
     //     setActiveIndex(index);
@@ -42,7 +42,7 @@ const Page = () => {
     // Remove handleMouseLeave so the hover effect persists
 
     const handleClick = (index) => {
-        setActiveIndex(index); // Clicking will keep it active until another hover
+        setActiveIndex(activeIndex === index ? null : index);
     };
 
 
@@ -302,29 +302,46 @@ const Page = () => {
                 <div className="px-4 max-w-[700px] mx-auto xl:max-w-fit">
                     <div className="xl:border-b-4 border-solid border-[#5db947] xl:divide-x-[1px] divide-[#6abd71] grid xl:grid-cols-4 grid-cols-1 gap-y-1 relative xld-bx" style={{ backgroundImage: `url(${backgroundImage})`, backgroundSize: "cover", backgroundPosition: "center", transition: "background-image 0.5s ease-in-out", }}>
                         {services.map((service, index) => (
-                            <div key={service.id} className={`flex flex-col justify-end main-box px-4 xl:py-8 py-5 cursor-pointer xl:h-[460px] overflow-hidden relative ${activeIndex === index ? "xl:bg-black xl:bg-opacity-50 bg-transparent" : "bg-black xl:bg-opacity-25 bg-opacity-5"}`} onMouseEnter={() => handleMouseEnter(index)} onClick={() => handleClick(index)}>
-                                <div className="flex items-center click-box">
-                                    <h3 className="text-3xl lg:text-[56px] xl:text-[65px] font-bold leading-none text-[#5db947]">
-                                        {`0${service.id}`}
-                                    </h3>
-                                    <h4 className="text-xl lg:text-2xl font-bold xl:text-neutral-300 text-neutral-700 leading-[1.6] pl-4">
-                                        {service.title}
-                                    </h4>
+                            <div
+                                key={service.id}
+                                className={`flex flex-col justify-end main-box px-4 xl:py-8 py-5 cursor-pointer xl:h-[460px] overflow-hidden relative ${activeIndex === index ? "xl:bg-black xl:bg-opacity-50 bg-transparent" : "bg-black xl:bg-opacity-25 bg-opacity-5"
+                                    }`}
+                                onMouseEnter={() => handleMouseEnter(index)}
+                                onClick={() => handleClick(index)}
+                            >
+                                <div className="flex items-center click-box justify-between">
+                                    <div className="flex items-center">
+                                        <h3 className="text-3xl lg:text-[56px] xl:text-[65px] font-bold leading-none text-[#5db947]">
+                                            {`0${service.id}`}
+                                        </h3>
+                                        <h4 className="text-xl lg:text-2xl font-bold xl:text-neutral-300 text-neutral-700 leading-[1.6] pl-4">
+                                            {service.title}
+                                        </h4>
+                                    </div>
+                                    <div>
+                                        <div className={`size-[15px] transition-transform duration-300 ${activeIndex === index ? "rotate-180" : "rotate-0"}`}>
+                                            <Image className="size-full object-contain" src={downArrow} alt="downArrow" />
+                                        </div>
+                                    </div>
                                 </div>
 
+                                {/* Image Section */}
                                 <div className={`my-4 border-t-4 border-solid border-[#5db947] w-full pt-4 ${activeIndex === index ? "block xl:hidden" : "hidden"}`}>
                                     <div className="relative w-full">
                                         <Image src={service.image} alt={`Service-${service.id}`} width={900} height={400} className="w-full object-cover" />
                                     </div>
                                 </div>
 
-                                <div className={`content-box mt-2 transition-opacity duration-300 ${activeIndex === index ? "xl:h-auto xl:opacity-100 xl:overflow-visible" : "xl:block hidden xl:h-0 xl:opacity-0 xl:overflow-hidden"}`}>
+                                {/* Content Section */}
+                                <div className={`content-box mt-2 transition-opacity duration-300 ${activeIndex === index ? "xl:h-auto xl:opacity-100 xl:overflow-visible" : "xl:block hidden xl:h-0 xl:opacity-0 xl:overflow-hidden"
+                                    }`}>
                                     <p className="text-lg lg:text-xl font-light xl:text-white text-black leading-[1.6]">
                                         {service.description}
                                     </p>
                                 </div>
                             </div>
                         ))}
+
                     </div>
                 </div>
 
