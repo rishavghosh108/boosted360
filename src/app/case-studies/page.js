@@ -57,7 +57,7 @@ export default function Page() {
     const thumbSliderSettings = {
         slidesToShow: 5,
         speed: 4000,
-        autoplay:false,
+        autoplay:true,
         autoplaySpeed: 4000,
         slidesToScroll: 1,
         asNavFor: nav1,
