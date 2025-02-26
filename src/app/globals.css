@@ -176,7 +176,7 @@ header.active  {
     overflow-x: hidden;
     overflow-y: scroll;
     position: fixed;
-    top: 55px;
+    top: 54px;
     transition: all ease-in-out .5s;
     width: 100%;
     z-index: 999;
