@@ -188,12 +188,12 @@ const Page = () => {
                             </div>
                         </div>
                         <div className="text-center">
-                            <Link href="/" className="ease_in_out bg-[#5db947] text-[14px] md:text-[15px] font-bold text-white uppercase inline-flex border border-solid border-[#5db947] px-[30px] md:px-[55px] py-[15px] md:py-[20px] mt-[40px] hover:bg-[#5db947]">
+                            <button onClick={openModal} className="ease_in_out bg-[#5db947] text-[14px] md:text-[15px] font-bold text-white uppercase inline-flex border border-solid border-[#5db947] px-[30px] md:px-[55px] py-[15px] md:py-[20px] mt-[40px] hover:bg-[#5db947]">
                                 Contact now
                                 <span className="ml-[10px]">
                                     <Image src={BtnArrow} alt="arrow" />
                                 </span>
-                            </Link>
+                            </button>
                         </div>
                     </div>
                 </div>

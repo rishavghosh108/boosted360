@@ -14,7 +14,7 @@ export default function Banner()  {
     
     var expertiseslider = {
         infinite: true,
-        speed: 1000,
+        speed: 1300,
         slidesToShow: 1,
         slidesToScroll: 1,
         autoplay: true,
