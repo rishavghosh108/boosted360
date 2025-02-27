@@ -132,55 +132,55 @@ const Page = () => {
                             <div className="h-full text-center p-[15px] lg:p-[20px] xl:p-[30px] pb-[60px] bg-[#292929] rounded-[10px] relative">
                                 <Image src={ServiceIconone} alt='Service-Icon-one' className="max-h-[80px] lg:max-h-[100px] m-auto" />
                                 <h2 className="mt-[30px] text-[20px] xl:text-[22px] text-white leading-[1.26] font-bold text-center">SEO & Content Marketing</h2>
-                                <p className="text-[15px] text-[#bcbcbc] leading-[1.39] mt-[15px] pb-[30px]">Our experienced SEO and content team will craft a strategy designed to drive conversions, increase organic traffic, and enhance brand visibility across search engines.</p>
-                                <Link href="#" className="absolute left-0 right-0 bottom-[25px] flex justify-center text-[15px] text-[#5db947] leading-[2.13] font-bold hover:underline m-auto w-fit">
+                                <p className="text-[15px] text-[#bcbcbc] leading-[1.39] mt-[15px]">Our experienced SEO and content team will craft a strategy designed to drive conversions, increase organic traffic, and enhance brand visibility across search engines.</p>
+                                {/* <Link href="#" className="absolute left-0 right-0 bottom-[25px] flex justify-center text-[15px] text-[#5db947] leading-[2.13] font-bold hover:underline m-auto w-fit">
                                     Learn more
                                     <Image src={CtaSmall} alt='cta-small' className="ml-[10px]" />
-                                </Link>
+                                </Link> */}
                             </div>
                         </div>
                         <div className="lg:w-4/12 md:w-6/12 w-full p-[4px] md:p-[6px] relative">
                             <div className="h-full text-center p-[15px] lg:p-[20px] xl:p-[30px] pb-[60px] bg-[#292929] rounded-[10px] relative">
                                 <Image src={ServiceIcontwo} alt='Service-Icon-one' className="max-h-[80px] lg:max-h-[100px] m-auto" />
                                 <h2 className="mt-[30px] text-[20px] xl:text-[22px] text-white leading-[1.26] font-bold text-center">PPC Advertising & Paid Media</h2>
-                                <p className="text-[15px] text-[#bcbcbc] leading-[1.39] mt-[15px] pb-[30px]">From Google Ads to social media campaigns, we run highly-targeted paid media campaigns that maximize your budget and drive traffic where it counts</p>
-                                <Link href="#" className="absolute left-0 right-0 bottom-[25px] flex justify-center text-[15px] text-[#5db947] leading-[2.13] font-bold hover:underline m-auto w-fit">
+                                <p className="text-[15px] text-[#bcbcbc] leading-[1.39] mt-[15px]">From Google Ads to social media campaigns, we run highly-targeted paid media campaigns that maximize your budget and drive traffic where it counts</p>
+                                {/* <Link href="#" className="absolute left-0 right-0 bottom-[25px] flex justify-center text-[15px] text-[#5db947] leading-[2.13] font-bold hover:underline m-auto w-fit">
                                     Learn more
                                     <Image src={CtaSmall} alt='cta-small' className="ml-[10px]" />
-                                </Link>
+                                </Link> */}
                             </div>
                         </div>
                         <div className="lg:w-4/12 md:w-6/12 w-full p-[4px] md:p-[6px] relative">
                             <div className="h-full text-center p-[15px] lg:p-[20px] xl:p-[30px] pb-[60px] bg-[#292929] rounded-[10px] relative">
                                 <Image src={ServiceIconthree} alt='Service-Icon-one' className="max-h-[80px] lg:max-h-[100px] m-auto" />
                                 <h2 className="mt-[30px] text-[20px] xl:text-[22px] text-white leading-[1.26] font-bold text-center">Social Media Marketing & Strategy</h2>
-                                <p className="text-[15px] text-[#bcbcbc] leading-[1.39] mt-[15px] pb-[30px]">We build strategic social media campaigns to engage your audience, strengthen brand loyalty, and increase conversions across multiple platforms such as Facebook, Instagram, LinkedIn, and others.</p>
-                                <Link href="#" className="absolute left-0 right-0 bottom-[25px] flex justify-center text-[15px] text-[#5db947] leading-[2.13] font-bold hover:underline m-auto w-fit">
+                                <p className="text-[15px] text-[#bcbcbc] leading-[1.39] mt-[15px]">We build strategic social media campaigns to engage your audience, strengthen brand loyalty, and increase conversions across multiple platforms such as Facebook, Instagram, LinkedIn, and others.</p>
+                                {/* <Link href="#" className="absolute left-0 right-0 bottom-[25px] flex justify-center text-[15px] text-[#5db947] leading-[2.13] font-bold hover:underline m-auto w-fit">
                                     Learn more
                                     <Image src={CtaSmall} alt='cta-small' className="ml-[10px]" />
-                                </Link>
+                                </Link> */}
                             </div>
                         </div>
                         <div className="lg:w-4/12 md:w-6/12 w-full p-[4px] md:p-[6px] relative">
                             <div className="h-full text-center p-[15px] lg:p-[20px] xl:p-[30px] pb-[60px] bg-[#292929] rounded-[10px] relative">
                                 <Image src={WebsAlyticsNitoring} alt='Service-Icon-one' className="max-h-[80px] lg:max-h-[100px] m-auto object-contain" />
                                 <h2 className="mt-[30px] text-[20px] xl:text-[22px] text-white leading-[1.26] font-bold text-center">Website Analytics & Performance Monitoring</h2>
-                                <p className="text-[15px] text-[#bcbcbc] leading-[1.39] mt-[15px] pb-[30px]">Our team constantly monitors your website&#39;s performance, optimizing for conversions and tracking KPIs to ensure your marketing strategies are effective.</p>
-                                <Link href="#" className="absolute left-0 right-0 bottom-[25px] flex justify-center text-[15px] text-[#5db947] leading-[2.13] font-bold hover:underline m-auto w-fit">
+                                <p className="text-[15px] text-[#bcbcbc] leading-[1.39] mt-[15px]">Our team constantly monitors your website&#39;s performance, optimizing for conversions and tracking KPIs to ensure your marketing strategies are effective.</p>
+                                {/* <Link href="#" className="absolute left-0 right-0 bottom-[25px] flex justify-center text-[15px] text-[#5db947] leading-[2.13] font-bold hover:underline m-auto w-fit">
                                     Learn more
                                     <Image src={CtaSmall} alt='cta-small' className="ml-[10px]" />
-                                </Link>
+                                </Link> */}
                             </div>
                         </div>
                         <div className="lg:w-4/12 md:w-6/12 w-full p-[4px] md:p-[6px] relative">
                             <div className="h-full text-center p-[15px] lg:p-[20px] xl:p-[30px] pb-[60px] bg-[#292929] rounded-[10px] relative">
                                 <Image src={consultationStrategyDevelopmentop} alt='Service-Icon-one' className="max-h-[80px] lg:max-h-[100px] m-auto object-contain" />
                                 <h2 className="mt-[30px] text-[20px] xl:text-[22px] text-white leading-[1.26] font-bold text-center">Consultation & Strategy Development</h2>
-                                <p className="text-[15px] text-[#bcbcbc] leading-[1.39] mt-[15px] pb-[30px]">We work closely with you to understand your objectives and provide clear, actionable digital marketing strategies that will elevate your business.</p>
-                                <Link href="#" className="absolute left-0 right-0 bottom-[25px] flex justify-center text-[15px] text-[#5db947] leading-[2.13] font-bold hover:underline m-auto w-fit">
+                                <p className="text-[15px] text-[#bcbcbc] leading-[1.39] mt-[15px]">We work closely with you to understand your objectives and provide clear, actionable digital marketing strategies that will elevate your business.</p>
+                                {/* <Link href="#" className="absolute left-0 right-0 bottom-[25px] flex justify-center text-[15px] text-[#5db947] leading-[2.13] font-bold hover:underline m-auto w-fit">
                                     Learn more
                                     <Image src={CtaSmall} alt='cta-small' className="ml-[10px]" />
-                                </Link>
+                                </Link> */}
                             </div>
                         </div>
 

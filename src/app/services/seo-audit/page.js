@@ -44,8 +44,6 @@ const Page = () => {
         setActiveIndex(activeIndex === index ? null : index);
     };
 
-
-
     const services = [
         {
             id: 1,
