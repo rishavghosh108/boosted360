@@ -119,21 +119,21 @@ import work4 from './images/work/work-4.jpg';
 import work5 from './images/work/work-5.jpg';
 import work6 from './images/work/work-6.jpg';
 
-import sliderInLogoOne from './images/sliderLogo/brand-15.ce96221b.png';
-import sliderInLogoTwo from './images/sliderLogo/brand-6.aabd9f6d.png';
-import sliderInLogoThree from './images/sliderLogo/brand-4.aca429c0.png';
-import sliderInLogoTdffe from './images/sliderLogo/brand-7.0d491488.png';
-import sliderInLogolop from './images/sliderLogo/brand-16.451fb1bd.png';
-import sliderInLogoafr from './images/sliderLogo/brand-11.c1340567.png';
-import sliderInLogondg from './images/sliderLogo/brand-13.6dfa7088.png';
-import sliderInLogocxml from './images/sliderLogo/brand-10.3f0a2ad9.webp';
-import sliderInLogorei from './images/sliderLogo/brand-8.9c449e4f.png';
-import sliderInLogovbg from './images/sliderLogo/brand-1.eac9c6fb.png';
-import sliderInLogojjjd from './images/sliderLogo/brand-12.2cd7abb7.png';
-import sliderInLogomasla from './images/sliderLogo/brand-3.92856bc9.webp';
-import sliderInLogodff from './images/sliderLogo/brand-2.083a31f2.webp';
-import sliderInLogonnjdvd from './images/sliderLogo/brand-14.0076c848.png';
-import sliderInLogonncsmig from './images/sliderLogo/logo.351d9dae.png';
+import sliderInLogoOne from './images/sliderLogo/brand-15.png';
+import sliderInLogoTwo from './images/sliderLogo/brand-6.png';
+import sliderInLogoThree from './images/sliderLogo/brand-4.png';
+import sliderInLogoTdffe from './images/sliderLogo/brand-7.png';
+import sliderInLogolop from './images/sliderLogo/brand-16.png';
+import sliderInLogoafr from './images/sliderLogo/brand-11.png';
+import sliderInLogondg from './images/sliderLogo/brand-13.png';
+import sliderInLogocxml from './images/sliderLogo/brand-10.webp';
+import sliderInLogorei from './images/sliderLogo/brand-8.png';
+import sliderInLogovbg from './images/sliderLogo/brand-1.png';
+import sliderInLogojjjd from './images/sliderLogo/brand-12.png';
+import sliderInLogomasla from './images/sliderLogo/brand-3.webp';
+import sliderInLogodff from './images/sliderLogo/brand-2.webp';
+import sliderInLogonnjdvd from './images/sliderLogo/brand-14.png';
+import sliderInLogonncsmig from './images/sliderLogo/logo.png';
 import sliderInLogonncssada from './images/sliderLogo/robo-logo.svg';
 
 import downArrow from './images/pseo-agenchy/arrowdown.svg'

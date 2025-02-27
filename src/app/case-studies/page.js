@@ -116,7 +116,7 @@ export default function Page() {
                                 {/* <div className='item_text absolute m-auto max-w-[650px]'>
                                     <h1 className='lg:text-[120px] md:text-[100px] sm:text-[80px] text-[50px] text-[#fff] font-bold text-shadow-lg'>Sustainable Salons</h1>
                                 </div> */}
-                                <div className='absolute bottom-[7rem] z-10 flex justify-center left-0 w-full'>
+                                <div className='absolute bottom-[6rem] z-10 flex justify-center left-0 w-full'>
                                     <Link href="/case-studies/details" className='fadeInUp bg-[#5db947] md:text-[16px] text-[12px] text-white font-medium shadow-md px-6 py-2 rounded-full flex justify-between items-center '>Case Studies Details</Link>
                                 </div>
                             </div>
@@ -125,10 +125,10 @@ export default function Page() {
                 </div>
 
                 <div className="thumb-slider-wrapper absolute bottom-[10px] left-0 w-full">
-                    <div className='w-full max-w-[700px] relative m-auto slider_border py-[10px]'>
+                    <div className='w-full max-w-[500px] relative m-auto slider_border py-[10px]'>
                         <Slider {...thumbSliderSettings}>
                             {images.map((img, index) => (
-                                <div key={index} className={`w-full h-[70px] px-[1px] ${activeSlide === index ? 'active' : ''}`}>
+                                <div key={index} className={`w-full h-[50px] px-[1px] ${activeSlide === index ? 'active' : ''}`}>
                                     <Image src={img} alt={`Thumbnail ${index + 1}`} className='w-full h-full object-cover object-top' />
                                 </div>
                             ))}
