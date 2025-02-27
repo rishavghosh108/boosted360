@@ -230,7 +230,7 @@ const Page = () => {
                         <div className="">
                             {activeTab === "tab1" &&
                                 <div className="sm:flex flex-wrap items-center">
-                                    <div className="sm:w-7/12 w-full md:pr-6">
+                                    <div className="sm:w-6/12 w-full sm:pr-8">
                                         <h2 className="text-3xl lg:text-[56px] xl:text-[65px] font-thin text-[#5db947] leading-none">01</h2>
                                         <div className="md:mt-5 mt-4">
                                             <p className="text-xl lg:text-3xl font-bold text-black leading-[1.6] mb-1">Increased Organic Traffic</p>
@@ -244,7 +244,7 @@ const Page = () => {
                             }
                             {activeTab === "tab2" &&
                                 <div className="sm:flex flex-wrap items-center">
-                                    <div className="sm:w-7/12 w-full md:pr-6">
+                                    <div className="sm:w-6/12 w-full sm:pr-8">
                                         <h2 className="text-3xl lg:text-[56px] xl:text-[65px] font-thin text-[#5db947] leading-none">02</h2>
                                         <div className="md:mt-5 mt-4">
                                             <p className="text-xl lg:text-3xl font-bold text-black leading-[1.6] mb-1">Higher Conversion Rates</p>
@@ -258,7 +258,7 @@ const Page = () => {
                             }
                             {activeTab === "tab3" &&
                                 <div className="sm:flex flex-wrap items-center">
-                                    <div className="sm:w-7/12 w-full md:pr-6">
+                                    <div className="sm:w-6/12 w-full sm:pr-8">
                                         <h2 className="text-3xl lg:text-[56px] xl:text-[65px] font-thin text-[#5db947] leading-none">03</h2>
                                         <div className="md:mt-5 mt-4">
                                             <p className="text-xl lg:text-3xl font-bold text-black leading-[1.6] mb-1">Improved Brand Awareness</p>
@@ -272,7 +272,7 @@ const Page = () => {
                             }
                             {activeTab === "tab4" &&
                                 <div className="sm:flex flex-wrap items-center">
-                                    <div className="sm:w-7/12 w-full md:pr-6">
+                                    <div className="sm:w-6/12 w-full sm:pr-8">
                                         <h2 className="text-3xl lg:text-[56px] xl:text-[65px] font-thin text-[#5db947] leading-none">04</h2>
                                         <div className="md:mt-5 mt-4">
                                             <p className="text-xl lg:text-3xl font-bold text-black leading-[1.6] mb-1">Long-Term ROI</p>
@@ -286,7 +286,7 @@ const Page = () => {
                             }
                             {activeTab === "tab5" &&
                                 <div className="sm:flex flex-wrap items-center">
-                                    <div className="sm:w-7/12 w-full md:pr-6">
+                                    <div className="sm:w-6/12 w-full sm:pr-8">
                                         <h2 className="text-3xl lg:text-[56px] xl:text-[65px] font-thin text-[#5db947] leading-none">05</h2>
                                         <div className="md:mt-5 mt-4">
                                             <p className="text-xl lg:text-3xl font-bold text-black leading-[1.6] mb-1">Lead Generation</p>
