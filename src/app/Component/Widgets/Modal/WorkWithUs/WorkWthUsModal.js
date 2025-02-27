@@ -50,7 +50,7 @@ const WorkWthUsModal = ({ isOpen, onClose }) => {
     <div id="modal" className='fixed top-0 left-0 w-screen h-screen bg-black bg-opacity-50 overflow-auto z-[9999] px-2'>
       <div className='modal-centered flex items-center'>
         <div className='container mx-auto relative xl:max-w-[1000px] bg-[#f8f8f8] border-[1px] border-solid border-[#00000033] rounded-[10px] !p-[10px] md:p-[16px]'>
-          <button onClick={onClose} className='text-[16px] text-[#666] font-bold absolute top-[10px] right-[10px] size-[30px] border border-[#ddd] rounded-full'>X</button>
+          <button onClick={onClose} className='text-[16px] text-[#666] font-bold absolute top-[10px] right-[10px] size-[30px] border border-[#5db947] hover:bg-[#5db947] rounded-full pt-[3px] hover:text-white pl-[1px]'>&#10005;</button>
           <div className='max-w-[100%] lg:max-w-[90%] m-auto'>
             <div className='py-[20px] xxl:py-[32px]'>
               <h2 className='text-[20px] md:text-[26px] lg:text-[30px] font-bold leading-[1.25] text-black text-center'>
@@ -97,7 +97,7 @@ const WorkWthUsModal = ({ isOpen, onClose }) => {
                   </div>
                   <div className='px-[8px] pb-[20px]'>
                     <select className='w-full h-[50px] rounded-[4px] bg-[#fff] border border-solid border-[#ececec] outline-none px-[25px] text-[16px] text-[#666]'>
-                      <option disabled selected>I’d like to talk about</option>
+                      <option disabled selected>I&apos;d like to talk about</option>
                       <option>Search Engine Optimization</option>
                       <option>Local SEO</option>
                       <option>Ecommerce SEO</option>
