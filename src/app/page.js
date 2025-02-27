@@ -17,8 +17,6 @@ import Join from "./Component/Widgets/Homepagegreen/Join";
 import Growing from "./Component/Widgets/Homepagegreen/Growing";
 
 export default function Home() {
-  
-  
   return (
     <Layouts>
       <Banner/>
