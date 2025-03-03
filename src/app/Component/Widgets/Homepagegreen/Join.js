@@ -20,12 +20,12 @@ export default function Join()  {
                         <p className="w-full lg:max-w-[590px] text-[18px] lg:text-[20px] text-black pt-[20px] lg:pt-[35px] leading-[1.6]">
                             Let us show you how our digital marketing agency can transform your business with results-oriented marketing strategies. Reach out to Boosted 360 today for the best digital marketing solutions tailored to your business&apos;s unique needs!
                         </p>
-                        <button onClick={openModal} className="ease_in_out box-shadows bg-[#2a2a2a] text-[14px] md:text-[15px] font-bold text-white uppercase inline-flex border border-solid border-[#3e3e3e] px-[30px] md:px-[55px] py-[15px] md:py-[20px] mt-[25px] lg:mt-[45px] hover:bg-[#404040] hover:border-[#404040]">
-                            Work With Us 
+                        <Link href={'/about-us'} className="ease_in_out box-shadows bg-[#2a2a2a] text-[14px] md:text-[15px] font-bold text-white uppercase inline-flex border border-solid border-[#3e3e3e] px-[30px] md:px-[55px] py-[15px] md:py-[20px] mt-[25px] lg:mt-[45px] hover:bg-[#404040] hover:border-[#404040]">
+                            Learn More Us 
                             <span className="ml-[10px]">
                                 <Image src={BtnArrow} alt="arrow" />
                             </span>
-                        </button>
+                        </Link>
                     </div>
                     <div className="w-full lg:w-[50%] mt-[30px] lg:mt-0">
                         <Image src={JoinImage} alt="arrow" className='block mx-auto'/>
