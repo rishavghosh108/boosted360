@@ -180,10 +180,9 @@ const Page = () => {
             Anthem Senior Living ranked #1 for key terms such as &quot;Senior care living in Anthem,&quot; &quot;Anthem assisted living,&quot; and &quot;Senior living in Anthem.&quot;
           </p>
 
-          <div className='bg-white p-5 mb-3 '>
-            <div className='w-[55%] mx-auto'>
-              <Image width={600} height={100} src={anthem_google} alt={`Slide`} className='w-full' />
-            </div>
+          <div className='bg-white mb-3 '>
+              <Image width={600} height={100} src={'/images/details-image/Anthamreview.png'} alt={`Slide`} className='w-full' />
+           
           </div>
 
           <p>

@@ -138,7 +138,6 @@ import sliderInLogonncssada from './images/sliderLogo/robo-logo.svg';
 
 import downArrow from './images/pseo-agenchy/arrowdown.svg'
 
-import anthem_google from './images/details/anthem_senior_google_review.png';
 
 export {
     sliderInLogoOne,sliderInLogoTwo,sliderInLogoThree,sliderInLogoTdffe,sliderInLogolop,
@@ -170,5 +169,5 @@ export {
     work1,work2,work3,work4,work5,work6,
     SearchEngineOptimization,PaidAdvertising,SocialMediaMarketing,EmailMarketing,abtWwa,abtBnnr,IserviceBannerOne,
 
-    downArrow,anthem_google
+    downArrow,
 }
