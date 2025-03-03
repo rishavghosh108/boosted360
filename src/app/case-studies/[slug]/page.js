@@ -188,10 +188,10 @@ const Page = () => {
           <p>
             This optimization resulted in greater exposure in local searches, driving more organic traffic to their website and converting leads into residents.
           </p>
-
+{/* 
           <div className='bg-white p-5 mb-3'>
             <Image width={600} height={100} src={'/images/details-image/details-image3.png'} alt={`Slide`} className='w-full' />
-          </div>
+          </div> */}
 
 
           <h1>
@@ -208,11 +208,11 @@ const Page = () => {
             Social Media Marketing
           </h1>
           <p>Boosted 360 enhanced Anthem Senior Living&apos;s social media marketing by crafting engaging content that resonated with their target audience. Through strategic campaigns, Boosted 360 increased brand visibility by 40%, improved audience engagement by 30%, and generated a 25% increase in leads every week. Consistent posting, paid ads, and community interaction helped drive leads and strengthen Anthem&apos;s online presence.</p>
-          <div className='bg-white p-5 mb-3 '>
+          {/* <div className='bg-white p-5 mb-3 '>
             <div className='w-[60%] mx-auto'>
               <Image width={600} height={100} src={'/images/details-image/anthem_google.png'} alt={`Slide`} className='w-full' />
             </div>
-          </div>
+          </div> */}
 
           <h1>
             Lead Generation
