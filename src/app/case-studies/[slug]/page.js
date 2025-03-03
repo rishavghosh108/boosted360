@@ -176,7 +176,7 @@ const Page = () => {
           </p>
 
           <p>
-            Anthem Senior Living ranked #1 for key terms such as "Senior care living in Anthem," "Anthem assisted living," and "Senior living in Anthem."
+            Anthem Senior Living ranked #1 for key terms such as &quot;Senior care living in Anthem,&quot; &quot;Anthem assisted living,&quot; and &quot;Senior living in Anthem.&quot;
           </p>
 
           <div className='bg-white p-5 mb-3 '>
@@ -197,7 +197,7 @@ const Page = () => {
           <h1>
             Local SEO
           </h1>
-          <p>We strategically focused on Local SEO to enhance Anthem Senior Living&apos;s search engine ranking. By optimizing their website with location-specific keywords like "Senior care living in Anthem," "Anthem assisted living," and "Senior living in Anthem," we ensured that Anthem Senior Living ranked #1 for these critical terms. This approach significantly boosted their local visibility, driving more targeted traffic from people specifically looking for senior living options in the Anthem area.</p>
+          <p>We strategically focused on Local SEO to enhance Anthem Senior Living&apos;s search engine ranking. By optimizing their website with location-specific keywords like &quot;Senior care living in Anthem,&quot; &quot;Anthem assisted living,&quot; and &quot;Senior living in Anthem,&quot; we ensured that Anthem Senior Living ranked #1 for these critical terms. This approach significantly boosted their local visibility, driving more targeted traffic from people specifically looking for senior living options in the Anthem area.</p>
           <div className='bg-white p-5 mb-3 '>
             <div className='w-[60%] mx-auto'>
               <Image width={600} height={100} src={'/images/details-image/anthem_google.png'} alt={`Slide`} className='w-full' />
@@ -207,7 +207,7 @@ const Page = () => {
           <h1>
             Social Media Marketing
           </h1>
-          <p>Boosted 360 enhanced Anthem Senior Living's social media marketing by crafting engaging content that resonated with their target audience. Through strategic campaigns, Boosted 360 increased brand visibility by 40%, improved audience engagement by 30%, and generated a 25% increase in leads every week. Consistent posting, paid ads, and community interaction helped drive leads and strengthen Anthem&apos;s online presence.</p>
+          <p>Boosted 360 enhanced Anthem Senior Living&apos;s social media marketing by crafting engaging content that resonated with their target audience. Through strategic campaigns, Boosted 360 increased brand visibility by 40%, improved audience engagement by 30%, and generated a 25% increase in leads every week. Consistent posting, paid ads, and community interaction helped drive leads and strengthen Anthem&apos;s online presence.</p>
           <div className='bg-white p-5 mb-3 '>
             <div className='w-[60%] mx-auto'>
               <Image width={600} height={100} src={'/images/details-image/anthem_google.png'} alt={`Slide`} className='w-full' />
