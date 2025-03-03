@@ -138,7 +138,7 @@ import sliderInLogonncssada from './images/sliderLogo/robo-logo.svg';
 
 import downArrow from './images/pseo-agenchy/arrowdown.svg'
 
-import anthem_google from './images/details/anthem_senior_google_review.png'
+import anthem_google from './images/details/anthem_senior_google_review.png';
 
 export {
     sliderInLogoOne,sliderInLogoTwo,sliderInLogoThree,sliderInLogoTdffe,sliderInLogolop,

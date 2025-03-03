@@ -19,12 +19,13 @@ const Page = () => {
         <div className='grid lg:grid-cols-2 gap-8 items-center pt-5 lg:pb-20 pb-10'>
           <div>
             <div className='max-w-3xl mx-auto'>
-              <Image src={sliderInLogoTdffe} alt={`Slide`} className='w-40 mx-auto lg:mx-0 brightness-75' />
+            {/* Companie7 */}
+              <Image src={'/images/details-image/anthem_png.png'} width={100} height={100} alt={`Slide`} className='w-40 mx-auto lg:mx-0 brightness-75' />
 
               <h1 className='lg:text-5xl md:text-4xl text-3xl text-neutral-800 md:pt-10 pt-5 font-light text-center lg:text-left'>
-                Empowering Anthem Senior Living&apos;s
+                Empowering Anthem Senior 
                 {/* <br className='hidden lg:block' /> */}
-                <span className='font-bold'> Digital Growth</span>
+                <span className='font-bold'>Living&apos;s Digital Growth</span>
               </h1>
 
               <p className='pt-5 md:text-xl text-base text-neutral-800 text-center lg:text-left'>
