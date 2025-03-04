@@ -180,7 +180,7 @@ const Page = () => {
                         </div>
                         <div className='md:w-1/3 w-full lg:pl-8 pl-5'>
                             <div className='space-y-4'>
-                                <div className='border border-solid border-neutral-200 pl-2 py-4 pr-8 rounded-md relative'>
+                                <div className='border border-solid border-neutral-200 pl-2 py-4 pr-8 rounded-md relative bg-white'>
                                     <input type='search' className='text-base font-light text-black lg:leading-[1.4] w-full outline-none' placeholder='Search..'/>
                                     <button type='submit' className='bg-transparent size-6 flex items-center justify-center absolute right-2 top-3.5 text-neutral-400'>
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">

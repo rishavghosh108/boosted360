@@ -7,6 +7,7 @@ import { BgGrain, BtnArrow, sliderInLogoOne, sliderInLogoThree, sliderInLogoTwo,
 import Growing from '@/app/Component/Widgets/Homepagegreen/Growing';
 import Link from 'next/link';
 import WorkWthUsModal from "../Component/Widgets/Modal/WorkWithUs/WorkWthUsModal"
+import Companies from '../Component/Widgets/Homepagegreen/Companies';
 const Page = () => {
     const [isModalOpen, setIsModalOpen] = useState(false);
     const openModal = () => setIsModalOpen(true);
@@ -293,7 +294,7 @@ const Page = () => {
 
             <div className="container">
                 <div className="bg-cover bg-center border-t border-neutral-200 md:py-[60px] pb-10 pt-10 mt-0 lg:mb-[40px]">
-                    <div>
+                    {/* <div>
                         <h2 className="text-[16px] lg:text-[20px] xl:text-[25px] font-semibold text-neutral-800 leading-[1.25] text-center">
                             Companies We&apos;ve Helped Grow
                         </h2>
@@ -342,7 +343,8 @@ const Page = () => {
                         <li className="p-4 m-1 bg-white">
                             <Image src={sliderInLogonnjdvd} alt="logo" className="w-[100px] object-contain grayscale" />
                         </li>
-                    </ul>
+                    </ul> */}
+                    <Companies/>
                 </div>
             </div>
 

@@ -194,9 +194,7 @@ const Page = () => {
           </div> */}
 
 
-          <h1>
-            Local SEO
-          </h1>
+          <h1>Local SEO</h1>
           <p>We strategically focused on Local SEO to enhance Anthem Senior Living&apos;s search engine ranking. By optimizing their website with location-specific keywords like &quot;Senior care living in Anthem,&quot; &quot;Anthem assisted living,&quot; and &quot;Senior living in Anthem,&quot; we ensured that Anthem Senior Living ranked #1 for these critical terms. This approach significantly boosted their local visibility, driving more targeted traffic from people specifically looking for senior living options in the Anthem area.</p>
           <div className='mb-3 '>
             <Image width={600} height={100} src={'/images/details-image/Antham_google.png'} alt={`Slide`} className='w-full' />
@@ -244,9 +242,9 @@ const Page = () => {
       </div>
 
 
-      {/* <div className="container">
+      <div className="container">
         <div className="bg-cover bg-center border-t border-neutral-200 md:py-[60px] pb-10 pt-10 mt-0 lg:mb-[40px]">
-          <div>
+          {/* <div>
             <h2 className="text-[16px] lg:text-[20px] xl:text-[25px] font-semibold text-neutral-800 leading-[1.25] text-center">
               Companies We&apos;ve Helped Grow
             </h2>
@@ -295,12 +293,11 @@ const Page = () => {
             <li className="p-4 m-1 bg-white">
               <Image src={sliderInLogonnjdvd} alt="logo" className="w-[100px] object-contain grayscale" />
             </li>
-          </ul>
+          </ul> */}
+           <Companies />
         </div>
-      </div> */}
-      <div className='pb-10 md:pb-20'>
-        <Companies />
       </div>
+   
 
       <WorkWthUsModal isOpen={isModalOpen} onClose={closeModal} />
       <Growing />
