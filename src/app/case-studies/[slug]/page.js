@@ -180,7 +180,7 @@ const Page = () => {
             Anthem Senior Living ranked #1 for key terms such as &quot;Senior care living in Anthem,&quot; &quot;Anthem assisted living,&quot; and &quot;Senior living in Anthem.&quot;
           </p>
 
-          <div className='bg-white mb-3 '>
+          <div className='mb-3 '>
             <Image width={600} height={100} src={'/images/details-image/Anthamreview.png'} alt={`Slide`} className='w-full' />
 
           </div>
@@ -198,8 +198,8 @@ const Page = () => {
             Local SEO
           </h1>
           <p>We strategically focused on Local SEO to enhance Anthem Senior Living&apos;s search engine ranking. By optimizing their website with location-specific keywords like &quot;Senior care living in Anthem,&quot; &quot;Anthem assisted living,&quot; and &quot;Senior living in Anthem,&quot; we ensured that Anthem Senior Living ranked #1 for these critical terms. This approach significantly boosted their local visibility, driving more targeted traffic from people specifically looking for senior living options in the Anthem area.</p>
-          <div className='bg-white mb-3 '>
-            <Image width={600} height={100} src={'/images/details-image/anthem_google.png'} alt={`Slide`} className='w-full' />
+          <div className='mb-3 '>
+            <Image width={600} height={100} src={'/images/details-image/Antham_google.png'} alt={`Slide`} className='w-full' />
           </div>
 
           <h1>
