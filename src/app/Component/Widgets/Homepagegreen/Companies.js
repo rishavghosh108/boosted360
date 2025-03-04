@@ -14,46 +14,46 @@ export default function Companies()  {
                 </div>
                 <ul className="flex flex-wrap items-center justify-center pt-[20px] lg:pt-[30px] sm:px-[30px] px-4 lg:px-[40px]">
                     <li className="p-4 m-1 bg-white">
-                        <Image src={sliderInLogoOne} alt="logo" className="w-[100px] h-[50px] object-contain grayscale" />
+                        <Image src={sliderInLogoOne} alt="logo" className="hover:filter-none w-[100px] h-[50px] object-contain grayscale" />
                     </li>
                     <li className="p-4 m-1 bg-white">
-                        <Image src={sliderInLogoThree} alt="logo" className="w-[100px] h-[50px] object-contain grayscale" />
+                        <Image src={sliderInLogoThree} alt="logo" className="hover:filter-none w-[100px] h-[50px] object-contain grayscale" />
                     </li>
                     <li className="p-4 m-1 bg-white">
-                        <Image src={sliderInLogoTwo} alt="logo" className="w-[100px] h-[50px] object-contain grayscale" />
+                        <Image src={sliderInLogoTwo} alt="logo" className="hover:filter-none w-[100px] h-[50px] object-contain grayscale" />
                     </li>
                     <li className="p-4 m-1 bg-white">
-                        <Image src={sliderInLogoTdffe} alt="logo" className="w-[100px] h-[50px] object-contain grayscale" />
+                        <Image src={sliderInLogoTdffe} alt="logo" className="hover:filter-none w-[100px] h-[50px] object-contain grayscale" />
                     </li>
                     <li className="p-4 m-1 bg-white">
-                        <Image src={sliderInLogolop} alt="logo" className="w-[100px] h-[50px] object-contain grayscale" />
+                        <Image src={sliderInLogolop} alt="logo" className="hover:filter-none w-[100px] h-[50px] object-contain grayscale" />
                     </li>
                     <li className="p-4 m-1 bg-white">
-                        <Image src={sliderInLogoafr} alt="logo" className="w-[100px] h-[50px] object-contain grayscale" />
+                        <Image src={sliderInLogoafr} alt="logo" className="hover:filter-none w-[100px] h-[50px] object-contain grayscale" />
                     </li>
                     <li className="p-4 m-1 bg-white">
-                        <Image src={sliderInLogondg} alt="logo" className="w-[100px] h-[50px] object-contain grayscale" />
+                        <Image src={sliderInLogondg} alt="logo" className="hover:filter-none w-[100px] h-[50px] object-contain grayscale" />
                     </li>
                     <li className="p-4 m-1 bg-white">
-                        <Image src={sliderInLogocxml} alt="logo" className="w-[100px] h-[50px] object-contain grayscale" />
+                        <Image src={sliderInLogocxml} alt="logo" className="hover:filter-none w-[100px] h-[50px] object-contain grayscale" />
                     </li>
                     <li className="p-4 m-1 bg-white">
-                        <Image src={sliderInLogorei} alt="logo" className="w-[100px] h-[50px] object-contain grayscale" />
+                        <Image src={sliderInLogorei} alt="logo" className="hover:filter-none w-[100px] h-[50px] object-contain grayscale" />
                     </li>
                     <li className="p-4 m-1 bg-white">
-                        <Image src={sliderInLogovbg} alt="logo" className="w-[100px] h-[50px] object-contain grayscale" />
+                        <Image src={sliderInLogovbg} alt="logo" className="hover:filter-none w-[100px] h-[50px] object-contain grayscale" />
                     </li>
                     <li className="p-4 m-1 bg-white">
-                        <Image src={sliderInLogojjjd} alt="logo" className="w-[100px] h-[50px] object-contain grayscale" />
+                        <Image src={sliderInLogojjjd} alt="logo" className="hover:filter-none w-[100px] h-[50px] object-contain grayscale" />
                     </li>
                     <li className="p-4 m-1 bg-white">
-                        <Image src={sliderInLogomasla} alt="logo" className="w-[100px] h-[50px] object-contain grayscale" />
+                        <Image src={sliderInLogomasla} alt="logo" className="hover:filter-none w-[100px] h-[50px] object-contain grayscale" />
                     </li>
                     <li className="p-4 m-1 bg-white">
-                        <Image src={sliderInLogodff} alt="logo" className="w-[100px] h-[50px] object-contain grayscale" />
+                        <Image src={sliderInLogodff} alt="logo" className="hover:filter-none w-[100px] h-[50px] object-contain grayscale" />
                     </li>
                     <li className="p-4 m-1 bg-white">
-                        <Image src={sliderInLogonnjdvd} alt="logo" className="w-[100px] h-[50px] object-contain grayscale" />
+                        <Image src={sliderInLogonnjdvd} alt="logo" className="hover:filter-none w-[100px] h-[50px] object-contain grayscale" />
                     </li>
                 </ul>
             </div>
