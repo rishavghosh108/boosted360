@@ -3,7 +3,7 @@
 import React, { useState } from 'react';
 import { Layouts } from '@/app/Component';
 import Image from 'next/image';
-import { Companie7, sliderInLogoOne, sliderInLogoThree, sliderInLogoTwo, sliderInLogoTdffe, sliderInLogolop, sliderInLogoafr, sliderInLogondg, sliderInLogocxml, sliderInLogorei, sliderInLogovbg, sliderInLogojjjd, sliderInLogomasla, sliderInLogodff, sliderInLogonnjdvd, BtnArrow, work1, anthem_google,} from '@/app/assets';
+import { Companie7, sliderInLogoOne, sliderInLogoThree, sliderInLogoTwo, sliderInLogoTdffe, sliderInLogolop, sliderInLogoafr, sliderInLogondg, sliderInLogocxml, sliderInLogorei, sliderInLogovbg, sliderInLogojjjd, sliderInLogomasla, sliderInLogodff, sliderInLogonnjdvd, BtnArrow, work1, anthem_google, } from '@/app/assets';
 import Growing from '@/app/Component/Widgets/Homepagegreen/Growing';
 import WorkWthUsModal from "../../Component/Widgets/Modal/WorkWithUs/WorkWthUsModal"
 import Companies from '@/app/Component/Widgets/Homepagegreen/Companies';
@@ -19,11 +19,11 @@ const Page = () => {
         <div className='grid lg:grid-cols-2 gap-8 items-center pt-5 lg:pb-20 pb-10'>
           <div>
             <div className='max-w-3xl mx-auto'>
-            {/* Companie7 */}
+              {/* Companie7 */}
               <Image src={'/images/details-image/anthem_png.png'} width={100} height={100} alt={`Slide`} className='w-40 mx-auto lg:mx-0 brightness-75' />
 
               <h1 className='lg:text-5xl md:text-4xl text-3xl text-neutral-800 md:pt-10 pt-5 font-light text-center lg:text-left'>
-                Empowering Anthem Senior 
+                Empowering Anthem Senior
                 {/* <br className='hidden lg:block' /> */}
                 <span className='font-bold'>Living&apos;s Digital Growth</span>
               </h1>
@@ -181,14 +181,14 @@ const Page = () => {
           </p>
 
           <div className='bg-white mb-3 '>
-              <Image width={600} height={100} src={'/images/details-image/Anthamreview.png'} alt={`Slide`} className='w-full' />
-           
+            <Image width={600} height={100} src={'/images/details-image/Anthamreview.png'} alt={`Slide`} className='w-full' />
+
           </div>
 
           <p>
             This optimization resulted in greater exposure in local searches, driving more organic traffic to their website and converting leads into residents.
           </p>
-{/* 
+          {/* 
           <div className='bg-white p-5 mb-3'>
             <Image width={600} height={100} src={'/images/details-image/details-image3.png'} alt={`Slide`} className='w-full' />
           </div> */}
@@ -198,10 +198,8 @@ const Page = () => {
             Local SEO
           </h1>
           <p>We strategically focused on Local SEO to enhance Anthem Senior Living&apos;s search engine ranking. By optimizing their website with location-specific keywords like &quot;Senior care living in Anthem,&quot; &quot;Anthem assisted living,&quot; and &quot;Senior living in Anthem,&quot; we ensured that Anthem Senior Living ranked #1 for these critical terms. This approach significantly boosted their local visibility, driving more targeted traffic from people specifically looking for senior living options in the Anthem area.</p>
-          <div className='bg-white p-5 mb-3 '>
-            <div className='w-[60%] mx-auto'>
-              <Image width={600} height={100} src={'/images/details-image/anthem_google.png'} alt={`Slide`} className='w-full' />
-            </div>
+          <div className='bg-white mb-3 '>
+            <Image width={600} height={100} src={'/images/details-image/anthem_google.png'} alt={`Slide`} className='w-full' />
           </div>
 
           <h1>
@@ -237,7 +235,7 @@ const Page = () => {
           <p>Facebook ad reach - Overall Facebook follower added 2k/month and audience size 290,500,000 where men and women ratio is 54.8% and 45.2% respectively. </p>
 
           <h1>
-           Landing Page Optimization
+            Landing Page Optimization
           </h1>
           <p>Optimizing landing pages for conversions was crucial to Anthem Senior Living&apos;s digital marketing success. We focused on refining the design, improving load times, and enhancing call-to-action (CTA) buttons to create an intuitive, user-friendly experience. The addition of relevant imagery and persuasive copy led to higher engagement rates and better conversion of visitors into potential residents, ensuring that each landing page effectively communicated the value of Anthem Senior Living&apos;s services and offerings.</p>
           <p>It has increased Page Views to 6k/month and 703 visits/day that is an overall 12.5% growth.  </p>
