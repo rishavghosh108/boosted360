@@ -47,8 +47,8 @@ const page = () => {
                 <div className='container'>
                     <div className='grid grid-cols-1 lg:grid-cols-2 gap-[18px] sm:gap-[25px] lg:px-0 px-0 sm:px-10 nn1:px-[15%]'>
                         {SlideItems.map((item, index) => (
-                            <div key={index} className='bg-blue-950 h-full max-h-[336px] hover:shadow-md rounded-xl overflow-hidden relative group'>
-                                <div className='w-[48%] absolute top-0 bottom-0 right-0 left-0 rounded-xl p-2 sm:p-5 xl:p-6 text-white text-left h-full flex flex-col justify-center'>
+                            <div key={index} className='bg-blue-950 h-full min-h-[182px] max-h-[336px] hover:shadow-md rounded-xl overflow-hidden relative group'>
+                                <div className='w-[48%] absolute top-0 left-0 rounded-xl p-2 sm:p-5 xl:p-6 text-white text-left h-full flex flex-col justify-center'>
                                     <h3 className="text-[16px] sm:text-xl xl:text-2xl 2xl:text-3xl font-semibold pb-3 xl:pb-4">{item.title}</h3>
                                     <p className="text-[12px] sm:text-sm xl:text-base leading-[1] xl:leading-5 font-light pb-4">{item.description}</p>
                                 </div>
