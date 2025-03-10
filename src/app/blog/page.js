@@ -160,7 +160,7 @@ const Page = () => {
                                 </Link>
                             </div>
                             <nav className='md:mt-12 mt-7'>
-                                <ul class="flex w-fit mx-auto space-x-2 text-sm">
+                                <ul className="flex w-fit mx-auto space-x-2 text-sm">
                                     <li>
                                         <Link href="/" className='inline-flex justify-center items-center p-1 size-9 rounded-md font-semibold text-base border border-solid border-zinc-400 bg-[#5db947] text-white'>1</Link>
                                     </li>
