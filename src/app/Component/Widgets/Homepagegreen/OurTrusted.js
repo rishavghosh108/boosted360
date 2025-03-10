@@ -34,6 +34,13 @@ export default function OurTrusted()  {
                 slidesToShow: 3,
                 slidesToScroll: 1
               }
+            },
+            {
+              breakpoint: 480,
+              settings: {
+                slidesToShow: 2,
+                slidesToScroll: 1
+              }
             }
           ]
     };
@@ -45,7 +52,7 @@ export default function OurTrusted()  {
                 <div className="xl:max-w-[1024px] sm:max-w-[90%] max-w-[86%] mx-auto tru-sdle">
                     <Slider  {...trustedslider}>
                         <div>
-                            <Image src={'/images/trusted-icon/trusted-icon-1.png'} className="mx-auto block" width={90} height={30} alt="thumbnail" />
+                            <Image src={'/images/trusted-icon/facebooknewlogo.png'} className="mx-auto block" width={50} height={30} alt="thumbnail" />
                         </div>
                         <div>
                             <Image src={'/images/trusted-icon/trusted-icon-2.png'} className="mx-auto block" width={90} height={30} alt="thumbnail" />
@@ -54,7 +61,7 @@ export default function OurTrusted()  {
                             <Image src={'/images/trusted-icon/trusted-icon-3.png'} className="mx-auto block" width={90} height={30} alt="thumbnail" />
                         </div>
                         <div>
-                            <Image src={'/images/trusted-icon/trusted-icon-4.png'} className="mx-auto block" width={90} height={30} alt="thumbnail" />
+                            <Image src={'/images/trusted-icon/trusted-icon-4.png'} className="mx-auto block" width={35} height={30} alt="thumbnail" />
                         </div>
                         <div>
                             <Image src={'/images/trusted-icon/trusted-icon-5.png'} className="mx-auto block" width={90} height={30} alt="thumbnail" />
