@@ -175,7 +175,7 @@ const Page = () => {
           </h1>
 
           <p>
-          We optimized Curb Appeal Lawn&apos;s GMB listing to improve their visibility in local searches. By ensuring their business information was accurate and up-to-date, and by actively managing reviews and posting regular updates, we increased their ranking for keywords like "Lawn care services near me" and "Best lawn service in Simpsonville." This led to greater local exposure and a continuous flow of organic traffic to their site, resulting in a higher number of customer inquiries.
+          We optimized Curb Appeal Lawn&apos;s GMB listing to improve their visibility in local searches. By ensuring their business information was accurate and up-to-date, and by actively managing reviews and posting regular updates, we increased their ranking for keywords like &quot;Lawn care services near me&quot; and &quot;Best lawn service in Simpsonville.&quot; This led to greater local exposure and a continuous flow of organic traffic to their site, resulting in a higher number of customer inquiries.
           </p>
 
           <div className='mb-3 '>
@@ -193,7 +193,7 @@ const Page = () => {
 
 
           <h1>Local SEO</h1>
-          <p>Focusing on Local SEO, we targeted location-specific keywords such as "Lawn care services Simpsonville and "Affordable lawn care Simpsonville. This tactic enabled Curb Appeal Lawn to rank highly for critical search terms in their service areas. As a result, the company experienced increased local visibility, attracting clients who were actively searching for lawn care services within their geographic region.
+          <p>Focusing on Local SEO, we targeted location-specific keywords such as &quot;Lawn care services Simpsonville and&quot;Affordable lawn care Simpsonville. This tactic enabled Curb Appeal Lawn to rank highly for critical search terms in their service areas. As a result, the company experienced increased local visibility, attracting clients who were actively searching for lawn care services within their geographic region.
           </p>
           <div className='mb-3 '>
             <Image width={600} height={100} src={'/images/details-image/Antham_google.png'} alt={`Slide`} className='w-full' />
@@ -234,7 +234,7 @@ const Page = () => {
           <h1>
             Landing Page Optimization
           </h1>
-          <p>Landing page optimization played a critical role in converting visitors into customers. We worked on improving the user experience by optimizing design, reducing load times, and enhancing call-to-action buttons. By incorporating user-friendly features and persuasive copy, we saw higher engagement and conversion rates. This led to more website visitors becoming clients, further boosting Curb Appeal Lawn’s customer base and online presence.</p>
+          <p>Landing page optimization played a critical role in converting visitors into customers. We worked on improving the user experience by optimizing design, reducing load times, and enhancing call-to-action buttons. By incorporating user-friendly features and persuasive copy, we saw higher engagement and conversion rates. This led to more website visitors becoming clients, further boosting Curb Appeal Lawn&apos;s customer base and online presence.</p>
 
         </div>
       </div>
