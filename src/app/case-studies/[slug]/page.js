@@ -20,7 +20,7 @@ const Page = () => {
           <div>
             <div className='max-w-3xl mx-auto'>
               {/* Companie7 */}
-              <Image src={'/images/details-image/anthem_png.png'} width={100} height={100} alt={`Slide`} className='w-40 mx-auto lg:mx-0 brightness-75' />
+              <Image src={'/images/details-image/curbappeal.png'} width={100} height={100} alt={`Slide`} className='w-40 mx-auto lg:mx-0 brightness-75' />
 
               <h1 className='lg:text-5xl md:text-4xl text-3xl text-neutral-800 md:pt-10 pt-5 font-light text-center lg:text-left'>
                 Empowering Anthem Senior
