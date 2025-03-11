@@ -147,15 +147,16 @@ const Page = () => {
       <div className='container'>
         <div className='max-w-3xl mx-auto md:pb-20 pb-10 content-aria'>
           <p>
-            <span> We start with research, analyzing your business, competitors, and audience</span>. Through tailored strategies across GMB marketing, SEO, lead generation, content creation, PPC, and landing page optimization, we create an integrated approach that ensures measurable results. Our focus is on long-term organic growth that fosters success for your business.
+          Our approach started with extensive research, analyzing competitors, and gaining deep insights into Curb Appeal Lawn&apos;s target demographic. From there, we developed a custom digital marketing strategy that included SEO, content creation and lead generation tactics. With these combined efforts, we created an integrated approach that ensured sustained growth and engagement for the business.
           </p>
 
           <h1>
-            Anthem Senior Living&apos;s Success Story:
+          Curb Appeal Lawn&apos;s Success Story:
+
           </h1>
 
           <p>
-            Anthem Senior Living has achieved remarkable growth through our bespoke digital marketing efforts.
+          Through our strategic marketing campaigns, Curb Appeal Lawn experienced substantial growth in visibility and engagement. We successfully implemented a variety of digital strategies that resulted in a remarkable 400% increase in organic search traffic and a 500X increase in online lead generation.
           </p>
 
           <div className='bg-white p-5 mb-3'>
@@ -163,19 +164,16 @@ const Page = () => {
           </div>
 
           <p>
-            With a focus on organic growth, we helped them increase blog organic sessions by 810% and attributed user sign-ups grew by 400X. Through a mix of SEO, content strategy, and paid campaigns,
+          By focusing on long-term SEO strategies, content marketing, and leveraging local search opportunities, we were able to create a sustainable, impactful online presence that consistently attracted new customers.
           </p>
 
-          <p>
-            we brought Anthem Senior Living a steady, long-term increase in leads and visibility.
-          </p>
 
           <h1>
             <span>Google My Business (GMB) Optimization</span>
           </h1>
 
           <p>
-          We optimized Curb Appeal Lawn&apos;s GMB listing to improve their visibility in local searches. By ensuring their business information was accurate and up-to-date, and by actively managing reviews and posting regular updates, we increased their ranking for keywords like &quot;Lawn care services near me&quot; and &quot;Best lawn service in Simpsonville.&quot; This led to greater local exposure and a continuous flow of organic traffic to their site, resulting in a higher number of customer inquiries.
+          We optimized Curb Appeal Lawn&apos;s GMB listing to improve their visibility in local searches. By ensuring their business information was accurate and up-to-date, and by actively managing reviews and posting regular updates, we increased their ranking for keywords like &quot;Lawn care services near me&quot; and &quot;Best lawn service in Simpsonville.
           </p>
 
           <div className='mb-3 '>
@@ -184,7 +182,7 @@ const Page = () => {
           </div>
 
           <p>
-            This optimization resulted in greater exposure in local searches, driving more organic traffic to their website and converting leads into residents.
+          &quot;This led to greater local exposure and a continuous flow of organic traffic to their site, resulting in a higher number of customer inquiries.
           </p>
           {/* 
           <div className='bg-white p-5 mb-3'>
@@ -193,21 +191,13 @@ const Page = () => {
 
 
           <h1>Local SEO</h1>
-          <p>Focusing on Local SEO, we targeted location-specific keywords such as &quot;Lawn care services Simpsonville and&quot;Affordable lawn care Simpsonville. This tactic enabled Curb Appeal Lawn to rank highly for critical search terms in their service areas. As a result, the company experienced increased local visibility, attracting clients who were actively searching for lawn care services within their geographic region.
+          <p>Focusing on Local SEO, we targeted location-specific keywords such as &quot;Lawn care services Simpsonville&quot; and &quot;Affordable lawn care Simpsonville&quot;. This tactic enabled Curb Appeal Lawn to rank highly for critical search terms in their service areas. As a result, the company experienced increased local visibility, attracting clients who were actively searching for lawn care services within their geographic region.
           </p>
           <div className='mb-3 '>
             <Image width={600} height={100} src={'/images/details-image/Antham_google.png'} alt={`Slide`} className='w-full' />
           </div>
 
-          <h1>
-            Social Media Marketing
-          </h1>
-          <p>Boosted 360 enhanced Anthem Senior Living&apos;s social media marketing by crafting engaging content that resonated with their target audience. Through strategic campaigns, Boosted 360 increased brand visibility by 40%, improved audience engagement by 30%, and generated a 25% increase in leads every week. Consistent posting, paid ads, and community interaction helped drive leads and strengthen Anthem&apos;s online presence.</p>
-          {/* <div className='bg-white p-5 mb-3 '>
-            <div className='w-[60%] mx-auto'>
-              <Image width={600} height={100} src={'/images/details-image/anthem_google.png'} alt={`Slide`} className='w-full' />
-            </div>
-          </div> */}
+       
 
           <h1>
             Lead Generation
@@ -224,12 +214,7 @@ const Page = () => {
           </h1>
           <p>We developed a targeted content marketing strategy for Curb Appeal Lawn, which included blogs, service pages, and educational videos that informed potential customers about lawn care best practices and the benefits of professional lawn services. By offering valuable content, we not only increased website traffic but also built trust with the audience, positioning Curb Appeal Lawn as a thought leader in the industry. As a result, Curb Appeal Lawn saw a 300% increase in organic traffic and improved their SEO rankings.</p>
 
-          <h1>
-            Ad Campaign (PPC/Facebook Ads)
-          </h1>
-          <p>We launched targeted PPC and Facebook ad campaigns to drive more qualified traffic to Anthem Senior Living&apos;s website. By using precise audience targeting and compelling ad creative, we reached people actively searching for senior care services or interested in the Anthem area. The ads increased brand awareness and generated high-quality leads, contributing to the overall success of their digital marketing strategy and enhancing their online presence within the senior living space.</p>
-          <p>PPC Ad types - search ads campaign, display ad campaign, remarketing campaign </p>
-          <p>Facebook ad reach - Overall Facebook follower added 2k/month and audience size 290,500,000 where men and women ratio is 54.8% and 45.2% respectively. </p>
+        
 
           <h1>
             Landing Page Optimization
