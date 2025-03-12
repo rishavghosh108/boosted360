@@ -1,9 +1,9 @@
 import React from "react";
 import Image from "next/image";
 import { sliderInLogonnjdvd, sliderInLogovbg, sliderInLogoOne, sliderInLogoTwo, sliderInLogoThree, sliderInLogorei, sliderInLogoTdffe, sliderInLogolop, sliderInLogoafr, sliderInLogondg, sliderInLogojjjd, sliderInLogocxml } from "../../../assets/index"
-import { Swiper,SwiperSlide } from "swiper";
-// import 'swiper/css';
-import { Autoplay } from "swiper";
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import { Autoplay } from "swiper/modules";
 
 export default function Logos() {
 
@@ -83,7 +83,7 @@ export default function Logos() {
                     {imgData.map((item, key) => (
                         <SwiperSlide key={key} className="flex items-center">
                             <div className="md:p-4 p-3 w-[66px] sm:w-[92px]">
-                                <Image className="size-full object-contain filter grayscale hover:grayscale-0" src={item} />
+                                <Image className="size-full object-contain filter grayscale hover:grayscale-0" src={item} alt={item} />
                             </div>
                         </SwiperSlide>
                     ))}
