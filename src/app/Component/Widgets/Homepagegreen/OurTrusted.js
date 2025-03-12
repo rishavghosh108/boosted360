@@ -55,28 +55,28 @@ export default function OurTrusted()  {
                             <Image src={'/images/trusted-icon/facebooknewlogo.png'} className="mx-auto block" width={50} height={30} alt="thumbnail" />
                         </div>
                         <div>
-                            <Image src={'/images/trusted-icon/trusted-icon-2.png'} className="mx-auto block" width={90} height={30} alt="thumbnail" />
+                            <Image src={'/images/trusted-icon/trusted-icon-2.png'} className="mx-auto block" width={50} height={30} alt="thumbnail" />
                         </div>
                         <div>
-                            <Image src={'/images/trusted-icon/trusted-icon-3.png'} className="mx-auto block" width={90} height={30} alt="thumbnail" />
+                            <Image src={'/images/trusted-icon/trusted-icon-3.png'} className="mx-auto block" width={50} height={30} alt="thumbnail" />
                         </div>
                         <div>
-                            <Image src={'/images/trusted-icon/trusted-icon-4.png'} className="mx-auto block" width={35} height={30} alt="thumbnail" />
+                            <Image src={'/images/trusted-icon/trusted-icon-4.png'} className="mx-auto block" width={40} height={30} alt="thumbnail" />
                         </div>
                         <div>
-                            <Image src={'/images/trusted-icon/trusted-icon-5.png'} className="mx-auto block" width={90} height={30} alt="thumbnail" />
+                            <Image src={'/images/trusted-icon/trusted-icon-5.png'} className="mx-auto block" width={50} height={30} alt="thumbnail" />
                         </div>
                         <div>
-                            <Image src={'/images/trusted-icon/trusted-icon-6.png'} className="mx-auto block" width={90} height={30} alt="thumbnail" />
+                            <Image src={'/images/trusted-icon/trusted-icon-6.png'} className="mx-auto block" width={50} height={30} alt="thumbnail" />
                         </div>
                         <div>
-                            <Image src={'/images/trusted-icon/trusted-icon-7.png'} className="mx-auto block" width={90} height={30} alt="thumbnail" />
+                            <Image src={'/images/trusted-icon/trusted-icon-7.png'} className="mx-auto block" width={50} height={30} alt="thumbnail" />
                         </div>
                         <div>
-                            <Image src={'/images/trusted-icon/trusted-icon-8.png'} className="mx-auto block" width={90} height={30} alt="thumbnail" />
+                            <Image src={'/images/trusted-icon/trusted-icon-8.png'} className="mx-auto block" width={40} height={30} alt="thumbnail" />
                         </div>
                         <div>
-                            <Image src={'/images/trusted-icon/trusted-icon-9.png'} className="mx-auto block" width={90} height={30} alt="thumbnail" />
+                            <Image src={'/images/trusted-icon/trusted-icon-9.png'} className="mx-auto block" width={50} height={30} alt="thumbnail" />
                         </div>
                     </Slider>
                 </div>

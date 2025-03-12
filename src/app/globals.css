@@ -21,6 +21,10 @@ body  {
   position: relative;
 }
 
+.homepageimgslider .swiper-wrapper{
+  display: flex !important;
+  align-items: center !important;
+}
 
 
 .btn-ring-animation {
