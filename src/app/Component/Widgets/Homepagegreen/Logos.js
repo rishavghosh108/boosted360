@@ -1,9 +1,9 @@
 import React from "react";
 import Image from "next/image";
 import { sliderInLogonnjdvd, sliderInLogovbg, sliderInLogoOne, sliderInLogoTwo, sliderInLogoThree, sliderInLogorei, sliderInLogoTdffe, sliderInLogolop, sliderInLogoafr, sliderInLogondg, sliderInLogojjjd, sliderInLogocxml } from "../../../assets/index"
-import { Swiper, SwiperSlide } from 'swiper/react';
-import 'swiper/css';
-import { Autoplay } from "swiper/modules";
+import { Swiper, SwiperSlide } from 'swiper';
+// import 'swiper/css';
+import { Autoplay } from "swiper";
 
 export default function Logos() {
 

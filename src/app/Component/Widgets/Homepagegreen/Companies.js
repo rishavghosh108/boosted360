@@ -2,9 +2,9 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { Servicebg, sliderInLogoOne, sliderInLogoThree, sliderInLogoTwo, sliderInLogoTdffe, sliderInLogolop, sliderInLogoafr, sliderInLogondg, sliderInLogocxml, sliderInLogorei, sliderInLogovbg, sliderInLogojjjd, sliderInLogomasla, sliderInLogodff, sliderInLogonnjdvd, Companies15, Companies16, Companies17, Companies18, Companies19, sliderInLogoThree0, sliderInLogoThree1, sliderInLogoThree2, sliderInLogoThree3, sliderInLogoThree4, } from "../../../assets/index"
-import { Swiper, SwiperSlide } from 'swiper/react';
-import 'swiper/css';
-import { Autoplay } from "swiper/modules";
+import { Swiper, SwiperSlide } from 'swiper';
+// import 'swiper/css';
+// import { Autoplay } from "swiper/modules";
 import { delay } from "lodash";
 
 export default function Companies() {
