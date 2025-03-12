@@ -1,3 +1,4 @@
+'use client'
 import React from "react";
 import Image from "next/image";
 import { sliderInLogonnjdvd, sliderInLogovbg, sliderInLogoOne, sliderInLogoTwo, sliderInLogoThree, sliderInLogorei, sliderInLogoTdffe, sliderInLogolop, sliderInLogoafr, sliderInLogondg, sliderInLogojjjd, sliderInLogocxml } from "../../../assets/index"
