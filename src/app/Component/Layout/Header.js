@@ -94,6 +94,42 @@ export default function Header() {
                                 <li className='lg:mr-[40px] lg:hidden block py-[30px] w-full lg:w-auto ease_in_out navlist_link'>
                                     <div className='mega_menu lg:space-y-0 space-y-4 lg:divide-x-[1px] divide-slate-200 ease_in_out absolute w-full max-w-[760px] right-0 lg:shadow grid lg:grid-cols-3 grid-cols-1 bg-white rounded-b-2xl p-[10px] z-30 ml-2'>
                                         <div className='lg:px-4 '>
+                                            <button onClick={() => toggleDropMenu(0)} className={`${['/services/mobile-app-design', '/services/saas-design', '/services/uiux-design', '/services/wordpress-design', '/services/B2B-web-design', '/services/e-commerce-web-design', '/services/web-design-&-development', '/services/website-maintenance' ].includes(pathname) ? 'text-[#5db947]' : 'text-black'} lg:pointer-events-none flex items-center -mb-1 text-sm lg:text-base lg:font-bold font-[750] ${openIndex === 1 ? 'active-rotate' : ''}`}>
+                                                Design & Development
+                                                <span className='lg:hidden px-2'>
+                                                    <svg stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M256 294.1L383 167c9.4-9.4 24.6-9.4 33.9 0s9.3 24.6 0 34L273 345c-9.1 9.1-23.7 9.3-33.1.7L95 201.1c-4.7-4.7-7-10.9-7-17s2.3-12.3 7-17c9.4-9.4 24.6-9.4 33.9 0l127.1 127z"></path>
+                                                    </svg>
+                                                </span>
+                                            </button>
+                                            <ul className={`${openIndex === 0 ? 'block' : 'lg:block hidden'}`}>
+                                                <li>
+                                                    <Link href="/services/mobile-app-design" className={`${pathname === '/services/mobile-app-design' ? 'text-[#5db947]' : 'text-black'} block text-[12px] font-bold uppercase mx-[7px] my-[15px] hover:underline lg:pl-0 pl-3`}>Mobile App Design</Link>
+                                                </li>
+                                                <li>
+                                                    <Link href="/services/saas-design" className={`${pathname === '/services/saas-design' ? 'text-[#5db947]' : 'text-black'} block text-[12px] font-bold uppercase mx-[7px] my-[15px] hover:underline lg:pl-0 pl-3`}>SaaS Design</Link>
+                                                </li>
+                                                <li>
+                                                    <Link href="/services/uiux-design" className={`${pathname === '/services/uiux-design' ? 'text-[#5db947]' : 'text-black'} block text-[12px] font-bold uppercase mx-[7px] my-[15px] hover:underline lg:pl-0 pl-3`}>UI/UX Design</Link>
+                                                </li>
+                                                <li>
+                                                    <Link href="/services/wordpress-design" className={`${pathname === '/services/wordpress-design' ? 'text-[#5db947]' : 'text-black'} block text-[12px] font-bold uppercase mx-[7px] my-[15px] hover:underline lg:pl-0 pl-3`}>WordPress Design</Link>
+                                                </li>
+                                                <li>
+                                                    <Link href="/services/B2B-web-design" className={`${pathname === '/services/B2B-web-design' ? 'text-[#5db947]' : 'text-black'} block text-[12px] font-bold uppercase mx-[7px] my-[15px] hover:underline lg:pl-0 pl-3`}>B2B Web Design</Link>
+                                                </li>
+                                                <li>
+                                                    <Link href="/services/e-commerce-web-design" className={`${pathname === '/services/e-commerce-web-design' ? 'text-[#5db947]' : 'text-black'} block text-[12px] font-bold uppercase mx-[7px] my-[15px] hover:underline lg:pl-0 pl-3`}>eCommerce Web Design</Link>
+                                                </li>
+                                                <li>
+                                                    <Link href="/services/web-design-&-development" className={`${pathname === '/services/web-design-&-development' ? 'text-[#5db947]' : 'text-black'} block text-[12px] font-bold uppercase mx-[7px] my-[15px] hover:underline lg:pl-0 pl-3`}>Web Design & Development</Link>
+                                                </li>
+                                                <li>
+                                                    <Link href="/services/website-maintenance" className={`${pathname === '/services/website-maintenance' ? 'text-[#5db947]' : 'text-black'} block text-[12px] font-bold uppercase mx-[7px] my-[15px] hover:underline lg:pl-0 pl-3`}>Website Maintenance</Link>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div className='lg:px-4 '>
                                             <button onClick={() => toggleDropMenu(1)} className={`${['/services/search-engine-optimization', '/services/local-seo', '/services/ecommerce-seo', '/services/seo-audit'].includes(pathname) ? 'text-[#5db947]' : 'text-black'} lg:pointer-events-none flex items-center -mb-1 text-sm lg:text-base lg:font-bold font-[750] ${openIndex === 1 ? 'active-rotate' : ''}`}>
                                                 SEO
                                                 <span className='lg:hidden px-2'>
@@ -176,31 +212,8 @@ export default function Header() {
                                     <span className='hidden lg:block'><IoIosArrowDown /></span>
                                 </Link>
 
-                                <div className='mega_menu lg:space-y-0 space-y-4 lg:divide-x-[1px] divide-slate-200 ease_in_out absolute w-[900px] right-0 lg:shadow grid lg:grid-cols-4 grid-cols-1 bg-white rounded-b-2xl p-[10px] z-30 ml-2'>
-                                    <div className='lg:px-4 '>
-                                        <button onClick={() => toggleDropMenu(0)} className={`lg:pointer-events-none flex items-center -mb-1 text-sm lg:text-base text-black lg:font-bold font-[750] ${openIndex === 1 ? 'active-rotate' : ''}`}>
-                                            Design & Services
-                                            <span className='lg:hidden px-2'>
-                                                <svg stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M256 294.1L383 167c9.4-9.4 24.6-9.4 33.9 0s9.3 24.6 0 34L273 345c-9.1 9.1-23.7 9.3-33.1.7L95 201.1c-4.7-4.7-7-10.9-7-17s2.3-12.3 7-17c9.4-9.4 24.6-9.4 33.9 0l127.1 127z"></path>
-                                                </svg>
-                                            </span>
-                                        </button>
-                                        <ul className={`${openIndex === 0 ? 'block' : 'lg:block hidden'}`}>
-                                            <li>
-                                                <Link href="/services/search-engine-optimization" className={`${pathname === '/services/search-engine-optimization' ? 'text-[#5db947]' : 'text-black'} block text-[12px] font-bold uppercase mx-[7px] my-[15px] hover:underline lg:pl-0 pl-3`}>Mobile App Design</Link>
-                                            </li>
-                                            <li>
-                                                <Link href="/services/local-seo" className={`${pathname === '/services/local-seo' ? 'text-[#5db947]' : 'text-black'} block text-[12px] font-bold uppercase mx-[7px] my-[15px] hover:underline lg:pl-0 pl-3`}>SaaS Design</Link>
-                                            </li>
-                                            <li>
-                                                <Link href="/services/uiux-design" className={`${pathname === '/services/uiux-design' ? 'text-[#5db947]' : 'text-black'} block text-[12px] font-bold uppercase mx-[7px] my-[15px] hover:underline lg:pl-0 pl-3`}>UI/UX Design</Link>
-                                            </li>
-                                            <li>
-                                                <Link href="/services/wordpress-website-development-services" className={`${pathname === '/services/wordpress-website-development-services' ? 'text-[#5db947]' : 'text-black '} block text-[12px] font-bold uppercase mx-[7px] my-[15px] hover:underline lg:pl-0 pl-3`}>WordPress Design</Link>
-                                            </li>
-                                        </ul>
-                                    </div>
+                                <div className='mega_menu lg:space-y-0 space-y-4 lg:divide-x-[1px] divide-slate-200 ease_in_out absolute w-[1000px] right-0 lg:shadow flex lg:flex-row flex-col bg-white rounded-b-2xl p-[10px] z-30 ml-2'>
+
                                     <div className='lg:px-4 '>
                                         <button onClick={() => toggleDropMenu(1)} className={`lg:pointer-events-none flex items-center -mb-1 text-sm lg:text-base text-black lg:font-bold font-[750] ${openIndex === 1 ? 'active-rotate' : ''}`}>
                                             SEO
@@ -224,6 +237,46 @@ export default function Header() {
                                                 <Link href="/services/seo-audit" className={`${pathname === '/services/seo-audit' ? 'text-[#5db947]' : 'text-black '} block text-[12px] font-bold uppercase mx-[7px] my-[15px] hover:underline lg:pl-0 pl-3`}>SEO Audit</Link>
                                             </li>
                                         </ul>
+                                    </div>
+                                    <div className='lg:px-4 '>
+                                        <button onClick={() => toggleDropMenu(0)} className={`lg:pointer-events-none flex items-center -mb-1 text-sm lg:text-base text-black lg:font-bold font-[750] ${openIndex === 1 ? 'active-rotate' : ''}`}>
+                                            Design & Development
+                                            <span className='lg:hidden px-2'>
+                                                <svg stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M256 294.1L383 167c9.4-9.4 24.6-9.4 33.9 0s9.3 24.6 0 34L273 345c-9.1 9.1-23.7 9.3-33.1.7L95 201.1c-4.7-4.7-7-10.9-7-17s2.3-12.3 7-17c9.4-9.4 24.6-9.4 33.9 0l127.1 127z"></path>
+                                                </svg>
+                                            </span>
+                                        </button>
+                                        <div className='flex items-center'>
+                                            <ul className={`${openIndex === 0 ? 'block' : 'lg:block hidden'}`}>
+                                                <li>
+                                                    <Link href="/services/mobile-app-design" className={`${pathname === '/services/mobile-app-design' ? 'text-[#5db947]' : 'text-black'} block text-[12px] font-bold uppercase mx-[7px] my-[15px] hover:underline lg:pl-0 pl-3`}>Mobile App Design</Link>
+                                                </li>
+                                                <li>
+                                                    <Link href="/services/saas-design" className={`${pathname === '/services/saas-design' ? 'text-[#5db947]' : 'text-black'} block text-[12px] font-bold uppercase mx-[7px] my-[15px] hover:underline lg:pl-0 pl-3`}>SaaS Design</Link>
+                                                </li>
+                                                <li>
+                                                    <Link href="/services/uiux-design" className={`${pathname === '/services/uiux-design' ? 'text-[#5db947]' : 'text-black'} block text-[12px] font-bold uppercase mx-[7px] my-[15px] hover:underline lg:pl-0 pl-3`}>UI/UX Design</Link>
+                                                </li>
+                                                <li>
+                                                    <Link href="/services/wordpress-design" className={`${pathname === '/services/wordpress-design' ? 'text-[#5db947]' : 'text-black '} block text-[12px] font-bold uppercase mx-[7px] my-[15px] hover:underline lg:pl-0 pl-3`}>WordPress Design</Link>
+                                                </li>
+                                            </ul>
+                                            <ul className={`ml-[15px] ${openIndex === 0 ? 'block' : 'lg:block hidden'}`}>
+                                                <li>
+                                                    <Link href="/services/B2B-web-design" className={`${pathname === '/services/B2B-web-design' ? 'text-[#5db947]' : 'text-black'} block text-[12px] font-bold uppercase mx-[7px] my-[15px] hover:underline lg:pl-0 pl-3`}>B2B Web Design</Link>
+                                                </li>
+                                                <li>
+                                                    <Link href="/services/e-commerce-web-design" className={`${pathname === '/services/e-commerce-web-design' ? 'text-[#5db947]' : 'text-black'} block text-[12px] font-bold uppercase mx-[7px] my-[15px] hover:underline lg:pl-0 pl-3`}>eCommerce Web Design</Link>
+                                                </li>
+                                                <li>
+                                                    <Link href="/services/web-design-&-development" className={`${pathname === '/services/web-design-&-development' ? 'text-[#5db947]' : 'text-black'} block text-[12px] font-bold uppercase mx-[7px] my-[15px] hover:underline lg:pl-0 pl-3`}>Web Design & Development</Link>
+                                                </li>
+                                                <li>
+                                                    <Link href="/services/website-maintenance" className={`${pathname === '/services/website-maintenance' ? 'text-[#5db947]' : 'text-black '} block text-[12px] font-bold uppercase mx-[7px] my-[15px] hover:underline lg:pl-0 pl-3`}>Website Maintenance</Link>
+                                                </li>
+                                            </ul>
+                                        </div>
                                     </div>
                                     <div className='lg:px-4'>
                                         <button onClick={() => toggleDropMenu(2)} className={`lg:pointer-events-none flex items-center -mb-1 text-sm lg:text-base text-black lg:font-bold font-[750] ${openIndex === 2 ? 'active-rotate' : ''}`}>

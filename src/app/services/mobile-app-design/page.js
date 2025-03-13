@@ -47,26 +47,26 @@ const Page = () => {
     const services = [
         {
             id: 1,
-            title: "Expertise in UIUX Design",
-            description: "As a top UIUX design company, we specialize in creating intuitive and visually stunning interfaces that meet both user needs and business goals.",
+            title: "Expertise in Mobile App Design",
+            description: "We specialize in mobile app design services that cater to your industry’s specific needs, ensuring a perfect fit for your business.",
             image: "/images/Digital-Marketing-Strategy.png",
         },
         {
             id: 2,
-            title: "Comprehensive UIUX Services",
-            description: "From research and prototyping to final design and development, our UIUX design agency offers end-to-end solutions to create seamless digital experiences.",
+            title: "End-to-End Solutions",
+            description: "From initial design to app launch, our mobile app design agency provides comprehensive app design and development services, ensuring a flawless user experience throughout the process.",
             image: "/images/Search-Engine-Optimization.png",
         },
         {
             id: 3,
-            title: "Custom Solutions",
-            description: "Our UI design company works closely with you to create a design that reflects your brand and resonates with your audience.",
+            title: "Tailored Designs",
+            description: "Our app design company crafts personalized mobile apps that resonate with your target audience and reflect your brand’s core values.",
             image: "/images/image_2025_02_11T11_09_35_485Z.png",
         },
         {
             id: 4,
             title: "Proven Results",
-            description: "Our clients experience significant improvements in user engagement, satisfaction, and business growth due to our expert UIUX design services.",
+            description: "Our clients experience significant improvements in user engagement and business growth, thanks to our expert mobile app design services and development strategies.",
             image: "/images/Copywriting-Content-Marketing.png",
         },
     ];
@@ -81,9 +81,9 @@ const Page = () => {
                 <div className='container'>
                     <div className='grid sm:grid-cols-2 grid-cols-1 items-start'>
                         <div className="sm:order-none order-2 md:mt-0 mt-5 pr-10">
-                            <h1 className='text-3xl lg:text-4xl xl:text-5xl font-bold text-black leading-none'>UIUX 
-                            <span className='text-[#5db947]'> Design & Development Services</span></h1>
-                            <p className='text-lg lg:text-xl font-medium text-black leading-[1.6] pt-5 lg:pt-6'>As a leading UIUX design company, we specialize in creating seamless, intuitive, and visually appealing user interfaces and experiences. Our UIUX design services focus on enhancing user satisfaction by making digital products easy to use, engaging, and effective in meeting your business objectives.</p>
+                            <h1 className='text-3xl lg:text-4xl xl:text-5xl font-bold text-black leading-none'>Mobile App 
+                            <span className='text-[#5db947]'> Design & Development Agency  </span></h1>
+                            <p className='text-lg lg:text-xl font-medium text-black leading-[1.6] pt-5 lg:pt-6'>As a leading mobile app design agency, we specialize in creating custom, high-performing mobile apps that enhance your business's digital presence. Our mobile app development services are tailored to meet the specific needs of your business, providing seamless user experiences and innovative solutions.</p>
                             <button onClick={openModal} className="ease_in_out box-shadows bg-[#2a2a2a] text-sm font-bold text-white uppercase inline-flex border border-solid border-[#3e3e3e] px-[30px] md:px-[55px] py-[15px] md:py-[20px] my-5 lg:my-8 hover:bg-[#404040] hover:border-[#404040]">
                                 Work With Us
                                 <span className="ml-[10px]">
@@ -114,7 +114,7 @@ const Page = () => {
                     <div className='flex flex-wrap'>
                         <div className='w-full mb-6'>
                             <h4 className='text-[#5db947] text-base font-bold mb-3'>About The Service</h4>
-                            <h3 className='text-3xl lg:text-[56px] xl:text-[65px] font-bold text-black leading-none'>Why UIUX
+                            <h3 className='text-3xl lg:text-[56px] xl:text-[65px] font-bold text-black leading-none'>Why Mobile App Design
                             </h3>
                         </div>
                         <div className='md:w-1/3 w-full pt-6'>
@@ -131,7 +131,7 @@ const Page = () => {
                             </div>
                         </div>
                         <div className='md:w-2/3 w-full md:mt-0 mt-4 pt-6'>
-                            <p className='text-lg lg:text-xl font-light text-black leading-[1.6]'>A great user experience is crucial for the success of any digital product. Our UIUX development services ensure that your product not only looks good but also provides a smooth, intuitive, and enjoyable experience for users. From UI design to UX research, our UIUX design agency ensures that every aspect of your application or website is crafted to meet the needs of your target audience, making it both functional and aesthetically pleasing.</p>
+                            <p className='text-lg lg:text-xl font-light text-black leading-[1.6]'>In today&apos;s digital world, having a mobile app is crucial to reaching your customers directly. A well-designed, functional, and user-friendly mobile application can boost engagement and strengthen your brand's presence. Our mobile app development services are crafted to help you create an app that supports your business objectives while offering a smooth and enjoyable experience for your users. We understand the significance of user-centric design, and our team of expert app designers ensures that your app functions seamlessly and delivers value to your customers.</p>
                         </div>
                     </div>
                 </div>
@@ -145,7 +145,7 @@ const Page = () => {
                             Benefits
                             </h2>
                             <p className="text-base lg:text-lg px-[10px] text-[#bcbcbc] leading-[1.6] text-center">
-                            A well-designed UIUX can increase user retention, enhance customer satisfaction, and drive conversions.
+                            A professional mobile app can increase engagement, improve customer retention, and drive revenue.
                             </p>
                         </div>
                         <div className='space-y-3 mt-10'>
@@ -154,9 +154,8 @@ const Page = () => {
                                     <Image src={ServiceIconone} alt='Service-Icon-one' className="max-h-[100px] m-auto" />
                                 </div>
                                 <div className='pl-5'>
-                                    <h3 className='text-xl lg:text-2xl font-semibold text-white leading-[1.6] mb-1'>Improved User Engagement</h3>
-                                    <p className='text-base font-light lg:text-lg text-[#bcbcbc] leading-[1.6]'>Our UIUX design services focus on making your product intuitive and easy to navigate, ensuring a smooth experience that keeps users coming back.
-
+                                    <h3 className='text-xl lg:text-2xl font-semibold text-white leading-[1.6] mb-1'>Enhanced User Experience</h3>
+                                    <p className='text-base font-light lg:text-lg text-[#bcbcbc] leading-[1.6]'>: A clean, intuitive design ensures that users can navigate your app effortlessly, increasing user satisfaction and retention.
                                     </p>
                                 </div>
                             </div>
@@ -165,8 +164,8 @@ const Page = () => {
                                     <Image src={ServiceIcontwo} alt='Service-Icon-one' className="max-h-[100px] m-auto" />
                                 </div>
                                 <div className='pl-5'>
-                                    <h3 className='text-xl lg:text-2xl font-semibold text-white leading-[1.6] mb-1'>Increased Conversions</h3>
-                                    <p className='text-base font-light lg:text-lg text-[#bcbcbc] leading-[1.6]'>By optimizing the user journey and streamlining interactions, our user experience design agency helps to increase conversions and user satisfaction.
+                                    <h3 className='text-xl lg:text-2xl font-semibold text-white leading-[1.6] mb-1'>Lead Generation</h3>
+                                    <p className='text-base font-light lg:text-lg text-[#bcbcbc] leading-[1.6]'>Our apps are optimized for conversions, helping your business attract quality leads and boost sales with strategically designed features.
                                     </p>
                                 </div>
                             </div>
@@ -175,8 +174,8 @@ const Page = () => {
                                     <Image src={ServiceIconthree} alt='Service-Icon-one' className="max-h-[100px] m-auto" />
                                 </div>
                                 <div className='pl-5'>
-                                    <h3 className='text-xl lg:text-2xl font-semibold text-white leading-[1.6] mb-1'>Responsive Design</h3>
-                                    <p className='text-base font-light lg:text-lg text-[#bcbcbc] leading-[1.6]'> We ensure your UI design is fully responsive, providing a seamless experience across all devices, whether desktop, tablet, or mobile.
+                                    <h3 className='text-xl lg:text-2xl font-semibold text-white leading-[1.6] mb-1'>SEO Optimization</h3>
+                                    <p className='text-base font-light lg:text-lg text-[#bcbcbc] leading-[1.6]'> As a mobile app design agency, we ensure your app&apos;s visibility across platforms by implementing SEO strategies that improve its discoverability on app stores and search engines.
                                     </p>
                                 </div>
                             </div>
@@ -185,8 +184,8 @@ const Page = () => {
                                     <Image src={ServiceIconthree} alt='Service-Icon-one' className="max-h-[100px] m-auto" />
                                 </div>
                                 <div className='pl-5'>
-                                    <h3 className='text-xl lg:text-2xl font-semibold text-white leading-[1.6] mb-1'>Tailored Solutions</h3>
-                                    <p className='text-base font-light lg:text-lg text-[#bcbcbc] leading-[1.6]'>Our UIUX design firm creates custom solutions tailored to your business and your audience, ensuring your digital product stands out.
+                                    <h3 className='text-xl lg:text-2xl font-semibold text-white leading-[1.6] mb-1'>Mobile-Responsive Design</h3>
+                                    <p className='text-base font-light lg:text-lg text-[#bcbcbc] leading-[1.6]'> With mobile traffic continuously growing, we ensure your app is fully optimized for all devices, delivering a seamless experience for all users, regardless of screen size.
                                     </p>
                                 </div>
                             </div>
@@ -215,19 +214,19 @@ const Page = () => {
                         {/* Tab Headers */}
                         <div className="flex lg:justify-center text-center mb-7 border-b border-neutral-200 overflow-auto lg:overflow-visible">
                             <button className={`text-base font-medium lg:border-b-4 lg:-mb-[3px] px-4  py-3 shrink-0 ${activeTab === "tab1" ? "border-[#5db947] lg:bg-transparent bg-[#5db947] lg:text-black text-white" : "border-transparent"}`} onClick={() => setActiveTab("tab1")}>
-                            UIUX App Development
+                            Custom Mobile App Design
                             </button>
                             <button className={`text-base font-medium lg:border-b-4 lg:-mb-[3px] px-4  py-3 shrink-0 ${activeTab === "tab2" ? "border-[#5db947] lg:bg-transparent bg-[#5db947] lg:text-black text-white" : "border-transparent"}`} onClick={() => setActiveTab("tab2")}>
-                            UIUX Web Development
+                            E-Commerce App Design
                             </button>
                             <button className={`text-base font-medium lg:border-b-4 lg:-mb-[3px] px-4  py-3 inline-block shrink-0 ${activeTab === "tab3" ? "border-[#5db947] lg:bg-transparent bg-[#5db947] lg:text-black text-white" : "border-transparent"}`} onClick={() => setActiveTab("tab3")}>
-                            User Research & Testing
+                            Mobile Application Development
                             </button>
                             <button className={`text-base font-medium lg:border-b-4 lg:-mb-[3px] px-4  py-3 shrink-0 ${activeTab === "tab4" ? "border-[#5db947] lg:bg-transparent bg-[#5db947] lg:text-black text-white" : "border-transparent"}`} onClick={() => setActiveTab("tab4")}>
-                            UI Design Services
+                            App Design and Development
                             </button>
                             <button className={`text-base font-medium lg:border-b-4 lg:-mb-[3px] px-4  py-3 shrink-0 ${activeTab === "tab5" ? "border-[#5db947] lg:bg-transparent bg-[#5db947] lg:text-black text-white" : "border-transparent"}`} onClick={() => setActiveTab("tab5")}>
-                            Design Support
+                            App Maintenance
                             </button>
                         </div>
 
@@ -238,8 +237,8 @@ const Page = () => {
                                     <div className="sm:w-6/12 w-full sm:pr-8">
                                         <h2 className="text-3xl lg:text-[56px] xl:text-[65px] font-thin text-[#5db947] leading-none">01</h2>
                                         <div className="md:mt-5 mt-4">
-                                            <p className="text-xl lg:text-3xl font-bold text-black leading-[1.6] mb-1">UIUX App Development</p>
-                                            <p className="text-sm font-light lg:text-lg text-neutral-600 leading-[1.6]">We specialize in designing and developing user-friendly apps that provide an exceptional mobile experience.
+                                            <p className="text-xl lg:text-3xl font-bold text-black leading-[1.6] mb-1">Custom Mobile App Design</p>
+                                            <p className="text-sm font-light lg:text-lg text-neutral-600 leading-[1.6]">Our app design company creates unique, user-focused app designs that reflect your brand and meet your business objectives.
                                             </p>
                                         </div>
                                     </div>
@@ -253,8 +252,8 @@ const Page = () => {
                                     <div className="sm:w-6/12 w-full sm:pr-8">
                                         <h2 className="text-3xl lg:text-[56px] xl:text-[65px] font-thin text-[#5db947] leading-none">02</h2>
                                         <div className="md:mt-5 mt-4">
-                                            <p className="text-xl lg:text-3xl font-bold text-black leading-[1.6] mb-1">UIUX Web Development</p>
-                                            <p className="text-sm font-light lg:text-lg text-neutral-600 leading-[1.6]">Our UIUX development services focus on creating websites that are visually appealing, functional, and easy to navigate for a diverse range of users.
+                                            <p className="text-xl lg:text-3xl font-bold text-black leading-[1.6] mb-1">E-Commerce App Design</p>
+                                            <p className="text-sm font-light lg:text-lg text-neutral-600 leading-[1.6]">Our development team does secure, scalable ecommerce app design that enhances the shopping experience for your customers and drive sales.
                                             </p>
                                         </div>
                                     </div>
@@ -268,8 +267,8 @@ const Page = () => {
                                     <div className="sm:w-6/12 w-full sm:pr-8">
                                         <h2 className="text-3xl lg:text-[56px] xl:text-[65px] font-thin text-[#5db947] leading-none">03</h2>
                                         <div className="md:mt-5 mt-4">
-                                            <p className="text-xl lg:text-3xl font-bold text-black leading-[1.6] mb-1">User Research & Testing</p>
-                                            <p className="text-sm font-light lg:text-lg text-neutral-600 leading-[1.6]">We conduct in-depth user research and usability testing to ensure that your design decisions are based on real user needs and behaviors.
+                                            <p className="text-xl lg:text-3xl font-bold text-black leading-[1.6] mb-1">Mobile Application Development</p>
+                                            <p className="text-sm font-light lg:text-lg text-neutral-600 leading-[1.6]">From concept to deployment, our team delivers top-tier mobile app development services, ensuring your app is robust, secure, and efficient.
                                             </p>
                                         </div>
                                     </div>
@@ -283,8 +282,8 @@ const Page = () => {
                                     <div className="sm:w-6/12 w-full sm:pr-8">
                                         <h2 className="text-3xl lg:text-[56px] xl:text-[65px] font-thin text-[#5db947] leading-none">04</h2>
                                         <div className="md:mt-5 mt-4">
-                                            <p className="text-xl lg:text-3xl font-bold text-black leading-[1.6] mb-1"> UI Design Services</p>
-                                            <p className="text-sm font-light lg:text-lg text-neutral-600 leading-[1.6]">Our team creates stunning user interfaces that are not only visually appealing but also easy to navigate, ensuring your users enjoy every interaction.
+                                            <p className="text-xl lg:text-3xl font-bold text-black leading-[1.6] mb-1"> App Design and Development</p>
+                                            <p className="text-sm font-light lg:text-lg text-neutral-600 leading-[1.6]">Our application development services company offers end-to-end app design and development services, managing everything from initial design to final launch, ensuring every aspect of your app is optimized for success.
                                             </p>
                                         </div>
                                     </div>
@@ -298,8 +297,9 @@ const Page = () => {
                                     <div className="sm:w-6/12 w-full sm:pr-8">
                                         <h2 className="text-3xl lg:text-[56px] xl:text-[65px] font-thin text-[#5db947] leading-none">05</h2>
                                         <div className="md:mt-5 mt-4">
-                                            <p className="text-xl lg:text-3xl font-bold text-black leading-[1.6] mb-1">Design Support</p>
-                                            <p className="text-sm font-light lg:text-lg text-neutral-600 leading-[1.6]">We provide continuous support and improvements to your UIUX designs to ensure they evolve with user feedback and industry trends.
+                                            <p className="text-xl lg:text-3xl font-bold text-black leading-[1.6] mb-1">App Maintenance</p>
+                                            <p className="text-sm font-light lg:text-lg text-neutral-600 leading-[1.6]">Our app development company provides ongoing maintenance and support to keep your app up to date, secure, and running smoothly.
+
                                             </p>
                                         </div>
                                     </div>

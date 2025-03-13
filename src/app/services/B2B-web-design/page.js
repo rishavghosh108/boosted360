@@ -47,26 +47,26 @@ const Page = () => {
     const services = [
         {
             id: 1,
-            title: "Expertise in UIUX Design",
-            description: "As a top UIUX design company, we specialize in creating intuitive and visually stunning interfaces that meet both user needs and business goals.",
+            title: "Skill in B2B Websites",
+            description: "We specialize in B2B website design services that cater to your industry’s specific needs and requirements.",
             image: "/images/Digital-Marketing-Strategy.png",
         },
         {
             id: 2,
-            title: "Comprehensive UIUX Services",
-            description: "From research and prototyping to final design and development, our UIUX design agency offers end-to-end solutions to create seamless digital experiences.",
+            title: "Complete Solutions",
+            description: "From design to development, we provide comprehensive B2B website development services ensuring every aspect of your site is perfect.",
             image: "/images/Search-Engine-Optimization.png",
         },
         {
             id: 3,
-            title: "Custom Solutions",
-            description: "Our UI design company works closely with you to create a design that reflects your brand and resonates with your audience.",
+            title: "Tailored Designs",
+            description: "Our B2B website designers craft personalized websites that resonate with your target audience and reflect your brand’s core values.",
             image: "/images/image_2025_02_11T11_09_35_485Z.png",
         },
         {
             id: 4,
             title: "Proven Results",
-            description: "Our clients experience significant improvements in user engagement, satisfaction, and business growth due to our expert UIUX design services.",
+            description: "Our clients see significant improvements in lead generation and user engagement thanks to our expert B2B website design services.",
             image: "/images/Copywriting-Content-Marketing.png",
         },
     ];
@@ -81,9 +81,9 @@ const Page = () => {
                 <div className='container'>
                     <div className='grid sm:grid-cols-2 grid-cols-1 items-start'>
                         <div className="sm:order-none order-2 md:mt-0 mt-5 pr-10">
-                            <h1 className='text-3xl lg:text-4xl xl:text-5xl font-bold text-black leading-none'>UIUX 
-                            <span className='text-[#5db947]'> Design & Development Services</span></h1>
-                            <p className='text-lg lg:text-xl font-medium text-black leading-[1.6] pt-5 lg:pt-6'>As a leading UIUX design company, we specialize in creating seamless, intuitive, and visually appealing user interfaces and experiences. Our UIUX design services focus on enhancing user satisfaction by making digital products easy to use, engaging, and effective in meeting your business objectives.</p>
+                            <h1 className='text-3xl lg:text-4xl xl:text-5xl font-bold text-black leading-none'>Expert B2B Website   <span className='text-[#5db947]'> Design & Development </span> Company 
+                           </h1>
+                            <p className='text-lg lg:text-xl font-medium text-black leading-[1.6] pt-5 lg:pt-6'>As a leading B2B website design company, we specialize in creating custom, high-performing websites that boost your business&apos;s digital presence. Our B2B website development services are designed to meet the specific needs of your business and provide exceptional user experiences.</p>
                             <button onClick={openModal} className="ease_in_out box-shadows bg-[#2a2a2a] text-sm font-bold text-white uppercase inline-flex border border-solid border-[#3e3e3e] px-[30px] md:px-[55px] py-[15px] md:py-[20px] my-5 lg:my-8 hover:bg-[#404040] hover:border-[#404040]">
                                 Work With Us
                                 <span className="ml-[10px]">
@@ -114,7 +114,7 @@ const Page = () => {
                     <div className='flex flex-wrap'>
                         <div className='w-full mb-6'>
                             <h4 className='text-[#5db947] text-base font-bold mb-3'>About The Service</h4>
-                            <h3 className='text-3xl lg:text-[56px] xl:text-[65px] font-bold text-black leading-none'>Why UIUX
+                            <h3 className='text-3xl lg:text-[56px] xl:text-[65px] font-bold text-black leading-none'>Why B2B website design
                             </h3>
                         </div>
                         <div className='md:w-1/3 w-full pt-6'>
@@ -131,7 +131,7 @@ const Page = () => {
                             </div>
                         </div>
                         <div className='md:w-2/3 w-full md:mt-0 mt-4 pt-6'>
-                            <p className='text-lg lg:text-xl font-light text-black leading-[1.6]'>A great user experience is crucial for the success of any digital product. Our UIUX development services ensure that your product not only looks good but also provides a smooth, intuitive, and enjoyable experience for users. From UI design to UX research, our UIUX design agency ensures that every aspect of your application or website is crafted to meet the needs of your target audience, making it both functional and aesthetically pleasing.</p>
+                            <p className='text-lg lg:text-xl font-light text-black leading-[1.6]'>Attracting business clients with a visually appealing, functional, and easy-to-navigate website is essential for success. Our B2B website development services are tailored to help you showcase your offerings effectively and drive business growth. We understand the nuances of B2B relationships, and our team of skilled B2B website designers ensures your website&apos;s functionality matches your business objectives.</p>
                         </div>
                     </div>
                 </div>
@@ -145,7 +145,7 @@ const Page = () => {
                             Benefits
                             </h2>
                             <p className="text-base lg:text-lg px-[10px] text-[#bcbcbc] leading-[1.6] text-center">
-                            A well-designed UIUX can increase user retention, enhance customer satisfaction, and drive conversions.
+                            A professional B2B website can increase engagement, generate leads, and improve your brand's credibility.
                             </p>
                         </div>
                         <div className='space-y-3 mt-10'>
@@ -154,9 +154,8 @@ const Page = () => {
                                     <Image src={ServiceIconone} alt='Service-Icon-one' className="max-h-[100px] m-auto" />
                                 </div>
                                 <div className='pl-5'>
-                                    <h3 className='text-xl lg:text-2xl font-semibold text-white leading-[1.6] mb-1'>Improved User Engagement</h3>
-                                    <p className='text-base font-light lg:text-lg text-[#bcbcbc] leading-[1.6]'>Our UIUX design services focus on making your product intuitive and easy to navigate, ensuring a smooth experience that keeps users coming back.
-
+                                    <h3 className='text-xl lg:text-2xl font-semibold text-white leading-[1.6] mb-1'>Enhanced User Experience</h3>
+                                    <p className='text-base font-light lg:text-lg text-[#bcbcbc] leading-[1.6]'> A clean and intuitive design ensures your visitors can easily navigate your site and find the information they need, improving user satisfaction.
                                     </p>
                                 </div>
                             </div>
@@ -165,8 +164,8 @@ const Page = () => {
                                     <Image src={ServiceIcontwo} alt='Service-Icon-one' className="max-h-[100px] m-auto" />
                                 </div>
                                 <div className='pl-5'>
-                                    <h3 className='text-xl lg:text-2xl font-semibold text-white leading-[1.6] mb-1'>Increased Conversions</h3>
-                                    <p className='text-base font-light lg:text-lg text-[#bcbcbc] leading-[1.6]'>By optimizing the user journey and streamlining interactions, our user experience design agency helps to increase conversions and user satisfaction.
+                                    <h3 className='text-xl lg:text-2xl font-semibold text-white leading-[1.6] mb-1'>Lead Generation</h3>
+                                    <p className='text-base font-light lg:text-lg text-[#bcbcbc] leading-[1.6]'>Our websites are optimized to encourage conversions, helping your business attract quality leads and boost sales through strategic design elements.
                                     </p>
                                 </div>
                             </div>
@@ -175,8 +174,8 @@ const Page = () => {
                                     <Image src={ServiceIconthree} alt='Service-Icon-one' className="max-h-[100px] m-auto" />
                                 </div>
                                 <div className='pl-5'>
-                                    <h3 className='text-xl lg:text-2xl font-semibold text-white leading-[1.6] mb-1'>Responsive Design</h3>
-                                    <p className='text-base font-light lg:text-lg text-[#bcbcbc] leading-[1.6]'> We ensure your UI design is fully responsive, providing a seamless experience across all devices, whether desktop, tablet, or mobile.
+                                    <h3 className='text-xl lg:text-2xl font-semibold text-white leading-[1.6] mb-1'>SEO Optimization</h3>
+                                    <p className='text-base font-light lg:text-lg text-[#bcbcbc] leading-[1.6]'> At our B2B website development company, websites are built with SEO in mind, improving your search engine rankings and ensuring your business remains visible to potential clients.
                                     </p>
                                 </div>
                             </div>
@@ -185,8 +184,8 @@ const Page = () => {
                                     <Image src={ServiceIconthree} alt='Service-Icon-one' className="max-h-[100px] m-auto" />
                                 </div>
                                 <div className='pl-5'>
-                                    <h3 className='text-xl lg:text-2xl font-semibold text-white leading-[1.6] mb-1'>Tailored Solutions</h3>
-                                    <p className='text-base font-light lg:text-lg text-[#bcbcbc] leading-[1.6]'>Our UIUX design firm creates custom solutions tailored to your business and your audience, ensuring your digital product stands out.
+                                    <h3 className='text-xl lg:text-2xl font-semibold text-white leading-[1.6] mb-1'>Mobile-Responsive Design</h3>
+                                    <p className='text-base font-light lg:text-lg text-[#bcbcbc] leading-[1.6]'> With mobile traffic on the rise, we ensure your website is fully optimized for all devices, providing a seamless experience for mobile users.
                                     </p>
                                 </div>
                             </div>
@@ -215,19 +214,19 @@ const Page = () => {
                         {/* Tab Headers */}
                         <div className="flex lg:justify-center text-center mb-7 border-b border-neutral-200 overflow-auto lg:overflow-visible">
                             <button className={`text-base font-medium lg:border-b-4 lg:-mb-[3px] px-4  py-3 shrink-0 ${activeTab === "tab1" ? "border-[#5db947] lg:bg-transparent bg-[#5db947] lg:text-black text-white" : "border-transparent"}`} onClick={() => setActiveTab("tab1")}>
-                            UIUX App Development
+                            Custom Website Design
                             </button>
                             <button className={`text-base font-medium lg:border-b-4 lg:-mb-[3px] px-4  py-3 shrink-0 ${activeTab === "tab2" ? "border-[#5db947] lg:bg-transparent bg-[#5db947] lg:text-black text-white" : "border-transparent"}`} onClick={() => setActiveTab("tab2")}>
-                            UIUX Web Development
+                            E-Commerce Solutions
                             </button>
                             <button className={`text-base font-medium lg:border-b-4 lg:-mb-[3px] px-4  py-3 inline-block shrink-0 ${activeTab === "tab3" ? "border-[#5db947] lg:bg-transparent bg-[#5db947] lg:text-black text-white" : "border-transparent"}`} onClick={() => setActiveTab("tab3")}>
-                            User Research & Testing
+                            Content Management Systems
                             </button>
                             <button className={`text-base font-medium lg:border-b-4 lg:-mb-[3px] px-4  py-3 shrink-0 ${activeTab === "tab4" ? "border-[#5db947] lg:bg-transparent bg-[#5db947] lg:text-black text-white" : "border-transparent"}`} onClick={() => setActiveTab("tab4")}>
-                            UI Design Services
+                            SEO Services
                             </button>
                             <button className={`text-base font-medium lg:border-b-4 lg:-mb-[3px] px-4  py-3 shrink-0 ${activeTab === "tab5" ? "border-[#5db947] lg:bg-transparent bg-[#5db947] lg:text-black text-white" : "border-transparent"}`} onClick={() => setActiveTab("tab5")}>
-                            Design Support
+                            Website Maintenance
                             </button>
                         </div>
 
@@ -238,8 +237,8 @@ const Page = () => {
                                     <div className="sm:w-6/12 w-full sm:pr-8">
                                         <h2 className="text-3xl lg:text-[56px] xl:text-[65px] font-thin text-[#5db947] leading-none">01</h2>
                                         <div className="md:mt-5 mt-4">
-                                            <p className="text-xl lg:text-3xl font-bold text-black leading-[1.6] mb-1">UIUX App Development</p>
-                                            <p className="text-sm font-light lg:text-lg text-neutral-600 leading-[1.6]">We specialize in designing and developing user-friendly apps that provide an exceptional mobile experience.
+                                            <p className="text-xl lg:text-3xl font-bold text-black leading-[1.6] mb-1">Custom Website Design</p>
+                                            <p className="text-sm font-light lg:text-lg text-neutral-600 leading-[1.6]">We create unique, custom website designs that reflect your brand&apos;s identity and meet your business objectives.
                                             </p>
                                         </div>
                                     </div>
@@ -253,8 +252,8 @@ const Page = () => {
                                     <div className="sm:w-6/12 w-full sm:pr-8">
                                         <h2 className="text-3xl lg:text-[56px] xl:text-[65px] font-thin text-[#5db947] leading-none">02</h2>
                                         <div className="md:mt-5 mt-4">
-                                            <p className="text-xl lg:text-3xl font-bold text-black leading-[1.6] mb-1">UIUX Web Development</p>
-                                            <p className="text-sm font-light lg:text-lg text-neutral-600 leading-[1.6]">Our UIUX development services focus on creating websites that are visually appealing, functional, and easy to navigate for a diverse range of users.
+                                            <p className="text-xl lg:text-3xl font-bold text-black leading-[1.6] mb-1">E-Commerce Solutions</p>
+                                            <p className="text-sm font-light lg:text-lg text-neutral-600 leading-[1.6]">Our development team builds secure, scalable e-commerce platforms that drive sales and enhance the shopping experience for your customers.
                                             </p>
                                         </div>
                                     </div>
@@ -268,8 +267,8 @@ const Page = () => {
                                     <div className="sm:w-6/12 w-full sm:pr-8">
                                         <h2 className="text-3xl lg:text-[56px] xl:text-[65px] font-thin text-[#5db947] leading-none">03</h2>
                                         <div className="md:mt-5 mt-4">
-                                            <p className="text-xl lg:text-3xl font-bold text-black leading-[1.6] mb-1">User Research & Testing</p>
-                                            <p className="text-sm font-light lg:text-lg text-neutral-600 leading-[1.6]">We conduct in-depth user research and usability testing to ensure that your design decisions are based on real user needs and behaviors.
+                                            <p className="text-xl lg:text-3xl font-bold text-black leading-[1.6] mb-1">Content Management Systems</p>
+                                            <p className="text-sm font-light lg:text-lg text-neutral-600 leading-[1.6]"> Our B2B website design company implements CMS solutions, giving you full control over your website content for easier management and updates.
                                             </p>
                                         </div>
                                     </div>
@@ -283,8 +282,8 @@ const Page = () => {
                                     <div className="sm:w-6/12 w-full sm:pr-8">
                                         <h2 className="text-3xl lg:text-[56px] xl:text-[65px] font-thin text-[#5db947] leading-none">04</h2>
                                         <div className="md:mt-5 mt-4">
-                                            <p className="text-xl lg:text-3xl font-bold text-black leading-[1.6] mb-1"> UI Design Services</p>
-                                            <p className="text-sm font-light lg:text-lg text-neutral-600 leading-[1.6]">Our team creates stunning user interfaces that are not only visually appealing but also easy to navigate, ensuring your users enjoy every interaction.
+                                            <p className="text-xl lg:text-3xl font-bold text-black leading-[1.6] mb-1"> SEO Services</p>
+                                            <p className="text-sm font-light lg:text-lg text-neutral-600 leading-[1.6]">Our SEO specialists optimize your website for search engines, improving visibility and ranking to help attract more potential clients.
                                             </p>
                                         </div>
                                     </div>
@@ -298,8 +297,9 @@ const Page = () => {
                                     <div className="sm:w-6/12 w-full sm:pr-8">
                                         <h2 className="text-3xl lg:text-[56px] xl:text-[65px] font-thin text-[#5db947] leading-none">05</h2>
                                         <div className="md:mt-5 mt-4">
-                                            <p className="text-xl lg:text-3xl font-bold text-black leading-[1.6] mb-1">Design Support</p>
-                                            <p className="text-sm font-light lg:text-lg text-neutral-600 leading-[1.6]">We provide continuous support and improvements to your UIUX designs to ensure they evolve with user feedback and industry trends.
+                                            <p className="text-xl lg:text-3xl font-bold text-black leading-[1.6] mb-1">Website Maintenance</p>
+                                            <p className="text-sm font-light lg:text-lg text-neutral-600 leading-[1.6]">We provide ongoing support and maintenance to ensure your website is always up-to-date, secure, and performing at its best.
+
                                             </p>
                                         </div>
                                     </div>
