@@ -145,7 +145,7 @@ const Page = () => {
                             Benefits
                             </h2>
                             <p className="text-base lg:text-lg px-[10px] text-[#bcbcbc] leading-[1.6] text-center">
-                            A professional B2B website can increase engagement, generate leads, and improve your brand's credibility.
+                            A professional B2B website can increase engagement, generate leads, and improve your brand&apos;s credibility.
                             </p>
                         </div>
                         <div className='space-y-3 mt-10'>
