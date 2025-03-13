@@ -132,7 +132,7 @@ const Page = () => {
                             </div>
                         </div>
                         <div className='md:w-2/3 w-full md:mt-0 mt-4 pt-6'>
-                            <p className='text-lg lg:text-xl font-light text-black leading-[1.6]'>A well-maintained website is crucial for your business's online success. As a leading company, we offer expert website maintenance services to keep your website running smoothly and efficiently. Our services include regular updates, security patches, performance optimization, and more. Whether you require website maintenance services or a full website support and maintenance package, we ensure your website stays secure, fast, and functional, offering the best user experience possible.</p>
+                            <p className='text-lg lg:text-xl font-light text-black leading-[1.6]'>A well-maintained website is crucial for your business&apos;s online success. As a leading company, we offer expert website maintenance services to keep your website running smoothly and efficiently. Our services include regular updates, security patches, performance optimization, and more. Whether you require website maintenance services or a full website support and maintenance package, we ensure your website stays secure, fast, and functional, offering the best user experience possible.</p>
                         </div>
                     </div>
                 </div>
@@ -299,7 +299,7 @@ const Page = () => {
                                         <h2 className="text-3xl lg:text-[56px] xl:text-[65px] font-thin text-[#5db947] leading-none">05</h2>
                                         <div className="md:mt-5 mt-4">
                                             <p className="text-xl lg:text-3xl font-bold text-black leading-[1.6] mb-1">	Performance Optimization</p>
-                                            <p className="text-sm font-light lg:text-lg text-neutral-600 leading-[1.6]">We conduct regular checks and optimization to improve your website's speed, ensuring fast load times and a seamless user experience.
+                                            <p className="text-sm font-light lg:text-lg text-neutral-600 leading-[1.6]">We conduct regular checks and optimization to improve your website&apos;s speed, ensuring fast load times and a seamless user experience.
                                             </p>
                                         </div>
                                     </div>

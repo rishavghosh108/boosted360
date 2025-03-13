@@ -83,7 +83,7 @@ const Page = () => {
                         <div className="sm:order-none order-2 md:mt-0 mt-5 pr-10">
                             <h1 className='text-3xl lg:text-4xl xl:text-5xl font-bold text-black leading-none'>Mobile App 
                             <span className='text-[#5db947]'> Design & Development Agency  </span></h1>
-                            <p className='text-lg lg:text-xl font-medium text-black leading-[1.6] pt-5 lg:pt-6'>As a leading mobile app design agency, we specialize in creating custom, high-performing mobile apps that enhance your business's digital presence. Our mobile app development services are tailored to meet the specific needs of your business, providing seamless user experiences and innovative solutions.</p>
+                            <p className='text-lg lg:text-xl font-medium text-black leading-[1.6] pt-5 lg:pt-6'>As a leading mobile app design agency, we specialize in creating custom, high-performing mobile apps that enhance your business&apos;s digital presence. Our mobile app development services are tailored to meet the specific needs of your business, providing seamless user experiences and innovative solutions.</p>
                             <button onClick={openModal} className="ease_in_out box-shadows bg-[#2a2a2a] text-sm font-bold text-white uppercase inline-flex border border-solid border-[#3e3e3e] px-[30px] md:px-[55px] py-[15px] md:py-[20px] my-5 lg:my-8 hover:bg-[#404040] hover:border-[#404040]">
                                 Work With Us
                                 <span className="ml-[10px]">
@@ -131,7 +131,7 @@ const Page = () => {
                             </div>
                         </div>
                         <div className='md:w-2/3 w-full md:mt-0 mt-4 pt-6'>
-                            <p className='text-lg lg:text-xl font-light text-black leading-[1.6]'>In today&apos;s digital world, having a mobile app is crucial to reaching your customers directly. A well-designed, functional, and user-friendly mobile application can boost engagement and strengthen your brand's presence. Our mobile app development services are crafted to help you create an app that supports your business objectives while offering a smooth and enjoyable experience for your users. We understand the significance of user-centric design, and our team of expert app designers ensures that your app functions seamlessly and delivers value to your customers.</p>
+                            <p className='text-lg lg:text-xl font-light text-black leading-[1.6]'>In today&apos;s digital world, having a mobile app is crucial to reaching your customers directly. A well-designed, functional, and user-friendly mobile application can boost engagement and strengthen your brand&apos;s presence. Our mobile app development services are crafted to help you create an app that supports your business objectives while offering a smooth and enjoyable experience for your users. We understand the significance of user-centric design, and our team of expert app designers ensures that your app functions seamlessly and delivers value to your customers.</p>
                         </div>
                     </div>
                 </div>
