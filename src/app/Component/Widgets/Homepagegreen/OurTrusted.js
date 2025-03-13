@@ -73,7 +73,7 @@ export default function OurTrusted()  {
                             <Image src={'/images/trusted-icon/trusted-icon-7.png'} className="mx-auto block" width={50} height={30} alt="thumbnail" />
                         </div>
                         <div>
-                            <Image src={'/images/trusted-icon/trusted-icon-8.png'} className="mx-auto block" width={40} height={30} alt="thumbnail" />
+                            <Image src={'/images/trusted-icon/trusted-icon-8.png'} className="mx-auto block" width={4 0} height={30} alt="thumbnail" />
                         </div>
                         <div>
                             <Image src={'/images/trusted-icon/trusted-icon-9.png'} className="mx-auto block" width={50} height={30} alt="thumbnail" />
