@@ -18,21 +18,21 @@ const page = () => {
         },
         {
             imageUrl: work2,
-            title: 'CPR Kansas City',
+            title: 'Curb Appeal',
             description: 'Anthem Senior Living is a dedicated senior care community in the United States, providing a safe, comfortable, and home-like environment for elderly individuals.',
             slug: '/case-studies/curb-appeal'
         },
         {
             imageUrl: work3,
-            title: 'Tidy Up',
+            title: 'ACLS Solutions',
             description: 'Anthem Senior Living is a dedicated senior care community in the United States, providing a safe, comfortable, and home-like environment for elderly individuals.',
-            slug: '/case-studies/tidy-up'
+            slug: '/case-studies/acls-solutions'
         },
         {
             imageUrl: work4,
-            title: 'Tax net',
+            title: 'CPR Tampa',
             description: 'Anthem Senior Living is a dedicated senior care community in the United States, providing a safe, comfortable, and home-like environment for elderly individuals.',
-            slug: '/case-studies/tax-net'
+            slug: '/case-studies/cpr-tampa'
         },
         {
             imageUrl: work5,
