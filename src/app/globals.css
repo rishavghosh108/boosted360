@@ -193,6 +193,9 @@ header.active  {
   .tab_button button.active {
     font-size: 24px;
   }
+  .xld-bx{
+    background-image: unset !important;
+  }
 }
 
 @media (max-width:1023px)  {
@@ -682,9 +685,7 @@ header.active  {
     opacity: 1;
     transform: unset  ;
   }
-  .xld-bx{
-    background-image: unset !important;
-  }
+
 }
  @media (max-width:767px)  {
   .menu_btn_div button .firsep  {
