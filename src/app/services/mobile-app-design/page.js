@@ -155,7 +155,7 @@ const Page = () => {
                                 </div>
                                 <div className='pl-5'>
                                     <h3 className='text-xl lg:text-2xl font-semibold text-white leading-[1.6] mb-1'>Enhanced User Experience</h3>
-                                    <p className='text-base font-light lg:text-lg text-[#bcbcbc] leading-[1.6]'>: A clean, intuitive design ensures that users can navigate your app effortlessly, increasing user satisfaction and retention.
+                                    <p className='text-base font-light lg:text-lg text-[#bcbcbc] leading-[1.6]'>A clean, intuitive design ensures that users can navigate your app effortlessly, increasing user satisfaction and retention.
                                     </p>
                                 </div>
                             </div>

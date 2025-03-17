@@ -26,13 +26,13 @@ const page = () => {
             imageUrl: work3,
             title: 'Tidy Up',
             description: 'Anthem Senior Living is a dedicated senior care community in the United States, providing a safe, comfortable, and home-like environment for elderly individuals.',
-            slug: '/case-studies/curb-appeal'
+            slug: '/case-studies/tidy-up'
         },
         {
             imageUrl: work4,
             title: 'Tax net',
             description: 'Anthem Senior Living is a dedicated senior care community in the United States, providing a safe, comfortable, and home-like environment for elderly individuals.',
-            slug: '/case-studies/curb-appeal'
+            slug: '/case-studies/tax-net'
         },
         {
             imageUrl: work5,
