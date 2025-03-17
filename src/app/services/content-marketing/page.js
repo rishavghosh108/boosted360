@@ -80,6 +80,11 @@ const Page = () => {
 
     return (
         <Layouts>
+            <title>Content Marketing Agency | Content Marketing Services</title>
+            <meta name="title" content='Content Marketing Agency | Content Marketing Services' />
+            <meta name="description" content="Need high-quality content? Our content marketing agency provides expert content marketing services to boost traffic & conversions. Get started now!" />
+
+
             <div className='py-6 lg:py-12 bg-no-repeat' style={{ backgroundImage: `url(${BgGrain.src})`, }}>
                 <div className='container'>
                     <div className='grid sm:grid-cols-2 grid-cols-1 items-start'>

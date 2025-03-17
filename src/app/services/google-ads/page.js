@@ -7,7 +7,7 @@ import Link from 'next/link';
 import { BtnArrow } from '@/app/assets';
 import Growing from '@/app/Component/Widgets/Homepagegreen/Growing';
 import WorkWthUsModal from "../../Component/Widgets/Modal/WorkWithUs/WorkWthUsModal"
-import { BgGrain, IserviceBannerOne, Servicebg, ServiceIconone, ServiceIcontwo, ServiceIconthree,downArrow} from "../../assets/index";
+import { BgGrain, IserviceBannerOne, Servicebg, ServiceIconone, ServiceIcontwo, ServiceIconthree, downArrow } from "../../assets/index";
 
 const Page = () => {
     const [isModalOpen, setIsModalOpen] = useState(false);
@@ -80,6 +80,11 @@ const Page = () => {
 
     return (
         <Layouts>
+            <title>Google PPC Agency | Google Ads Services</title>
+            <meta name="title" content='Google PPC Agency | Google Ads Services' />
+            <meta name="description" content="Drive more traffic with proven Google Ads services! Partner with a trusted Google PPC agency for better results. Let’s scale your business today!" />
+
+
             <div className='py-6 lg:py-12 bg-no-repeat' style={{ backgroundImage: `url(${BgGrain.src})`, }}>
                 <div className='container'>
                     <div className='grid sm:grid-cols-2 grid-cols-1 items-start'>

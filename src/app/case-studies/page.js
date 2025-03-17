@@ -49,6 +49,10 @@ const page = () => {
     ]
     return (
         <Layouts>
+            <title>Case Studies - Boosted360</title>
+            <meta name="title" content='Case Studies - Boosted360' />
+            <meta name="description" content="Discover how we help businesses thrive! Our case studies showcase real results from expert marketing strategies. See our success stories today!" />
+
             <div className='pt-8 pb-16'>
                 <div className='container'>
                     <div className='grid grid-cols-1 lg:grid-cols-2 gap-[18px] sm:gap-[25px] lg:px-0 px-0 sm:px-10 nn1:px-[15%]'>

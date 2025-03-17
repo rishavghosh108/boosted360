@@ -7,7 +7,7 @@ import Link from 'next/link';
 import { BtnArrow } from '@/app/assets';
 import Growing from '@/app/Component/Widgets/Homepagegreen/Growing';
 import WorkWthUsModal from "../../Component/Widgets/Modal/WorkWithUs/WorkWthUsModal"
-import { BgGrain, IserviceBannerOne, Servicebg, ServiceIconone, ServiceIcontwo, ServiceIconthree,downArrow } from "../../assets/index";
+import { BgGrain, IserviceBannerOne, Servicebg, ServiceIconone, ServiceIcontwo, ServiceIconthree, downArrow } from "../../assets/index";
 
 const Page = () => {
     const [isModalOpen, setIsModalOpen] = useState(false);
@@ -77,12 +77,16 @@ const Page = () => {
 
     return (
         <Layouts>
+            <title>B2B Website Design Company | B2B Website Development Services</title>
+            <meta name="title" content='B2B Website Design Company | B2B Website Development Services' />
+            <meta name="description" content="Scale your B2B business with expert website solutions! Our B2B website design company specializes in B2B website development services. Call us today!" />
+
             <div className='py-6 lg:py-12 bg-no-repeat' style={{ backgroundImage: `url(${BgGrain.src})`, }}>
                 <div className='container'>
                     <div className='grid sm:grid-cols-2 grid-cols-1 items-start'>
                         <div className="sm:order-none order-2 md:mt-0 mt-5 pr-10">
-                            <h1 className='text-3xl lg:text-4xl xl:text-5xl font-bold text-black leading-none'>Expert B2B Website   <span className='text-[#5db947]'> Design & Development </span> Company 
-                           </h1>
+                            <h1 className='text-3xl lg:text-4xl xl:text-5xl font-bold text-black leading-none'>Expert B2B Website   <span className='text-[#5db947]'> Design & Development </span> Company
+                            </h1>
                             <p className='text-lg lg:text-xl font-medium text-black leading-[1.6] pt-5 lg:pt-6'>As a leading B2B website design company, we specialize in creating custom, high-performing websites that boost your business&apos;s digital presence. Our B2B website development services are designed to meet the specific needs of your business and provide exceptional user experiences.</p>
                             <button onClick={openModal} className="ease_in_out box-shadows bg-[#2a2a2a] text-sm font-bold text-white uppercase inline-flex border border-solid border-[#3e3e3e] px-[30px] md:px-[55px] py-[15px] md:py-[20px] my-5 lg:my-8 hover:bg-[#404040] hover:border-[#404040]">
                                 Work With Us
@@ -142,10 +146,10 @@ const Page = () => {
                     <div className="bg-cover bg-center rounded-[10px] py-[40px] md:px-10 px-5" style={{ backgroundImage: `url(${Servicebg.src})`, }}>
                         <div>
                             <h2 className="text-3xl lg:text-[56px] xl:text-[65px] font-bold text-white leading-none mb-3 text-center">
-                            Benefits
+                                Benefits
                             </h2>
                             <p className="text-base lg:text-lg px-[10px] text-[#bcbcbc] leading-[1.6] text-center">
-                            A professional B2B website can increase engagement, generate leads, and improve your brand&apos;s credibility.
+                                A professional B2B website can increase engagement, generate leads, and improve your brand&apos;s credibility.
                             </p>
                         </div>
                         <div className='space-y-3 mt-10'>
@@ -207,26 +211,26 @@ const Page = () => {
                     <div>
                         {/* <p className="text-[#5db947] text-base font-bold mb-3 text-center">Our Process</p> */}
                         <h2 className="text-3xl lg:text-[56px] xl:text-[65px] font-bold text-black leading-none text-center">
-                        Services We Offer
+                            Services We Offer
                         </h2>
                     </div>
                     <div className="w-full mx-auto md:mt-10 mt-7">
                         {/* Tab Headers */}
                         <div className="flex lg:justify-center text-center mb-7 border-b border-neutral-200 overflow-auto lg:overflow-visible">
                             <button className={`text-base font-medium lg:border-b-4 lg:-mb-[3px] px-4  py-3 shrink-0 ${activeTab === "tab1" ? "border-[#5db947] lg:bg-transparent bg-[#5db947] lg:text-black text-white" : "border-transparent"}`} onClick={() => setActiveTab("tab1")}>
-                            Custom Website Design
+                                Custom Website Design
                             </button>
                             <button className={`text-base font-medium lg:border-b-4 lg:-mb-[3px] px-4  py-3 shrink-0 ${activeTab === "tab2" ? "border-[#5db947] lg:bg-transparent bg-[#5db947] lg:text-black text-white" : "border-transparent"}`} onClick={() => setActiveTab("tab2")}>
-                            E-Commerce Solutions
+                                E-Commerce Solutions
                             </button>
                             <button className={`text-base font-medium lg:border-b-4 lg:-mb-[3px] px-4  py-3 inline-block shrink-0 ${activeTab === "tab3" ? "border-[#5db947] lg:bg-transparent bg-[#5db947] lg:text-black text-white" : "border-transparent"}`} onClick={() => setActiveTab("tab3")}>
-                            Content Management Systems
+                                Content Management Systems
                             </button>
                             <button className={`text-base font-medium lg:border-b-4 lg:-mb-[3px] px-4  py-3 shrink-0 ${activeTab === "tab4" ? "border-[#5db947] lg:bg-transparent bg-[#5db947] lg:text-black text-white" : "border-transparent"}`} onClick={() => setActiveTab("tab4")}>
-                            SEO Services
+                                SEO Services
                             </button>
                             <button className={`text-base font-medium lg:border-b-4 lg:-mb-[3px] px-4  py-3 shrink-0 ${activeTab === "tab5" ? "border-[#5db947] lg:bg-transparent bg-[#5db947] lg:text-black text-white" : "border-transparent"}`} onClick={() => setActiveTab("tab5")}>
-                            Website Maintenance
+                                Website Maintenance
                             </button>
                         </div>
 

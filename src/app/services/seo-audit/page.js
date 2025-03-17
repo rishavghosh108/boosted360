@@ -7,7 +7,7 @@ import Link from 'next/link';
 import { BtnArrow } from '@/app/assets';
 import Growing from '@/app/Component/Widgets/Homepagegreen/Growing';
 import WorkWthUsModal from "../../Component/Widgets/Modal/WorkWithUs/WorkWthUsModal"
-import { BgGrain, IserviceBannerOne, Servicebg, ServiceIconone, ServiceIcontwo, ServiceIconthree,downArrow } from "../../assets/index";
+import { BgGrain, IserviceBannerOne, Servicebg, ServiceIconone, ServiceIcontwo, ServiceIconthree, downArrow } from "../../assets/index";
 
 const Page = () => {
     const [isModalOpen, setIsModalOpen] = useState(false);
@@ -77,6 +77,11 @@ const Page = () => {
 
     return (
         <Layouts>
+            <title>On Page SEO Audit Services | Website Audit Services</title>
+            <meta name="title" content='On Page SEO Audit Services | Website Audit Services' />
+            <meta name="description" content="Improve your site’s SEO with expert audit services! Our on-page SEO audit helps fix errors & maximize traffic. Get your SEO report now!" />
+
+
             <div className='py-6 lg:py-12 bg-no-repeat' style={{ backgroundImage: `url(${BgGrain.src})`, }}>
                 <div className='container'>
                     <div className='grid sm:grid-cols-2 grid-cols-1 items-start'>

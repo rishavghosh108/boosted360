@@ -77,6 +77,11 @@ const Page = () => {
 
     return (
         <Layouts>
+            <title>WordPress Web Design Company | WordPress Website Development Services</title>
+            <meta name="title" content='WordPress Web Design Company | WordPress Website Development Services' />
+            <meta name="description" content="Launch your dream site with a top WordPress web design company! Our WordPress website development services bring your vision to life. Start today!" />
+
+
             <div className='py-6 lg:py-12 bg-no-repeat' style={{ backgroundImage: `url(${BgGrain.src})`, }}>
                 <div className='container'>
                     <div className='grid sm:grid-cols-2 grid-cols-1 items-start'>

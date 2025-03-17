@@ -15,6 +15,10 @@ const Page = () => {
 
     return (
         <Layouts>
+            <title>About Us - Boosted360</title>
+            <meta name="title" content='About Us - Boosted360' />
+            <meta name="description" content="Learn more about Boosted360! We are a results-driven digital marketing agency committed to helping businesses grow. Discover our story today!" />
+
 
             <div className='py-6 lg:py-12 bg-center bg-no-repeat' style={{ backgroundImage: `url(${BgGrain.src})`, }}>
                 <div className='container'>
@@ -344,7 +348,7 @@ const Page = () => {
                             <Image src={sliderInLogonnjdvd} alt="logo" className="w-[100px] object-contain grayscale" />
                         </li>
                     </ul> */}
-                    <Companies/>
+                    <Companies />
                 </div>
             </div>
 

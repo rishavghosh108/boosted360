@@ -16,7 +16,7 @@ const Page = () => {
 
     const [activeTab, setActiveTab] = useState("tab1");
 
-  const [activeIndex, setActiveIndex] = useState(0);
+    const [activeIndex, setActiveIndex] = useState(0);
 
     // const handleMouseEnter = (index) => {
     //     setActiveIndex(index);
@@ -79,6 +79,11 @@ const Page = () => {
 
     return (
         <Layouts>
+            <title>Top Local SEO Company | GMB Optimization Agency</title>
+            <meta name="title" content='Top Local SEO Company | GMB Optimization Agency' />
+            <meta name="description" content="Attract more local customers with expert local SEO services! Partner with a top local SEO company for real results. Schedule your free consultation today!" />
+
+
             <div className='py-6 lg:py-12 bg-no-repeat' style={{ backgroundImage: `url(${BgGrain.src})`, }}>
                 <div className='container'>
                     <div className='grid sm:grid-cols-2 grid-cols-1 items-start'>

@@ -80,6 +80,10 @@ const Page = () => {
 
     return (
         <Layouts>
+            <title>Top SEO Agency | Expert SEO Services | SEO Marketing</title>
+            <meta name="title" content='Top SEO Agency | Expert SEO Services | SEO Marketing' />
+            <meta name="description" content="Get found online with expert SEO services! Our top-rated SEO agency helps businesses rank higher & attract more customers. Book a free strategy call today!" />
+
             <div className='py-6 lg:py-12 bg-no-repeat' style={{ backgroundImage: `url(${BgGrain.src})`, }}>
                 <div className='container'>
                     <div className='grid sm:grid-cols-2 grid-cols-1 items-start'>

@@ -80,6 +80,11 @@ const Page = () => {
 
     return (
         <Layouts>
+            <title>Social Media Marketing Agency | Social Media Marketing Services</title>
+            <meta name="title" content='Social Media Marketing Agency | Social Media Marketing Services' />
+            <meta name="description" content="Maximize your reach with expert social media marketing services! Our social media marketing agency delivers real results. Book a free consultation today!" />
+
+
             <div className='py-6 lg:py-12 bg-no-repeat' style={{ backgroundImage: `url(${BgGrain.src})`, }}>
                 <div className='container'>
                     <div className='grid sm:grid-cols-2 grid-cols-1 items-start'>

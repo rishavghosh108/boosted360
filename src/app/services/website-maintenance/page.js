@@ -7,7 +7,7 @@ import Link from 'next/link';
 import { BtnArrow } from '@/app/assets';
 import Growing from '@/app/Component/Widgets/Homepagegreen/Growing';
 import WorkWthUsModal from "../../Component/Widgets/Modal/WorkWithUs/WorkWthUsModal"
-import { BgGrain, IserviceBannerOne, Servicebg, ServiceIconone, ServiceIcontwo, ServiceIconthree,downArrow } from "../../assets/index";
+import { BgGrain, IserviceBannerOne, Servicebg, ServiceIconone, ServiceIcontwo, ServiceIconthree, downArrow } from "../../assets/index";
 
 const Page = () => {
     const [isModalOpen, setIsModalOpen] = useState(false);
@@ -77,13 +77,18 @@ const Page = () => {
 
     return (
         <Layouts>
+            <title>Website Maintenance Company | Website Maintenance Services</title>
+            <meta name="title" content='Website Maintenance Company | Website Maintenance Services' />
+            <meta name="description" content="Avoid downtime with professional website maintenance services! Our website maintenance company keeps your site fast & secure. Let’s maintain your site now!" />
+
+
             <div className='py-6 lg:py-12 bg-no-repeat' style={{ backgroundImage: `url(${BgGrain.src})`, }}>
                 <div className='container'>
                     <div className='grid sm:grid-cols-2 grid-cols-1 items-start'>
                         <div className="sm:order-none order-2 md:mt-0 mt-5 pr-10">
-                            <h1 className='text-3xl lg:text-4xl xl:text-5xl font-bold text-black leading-none'>Reliable Website Maintenance Company for 
-                            <span className='text-[#5db947]'> Seamless Performance</span> 
-                           </h1>
+                            <h1 className='text-3xl lg:text-4xl xl:text-5xl font-bold text-black leading-none'>Reliable Website Maintenance Company for
+                                <span className='text-[#5db947]'> Seamless Performance</span>
+                            </h1>
                             <p className='text-lg lg:text-xl font-medium text-black leading-[1.6] pt-5 lg:pt-6'>As a trusted website maintenance company, we provide comprehensive maintenance services to ensure your website stays up-to-date, secure, and fully functional. </p>
                             <button onClick={openModal} className="ease_in_out box-shadows bg-[#2a2a2a] text-sm font-bold text-white uppercase inline-flex border border-solid border-[#3e3e3e] px-[30px] md:px-[55px] py-[15px] md:py-[20px] my-5 lg:my-8 hover:bg-[#404040] hover:border-[#404040]">
                                 Work With Us
@@ -143,10 +148,10 @@ const Page = () => {
                     <div className="bg-cover bg-center rounded-[10px] py-[40px] md:px-10 px-5" style={{ backgroundImage: `url(${Servicebg.src})`, }}>
                         <div>
                             <h2 className="text-3xl lg:text-[56px] xl:text-[65px] font-bold text-white leading-none mb-3 text-center">
-                            Benefits
+                                Benefits
                             </h2>
                             <p className="text-base lg:text-lg px-[10px] text-[#bcbcbc] leading-[1.6] text-center">
-                            WordPress website maintenance services are essential to keeping your online presence secure, up-to-date, and user-friendly.
+                                WordPress website maintenance services are essential to keeping your online presence secure, up-to-date, and user-friendly.
                             </p>
                         </div>
                         <div className='space-y-3 mt-10'>
@@ -208,26 +213,26 @@ const Page = () => {
                     <div>
                         {/* <p className="text-[#5db947] text-base font-bold mb-3 text-center">Our Process</p> */}
                         <h2 className="text-3xl lg:text-[56px] xl:text-[65px] font-bold text-black leading-none text-center">
-                        Services We Offer
+                            Services We Offer
                         </h2>
                     </div>
                     <div className="w-full mx-auto md:mt-10 mt-7">
                         {/* Tab Headers */}
                         <div className="flex lg:justify-center text-center mb-7 border-b border-neutral-200 overflow-auto lg:overflow-visible">
                             <button className={`text-base font-medium lg:border-b-4 lg:-mb-[3px] px-4  py-3 shrink-0 ${activeTab === "tab1" ? "border-[#5db947] lg:bg-transparent bg-[#5db947] lg:text-black text-white" : "border-transparent"}`} onClick={() => setActiveTab("tab1")}>
-                            WordPress Website Maintenance
+                                WordPress Website Maintenance
                             </button>
                             <button className={`text-base font-medium lg:border-b-4 lg:-mb-[3px] px-4  py-3 shrink-0 ${activeTab === "tab2" ? "border-[#5db947] lg:bg-transparent bg-[#5db947] lg:text-black text-white" : "border-transparent"}`} onClick={() => setActiveTab("tab2")}>
-                            Website Security Updates
+                                Website Security Updates
                             </button>
                             <button className={`text-base font-medium lg:border-b-4 lg:-mb-[3px] px-4  py-3 inline-block shrink-0 ${activeTab === "tab3" ? "border-[#5db947] lg:bg-transparent bg-[#5db947] lg:text-black text-white" : "border-transparent"}`} onClick={() => setActiveTab("tab3")}>
-                            Website Backup Services
+                                Website Backup Services
                             </button>
                             <button className={`text-base font-medium lg:border-b-4 lg:-mb-[3px] px-4  py-3 shrink-0 ${activeTab === "tab4" ? "border-[#5db947] lg:bg-transparent bg-[#5db947] lg:text-black text-white" : "border-transparent"}`} onClick={() => setActiveTab("tab4")}>
-                            Content Updates & Changes
+                                Content Updates & Changes
                             </button>
                             <button className={`text-base font-medium lg:border-b-4 lg:-mb-[3px] px-4  py-3 shrink-0 ${activeTab === "tab5" ? "border-[#5db947] lg:bg-transparent bg-[#5db947] lg:text-black text-white" : "border-transparent"}`} onClick={() => setActiveTab("tab5")}>
-                            Performance Optimization
+                                Performance Optimization
                             </button>
                         </div>
 

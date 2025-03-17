@@ -80,6 +80,10 @@ const Page = () => {
 
     return (
         <Layouts>
+            <title>YouTube Ads Agency | YouTube Marketing Services</title>
+            <meta name="title" content='YouTube Ads Agency | YouTube Marketing Services' />
+            <meta name="description" content="Grow your brand with a top YouTube Ads agency! Get expert YouTube marketing services to boost views and conversions. Let’s grow your business today!" />
+
             <div className='py-6 lg:py-12 bg-no-repeat' style={{ backgroundImage: `url(${BgGrain.src})`, }}>
                 <div className='container'>
                     <div className='grid sm:grid-cols-2 grid-cols-1 items-start'>

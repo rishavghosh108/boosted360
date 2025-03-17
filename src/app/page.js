@@ -19,7 +19,11 @@ import Growing from "./Component/Widgets/Homepagegreen/Growing";
 export default function Home() {
   return (
     <Layouts>
-      <Banner/>
+      <title>Digital Marketing Agency | Digital Marketing Services</title>
+      <meta name="title" content='Digital Marketing Agency | Digital Marketing Services' />
+      <meta name="description" content="Boosted360 – Your trusted digital marketing agency! We offer tailored digital marketing services to increase visibility & revenue. Get a free consultation now!" />
+
+      <Banner />
       <Logos />
       <TheAgency />
       <LearnMore />

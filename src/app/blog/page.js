@@ -9,6 +9,11 @@ const Page = () => {
 
     return (
         <Layouts>
+            <title>Latest Blogs & Insights - Boosted360</title>
+            <meta name="title" content='Latest Blogs & Insights - Boosted360' />
+            <meta name="description" content="Stay ahead with the latest marketing insights! Explore Boosted360’s blog for expert tips, trends, and strategies. Read now & boost your growth!" />
+
+
             <div className='xl:py-16 md:py-10 py-6'>
                 <div className='container'>
                     <div className='flex flex-wrap'>
@@ -181,10 +186,10 @@ const Page = () => {
                         <div className='md:w-1/3 w-full lg:pl-8 pl-5'>
                             <div className='space-y-4'>
                                 <div className='border border-solid border-neutral-200 pl-2 py-4 pr-8 rounded-md relative bg-white'>
-                                    <input type='search' className='text-base font-light text-black lg:leading-[1.4] w-full outline-none' placeholder='Search..'/>
+                                    <input type='search' className='text-base font-light text-black lg:leading-[1.4] w-full outline-none' placeholder='Search..' />
                                     <button type='submit' className='bg-transparent size-6 flex items-center justify-center absolute right-2 top-3.5 text-neutral-400'>
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-                                            <path fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="m21 21l-4.343-4.343m0 0A8 8 0 1 0 5.343 5.343a8 8 0 0 0 11.314 11.314"/>
+                                            <path fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="m21 21l-4.343-4.343m0 0A8 8 0 1 0 5.343 5.343a8 8 0 0 0 11.314 11.314" />
                                         </svg>
                                     </button>
                                 </div>
@@ -273,7 +278,7 @@ const Page = () => {
                                 <div className='p-4 rounded-md space-y-4'>
                                     <h5 className='text-lg lg:text-xl font-semibold text-black lg:leading-[1.2]'>Subscribe Newsletter</h5>
                                     <div className='border border-solid border-neutral-200 rounded-md flex items-center p-2'>
-                                        <input type='email' className='text-base font-light text-black lg:leading-[1.4] p-2 w-full outline-none' placeholder='Email address'/>
+                                        <input type='email' className='text-base font-light text-black lg:leading-[1.4] p-2 w-full outline-none' placeholder='Email address' />
                                         <button type='submit' className=' text-white bg-[#5db947] border-[#5db947] border sm:text-sm text-xs font-medium rounded-none inline-block lg:px-6 px-4 sm:py-2 py-1.5'>
                                             Subscribe
                                         </button>

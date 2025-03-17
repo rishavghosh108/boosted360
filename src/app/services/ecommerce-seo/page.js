@@ -79,6 +79,11 @@ const Page = () => {
 
     return (
         <Layouts>
+            <title>Ecommerce SEO Agency | Ecommerce SEO Services</title>
+            <meta name="title" content='Ecommerce SEO Agency | Ecommerce SEO Services' />
+            <meta name="description" content="Boost your online store’s rankings with a top eCommerce SEO agency! Get expert eCommerce SEO services to drive traffic & sales. Contact us today!" />
+
+
             <div className='py-6 lg:py-12 bg-no-repeat' style={{ backgroundImage: `url(${BgGrain.src})`, }}>
                 <div className='container'>
                     <div className='grid sm:grid-cols-2 grid-cols-1 items-start'>

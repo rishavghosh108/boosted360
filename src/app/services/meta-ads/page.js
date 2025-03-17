@@ -80,6 +80,11 @@ const Page = () => {
 
     return (
         <Layouts>
+            <title>Meta Advertising Agency | Meta Ads Services</title>
+            <meta name="title" content='Meta Advertising Agency | Meta Ads Services' />
+            <meta name="description" content="Grow your business with a top Meta advertising agency! Get expert Meta Ads services to boost reach & conversions. Start your campaign today!" />
+
+
             <div className='py-6 lg:py-12 bg-no-repeat' style={{ backgroundImage: `url(${BgGrain.src})`, }}>
                 <div className='container'>
                     <div className='grid sm:grid-cols-2 grid-cols-1 items-start'>
