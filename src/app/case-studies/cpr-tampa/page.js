@@ -23,7 +23,7 @@ const Page = () => {
                             <Image src={'/images/details-image/curbappeal.png'} width={100} height={100} alt={`Slide`} className='w-40 mx-auto lg:mx-0 brightness-75' />
 
                             <h1 className='lg:text-5xl md:text-4xl text-3xl text-neutral-800 md:pt-10 pt-5 font-light text-center lg:text-left'>
-                                Empowering CPR Tampa's Growth Through
+                                Empowering CPR Tampa&apos;s Growth Through
                                 {/* <br className='hidden lg:block' /> */}
                                 <span className='font-bold'> Digital Marketing</span>
                             </h1>
@@ -115,7 +115,7 @@ const Page = () => {
                             Content marketing:
                         </h2>
                         <p className='text-neutral-700 font-light text-base pt-5'>
-                            We created and distributed informative content that resonated with CPR Tampa's target audience, including blogs, tutorials, and videos. This content provided value by educating potential clients on the importance of certification and offering insights into life-saving techniques. This approach attracted qualified traffic and nurtured leads through valuable educational material.
+                            We created and distributed informative content that resonated with CPR Tampa&apos;s target audience, including blogs, tutorials, and videos. This content provided value by educating potential clients on the importance of certification and offering insights into life-saving techniques. This approach attracted qualified traffic and nurtured leads through valuable educational material.
                         </p>
                     </div>
 

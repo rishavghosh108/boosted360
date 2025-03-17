@@ -172,7 +172,7 @@ const Page = () => {
                     </h1>
 
                     <p>
-                        We optimized ACLS Solutions' Google My Business profile to enhance local visibility and improve rankings for critical keywords like &quot;ACLS certification St. Louis&quot; and &quot;CPR certification St. Louis.&quot; This included regularly updating business information, managing customer reviews, and increasing engagement with potential clients. 
+                        We optimized ACLS Solutions&apos; Google My Business profile to enhance local visibility and improve rankings for critical keywords like &quot;ACLS certification St. Louis&quot; and &quot;CPR certification St. Louis.&quot; This included regularly updating business information, managing customer reviews, and increasing engagement with potential clients. 
                     </p>
 
                     <div className='mb-3 '>
@@ -201,7 +201,7 @@ const Page = () => {
                     <h1>
                     Social Media Marketing
                     </h1>
-                    <p>Boosted 360 amplified ACLS Solutions' social media presence by developing targeted campaigns aimed at educating the community and generating leads. Regular content posts, paid social ads, and community engagement efforts resulted in a 40% increase in brand awareness and a 25% rise in class sign-ups. We strategically used social media platforms to connect with both healthcare professionals and businesses in need of ACLS and BLS certification training.</p>
+                    <p>Boosted 360 amplified ACLS Solutions&apos; social media presence by developing targeted campaigns aimed at educating the community and generating leads. Regular content posts, paid social ads, and community engagement efforts resulted in a 40% increase in brand awareness and a 25% rise in class sign-ups. We strategically used social media platforms to connect with both healthcare professionals and businesses in need of ACLS and BLS certification training.</p>
                     <div className='bg-white p-5 mb-3 '>
                         <div className='w-[70%] mx-auto'>
                             <Image width={600} height={100} src={'/images/details-image/contactform.png'} alt={`Slide`} className='w-full' />
@@ -219,10 +219,10 @@ const Page = () => {
                     <p>The content marketing strategy for ACLS Solutions focused on delivering informative and relevant content such as blog posts, tutorials, and infographics. Topics covered critical aspects of ACLS and BLS training, highlighting their importance in life-saving scenarios. This content not only boosted SEO rankings but also helped ACLS Solutions build authority in their niche, establishing them as a trusted resource for healthcare certification.</p>
 
                     <h1>Ad Campaigns (PPC)</h1>
-                    <p>We executed highly targeted PPC campaigns, including search ads, display ads, and remarketing efforts, to drive qualified traffic to ACLS Solutions' class registration pages. These campaigns focused on individuals actively searching for ACLS and CPR certification in the St. Louis area, resulting in increased site traffic and higher conversion rates for class sign-ups.</p>
+                    <p>We executed highly targeted PPC campaigns, including search ads, display ads, and remarketing efforts, to drive qualified traffic to ACLS Solutions&apos; class registration pages. These campaigns focused on individuals actively searching for ACLS and CPR certification in the St. Louis area, resulting in increased site traffic and higher conversion rates for class sign-ups.</p>
 
                     <h1>Landing Page Optimization</h1>
-                    <p>To maximize conversions, we optimized ACLS Solutions' landing pages by improving page speed, ensuring a user-friendly design, and placing clear CTAs. These optimized landing pages highlighted the benefits of taking ACLS and BLS courses with ACLS Solutions, providing easy access to registration forms and compelling class details. As a result, we saw a significant improvement in engagement and conversion rates, leading to a higher volume of online class sign-ups.</p>
+                    <p>To maximize conversions, we optimized ACLS Solutions&apos; landing pages by improving page speed, ensuring a user-friendly design, and placing clear CTAs. These optimized landing pages highlighted the benefits of taking ACLS and BLS courses with ACLS Solutions, providing easy access to registration forms and compelling class details. As a result, we saw a significant improvement in engagement and conversion rates, leading to a higher volume of online class sign-ups.</p>
 
                 </div>
             </div>
