@@ -23,7 +23,7 @@ const Page = () => {
                             <Image src={'/images/details-image/curbappeal.png'} width={100} height={100} alt={`Slide`} className='w-40 mx-auto lg:mx-0 brightness-75' />
 
                             <h1 className='lg:text-5xl md:text-4xl text-3xl text-neutral-800 md:pt-10 pt-5 font-light text-center lg:text-left'>
-                                Empowering Tidy Up Angels' Success in House Cleaning Services Through
+                                Empowering Tidy Up Angels&apos; Success in House Cleaning Services Through
                                 {/* <br className='hidden lg:block' /> */}
                                 <span className='font-bold'> Digital Marketing</span>
                             </h1>
@@ -172,7 +172,7 @@ const Page = () => {
                     </h1>
 
                     <p>
-                    We optimized Tidy Up Angels&apos; Google My Business profile to enhance local search rankings and visibility. By keeping the profile up-to-date, responding to reviews, and maintaining engagement with potential customers, we helped them rank for high-value keywords such as "house cleaning services in Overland Park, KS" 
+                    We optimized Tidy Up Angels&apos; Google My Business profile to enhance local search rankings and visibility. By keeping the profile up-to-date, responding to reviews, and maintaining engagement with potential customers, we helped them rank for high-value keywords such as &quot;house cleaning services in Overland Park, KS&quot; 
                     </p>
 
                     <div className='mb-3 '>
@@ -181,7 +181,7 @@ const Page = () => {
                     </div>
 
                     <p>
-                    and "move-in and move-out cleaning in Overland Park, KS." As a result, Tidy Up Angels achieved top positions in local searches and attracted more customers.
+                    and &quot;move-in and move-out cleaning in Overland Park, KS.&quot; As a result, Tidy Up Angels achieved top positions in local searches and attracted more customers.
                     </p>
                     {/* 
           <div className='bg-white p-5 mb-3'>
@@ -190,7 +190,7 @@ const Page = () => {
 
 
                     <h1>Local SEO</h1>
-                    <p>Local SEO played a central role in driving Tidy Up Angels' growth. By optimizing their website for location-based keywords such as "house cleaning services in Overland Park, KS" and "recurring cleaning services in Overland Park, KS," we ensured that they ranked highly in local search results. This resulted in a significant increase in organic traffic from individuals searching for cleaning services in Overland Park.
+                    <p>Local SEO played a central role in driving Tidy Up Angels&apos; growth. By optimizing their website for location-based keywords such as &quot;house cleaning services in Overland Park, KS&quot; and &quot;recurring cleaning services in Overland Park, KS,&quot; we ensured that they ranked highly in local search results. This resulted in a significant increase in organic traffic from individuals searching for cleaning services in Overland Park.
                     </p>
                     <div className='mb-3 '>
                         <Image width={600} height={100} src={'/images/details-image/Antham_google.png'} alt={`Slide`} className='w-full' />
@@ -211,7 +211,7 @@ const Page = () => {
                     <h1>
                         Lead Generation
                     </h1>
-                    <p>We optimized Tidy Up Angels' website for lead generation by incorporating clear CTAs, easy-to-use contact forms, and simplified service booking options. We also implemented lead nurturing strategies, such as personalized follow-up emails and special offers, to convert website visitors into paying clients. These efforts led to a substantial increase in service inquiries and recurring bookings.</p>
+                    <p>We optimized Tidy Up Angels&apos; website for lead generation by incorporating clear CTAs, easy-to-use contact forms, and simplified service booking options. We also implemented lead nurturing strategies, such as personalized follow-up emails and special offers, to convert website visitors into paying clients. These efforts led to a substantial increase in service inquiries and recurring bookings.</p>
                     <h1>
                         Content Marketing
                     </h1>
@@ -223,7 +223,7 @@ const Page = () => {
                     
 
                     <h1>Landing Page Optimization</h1>
-                    <p>We enhanced Tidy Up Angels' landing pages to maximize conversion rates by improving page load speeds, ensuring mobile responsiveness, and providing clear CTAs. Each page was optimized for specific cleaning services, ensuring a streamlined user experience. These improvements contributed to a higher volume of bookings and inquiries for Tidy Up Angels' services.</p>
+                    <p>We enhanced Tidy Up Angels&apos; landing pages to maximize conversion rates by improving page load speeds, ensuring mobile responsiveness, and providing clear CTAs. Each page was optimized for specific cleaning services, ensuring a streamlined user experience. These improvements contributed to a higher volume of bookings and inquiries for Tidy Up Angels&apos; services.</p>
 
                 </div>
             </div>

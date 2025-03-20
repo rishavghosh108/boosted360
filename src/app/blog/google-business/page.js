@@ -91,7 +91,7 @@ const Page = () => {
                         <p>Track important metrics like profile views, search queries, and customer activities with Google My Business Insights. Analyzing this data to determine how users are interacting with your profile is part of Google My Business Optimization. You can use this information to make well-informed decisions about how to improve and modify your listing.</p>
 
                         <h3>Step 9: Stay Up-to-Date with Google My Business Guidelines</h3>
-                        <p>Examine Google's GMB policies and modifications on a regular basis. GMB Profile Optimization requires adherence to the most recent criteria. A high-quality profile and continued compliance with Google's standards are ensured by keeping up with new features, best practices, and policy changes.</p>
+                        <p>Examine Google&apos;s GMB policies and modifications on a regular basis. GMB Profile Optimization requires adherence to the most recent criteria. A high-quality profile and continued compliance with Google&apos;s standards are ensured by keeping up with new features, best practices, and policy changes.</p>
 
                         <h3>Understanding Google My Business Insights: Key Metrics to Monitor</h3>
                         <ul className='space-y-2'>

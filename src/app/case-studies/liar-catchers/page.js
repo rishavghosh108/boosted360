@@ -23,13 +23,13 @@ const Page = () => {
                             <Image src={'/images/details-image/curbappeal.png'} width={100} height={100} alt={`Slide`} className='w-40 mx-auto lg:mx-0 brightness-75' />
 
                             <h1 className='lg:text-5xl md:text-4xl text-3xl text-neutral-800 md:pt-10 pt-5 font-light text-center lg:text-left'>
-                                Empowering Liar Catchers' Success in the Private Investigation Industry Through Strategic
+                                Empowering Liar Catchers&apos; Success in the Private Investigation Industry Through Strategic
                                 {/* <br className='hidden lg:block' /> */}
                                 <span className='font-bold'> Digital Marketing</span>
                             </h1>
 
                             <p className='pt-5 md:text-xl text-base text-neutral-800 text-center lg:text-left'>
-                                Liar Catchers' <span className='font-bold text-[#459231]'>digital marketing strategy successfully enhanced</span> its online presence by leveraging <span className='font-bold text-[#459231]'>targeted SEO, content marketing, social media, and lead generation efforts</span>. This resulted in increased visibility for key private investigation services, attracting potential clients in need of civil investigations, evidence collection, attorney referrals, and other legal-related services.
+                                Liar Catchers&apos; <span className='font-bold text-[#459231]'>digital marketing strategy successfully enhanced</span> its online presence by leveraging <span className='font-bold text-[#459231]'>targeted SEO, content marketing, social media, and lead generation efforts</span>. This resulted in increased visibility for key private investigation services, attracting potential clients in need of civil investigations, evidence collection, attorney referrals, and other legal-related services.
 
 
                            
@@ -88,7 +88,7 @@ const Page = () => {
                     </h2>
 
                     <p className='text-xl pt-4 font-light max-w-3xl mx-auto text-center'>
-                    Liar Catchers, a top-ranked private investigator agency in Lexington, specializes in services like civil investigations, evidence collection, attorney referrals, and legal disclaimers. Through a tailored digital marketing strategy, we successfully enhanced Liar Catchers' online visibility, attracted high-quality leads, and bolstered their reputation as a leading agency in the competitive Lexington market.
+                    Liar Catchers, a top-ranked private investigator agency in Lexington, specializes in services like civil investigations, evidence collection, attorney referrals, and legal disclaimers. Through a tailored digital marketing strategy, we successfully enhanced Liar Catchers&apos; online visibility, attracted high-quality leads, and bolstered their reputation as a leading agency in the competitive Lexington market.
                     </p>
                 </div>
 
@@ -101,7 +101,7 @@ const Page = () => {
                             Grasping needs:
                         </h2>
                         <p className='text-neutral-700 font-light text-base pt-5'>
-                        To create an effective strategy, we began by understanding Liar Catchers' unique value propositions, their target audience, and the competitive landscape of the private investigation industry. Our primary goal was to drive leads for services such as civil investigations, legal disclaimers, and evidence collection, ensuring that Liar Catchers remained top of mind for individuals and businesses seeking trusted investigative services.
+                        To create an effective strategy, we began by understanding Liar Catchers&apos; unique value propositions, their target audience, and the competitive landscape of the private investigation industry. Our primary goal was to drive leads for services such as civil investigations, legal disclaimers, and evidence collection, ensuring that Liar Catchers remained top of mind for individuals and businesses seeking trusted investigative services.
                         </p>
                     </div>
 
@@ -125,7 +125,7 @@ const Page = () => {
                             Marketing strategy:
                         </h2>
                         <p className='text-neutral-700 font-light text-base pt-5'>
-                        Our strategy involved thorough market research, competitor analysis, and careful identification of high-value keywords. We implemented a combination of SEO optimization, targeted ad campaigns, and engaging social media content to drive organic traffic and improve conversions. We also optimized Liar Catchers' website to ensure it generated more inquiries from potential clients interested in private investigation services in Lexington.
+                        Our strategy involved thorough market research, competitor analysis, and careful identification of high-value keywords. We implemented a combination of SEO optimization, targeted ad campaigns, and engaging social media content to drive organic traffic and improve conversions. We also optimized Liar Catchers&apos; website to ensure it generated more inquiries from potential clients interested in private investigation services in Lexington.
                         </p>
                     </div>
 
@@ -137,7 +137,7 @@ const Page = () => {
                             Success story:
                         </h2>
                         <p className='text-neutral-700 font-light text-base pt-5'>
-                        Liar Catchers saw substantial growth through our digital marketing efforts. By focusing on SEO, targeted content, and strategic online campaigns, we helped them rank for high-value keywords such as "private investigator in Lexington," "detective agency in Lexington," and "legal disclaimer services Lexington." This resulted in a significant increase in qualified leads and higher conversion rates for their investigative services.
+                        Liar Catchers saw substantial growth through our digital marketing efforts. By focusing on SEO, targeted content, and strategic online campaigns, we helped them rank for high-value keywords such as &quot;private investigator in Lexington,&quot; &quot;detective agency in Lexington,&quot; and &quot;legal disclaimer services Lexington.&quot; This resulted in a significant increase in qualified leads and higher conversion rates for their investigative services.
                         </p>
                     </div>
 
@@ -173,7 +173,7 @@ const Page = () => {
                     </h1>
 
                     <p>
-                    We optimized Liar Catchers' Google My Business profile to enhance local search visibility and improve rankings for critical keywords like "private investigator in Lexington" and "detective agency in Lexington." 
+                    We optimized Liar Catchers&apos; Google My Business profile to enhance local search visibility and improve rankings for critical keywords like &quot;private investigator in Lexington&quot; and &quot;detective agency in Lexington.&quot; 
                     </p>
 
                     <div className='mb-3 '>
@@ -191,7 +191,7 @@ const Page = () => {
 
 
                     <h1>Local SEO</h1>
-                    <p>Local SEO played a pivotal role in increasing Liar Catchers' visibility in Lexington. By targeting geo-specific keywords like "private investigator in Lexington" and "detective agency in Lexington," we were able to secure top rankings in local searches, driving organic traffic from individuals in need of private investigation services in the area.
+                    <p>Local SEO played a pivotal role in increasing Liar Catchers&apos; visibility in Lexington. By targeting geo-specific keywords like &quot;private investigator in Lexington&quot; and &quot;detective agency in Lexington,&quot; we were able to secure top rankings in local searches, driving organic traffic from individuals in need of private investigation services in the area.
                     </p>
                     <div className='mb-3 '>
                         <Image width={600} height={100} src={'/images/details-image/Antham_google.png'} alt={`Slide`} className='w-full' />
@@ -217,13 +217,13 @@ const Page = () => {
                     <h1>
                         Content Marketing
                     </h1>
-                    <p>Our content marketing strategy involved publishing blog posts and resources that addressed critical topics such as "When to hire a private investigator" and "Understanding legal disclaimers." These pieces of content not only boosted SEO rankings but also helped potential clients better understand the services offered by Liar Catchers, reinforcing their credibility as an expert in the private investigation field.</p>
+                    <p>Our content marketing strategy involved publishing blog posts and resources that addressed critical topics such as &quot;When to hire a private investigator&quot; and &quot;Understanding legal disclaimers.&quot; These pieces of content not only boosted SEO rankings but also helped potential clients better understand the services offered by Liar Catchers, reinforcing their credibility as an expert in the private investigation field.</p>
 
                     {/* <h1>Ad Campaigns (PPC)</h1>
                     <p>We executed highly targeted PPC campaigns, including search ads, display ads, and remarketing efforts, to drive qualified traffic to ACLS Solutions&apos; class registration pages. These campaigns focused on individuals actively searching for ACLS and CPR certification in the St. Louis area, resulting in increased site traffic and higher conversion rates for class sign-ups.</p> */}
 
                     <h1>Landing Page Optimization</h1>
-                    <p>We optimized Liar Catchers' landing pages to improve conversion rates. With faster loading times, user-friendly designs, and clear CTAs that focused on the services they offer (like attorney referrals and civil investigations), the landing pages encouraged more visitors to take action and request consultations. As a result, we saw a significant boost in conversions, especially for clients seeking legal-related investigative services.</p>
+                    <p>We optimized Liar Catchers&apos; landing pages to improve conversion rates. With faster loading times, user-friendly designs, and clear CTAs that focused on the services they offer (like attorney referrals and civil investigations), the landing pages encouraged more visitors to take action and request consultations. As a result, we saw a significant boost in conversions, especially for clients seeking legal-related investigative services.</p>
 
                 </div>
             </div>

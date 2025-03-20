@@ -52,19 +52,19 @@ const Page = () => {
                     </div>
                     <div className='content-aria'>
                         <h3>Email Marketing Trends in 2025: What Businesses Need to Know</h3>
-                        <p>It's difficult to manage email marketing for small business campaigns and an e-commerce firm at the same time, to be honest. Meeting client expectations and boosting sales are just two of the many responsibilities you have.
+                        <p>It&apos;s difficult to manage email marketing for small business campaigns and an e-commerce firm at the same time, to be honest. Meeting client expectations and boosting sales are just two of the many responsibilities you have.
                         </p>
-                        <p>You could lose leads and money in such a scenario if you make one mistake. Therefore, your emails may end up in the spam folder or be disregarded entirely if you don't keep up with the most recent developments in email marketing.</p>
-                        <p>The goal of 2025 is to make your email stand out in people's inboxes and entice them to open it. These are the top 7 new email marketing trends that marketers should be aware of and follow in 2025 to achieve the intended outcomes and draw attention, ranging from artificial intelligence to email security enhancements. </p>
+                        <p>You could lose leads and money in such a scenario if you make one mistake. Therefore, your emails may end up in the spam folder or be disregarded entirely if you don&apos;t keep up with the most recent developments in email marketing.</p>
+                        <p>The goal of 2025 is to make your email stand out in people&apos;s inboxes and entice them to open it. These are the top 7 new email marketing trends that marketers should be aware of and follow in 2025 to achieve the intended outcomes and draw attention, ranging from artificial intelligence to email security enhancements. </p>
 
                         <h3>Trend #1: Privacy-Proofing Strategies</h3>
                         <p>The most crucial aspects of email marketing are data security and privacy, particularly in light of CAN-SPAM and the General Data Protection Regulation or GDPR.
                         </p>
                         <p>The majority of people are now aware of how e-commerce marketers attempt to monitor and steal consumer information in order to display advertisements that increase sales.</p>
-                        <p>Transparency in data collection, storage, and use is therefore crucial in 2025 in order to win subscribers' trust. Asking too much information is not a good idea for e-commerce marketers. Alternatively, people can request pertinent and helpful information. Businesses can win the trust of the recipient by offering the required data security and privacy of the information received (with authorization). E-commerce marketers can demonstrate to clients that they value their privacy and are dedicated to handling data in an appropriate manner in this way.</p>
+                        <p>Transparency in data collection, storage, and use is therefore crucial in 2025 in order to win subscribers&apos; trust. Asking too much information is not a good idea for e-commerce marketers. Alternatively, people can request pertinent and helpful information. Businesses can win the trust of the recipient by offering the required data security and privacy of the information received (with authorization). E-commerce marketers can demonstrate to clients that they value their privacy and are dedicated to handling data in an appropriate manner in this way.</p>
 
                         <h3>Trend #2: Advanced Data-driven Hyper Personalization</h3>
-                        <p>Personalization is now a must-follow email marketing trend as we enter 2025; it is no longer a choice. But these days, it goes much beyond simply including the recipient's name in the subject line. Using data to send an email that is tailored to the user's behavior, preferences, behaviors, and even AI forecasts is today known as hyper-personalization.</p>
+                        <p>Personalization is now a must-follow email marketing trend as we enter 2025; it is no longer a choice. But these days, it goes much beyond simply including the recipient&apos;s name in the subject line. Using data to send an email that is tailored to the user&apos;s behavior, preferences, behaviors, and even AI forecasts is today known as hyper-personalization.</p>
 
                         <h3>Trend #3: Strategic Implementation of Generative AI</h3>
                         <p>
@@ -80,7 +80,7 @@ const Page = () => {
                         <p>These components draw the receiver in and enable interaction beyond simple email reading. In addition to being entertaining and offering a dynamic user experience, interactive content lowers sales funnel friction and boosts conversions. </p>
 
                         <h3>Trend #5: Lifecycle Email Automation</h3>
-                        <p>Is automating one email sufficient? Of course not. Automation speeds up operations, saves time, and streamlines email workflow. It's like the body structure of successful email marketing tactics. Email optimization and personalization can make additional use of this time. </p>
+                        <p>Is automating one email sufficient? Of course not. Automation speeds up operations, saves time, and streamlines email workflow. It&apos;s like the body structure of successful email marketing tactics. Email optimization and personalization can make additional use of this time. </p>
                         <p>Email automation processes will cover every stage of the customer lifecycle by 2025, from onboarding to reactivating dormant clients. Given that 36% of marketers wish to send more automated emails, this is one of the most significant email marketing trends to keep an eye on. </p>
 
                         <h3>Trend #6: Brand Newsletters</h3>
@@ -89,7 +89,7 @@ const Page = () => {
 
                         <h3>Trend #7: Email Deliverability</h3>
                         <p>In 2025, will email marketing still be successful? Yes, it can, but only if the appropriate customer has access to the email. Making content easily readable, well-optimized, mobile-friendly, and available to everyone without help is the essence of accessibility. Because of this, increasing deliverability is a crucial email marketing trend for 2025.</p>
-                        <p> It's critical to keep up with the most email marketing trends as we move to 2025. whichever email marketing trend you decide to concentrate on in 2025. Any email marketing campaign's ultimate objective is to increase income. Correct? Nonetheless, it is anticipated that the aforementioned email marketing trends will function the best and provide greater conversion rates. </p>
+                        <p> It&apos;s critical to keep up with the most email marketing trends as we move to 2025. whichever email marketing trend you decide to concentrate on in 2025. Any email marketing campaign&apos;s ultimate objective is to increase income. Correct? Nonetheless, it is anticipated that the aforementioned email marketing trends will function the best and provide greater conversion rates. </p>
 
                         <div className='relative before:w-full before:block before:pt-[26.5%]'>
                             <Image className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover rounded-md' src={'/images/blog/emailmarketing-sed.png'} width={1920} height={400} alt="thumbnail" />
