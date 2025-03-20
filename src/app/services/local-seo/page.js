@@ -51,25 +51,25 @@ const Page = () => {
             id: 1,
             title: "Expert Local SEO Knowledge",
             description: "With years of experience in local SEO, our experts understand the nuances of local search and tailor strategies that deliver results in your market.",
-            image: "/images/Digital-Marketing-Strategy.png",
+            image: "/images/localseo/whychooseus/Expert_Local_SEO_Knowledge.png",
         },
         {
             id: 2,
             title: "Proven Track Record",
             description: "We’ve successfully helped countless businesses improve their local search rankings, increase visibility, and drive local traffic, giving us a solid reputation as a trusted local SEO agency.",
-            image: "/images/Search-Engine-Optimization.png",
+            image: "/images/localseo/whychooseus/Proven_Track_Record.png",
         },
         {
             id: 3,
             title: "Comprehensive Tools & Resources",
             description: "We use advanced SEO tools and techniques to perform detailed audits, optimize your site, and ensure the best possible results for local SEO campaigns.",
-            image: "/images/image_2025_02_11T11_09_35_485Z.png",
+            image: "/images/localseo/whychooseus/Comprehensive_Tools_Resources.png",
         },
         {
             id: 4,
             title: "Dedicated Customer Support",
             description: "Our local SEO company provides ongoing support and guidance to ensure your SEO efforts continue to thrive, helping your business stay competitive in the digital landscape.",
-            image: "/images/Copywriting-Content-Marketing.png",
+            image: "/images/localseo/whychooseus/Dedicated_Customer_Support.png",
         },
     ];
 
@@ -109,7 +109,7 @@ const Page = () => {
                             </div>
                         </div>
                         <div className='relative before:w-full before:block before:pt-[62.5%]'>
-                            <Image src={IserviceBannerOne} alt="arrow" width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' />
+                            <Image src={'/images/localseo/local_SEO_company.png'} alt="arrow" width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' />
                         </div>
                     </div>
                 </div>
@@ -243,7 +243,7 @@ const Page = () => {
                                         </div>
                                     </div>
                                     <div className='relative before:w-full before:block before:pt-[62.5%] sm:w-5/12 w-full sm:mt-0 mt-4'>
-                                        <Image src={'/images/work-4.jpg'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
+                                        <Image src={'/images/localseo/Increased_Organic_Traffic.png'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
                                     </div>
                                 </div>
                             }
@@ -257,7 +257,7 @@ const Page = () => {
                                         </div>
                                     </div>
                                     <div className='relative before:w-full before:block before:pt-[62.5%] sm:w-5/12 w-full sm:mt-0 mt-4'>
-                                        <Image src={'/images/SaaS-Marketing-HIGH-ROI.png'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
+                                        <Image src={'/images/localseo/Higher_Conversion_Rates.png'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
                                     </div>
                                 </div>
                             }
@@ -271,7 +271,7 @@ const Page = () => {
                                         </div>
                                     </div>
                                     <div className='relative before:w-full before:block before:pt-[62.5%] sm:w-5/12 w-full sm:mt-0 mt-4'>
-                                        <Image src={'/images/sddefault1.jpg'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
+                                        <Image src={'/images/localseo/Improved_Brand_Awareness.png'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
                                     </div>
                                 </div>
                             }
@@ -285,7 +285,7 @@ const Page = () => {
                                         </div>
                                     </div>
                                     <div className='relative before:w-full before:block before:pt-[62.5%] sm:w-5/12 w-full sm:mt-0 mt-4'>
-                                        <Image src={'/images/SG-Elevate-Your-Search-Presence-by-Outsourcing-Enterprise-SEO.png'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
+                                        <Image src={'/images/localseo/Long_Term_ROI.png'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
                                     </div>
                                 </div>
                             }
@@ -299,7 +299,7 @@ const Page = () => {
                                         </div>
                                     </div>
                                     <div className='relative before:w-full before:block before:pt-[62.5%] sm:w-5/12 w-full sm:mt-0 mt-4'>
-                                        <Image src={'/images/sddefault1.jpg'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
+                                        <Image src={'/images/localseo/Lead_Generation.png'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
                                     </div>
                                 </div>
                             }
