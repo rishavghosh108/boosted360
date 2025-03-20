@@ -20,6 +20,29 @@ body  {
   padding: 0 15px;
   position: relative;
 }
+/* read more after 3 lines  */
+.truncate-lines {
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* Restrict text to 3 lines */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  position: relative;
+}
+
+.truncate-lines::after {
+  content: ""; /* Remove dots */
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background: white; /* Match background */
+}
+
+.truncate-lines .read-more {
+  display: inline;
+  background: white; /* Optional: Helps prevent overlap */
+}
+
+/* read more after 3 lines  */
 
 .homepageimgslider .swiper-wrapper{
   display: flex !important;

@@ -6,7 +6,29 @@ import Link from 'next/link';
 import Growing from '@/app/Component/Widgets/Homepagegreen/Growing';
 
 const Page = () => {
-
+    const blogdata = [
+        {
+            id: 0,
+            blogImage:'/images/blog/blog-1.jpg',
+            publishDate: 'September 30, 2018 ',
+            userProfile: '',
+            userName: 'Braxton Noble',
+            title: 'Google My Business Optimization: A Step-by-Step Guide for Local Rankings',
+            description: 'Businesses may manage their online presence across Google Maps and Google Search with Google My Business (GMB), a free product from Google. Businesses can use it to build a profile that includes important details like their address, phone number, website, business hours, and client reviews. Businesses may improve their exposure in local search results and give prospective clients the information they need to make educated decisions by optimizing their Google My Business listing.',
+            dedicatedPageLink:'/blog/google-business'
+        },
+        {
+            id: 1,
+            blogImage:'/images/blog/blog-2.png',
+            publishDate: 'September 30, 2018', 
+            userProfile: '',
+            userName: 'Braxton Noble',
+            title: 'Email Marketing Trends in 2025: What Businesses Need to Know',
+            description: "It's difficult to manage email marketing for small business campaigns and an e-commerce firm at the same time, to be honest. Meeting client expectations and boosting sales are just two of the many responsibilities you have.",
+            dedicatedPageLink:'/blog/email-marketing-trends'
+        }
+        
+    ]
     return (
         <Layouts>
             <title>Latest Blogs & Insights - Boosted360</title>
@@ -19,150 +41,35 @@ const Page = () => {
                     <div className='flex flex-wrap'>
                         <div className='md:w-2/3 w-full'>
                             <div className='grid sm:grid-cols-2 grid-cols-1 gap-3'>
-                                <Link href="/blog/blog-details" className='no-underline text-black'>
-                                    <div className='border border-solid border-neutral-200 p-2 rounded-md'>
-                                        <div className='relative before:w-full before:block before:pt-[56.6%]'>
-                                            <Image className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover rounded-md' src={'/images/blog/blog-1.jpg'} width={400} height={266} alt="thumbnail" />
-                                        </div>
-                                        <div className='py-4'>
-                                            <h5 className='text-sm lg:text-base font-semibold text-zinc-600 mb-1 truncate'>September 30, 2018 </h5>
-                                            <div className='flex items-center mb-4'>
-                                                <div className='size-6 shrink-0 mr-2'>
-                                                    <Image className='size-full object-cover' src={'/images/blog/Ellipse-1.jpg'} width={24} height={24} alt="thumbnail" />
-                                                </div>
-                                                <p className='text-sm lg:text-base font-semibold text-zinc-600 truncate'>Braxton Noble </p>
+
+                                {blogdata.map((item,index) => (
+                                    <Link key={index} href={item.dedicatedPageLink} className='no-underline text-black'>
+                                        <div className='border border-solid border-neutral-200 p-2 rounded-md'>
+                                            <div className='relative before:w-full before:block before:pt-[56.6%]'>
+                                                <Image className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover rounded-md' src={item.blogImage} width={400} height={266} alt="thumbnail" />
                                             </div>
-                                            <h4 className='text-lg lg:text-xl font-semibold text-black lg:leading-[1.2] mb-3'>I take better pictures caffeinated. Wnat to buy me a cup of coffee?</h4>
-                                            <p className='text-sm lg:text-base font-light text-black lg:leading-[1.4]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dictum nisl quis libero adipiscing, et tempor lorem ornare. Cras turpis purus... <span className='text-blue-600 font-normal'>read more</span> </p>
-                                        </div>
-                                    </div>
-                                </Link>
-                                <Link href="/blog/blog-details" className='no-underline text-black'>
-                                    <div className='border border-solid border-neutral-200 p-2 rounded-md'>
-                                        <div className='relative before:w-full before:block before:pt-[56.6%]'>
-                                            <Image className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover rounded-md' src={'/images/blog/blog-2.jpg'} width={400} height={266} alt="thumbnail" />
-                                        </div>
-                                        <div className='py-4'>
-                                            <h5 className='text-sm lg:text-base font-semibold text-zinc-600 mb-1 truncate'>September 30, 2025 </h5>
-                                            <div className='flex items-center mb-4'>
-                                                <div className='size-6 shrink-0 mr-2'>
-                                                    <Image className='size-full object-cover' src={'/images/blog/Ellipse-1.jpg'} width={24} height={24} alt="thumbnail" />
+                                            <div className='py-4'>
+                                                <h5 className='text-sm lg:text-base font-semibold text-zinc-600 mb-1 truncate'>{item.publishDate}</h5>
+                                                <div className='flex items-center mb-4'>
+                                                    <div className='size-6 shrink-0 mr-2'>
+                                                        <Image className='size-full object-cover' src={'/images/blog/Ellipse-1.jpg'} width={24} height={24} alt="thumbnail" />
+                                                    </div>
+                                                    <p className='text-sm lg:text-base font-semibold text-zinc-600 truncate'>{item.userName}</p>
                                                 </div>
-                                                <p className='text-sm lg:text-base font-semibold text-zinc-600 truncate'>Braxton Noble </p>
+                                                <h4 className='text-lg lg:text-xl font-semibold text-black lg:leading-[1.2] mb-3'>{item.title}
+                                                </h4>
+                                                <p className="text-sm lg:text-base font-light text-black lg:leading-[1.4] ">
+                                                    <span className='truncate-lines inline-block'>{item.description}</span>
+                                                    <span className="text-blue-600 font-normal read-more"> read more</span>
+                                                </p>
+
+
                                             </div>
-                                            <h4 className='text-lg lg:text-xl font-semibold text-black lg:leading-[1.2] mb-3'>Etiam commodo eros non erat tristique congue</h4>
-                                            <p className='text-sm lg:text-base font-light text-black lg:leading-[1.4]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dictum nisl quis libero adipiscing, et tempor lorem ornare. Cras turpis purus... <span className='text-blue-600 font-normal'>read more</span> </p>
                                         </div>
-                                    </div>
-                                </Link>
-                                <Link href="/blog/blog-details" className='no-underline text-black'>
-                                    <div className='border border-solid border-neutral-200 p-2 rounded-md'>
-                                        <div className='relative before:w-full before:block before:pt-[56.6%]'>
-                                            <Image className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover rounded-md' src={'/images/blog/blog-3.jpg'} width={400} height={266} alt="thumbnail" />
-                                        </div>
-                                        <div className='py-4'>
-                                            <h5 className='text-sm lg:text-base font-semibold text-zinc-600 mb-1 truncate'>September 30, 2025 </h5>
-                                            <div className='flex items-center mb-4'>
-                                                <div className='size-6 shrink-0 mr-2'>
-                                                    <Image className='size-full object-cover' src={'/images/blog/Ellipse-1.jpg'} width={24} height={24} alt="thumbnail" />
-                                                </div>
-                                                <p className='text-sm lg:text-base font-semibold text-zinc-600 truncate'>Braxton Noble </p>
-                                            </div>
-                                            <h4 className='text-lg lg:text-xl font-semibold text-black lg:leading-[1.2] mb-3'>Aenean mattis tortor ac sapien congue molestie</h4>
-                                            <p className='text-sm lg:text-base font-light text-black lg:leading-[1.4]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dictum nisl quis libero adipiscing, et tempor lorem ornare. Cras turpis purus... <span className='text-blue-600 font-normal'>read more</span> </p>
-                                        </div>
-                                    </div>
-                                </Link>
-                                <Link href="/blog/blog-details" className='no-underline text-black'>
-                                    <div className='border border-solid border-neutral-200 p-2 rounded-md'>
-                                        <div className='relative before:w-full before:block before:pt-[56.6%]'>
-                                            <Image className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover rounded-md' src={'/images/blog/blog-4.jpg'} width={400} height={266} alt="thumbnail" />
-                                        </div>
-                                        <div className='py-4'>
-                                            <h5 className='text-sm lg:text-base font-semibold text-zinc-600 mb-1 truncate'>September 30, 2025 </h5>
-                                            <div className='flex items-center mb-4'>
-                                                <div className='size-6 shrink-0 mr-2'>
-                                                    <Image className='size-full object-cover' src={'/images/blog/Ellipse-1.jpg'} width={24} height={24} alt="thumbnail" />
-                                                </div>
-                                                <p className='text-sm lg:text-base font-semibold text-zinc-600 truncate'>Braxton Noble </p>
-                                            </div>
-                                            <h4 className='text-lg lg:text-xl font-semibold text-black lg:leading-[1.2] mb-3'>Curabitur pretium lectusnc ine fermentum fermen</h4>
-                                            <p className='text-sm lg:text-base font-light text-black lg:leading-[1.4]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dictum nisl quis libero adipiscing, et tempor lorem ornare. Cras turpis purus... <span className='text-blue-600 font-normal'>read more</span> </p>
-                                        </div>
-                                    </div>
-                                </Link>
-                                <Link href="/blog/blog-details" className='no-underline text-black'>
-                                    <div className='border border-solid border-neutral-200 p-2 rounded-md'>
-                                        <div className='relative before:w-full before:block before:pt-[56.6%]'>
-                                            <Image className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover rounded-md' src={'/images/blog/blog-5.jpg'} width={400} height={266} alt="thumbnail" />
-                                        </div>
-                                        <div className='py-4'>
-                                            <h5 className='text-sm lg:text-base font-semibold text-zinc-600 mb-1 truncate'>September 30, 2025 </h5>
-                                            <div className='flex items-center mb-4'>
-                                                <div className='size-6 shrink-0 mr-2'>
-                                                    <Image className='size-full object-cover' src={'/images/blog/Ellipse-1.jpg'} width={24} height={24} alt="thumbnail" />
-                                                </div>
-                                                <p className='text-sm lg:text-base font-semibold text-zinc-600 truncate'>Braxton Noble </p>
-                                            </div>
-                                            <h4 className='text-lg lg:text-xl font-semibold text-black lg:leading-[1.2] mb-3'>Suspendisse viverra massa eget nibh ultricies mollis</h4>
-                                            <p className='text-sm lg:text-base font-light text-black lg:leading-[1.4]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dictum nisl quis libero adipiscing, et tempor lorem ornare. Cras turpis purus... <span className='text-blue-600 font-normal'>read more</span> </p>
-                                        </div>
-                                    </div>
-                                </Link>
-                                <Link href="/blog/blog-details" className='no-underline text-black'>
-                                    <div className='border border-solid border-neutral-200 p-2 rounded-md'>
-                                        <div className='relative before:w-full before:block before:pt-[56.6%]'>
-                                            <Image className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover rounded-md' src={'/images/blog/blog-1.jpg'} width={400} height={266} alt="thumbnail" />
-                                        </div>
-                                        <div className='py-4'>
-                                            <h5 className='text-sm lg:text-base font-semibold text-zinc-600 mb-1 truncate'>September 30, 2018 </h5>
-                                            <div className='flex items-center mb-4'>
-                                                <div className='size-6 shrink-0 mr-2'>
-                                                    <Image className='size-full object-cover' src={'/images/blog/Ellipse-1.jpg'} width={24} height={24} alt="thumbnail" />
-                                                </div>
-                                                <p className='text-sm lg:text-base font-semibold text-zinc-600 truncate'>Braxton Noble </p>
-                                            </div>
-                                            <h4 className='text-lg lg:text-xl font-semibold text-black lg:leading-[1.2] mb-3'>I take better pictures caffeinated. Wnat to buy me a cup of coffee?</h4>
-                                            <p className='text-sm lg:text-base font-light text-black lg:leading-[1.4]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dictum nisl quis libero adipiscing, et tempor lorem ornare. Cras turpis purus... <span className='text-blue-600 font-normal'>read more</span> </p>
-                                        </div>
-                                    </div>
-                                </Link>
-                                <Link href="/blog/blog-details" className='no-underline text-black'>
-                                    <div className='border border-solid border-neutral-200 p-2 rounded-md'>
-                                        <div className='relative before:w-full before:block before:pt-[56.6%]'>
-                                            <Image className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover rounded-md' src={'/images/blog/blog-2.jpg'} width={400} height={266} alt="thumbnail" />
-                                        </div>
-                                        <div className='py-4'>
-                                            <h5 className='text-sm lg:text-base font-semibold text-zinc-600 mb-1 truncate'>September 30, 2025 </h5>
-                                            <div className='flex items-center mb-4'>
-                                                <div className='size-6 shrink-0 mr-2'>
-                                                    <Image className='size-full object-cover' src={'/images/blog/Ellipse-1.jpg'} width={24} height={24} alt="thumbnail" />
-                                                </div>
-                                                <p className='text-sm lg:text-base font-semibold text-zinc-600 truncate'>Braxton Noble </p>
-                                            </div>
-                                            <h4 className='text-lg lg:text-xl font-semibold text-black lg:leading-[1.2] mb-3'>Etiam commodo eros non erat tristique congue</h4>
-                                            <p className='text-sm lg:text-base font-light text-black lg:leading-[1.4]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dictum nisl quis libero adipiscing, et tempor lorem ornare. Cras turpis purus... <span className='text-blue-600 font-normal'>read more</span> </p>
-                                        </div>
-                                    </div>
-                                </Link>
-                                <Link href="/blog/blog-details" className='no-underline text-black'>
-                                    <div className='border border-solid border-neutral-200 p-2 rounded-md'>
-                                        <div className='relative before:w-full before:block before:pt-[56.6%]'>
-                                            <Image className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover rounded-md' src={'/images/blog/blog-3.jpg'} width={400} height={266} alt="thumbnail" />
-                                        </div>
-                                        <div className='py-4'>
-                                            <h5 className='text-sm lg:text-base font-semibold text-zinc-600 mb-1 truncate'>September 30, 2025 </h5>
-                                            <div className='flex items-center mb-4'>
-                                                <div className='size-6 shrink-0 mr-2'>
-                                                    <Image className='size-full object-cover' src={'/images/blog/Ellipse-1.jpg'} width={24} height={24} alt="thumbnail" />
-                                                </div>
-                                                <p className='text-sm lg:text-base font-semibold text-zinc-600 truncate'>Braxton Noble </p>
-                                            </div>
-                                            <h4 className='text-lg lg:text-xl font-semibold text-black lg:leading-[1.2] mb-3'>Aenean mattis tortor ac sapien congue molestie</h4>
-                                            <p className='text-sm lg:text-base font-light text-black lg:leading-[1.4]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dictum nisl quis libero adipiscing, et tempor lorem ornare. Cras turpis purus... <span className='text-blue-600 font-normal'>read more</span> </p>
-                                        </div>
-                                    </div>
-                                </Link>
+                                    </Link>
+                                ))}
+
+
                             </div>
                             <nav className='md:mt-12 mt-7'>
                                 <ul className="flex w-fit mx-auto space-x-2 text-sm">

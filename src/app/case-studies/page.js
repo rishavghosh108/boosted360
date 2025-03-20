@@ -36,15 +36,15 @@ const page = () => {
         },
         {
             imageUrl: work5,
-            title: 'ServerMon',
+            title: 'Tidy Up Angels ',
             description: 'Anthem Senior Living is a dedicated senior care community in the United States, providing a safe, comfortable, and home-like environment for elderly individuals.',
-            slug: '/case-studies/curb-appeal'
+            slug: '/case-studies/tidyup-angels'
         },
         {
             imageUrl: work6,
-            title: 'WP Codings',
+            title: 'Liar Catchers',
             description: 'Anthem Senior Living is a dedicated senior care community in the United States, providing a safe, comfortable, and home-like environment for elderly individuals.',
-            slug: '/case-studies/curb-appeal'
+            slug: '/case-studies/liar-catchers'
         },
     ]
     return (
