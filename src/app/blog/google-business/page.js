@@ -45,7 +45,7 @@ const Page = () => {
             <div className='xl:py-16 md:py-10 py-6'>
                 <div className='container'>
                     <div className='relative before:w-full before:block before:pt-[36.6%]'>
-                        <Image className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover rounded-md' src={'/images/blog/blog-1.jpg'} width={400} height={266} alt="thumbnail" />
+                        <Image className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover rounded-md' src={'/images/blog/blog-1.jpg'} width={1920} height={400} alt="thumbnail" />
                     </div>
                     <div className='py-3'>
                         <h5 className='text-sm lg:text-base font-semibold text-zinc-600 mb-1 truncate'>September 30, 2018</h5>
@@ -109,7 +109,7 @@ const Page = () => {
 
 
                         <div className='relative before:w-full before:block before:pt-[26.5%]'>
-                            <Image className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover rounded-md' src={'/images/blog/blog-1-sec.png'} width={400} height={266} alt="thumbnail" />
+                            <Image className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover rounded-md' src={'/images/blog/blog-1-sec.png'} width={1920} height={400} alt="thumbnail" />
                         </div>
                         <p></p>
                         <p>You can evaluate the success of your GMB optimization efforts and pinpoint opportunities for development by keeping an eye on these data. Make an effort to optimize every area of your GMB profile, including your business description, categories, images, and reviews. Utilize top-notch photos and videos to add visual appeal to your profile. To keep your listing up to date, update your posts and information frequently. By putting these top tactics into practice, you can make sure that your GMB profile is noticeable, <Link href='#'>local SEO services</Link> are on-point and successfully draws in local clients.</p>

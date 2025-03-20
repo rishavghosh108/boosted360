@@ -45,7 +45,7 @@ const Page = () => {
             <div className='xl:py-16 md:py-10 py-6'>
                 <div className='container'>
                     <div className='relative before:w-full before:block before:pt-[36.6%]'>
-                        <Image className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover rounded-md' src={'/images/blog/blog-2.png'} width={400} height={266} alt="thumbnail" />
+                        <Image className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover rounded-md' src={'/images/blog/blog-2.png'} width={1920} height={400} alt="thumbnail" />
                     </div>
                     <div className='py-3'>
                         <h5 className='text-sm lg:text-base font-semibold text-zinc-600 mb-1 truncate'>September 30, 2018</h5>
@@ -92,7 +92,7 @@ const Page = () => {
                         <p> It's critical to keep up with the most email marketing trends as we move to 2025. whichever email marketing trend you decide to concentrate on in 2025. Any email marketing campaign's ultimate objective is to increase income. Correct? Nonetheless, it is anticipated that the aforementioned email marketing trends will function the best and provide greater conversion rates. </p>
 
                         <div className='relative before:w-full before:block before:pt-[26.5%]'>
-                            <Image className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover rounded-md' src={'/images/blog/emailmarketing-sed.png'} width={400} height={266} alt="thumbnail" />
+                            <Image className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover rounded-md' src={'/images/blog/emailmarketing-sed.png'} width={1920} height={400} alt="thumbnail" />
                         </div>
 
 
