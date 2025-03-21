@@ -49,25 +49,25 @@ const Page = () => {
             id: 1,
             title: "Skill in SaaS Solutions",
             description: "We specialize in SaaS website design services and development, ensuring your product is both visually stunning and functional.",
-            image: "/images/Digital-Marketing-Strategy.png",
+            image: "/images/saas-design/whychooseus/Skill_SaaS_Solutions.png",
         },
         {
             id: 2,
             title: "Complete SaaS Development",
             description: "From SaaS web design to full-stack development, our SaaS development company offers comprehensive services for building robust SaaS products.",
-            image: "/images/Search-Engine-Optimization.png",
+            image: "/images/saas-design/whychooseus/Complete_SaaS_Development.png",
         },
         {
             id: 3,
             title: "Tailored Designs",
             description: "Our SaaSUX designers work closely with you to create a customized design that fits your unique business needs and enhances the user experience.",
-            image: "/images/image_2025_02_11T11_09_35_485Z.png",
+            image: "/images/saas-design/whychooseus/Tailored_Designs.png",
         },
         {
             id: 4,
             title: "Proven Success",
             description: "Clients who choose our SaaS design services see significant improvements in user engagement, retention, and business growth thanks to our expert solutions.",
-            image: "/images/Copywriting-Content-Marketing.png",
+            image: "/images/saas-design/whychooseus/Proven_Success.png",
         },
     ];
 
@@ -108,7 +108,7 @@ const Page = () => {
                             </div>
                         </div>
                         <div className='relative before:w-full before:block before:pt-[62.5%]'>
-                            <Image src={IserviceBannerOne} alt="arrow" width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' />
+                            <Image src={'/images/saas-design/SaaS_Design.png'} alt="arrow" width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' />
                         </div>
                     </div>
                 </div>
@@ -249,7 +249,7 @@ const Page = () => {
                                         </div>
                                     </div>
                                     <div className='relative before:w-full before:block before:pt-[62.5%] sm:w-5/12 w-full sm:mt-0 mt-4'>
-                                        <Image src={'/images/work-4.jpg'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
+                                        <Image src={'/images/saas-design/Custom_SaaS_Web_Design.png'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
                                     </div>
                                 </div>
                             }
@@ -264,7 +264,7 @@ const Page = () => {
                                         </div>
                                     </div>
                                     <div className='relative before:w-full before:block before:pt-[62.5%] sm:w-5/12 w-full sm:mt-0 mt-4'>
-                                        <Image src={'/images/SaaS-Marketing-HIGH-ROI.png'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
+                                        <Image src={'/images/saas-design/SaaS_Development_Service.png'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
                                     </div>
                                 </div>
                             }
@@ -279,7 +279,7 @@ const Page = () => {
                                         </div>
                                     </div>
                                     <div className='relative before:w-full before:block before:pt-[62.5%] sm:w-5/12 w-full sm:mt-0 mt-4'>
-                                        <Image src={'/images/sddefault1.jpg'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
+                                        <Image src={'/images/saas-design/SaaS_Website_Design.png'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
                                     </div>
                                 </div>
                             }
@@ -294,7 +294,7 @@ const Page = () => {
                                         </div>
                                     </div>
                                     <div className='relative before:w-full before:block before:pt-[62.5%] sm:w-5/12 w-full sm:mt-0 mt-4'>
-                                        <Image src={'/images/SG-Elevate-Your-Search-Presence-by-Outsourcing-Enterprise-SEO.png'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
+                                        <Image src={'/images/saas-design/SaaS_Dashboard_Design.png'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
                                     </div>
                                 </div>
                             }
@@ -309,7 +309,7 @@ const Page = () => {
                                         </div>
                                     </div>
                                     <div className='relative before:w-full before:block before:pt-[62.5%] sm:w-5/12 w-full sm:mt-0 mt-4'>
-                                        <Image src={'/images/sddefault1.jpg'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
+                                        <Image src={'/images/saas-design/Support_Maintenance.png'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
                                     </div>
                                 </div>
                             }

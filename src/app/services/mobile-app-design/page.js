@@ -49,25 +49,25 @@ const Page = () => {
             id: 1,
             title: "Expertise in Mobile App Design",
             description: "We specialize in mobile app design services that cater to your industry’s specific needs, ensuring a perfect fit for your business.",
-            image: "/images/Digital-Marketing-Strategy.png",
+            image: "/images/mobileadddesign/whychooseus/Expertise_Mobile_App_Design.png",
         },
         {
             id: 2,
             title: "End-to-End Solutions",
             description: "From initial design to app launch, our mobile app design agency provides comprehensive app design and development services, ensuring a flawless user experience throughout the process.",
-            image: "/images/Search-Engine-Optimization.png",
+            image: "/images/mobileadddesign/whychooseus/End_to_End_Solutions.png",
         },
         {
             id: 3,
             title: "Tailored Designs",
             description: "Our app design company crafts personalized mobile apps that resonate with your target audience and reflect your brand’s core values.",
-            image: "/images/image_2025_02_11T11_09_35_485Z.png",
+            image: "/images/mobileadddesign/whychooseus/Tailored_Designs.png",
         },
         {
             id: 4,
             title: "Proven Results",
             description: "Our clients experience significant improvements in user engagement and business growth, thanks to our expert mobile app design services and development strategies.",
-            image: "/images/Copywriting-Content-Marketing.png",
+            image: "/images/mobileadddesign/whychooseus/Proven_Results.png",
         },
     ];
 
@@ -108,7 +108,7 @@ const Page = () => {
                             </div>
                         </div>
                         <div className='relative before:w-full before:block before:pt-[62.5%]'>
-                            <Image src={IserviceBannerOne} alt="arrow" width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' />
+                            <Image src={'/images/mobileadddesign/Mobile_App.png'} alt="arrow" width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' />
                         </div>
                     </div>
                 </div>
@@ -248,7 +248,7 @@ const Page = () => {
                                         </div>
                                     </div>
                                     <div className='relative before:w-full before:block before:pt-[62.5%] sm:w-5/12 w-full sm:mt-0 mt-4'>
-                                        <Image src={'/images/work-4.jpg'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
+                                        <Image src={'/images/mobileadddesign/Custom_Mobile_App_Design.png'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
                                     </div>
                                 </div>
                             }
@@ -263,7 +263,7 @@ const Page = () => {
                                         </div>
                                     </div>
                                     <div className='relative before:w-full before:block before:pt-[62.5%] sm:w-5/12 w-full sm:mt-0 mt-4'>
-                                        <Image src={'/images/SaaS-Marketing-HIGH-ROI.png'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
+                                        <Image src={'/images/mobileadddesign/E-Commerce_App_Design.png'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
                                     </div>
                                 </div>
                             }
@@ -278,7 +278,7 @@ const Page = () => {
                                         </div>
                                     </div>
                                     <div className='relative before:w-full before:block before:pt-[62.5%] sm:w-5/12 w-full sm:mt-0 mt-4'>
-                                        <Image src={'/images/sddefault1.jpg'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
+                                        <Image src={'/images/mobileadddesign/Mobile_Application_Development.png'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
                                     </div>
                                 </div>
                             }
@@ -293,7 +293,7 @@ const Page = () => {
                                         </div>
                                     </div>
                                     <div className='relative before:w-full before:block before:pt-[62.5%] sm:w-5/12 w-full sm:mt-0 mt-4'>
-                                        <Image src={'/images/SG-Elevate-Your-Search-Presence-by-Outsourcing-Enterprise-SEO.png'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
+                                        <Image src={'/images/mobileadddesign/App_Design_Development.png'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
                                     </div>
                                 </div>
                             }
@@ -309,7 +309,7 @@ const Page = () => {
                                         </div>
                                     </div>
                                     <div className='relative before:w-full before:block before:pt-[62.5%] sm:w-5/12 w-full sm:mt-0 mt-4'>
-                                        <Image src={'/images/sddefault1.jpg'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
+                                        <Image src={'/images/mobileadddesign/App_Maintenance.png'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
                                     </div>
                                 </div>
                             }
