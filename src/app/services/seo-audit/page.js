@@ -7,7 +7,7 @@ import Link from 'next/link';
 import { BtnArrow } from '@/app/assets';
 import Growing from '@/app/Component/Widgets/Homepagegreen/Growing';
 import WorkWthUsModal from "../../Component/Widgets/Modal/WorkWithUs/WorkWthUsModal"
-import { BgGrain, IserviceBannerOne, Servicebg, ServiceIconone, ServiceIcontwo, ServiceIconthree, downArrow } from "../../assets/index";
+import { BgGrain, IserviceBannerOne, Servicebg, ServiceIconone, ServiceIcontwo, ServiceIconthree, downArrow,ServiceIconfour } from "../../assets/index";
 
 const Page = () => {
     const [isModalOpen, setIsModalOpen] = useState(false);
@@ -181,7 +181,7 @@ const Page = () => {
                             </div>
                             <div className='bg-[#292929] bg-opacity-80 p-5 rounded-lg flex'>
                                 <div className='shrink-0 lg:size-32 md:size-20 size-10'>
-                                    <Image src={ServiceIconthree} alt='Service-Icon-one' className="max-h-[100px] m-auto" />
+                                    <Image src={ServiceIconfour} alt='Service-Icon-one' className="max-h-[100px] m-auto" />
                                 </div>
                                 <div className='pl-5'>
                                     <h3 className='text-xl lg:text-2xl font-semibold text-white leading-[1.6] mb-1'>Reporting & Insights</h3>

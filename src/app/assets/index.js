@@ -136,7 +136,46 @@ import sliderInLogonnjdvd from './images/sliderLogo/brand-14.png';
 import sliderInLogonncsmig from './images/sliderLogo/logo.png';
 import sliderInLogonncssada from './images/sliderLogo/robo-logo.svg';
 
-import downArrow from './images/pseo-agenchy/arrowdown.svg'
+import downArrow from './images/pseo-agenchy/arrowdown.svg';
+
+import EnhancedUserExperience from './images/Homepage/EnhancedUserExperience.svg';
+import LeadGenaration from './images/Homepage/LeadGenaration.svg';
+import SEOOptimization from './images/Homepage/SEOOptimization.svg';
+import Mobileresponsivedesign from './images/Homepage/Mobileresponsivedesign.svg';
+import ScalableSolutions from './images/Homepage/ScalableSolutions.svg';
+import CustomizableDashboards from './images/Homepage/CustomizableDashboards.svg';
+import ImprovedUserEngagement from './images/Homepage/ImprovedUserEngagement.svg';
+import IncreasedConversions from './images/Homepage/IncreasedConversions.svg';
+import TailoredSolutions from './images/Homepage/TailoredSolutions.svg';
+import CustomizableFeatures from './images/Homepage/CustomizableFeatures.svg';
+import Customdesign from './images/Homepage/Customdesign.svg';
+import FastLoadTimes from './images/Homepage/FastLoadTimes.svg';
+import Securityupdate from './images/Homepage/Securityupdate.svg';
+import ImprovedPerformance from './images/Homepage/ImprovedPerformance.svg';
+import ContentUpdate from './images/Homepage/ContentUpdate.svg';
+import AudienceResearch from './images/Homepage/AudienceResearch&Strategy.svg';
+import CampaignCreationOptimization from './images/Homepage/CampaignCreation&Optimization.svg';
+import googleadsmanagement from './images/Homepage/googleadsmanagement.svg';
+import Reporting_Analytics from './images/Homepage/Reporting_Analytics.svg';
+import AudienceResearch_Insights from './images/Homepage/AudienceResearch&Insights.svg';
+import Campaign_Strategy_Setup from './images/Homepage/Campaign_Strategy_Setup.svg';
+import CreativeAdDevelopment from './images/Homepage/CreativeAdDevelopment.svg';
+import OngoingOptimizationandMonitoring from './images/Homepage/OngoingOptimizationandMonitoring.svg';
+import ReportingPerformanceTracking from './images/Homepage/ReportingPerformanceTracking.svg';
+import Product_MarketResearch from './images/Homepage/Product_MarketResearch.svg';
+import ContinuousOptimizationManagement from './images/Homepage/ContinuousOptimizationManagement.svg';
+import UnderstandingYourBusinessandGoals from './images/Homepage/UnderstandingYourBusinessandGoals.svg';
+import StrategicCampaignDevelopment from './images/Homepage/StrategicCampaignDevelopment.svg';
+import CreativeContentProduction from './images/Homepage/CreativeContentProduction.svg';
+import DetailedReportingandInsights from './images/Homepage/DetailedReportingandInsights.svg';
+import Product_AudienceResearch from './images/Homepage/Product_AudienceResearch.svg';
+import ContinuousOptimization_Management from './images/Homepage/ContinuousOptimization_Management.svg';
+import TargetAudienceResearch from './images/Homepage/TargetAudienceResearch.svg';
+import BrandAudit_Analysis from './images/Homepage/BrandAudit_Analysis.svg';
+import ReputationRepairStrategy from './images/Homepage/ReputationRepairStrategy.svg';
+import SocialMediaReputationManagement from './images/Homepage/SocialMediaReputationManagement.svg';
+import Ongoing_Monitoring_Adjustment from './images/Homepage/Ongoing_Monitoring_Adjustment.svg';
+import Content_Creation_Distribution from './images/Homepage/Content_Creation_Distribution.svg';
 
 
 export {
@@ -170,4 +209,6 @@ export {
     SearchEngineOptimization,PaidAdvertising,SocialMediaMarketing,EmailMarketing,abtWwa,abtBnnr,IserviceBannerOne,
 
     downArrow,
+
+    EnhancedUserExperience,LeadGenaration,SEOOptimization,Mobileresponsivedesign,ScalableSolutions,CustomizableDashboards,ImprovedUserEngagement,IncreasedConversions,TailoredSolutions,CustomizableFeatures,Customdesign, FastLoadTimes, Securityupdate, ImprovedPerformance, ContentUpdate, AudienceResearch,CampaignCreationOptimization, googleadsmanagement, Reporting_Analytics, AudienceResearch_Insights, Campaign_Strategy_Setup, CreativeAdDevelopment, OngoingOptimizationandMonitoring, ReportingPerformanceTracking, Product_MarketResearch,ContinuousOptimizationManagement, UnderstandingYourBusinessandGoals, StrategicCampaignDevelopment, CreativeContentProduction,DetailedReportingandInsights, Product_AudienceResearch, ContinuousOptimization_Management, TargetAudienceResearch, BrandAudit_Analysis, ReputationRepairStrategy, SocialMediaReputationManagement,Ongoing_Monitoring_Adjustment, Content_Creation_Distribution
 }
