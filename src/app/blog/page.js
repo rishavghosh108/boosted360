@@ -26,6 +26,16 @@ const Page = () => {
             title: 'Email Marketing Trends in 2025: What Businesses Need to Know',
             description: "It's difficult to manage email marketing for small business campaigns and an e-commerce firm at the same time, to be honest. Meeting client expectations and boosting sales are just two of the many responsibilities you have.",
             dedicatedPageLink:'/blog/email-marketing-trends'
+        },
+        {
+            id: 2,
+            blogImage:'/images/blog/googleadsvsmetaads.webp',
+            publishDate: 'March 28, 2025', 
+            userProfile: '',
+            userName: 'Braxton Noble',
+            title: 'Meta Ads vs. Google Ads: Which One Delivers Better ROI for Your Business?',
+            description: "Google Ads and Meta Ads are two platforms that have become leaders in the ever-changing field of digital marketing. Although each has special benefits, which one offers a higher return on investment (ROI)? The features, affordability, and overall effect on good roi for business of each platform will be covered in greater detail in this blog article.",
+            dedicatedPageLink:'/blog/meta-ads-vs-google-ads'
         }
         
     ]
