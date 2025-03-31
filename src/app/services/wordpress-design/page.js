@@ -49,25 +49,25 @@ const Page = () => {
             id: 1,
             title: "Expert WordPress Development",
             description: "Our WordPress web developers have years of experience in creating tailored, responsive websites that align with your brand’s goals and vision.",
-            image: "/images/Digital-Marketing-Strategy.png",
+            image: "/images/wordpress-design/whychooseus/Expert_WordPress_Development.png",
         },
         {
             id: 2,
             title: "End-to-End Solutions",
             description: "From initial design to ongoing management, our WordPress website development agency offers end-to-end services to build and maintain your website.",
-            image: "/images/Search-Engine-Optimization.png",
+            image: "/images/wordpress-design/whychooseus/End-to-End-Solutions.png",
         },
         {
             id: 3,
             title: "Tailored Designs",
             description: "Our WordPress web design company works closely with you to create custom designs that cater to your target audience and reflect your unique business identity.",
-            image: "/images/image_2025_02_11T11_09_35_485Z.png",
+            image: "/images/wordpress-design/whychooseus/Tailored_Designs.png",
         },
         {
             id: 4,
             title: "Proven Success",
             description: "Clients who partner with our WordPress website design services see measurable improvements in site performance, user engagement, and business growth.",
-            image: "/images/Copywriting-Content-Marketing.png",
+            image: "/images/wordpress-design/whychooseus/Success.png",
         },
     ];
 
@@ -109,7 +109,7 @@ const Page = () => {
                             </div>
                         </div>
                         <div className='relative before:w-full before:block before:pt-[62.5%]'>
-                            <Image src={IserviceBannerOne} alt="arrow" width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' />
+                            <Image src={'/images/wordpress-design/wordpress-design.png'} alt="arrow" width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' />
                         </div>
                     </div>
                 </div>
@@ -247,7 +247,7 @@ const Page = () => {
                                         </div>
                                     </div>
                                     <div className='relative before:w-full before:block before:pt-[62.5%] sm:w-5/12 w-full sm:mt-0 mt-4'>
-                                        <Image src={'/images/work-4.jpg'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
+                                        <Image src={'/images/wordpress-design/Custom_WordPress_Website.png'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
                                     </div>
                                 </div>
                             }
@@ -262,7 +262,7 @@ const Page = () => {
                                         </div>
                                     </div>
                                     <div className='relative before:w-full before:block before:pt-[62.5%] sm:w-5/12 w-full sm:mt-0 mt-4'>
-                                        <Image src={'/images/SaaS-Marketing-HIGH-ROI.png'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
+                                        <Image src={'/images/wordpress-design/WordPress_Website_Development.png'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
                                     </div>
                                 </div>
                             }
@@ -277,7 +277,7 @@ const Page = () => {
                                         </div>
                                     </div>
                                     <div className='relative before:w-full before:block before:pt-[62.5%] sm:w-5/12 w-full sm:mt-0 mt-4'>
-                                        <Image src={'/images/sddefault1.jpg'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
+                                        <Image src={'/images/wordpress-design/E-Commerce.png'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
                                     </div>
                                 </div>
                             }
@@ -292,7 +292,7 @@ const Page = () => {
                                         </div>
                                     </div>
                                     <div className='relative before:w-full before:block before:pt-[62.5%] sm:w-5/12 w-full sm:mt-0 mt-4'>
-                                        <Image src={'/images/SG-Elevate-Your-Search-Presence-by-Outsourcing-Enterprise-SEO.png'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
+                                        <Image src={'/images/wordpress-design/WordPress_Website_Management.png'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
                                     </div>
                                 </div>
                             }
@@ -307,7 +307,7 @@ const Page = () => {
                                         </div>
                                     </div>
                                     <div className='relative before:w-full before:block before:pt-[62.5%] sm:w-5/12 w-full sm:mt-0 mt-4'>
-                                        <Image src={'/images/sddefault1.jpg'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
+                                        <Image src={'/images/wordpress-design/Search_Engine_Optimization.png'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
                                     </div>
                                 </div>
                             }
