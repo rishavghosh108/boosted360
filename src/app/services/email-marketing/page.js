@@ -52,25 +52,25 @@ const Page = () => {
             id: 1,
             title: "Expertise in Email Marketing",
             description: "Our b2b email marketing agency has years of experience helping businesses grow through strategic email campaigns. We know what it takes to get your emails noticed and drive results.",
-            image: "/images/Digital-Marketing-Strategy.png",
+            image: "/images/Digital-Marketing-Strategy.jpg",
         },
         {
             id: 2,
             title: "Customized Solutions for Every Business",
             description: "We understand that each business is unique. That’s why we offer tailored email marketing services that align with your business goals, whether you’re a B2B company or an eCommerce brand.",
-            image: "/images/Search-Engine-Optimization.png",
+            image: "/images/Search-Engine-Optimization.jpg",
         },
         {
             id: 3,
             title: "Proven Success in Email Marketing",
             description: "As a dedicated email marketing company, we’ve successfully managed campaigns for numerous clients, delivering measurable results and increasing conversions.",
-            image: "/images/image_2025_02_11T11_09_35_485Z.png",
+            image: "/images/image_2025_02_11T11_09_35_485Z.jpg",
         },
         {
             id: 4,
             title: "Transparent and Detailed Reporting",
             description: "Our email marketing agency believes in transparency. We provide you with clear, actionable insights that help you make data-driven decisions and refine your email marketing strategies for better performance.",
-            image: "/images/Copywriting-Content-Marketing.png",
+            image: "/images/Copywriting-Content-Marketing.jpg",
         },
     ];
 
@@ -85,7 +85,7 @@ const Page = () => {
             <meta name="description" content="Looking for expert email marketing services? Our email marketing agency creates high-converting campaigns. Get a free consultation now!" />
 
 
-            <div className='py-6 lg:py-12 bg-no-repeat' style={{ backgroundImage: `url(${BgGrain.src})`, }}>
+            <div className='pt-6 lg:pt-12 bg-no-repeat' style={{ backgroundImage: `url(${BgGrain.src})`, }}>
                 <div className='container'>
                     <div className='grid sm:grid-cols-2 grid-cols-1 items-start'>
                         <div className="sm:order-none order-2 md:mt-0 mt-5">
@@ -97,7 +97,7 @@ const Page = () => {
                                     <Image src={BtnArrow} alt="arrow" />
                                 </span>
                             </button>
-                            <div className='grid grid-cols-3 max-w-80 items-center gap-5 pt-5'>
+                            {/* <div className='grid grid-cols-3 max-w-80 items-center gap-5 pt-5'>
                                 <div>
                                     <Image src={'/images/amazon.png'} width={100} height={100} alt="arrow" />
                                 </div>
@@ -107,7 +107,7 @@ const Page = () => {
                                 <div>
                                     <Image src={'/images/uber.png'} width={100} height={100} alt="arrow" />
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
                         <div className='relative before:w-full before:block before:pt-[62.5%]'>
                             <Image src={IserviceBannerOne} alt="arrow" width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' />
@@ -116,7 +116,7 @@ const Page = () => {
                 </div>
             </div>
 
-            <div className='xl:py-36 md:py-24 py-14'>
+            <div className='xl:pb-30 xl:pt-12 md:pt-4 md:pb-16 pt-2 pb-12'>
                 <div className='container'>
                     <div className='flex flex-wrap'>
                         <div className='w-full mb-6'>

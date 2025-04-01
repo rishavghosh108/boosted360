@@ -52,25 +52,25 @@ const Page = () => {
             id: 1,
             title: "Expertise in Reputation Management",
             description: "With years of experience, our reputation management consultants understand the complexities of online reputation and have a proven track record of helping businesses protect their image and rebuild trust",
-            image: "/images/Digital-Marketing-Strategy.png",
+            image: "/images/Digital-Marketing-Strategy.jpg",
         },
         {
             id: 2,
             title: "Customized Solutions for Every Business",
             description: "We recognize that every brand has unique needs. That’s why we offer tailored reputation management solutions that are specifically designed to address your reputation challenges.",
-            image: "/images/Search-Engine-Optimization.png",
+            image: "/images/Search-Engine-Optimization.jpg",
         },
         {
             id: 3,
             title: "Transparent and Ongoing Support",
             description: "Our reputation management agency believes in transparency. We provide regular reports and ongoing support, ensuring that you are always informed about the progress and success of your reputation management efforts.",
-            image: "/images/image_2025_02_11T11_09_35_485Z.png",
+            image: "/images/image_2025_02_11T11_09_35_485Z.jpg",
         },
         {
             id: 4,
             title: "Proven Success in Reputation Management",
             description: "As a trusted reputation management company, we have successfully helped businesses across various industries repair and maintain their online reputation, boosting their credibility and visibility.",
-            image: "/images/Copywriting-Content-Marketing.png",
+            image: "/images/Copywriting-Content-Marketing.jpg",
         },
     ];
 
@@ -84,7 +84,7 @@ const Page = () => {
             <meta name="title" content='Reputation Management Company | Online Reputation Management Service' />
             <meta name="description" content="Protect your brand with a top reputation management company! Get expert online reputation management services to build trust. Contact us today!" />
 
-            <div className='py-6 lg:py-12 bg-no-repeat' style={{ backgroundImage: `url(${BgGrain.src})`, }}>
+            <div className='pt-6 lg:pt-12 bg-no-repeat' style={{ backgroundImage: `url(${BgGrain.src})`, }}>
                 <div className='container'>
                     <div className='grid sm:grid-cols-2 grid-cols-1 items-start'>
                         <div className="sm:order-none order-2 md:mt-0 mt-5">
@@ -96,7 +96,7 @@ const Page = () => {
                                     <Image src={BtnArrow} alt="arrow" />
                                 </span>
                             </button>
-                            <div className='grid grid-cols-3 max-w-80 items-center gap-5 pt-5'>
+                            {/* <div className='grid grid-cols-3 max-w-80 items-center gap-5 pt-5'>
                                 <div>
                                     <Image src={'/images/amazon.png'} width={100} height={100} alt="arrow" />
                                 </div>
@@ -106,7 +106,7 @@ const Page = () => {
                                 <div>
                                     <Image src={'/images/uber.png'} width={100} height={100} alt="arrow" />
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
                         <div className='relative before:w-full before:block before:pt-[62.5%]'>
                             <Image src={IserviceBannerOne} alt="arrow" width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' />
@@ -115,7 +115,7 @@ const Page = () => {
                 </div>
             </div>
 
-            <div className='xl:py-36 md:py-24 py-14'>
+            <div className='xl:pb-30 xl:pt-12 md:pt-4 md:pb-16 pt-2 pb-12'>
                 <div className='container'>
                     <div className='flex flex-wrap'>
                         <div className='w-full mb-6'>

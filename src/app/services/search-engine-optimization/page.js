@@ -52,25 +52,25 @@ const Page = () => {
             id: 1,
             title: "Proven Track Record",
             description: "Years of delivering measurable search engine optimization success, consistently helping clients achieve top rankings and business growth.",
-            image: "/images/Digital-Marketing-Strategy.png",
+            image: "/images/Digital-Marketing-Strategy.jpg",
         },
         {
             id: 2,
             title: "Experienced SEO Experts",
             description: "Our team of SEO experts uses advanced tools and techniques to craft personalized strategies, optimizing your business’s visibility and growth.",
-            image: "/images/Search-Engine-Optimization.png",
+            image: "/images/Search-Engine-Optimization.jpg",
         },
         {
             id: 3,
             title: "Tailored SEO Solutions",
             description: "We understand that every business is unique. Our SEO consultants provide customized plans for your specific needs to ensure maximum results.",
-            image: "/images/image_2025_02_11T11_09_35_485Z.png",
+            image: "/images/image_2025_02_11T11_09_35_485Z.jpg",
         },
         {
             id: 4,
             title: "Transparent Reporting",
             description: "Our SEO agency provides detailed, easy-to-understand reports that highlight performance metrics, empowering you to make informed business decisions.",
-            image: "/images/Copywriting-Content-Marketing.png",
+            image: "/images/Copywriting-Content-Marketing.jpg",
         },
     ];
 
@@ -84,7 +84,7 @@ const Page = () => {
             <meta name="title" content='Top SEO Agency | Expert SEO Services | SEO Marketing' />
             <meta name="description" content="Get found online with expert SEO services! Our top-rated SEO agency helps businesses rank higher & attract more customers. Book a free strategy call today!" />
 
-            <div className='py-6 lg:py-12 bg-no-repeat' style={{ backgroundImage: `url(${BgGrain.src})`, }}>
+            <div className='pt-6 lg:pt-12 bg-no-repeat' style={{ backgroundImage: `url(${BgGrain.src})`, }}>
                 <div className='container'>
                     <div className='grid sm:grid-cols-2 grid-cols-1 items-start'>
                         <div className="sm:order-none order-2 md:mt-0 mt-5">
@@ -96,7 +96,7 @@ const Page = () => {
                                     <Image src={BtnArrow} alt="arrow" />
                                 </span>
                             </button>
-                            <div className='grid grid-cols-3 max-w-80 items-center gap-5 pt-5'>
+                            {/* <div className='grid grid-cols-3 max-w-80 items-center gap-5 pt-5'>
                                 <div>
                                     <Image src={'/images/amazon.png'} width={100} height={100} alt="arrow" />
                                 </div>
@@ -106,7 +106,7 @@ const Page = () => {
                                 <div>
                                     <Image src={'/images/uber.png'} width={100} height={100} alt="arrow" />
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
                         <div className='relative before:w-full before:block before:pt-[62.5%]'>
                             <Image src={IserviceBannerOne} alt="arrow" width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' />
@@ -115,7 +115,7 @@ const Page = () => {
                 </div>
             </div>
 
-            <div className='xl:py-36 md:py-24 py-14'>
+            <div className='xl:pb-30 xl:pt-12 md:pt-4 md:pb-16 pt-2 pb-12'>
                 <div className='container'>
                     <div className='flex flex-wrap'>
                         <div className='w-full mb-6'>
@@ -244,7 +244,7 @@ const Page = () => {
                                         </div>
                                     </div>
                                     <div className='relative before:w-full before:block before:pt-[62.5%] sm:w-5/12 w-full sm:mt-0 mt-4'>
-                                        <Image src={'/images/work-4.png'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
+                                        <Image src={'/images/work-4.jpg'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
                                     </div>
                                 </div>
                             }
@@ -258,7 +258,7 @@ const Page = () => {
                                         </div>
                                     </div>
                                     <div className='relative before:w-full before:block before:pt-[62.5%] sm:w-5/12 w-full sm:mt-0 mt-4'>
-                                        <Image src={'/images/higher_conversion_rates.png'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
+                                        <Image src={'/images/higher_conversion_rates.jpg'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
                                     </div>
                                 </div>
                             }
@@ -272,7 +272,7 @@ const Page = () => {
                                         </div>
                                     </div>
                                     <div className='relative before:w-full before:block before:pt-[62.5%] sm:w-5/12 w-full sm:mt-0 mt-4'>
-                                        <Image src={'/images/brand_awareness.png'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
+                                        <Image src={'/images/brand_awareness.jpg'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
                                     </div>
                                 </div>
                             }
@@ -286,7 +286,7 @@ const Page = () => {
                                         </div>
                                     </div>
                                     <div className='relative before:w-full before:block before:pt-[62.5%] sm:w-5/12 w-full sm:mt-0 mt-4'>
-                                        <Image src={'/images/long_term_ROI.png'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
+                                        <Image src={'/images/long_term_ROI.jpg'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
                                     </div>
                                 </div>
                             }
@@ -300,7 +300,7 @@ const Page = () => {
                                         </div>
                                     </div>
                                     <div className='relative before:w-full before:block before:pt-[62.5%] sm:w-5/12 w-full sm:mt-0 mt-4'>
-                                        <Image src={'/images/lead_generation.png'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
+                                        <Image src={'/images/lead_generation.jpg'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
                                     </div>
                                 </div>
                             }

@@ -49,25 +49,25 @@ const Page = () => {
             id: 1,
             title: "Comprehensive Expertise",
             description: "With years of experience, we offer in-depth knowledge and insights through detailed website audit services tailored to your unique needs.",
-            image: "/images/seo-audit/whychooseus/Comprehensive_Expertise.png",
+            image: "/images/seo-audit/whychooseus/Comprehensive_Expertise.jpg",
         },
         {
             id: 2,
             title: "Advanced SEO Tools",
             description: "We use cutting-edge tools to perform thorough audits and deliver actionable insights, ensuring optimal SEO performance for your site.",
-            image: "/images/seo-audit/whychooseus/Advanced_SEO_Tools.png",
+            image: "/images/seo-audit/whychooseus/Advanced_SEO_Tools.jpg",
         },
         {
             id: 3,
             title: "Tailored Strategies",
             description: "We don’t offer generic audits. Each SEO website audit services are designed specifically for your website, addressing its unique strengths and weaknesses.",
-            image: "/images/seo-audit/whychooseus/Tailored_Strategies.png",
+            image: "/images/seo-audit/whychooseus/Tailored_Strategies.jpg",
         },
         {
             id: 4,
             title: "Transparent Reporting",
             description: "Our clear, easy-to-understand SEO audit services’ reports provide actionable insights, allowing you to track the progress of your site’s SEO improvements.",
-            image: "/images/seo-audit/whychooseus/Transparent_Reporting.png",
+            image: "/images/seo-audit/whychooseus/Transparent_Reporting.jpg",
         },
     ];
 
@@ -82,7 +82,7 @@ const Page = () => {
             <meta name="description" content="Improve your site’s SEO with expert audit services! Our on-page SEO audit helps fix errors & maximize traffic. Get your SEO report now!" />
 
 
-            <div className='py-6 lg:py-12 bg-no-repeat' style={{ backgroundImage: `url(${BgGrain.src})`, }}>
+            <div className='pt-6 lg:pt-12 bg-no-repeat' style={{ backgroundImage: `url(${BgGrain.src})`, }}>
                 <div className='container'>
                     <div className='grid sm:grid-cols-2 grid-cols-1 items-start'>
                         <div className="sm:order-none order-2 md:mt-0 mt-5">
@@ -94,7 +94,7 @@ const Page = () => {
                                     <Image src={BtnArrow} alt="arrow" />
                                 </span>
                             </button>
-                            <div className='grid grid-cols-3 max-w-80 items-center gap-5 pt-5'>
+                            {/* <div className='grid grid-cols-3 max-w-80 items-center gap-5 pt-5'>
                                 <div>
                                     <Image src={'/images/amazon.png'} width={100} height={100} alt="arrow" />
                                 </div>
@@ -104,16 +104,16 @@ const Page = () => {
                                 <div>
                                     <Image src={'/images/uber.png'} width={100} height={100} alt="arrow" />
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
                         <div className='relative before:w-full before:block before:pt-[62.5%]'>
-                            <Image src={'/images/seo-audit/SEO_Audit_Services.png'} alt="arrow" width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' />
+                            <Image src={'/images/seo-audit/SEO_Audit_Services.jpg'} alt="arrow" width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' />
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div className='xl:py-36 md:py-24 py-14'>
+            <div className='xl:pb-30 xl:pt-12 md:pt-4 md:pb-16 pt-2 pb-12'>
                 <div className='container'>
                     <div className='flex flex-wrap'>
                         <div className='w-full mb-6'>
@@ -241,7 +241,7 @@ const Page = () => {
                                         </div>
                                     </div>
                                     <div className='relative before:w-full before:block before:pt-[62.5%] sm:w-5/12 w-full sm:mt-0 mt-4'>
-                                        <Image src={'/images/seo-audit/Increased_Organic_Traffic.png'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
+                                        <Image src={'/images/seo-audit/Increased_Organic_Traffic.jpg'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
                                     </div>
                                 </div>
                             }
@@ -255,7 +255,7 @@ const Page = () => {
                                         </div>
                                     </div>
                                     <div className='relative before:w-full before:block before:pt-[62.5%] sm:w-5/12 w-full sm:mt-0 mt-4'>
-                                        <Image src={'/images/seo-audit/Higher_Conversion_Rates.png'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
+                                        <Image src={'/images/seo-audit/Higher_Conversion_Rates.jpg'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
                                     </div>
                                 </div>
                             }
@@ -269,7 +269,7 @@ const Page = () => {
                                         </div>
                                     </div>
                                     <div className='relative before:w-full before:block before:pt-[62.5%] sm:w-5/12 w-full sm:mt-0 mt-4'>
-                                        <Image src={'/images/seo-audit/Improved_Brand_Awareness.png'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
+                                        <Image src={'/images/seo-audit/Improved_Brand_Awareness.jpg'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
                                     </div>
                                 </div>
                             }
@@ -283,7 +283,7 @@ const Page = () => {
                                         </div>
                                     </div>
                                     <div className='relative before:w-full before:block before:pt-[62.5%] sm:w-5/12 w-full sm:mt-0 mt-4'>
-                                        <Image src={'/images/seo-audit/Long_Term_ROI.png'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
+                                        <Image src={'/images/seo-audit/Long_Term_ROI.jpg'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
                                     </div>
                                 </div>
                             }
@@ -297,7 +297,7 @@ const Page = () => {
                                         </div>
                                     </div>
                                     <div className='relative before:w-full before:block before:pt-[62.5%] sm:w-5/12 w-full sm:mt-0 mt-4'>
-                                        <Image src={'/images/seo-audit/Lead_Generation.png'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
+                                        <Image src={'/images/seo-audit/Lead_Generation.jpg'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
                                     </div>
                                 </div>
                             }

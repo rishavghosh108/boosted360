@@ -65,7 +65,7 @@ import JoinImage from './images/Homepage/join-image.png';
 import abtWwa from './images/Homepage/abt-who-we-are.png';
 import abtBnnr from './images/Homepage/abt-banner.png';
 import GrowingImage from './images/Homepage/growing-image.png';
-import IserviceBannerOne from './images/Homepage/service-banner-1.png';
+import IserviceBannerOne from './images/Homepage/service-banner-1.jpg';
 
 import bulletFooterBullet from './images/Homepage/bullet.svg';
 import SearchEngineOptimization from './images/Homepage/Search-Engine-Optimization.png';

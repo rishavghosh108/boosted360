@@ -49,25 +49,25 @@ const Page = () => {
             id: 1,
             title: "Skill in SaaS Solutions",
             description: "We specialize in SaaS website design services and development, ensuring your product is both visually stunning and functional.",
-            image: "/images/saas-design/whychooseus/Skill_SaaS_Solutions.png",
+            image: "/images/saas-design/whychooseus/Skill_SaaS_Solutions.jpg",
         },
         {
             id: 2,
             title: "Complete SaaS Development",
             description: "From SaaS web design to full-stack development, our SaaS development company offers comprehensive services for building robust SaaS products.",
-            image: "/images/saas-design/whychooseus/Complete_SaaS_Development.png",
+            image: "/images/saas-design/whychooseus/Complete_SaaS_Development.jpg",
         },
         {
             id: 3,
             title: "Tailored Designs",
             description: "Our SaaSUX designers work closely with you to create a customized design that fits your unique business needs and enhances the user experience.",
-            image: "/images/saas-design/whychooseus/Tailored_Designs.png",
+            image: "/images/saas-design/whychooseus/Tailored_Designs.jpg",
         },
         {
             id: 4,
             title: "Proven Success",
             description: "Clients who choose our SaaS design services see significant improvements in user engagement, retention, and business growth thanks to our expert solutions.",
-            image: "/images/saas-design/whychooseus/Proven_Success.png",
+            image: "/images/saas-design/whychooseus/Proven_Success.jpg",
         },
     ];
 
@@ -82,7 +82,7 @@ const Page = () => {
             <meta name="description" content="Optimize your SaaS product with custom SaaS design services! Our SaaS development services enhance usability and performance. Start your project today!" />
 
 
-            <div className='py-6 lg:py-12 bg-no-repeat' style={{ backgroundImage: `url(${BgGrain.src})`, }}>
+            <div className='pt-6 lg:pt-12 bg-no-repeat' style={{ backgroundImage: `url(${BgGrain.src})`, }}>
                 <div className='container'>
                     <div className='grid sm:grid-cols-2 grid-cols-1 items-start'>
                         <div className="sm:order-none order-2 md:mt-0 mt-5 pr-10">
@@ -95,7 +95,7 @@ const Page = () => {
                                     <Image src={BtnArrow} alt="arrow" />
                                 </span>
                             </button>
-                            <div className='grid grid-cols-3 max-w-80 items-center gap-5 pt-5'>
+                            {/* <div className='grid grid-cols-3 max-w-80 items-center gap-5 pt-5'>
                                 <div>
                                     <Image src={'/images/amazon.png'} width={100} height={100} alt="arrow" />
                                 </div>
@@ -105,16 +105,16 @@ const Page = () => {
                                 <div>
                                     <Image src={'/images/uber.png'} width={100} height={100} alt="arrow" />
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
                         <div className='relative before:w-full before:block before:pt-[62.5%]'>
-                            <Image src={'/images/saas-design/SaaS_Design.png'} alt="arrow" width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' />
+                            <Image src={'/images/saas-design/SaaS_Design.jpg'} alt="arrow" width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' />
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div className='xl:py-36 md:py-24 py-14'>
+            <div className='xl:pb-30 xl:pt-12 md:pt-4 md:pb-16 pt-2 pb-12'>
                 <div className='container'>
                     <div className='flex flex-wrap'>
                         <div className='w-full mb-6'>
@@ -249,7 +249,7 @@ const Page = () => {
                                         </div>
                                     </div>
                                     <div className='relative before:w-full before:block before:pt-[62.5%] sm:w-5/12 w-full sm:mt-0 mt-4'>
-                                        <Image src={'/images/saas-design/Custom_SaaS_Web_Design.png'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
+                                        <Image src={'/images/saas-design/Custom_SaaS_Web_Design.jpg'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
                                     </div>
                                 </div>
                             }
@@ -264,7 +264,7 @@ const Page = () => {
                                         </div>
                                     </div>
                                     <div className='relative before:w-full before:block before:pt-[62.5%] sm:w-5/12 w-full sm:mt-0 mt-4'>
-                                        <Image src={'/images/saas-design/SaaS_Development_Service.png'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
+                                        <Image src={'/images/saas-design/SaaS_Development_Service.jpg'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
                                     </div>
                                 </div>
                             }
@@ -279,7 +279,7 @@ const Page = () => {
                                         </div>
                                     </div>
                                     <div className='relative before:w-full before:block before:pt-[62.5%] sm:w-5/12 w-full sm:mt-0 mt-4'>
-                                        <Image src={'/images/saas-design/SaaS_Website_Design.png'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
+                                        <Image src={'/images/saas-design/SaaS_Website_Design.jpg'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
                                     </div>
                                 </div>
                             }
@@ -294,7 +294,7 @@ const Page = () => {
                                         </div>
                                     </div>
                                     <div className='relative before:w-full before:block before:pt-[62.5%] sm:w-5/12 w-full sm:mt-0 mt-4'>
-                                        <Image src={'/images/saas-design/SaaS_Dashboard_Design.png'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
+                                        <Image src={'/images/saas-design/SaaS_Dashboard_Design.jpg'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
                                     </div>
                                 </div>
                             }
@@ -309,7 +309,7 @@ const Page = () => {
                                         </div>
                                     </div>
                                     <div className='relative before:w-full before:block before:pt-[62.5%] sm:w-5/12 w-full sm:mt-0 mt-4'>
-                                        <Image src={'/images/saas-design/Support_Maintenance.png'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
+                                        <Image src={'/images/saas-design/Support_Maintenance.jpg'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
                                     </div>
                                 </div>
                             }

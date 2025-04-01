@@ -52,25 +52,25 @@ const Page = () => {
             id: 1,
             title: "Expertise in Google Ads Marketing",
             description: "With years of experience, our Google ads company has helped businesses across various industries achieve their digital marketing goals through customized PPC strategies.",
-            image: "/images/Digital-Marketing-Strategy.png",
+            image: "/images/Digital-Marketing-Strategy.jpg",
         },
         {
             id: 2,
             title: "Tailored Google PPC Services",
             description: "As a trusted Google ads agency, we understand that each business is unique. That’s why we offer bespoke Google ads services that align with your specific business objectives and budget.",
-            image: "/images/Search-Engine-Optimization.png",
+            image: "/images/Search-Engine-Optimization.jpg",
         },
         {
             id: 3,
             title: "Proven Success in Google Ads",
             description: "As trusted Google ads consultants, we have a track record of success in running campaigns that deliver measurable results, improve brand visibility, and drive conversions.",
-            image: "/images/image_2025_02_11T11_09_35_485Z.png",
+            image: "/images/image_2025_02_11T11_09_35_485Z.jpg",
         },
         {
             id: 4,
             title: "Transparent Reporting & Continuous Support",
             description: "We pride ourselves on providing transparent reports and ongoing support. Our Google PPC agency is always available to help you analyze your campaigns and adjust your strategy for the best possible outcome.",
-            image: "/images/Copywriting-Content-Marketing.png",
+            image: "/images/Copywriting-Content-Marketing.jpg",
         },
     ];
 
@@ -85,7 +85,7 @@ const Page = () => {
             <meta name="description" content="Drive more traffic with proven Google Ads services! Partner with a trusted Google PPC agency for better results. Let’s scale your business today!" />
 
 
-            <div className='py-6 lg:py-12 bg-no-repeat' style={{ backgroundImage: `url(${BgGrain.src})`, }}>
+            <div className='pt-6 lg:pt-12 bg-no-repeat' style={{ backgroundImage: `url(${BgGrain.src})`, }}>
                 <div className='container'>
                     <div className='grid sm:grid-cols-2 grid-cols-1 items-start'>
                         <div className="sm:order-none order-2 md:mt-0 mt-5">
@@ -97,7 +97,7 @@ const Page = () => {
                                     <Image src={BtnArrow} alt="arrow" />
                                 </span>
                             </button>
-                            <div className='grid grid-cols-3 max-w-80 items-center gap-5 pt-5'>
+                            {/* <div className='grid grid-cols-3 max-w-80 items-center gap-5 pt-5'>
                                 <div>
                                     <Image src={'/images/amazon.png'} width={100} height={100} alt="arrow" />
                                 </div>
@@ -107,7 +107,7 @@ const Page = () => {
                                 <div>
                                     <Image src={'/images/uber.png'} width={100} height={100} alt="arrow" />
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
                         <div className='relative before:w-full before:block before:pt-[62.5%]'>
                             <Image src={IserviceBannerOne} alt="arrow" width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' />
@@ -116,7 +116,7 @@ const Page = () => {
                 </div>
             </div>
 
-            <div className='xl:py-36 md:py-24 py-14'>
+            <div className='xl:pb-30 xl:pt-12 md:pt-4 md:pb-16 pt-2 pb-12'>
                 <div className='container'>
                     <div className='flex flex-wrap'>
                         <div className='w-full mb-6'>

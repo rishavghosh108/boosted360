@@ -49,25 +49,25 @@ const Page = () => {
             id: 1,
             title: "Expertise in UIUX Design",
             description: "As a top UIUX design company, we specialize in creating intuitive and visually stunning interfaces that meet both user needs and business goals.",
-            image: "/images/uiux-design/whychooseus/Expertise_in_UIUX_Design.png",
+            image: "/images/uiux-design/whychooseus/Expertise_in_UIUX_Design.jpg",
         },
         {
             id: 2,
             title: "Comprehensive UIUX Services",
             description: "From research and prototyping to final design and development, our UIUX design agency offers end-to-end solutions to create seamless digital experiences.",
-            image: "/images/uiux-design/whychooseus/Comprehensive_UIUX_Services.png",
+            image: "/images/uiux-design/whychooseus/Comprehensive_UIUX_Services.jpg",
         },
         {
             id: 3,
             title: "Custom Solutions",
             description: "Our UI design company works closely with you to create a design that reflects your brand and resonates with your audience.",
-            image: "/images/uiux-design/whychooseus/Custom_Solutions.png",
+            image: "/images/uiux-design/whychooseus/Custom_Solutions.jpg",
         },
         {
             id: 4,
             title: "Proven Results",
             description: "Our clients experience significant improvements in user engagement, satisfaction, and business growth due to our expert UIUX design services.",
-            image: "/images/uiux-design/whychooseus/Proven_Results.png",
+            image: "/images/uiux-design/whychooseus/Proven_Results.jpg",
         },
     ];
 
@@ -81,7 +81,7 @@ const Page = () => {
             <meta name="title" content='UI UX Design Company | UI UX Development Services' />
             <meta name="description" content="Enhance user experience with expert UI UX development services! Partner with our trusted UI UX design company for innovative solutions. Let’s build today!" />
 
-            <div className='py-6 lg:py-12 bg-no-repeat' style={{ backgroundImage: `url(${BgGrain.src})`, }}>
+            <div className='pt-6 lg:pt-12 bg-no-repeat' style={{ backgroundImage: `url(${BgGrain.src})`, }}>
                 <div className='container'>
                     <div className='grid sm:grid-cols-2 grid-cols-1 items-start'>
                         <div className="sm:order-none order-2 md:mt-0 mt-5 pr-10">
@@ -94,7 +94,7 @@ const Page = () => {
                                     <Image src={BtnArrow} alt="arrow" />
                                 </span>
                             </button>
-                            <div className='grid grid-cols-3 max-w-80 items-center gap-5 pt-5'>
+                            {/* <div className='grid grid-cols-3 max-w-80 items-center gap-5 pt-5'>
                                 <div>
                                     <Image src={'/images/amazon.png'} width={100} height={100} alt="arrow" />
                                 </div>
@@ -104,16 +104,16 @@ const Page = () => {
                                 <div>
                                     <Image src={'/images/uber.png'} width={100} height={100} alt="arrow" />
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
                         <div className='relative before:w-full before:block before:pt-[62.5%]'>
-                            <Image src={'/images/uiux-design/UIUX_Design.png'} alt="arrow" width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' />
+                            <Image src={'/images/uiux-design/UIUX_Design.jpg'} alt="arrow" width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' />
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div className='xl:py-36 md:py-24 py-14'>
+            <div className='xl:pb-30 xl:pt-12 md:pt-4 md:pb-16 pt-2 pb-12'>
                 <div className='container'>
                     <div className='flex flex-wrap'>
                         <div className='w-full mb-6'>
@@ -248,7 +248,7 @@ const Page = () => {
                                         </div>
                                     </div>
                                     <div className='relative before:w-full before:block before:pt-[62.5%] sm:w-5/12 w-full sm:mt-0 mt-4'>
-                                        <Image src={'/images/uiux-design/UIUX_App_Development.png'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
+                                        <Image src={'/images/uiux-design/UIUX_App_Development.jpg'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
                                     </div>
                                 </div>
                             }
@@ -263,7 +263,7 @@ const Page = () => {
                                         </div>
                                     </div>
                                     <div className='relative before:w-full before:block before:pt-[62.5%] sm:w-5/12 w-full sm:mt-0 mt-4'>
-                                        <Image src={'/images/uiux-design/UIUX_Web_Development.png'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
+                                        <Image src={'/images/uiux-design/UIUX_Web_Development.jpg'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
                                     </div>
                                 </div>
                             }
@@ -278,7 +278,7 @@ const Page = () => {
                                         </div>
                                     </div>
                                     <div className='relative before:w-full before:block before:pt-[62.5%] sm:w-5/12 w-full sm:mt-0 mt-4'>
-                                        <Image src={'/images/uiux-design/User_Research_Testing.png'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
+                                        <Image src={'/images/uiux-design/User_Research_Testing.jpg'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
                                     </div>
                                 </div>
                             }
@@ -293,7 +293,7 @@ const Page = () => {
                                         </div>
                                     </div>
                                     <div className='relative before:w-full before:block before:pt-[62.5%] sm:w-5/12 w-full sm:mt-0 mt-4'>
-                                        <Image src={'/images/uiux-design/UI_Design_Services.png'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
+                                        <Image src={'/images/uiux-design/UI_Design_Services.jpg'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
                                     </div>
                                 </div>
                             }
@@ -308,7 +308,7 @@ const Page = () => {
                                         </div>
                                     </div>
                                     <div className='relative before:w-full before:block before:pt-[62.5%] sm:w-5/12 w-full sm:mt-0 mt-4'>
-                                        <Image src={'/images/uiux-design/Design_Support.png'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
+                                        <Image src={'/images/uiux-design/Design_Support.jpg'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
                                     </div>
                                 </div>
                             }

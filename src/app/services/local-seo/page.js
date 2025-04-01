@@ -51,25 +51,25 @@ const Page = () => {
             id: 1,
             title: "Expert Local SEO Knowledge",
             description: "With years of experience in local SEO, our experts understand the nuances of local search and tailor strategies that deliver results in your market.",
-            image: "/images/localseo/whychooseus/Expert_Local_SEO_Knowledge.png",
+            image: "/images/localseo/whychooseus/Expert_Local_SEO_Knowledge.jpg",
         },
         {
             id: 2,
             title: "Proven Track Record",
             description: "We’ve successfully helped countless businesses improve their local search rankings, increase visibility, and drive local traffic, giving us a solid reputation as a trusted local SEO agency.",
-            image: "/images/localseo/whychooseus/Proven_Track_Record.png",
+            image: "/images/localseo/whychooseus/Proven_Track_Record.jpg",
         },
         {
             id: 3,
             title: "Comprehensive Tools & Resources",
             description: "We use advanced SEO tools and techniques to perform detailed audits, optimize your site, and ensure the best possible results for local SEO campaigns.",
-            image: "/images/localseo/whychooseus/Comprehensive_Tools_Resources.png",
+            image: "/images/localseo/whychooseus/Comprehensive_Tools_Resources.jpg",
         },
         {
             id: 4,
             title: "Dedicated Customer Support",
             description: "Our local SEO company provides ongoing support and guidance to ensure your SEO efforts continue to thrive, helping your business stay competitive in the digital landscape.",
-            image: "/images/localseo/whychooseus/Dedicated_Customer_Support.png",
+            image: "/images/localseo/whychooseus/Dedicated_Customer_Support.jpg",
         },
     ];
 
@@ -84,7 +84,7 @@ const Page = () => {
             <meta name="description" content="Attract more local customers with expert local SEO services! Partner with a top local SEO company for real results. Schedule your free consultation today!" />
 
 
-            <div className='py-6 lg:py-12 bg-no-repeat' style={{ backgroundImage: `url(${BgGrain.src})`, }}>
+            <div className='pt-6 lg:pt-12 bg-no-repeat' style={{ backgroundImage: `url(${BgGrain.src})`, }}>
                 <div className='container'>
                     <div className='grid sm:grid-cols-2 grid-cols-1 items-start'>
                         <div className="sm:order-none order-2 md:mt-0 mt-5 mr-0 sm:mr-8">
@@ -96,7 +96,7 @@ const Page = () => {
                                     <Image src={BtnArrow} alt="arrow" />
                                 </span>
                             </button>
-                            <div className='grid grid-cols-3 max-w-80 items-center gap-5 pt-5'>
+                            {/* <div className='grid grid-cols-3 max-w-80 items-center gap-5 pt-5'>
                                 <div>
                                     <Image src={'/images/amazon.png'} width={100} height={100} alt="arrow" />
                                 </div>
@@ -106,16 +106,16 @@ const Page = () => {
                                 <div>
                                     <Image src={'/images/uber.png'} width={100} height={100} alt="arrow" />
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
                         <div className='relative before:w-full before:block before:pt-[62.5%]'>
-                            <Image src={'/images/localseo/local_SEO_company.png'} alt="arrow" width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' />
+                            <Image src={'/images/localseo/local_SEO_company.jpg'} alt="arrow" width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' />
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div className='xl:py-36 md:py-24 py-14'>
+            <div className='xl:pb-30 xl:pt-12 md:pt-4 md:pb-16 pt-2 pb-12'>
                 <div className='container'>
                     <div className='flex flex-wrap'>
                         <div className='w-full mb-6'>
@@ -243,7 +243,7 @@ const Page = () => {
                                         </div>
                                     </div>
                                     <div className='relative before:w-full before:block before:pt-[62.5%] sm:w-5/12 w-full sm:mt-0 mt-4'>
-                                        <Image src={'/images/localseo/Increased_Organic_Traffic.png'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
+                                        <Image src={'/images/localseo/Increased_Organic_Traffic.jpg'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
                                     </div>
                                 </div>
                             }
@@ -257,7 +257,7 @@ const Page = () => {
                                         </div>
                                     </div>
                                     <div className='relative before:w-full before:block before:pt-[62.5%] sm:w-5/12 w-full sm:mt-0 mt-4'>
-                                        <Image src={'/images/localseo/Higher_Conversion_Rates.png'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
+                                        <Image src={'/images/localseo/Higher_Conversion_Rates.jpg'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
                                     </div>
                                 </div>
                             }
@@ -271,7 +271,7 @@ const Page = () => {
                                         </div>
                                     </div>
                                     <div className='relative before:w-full before:block before:pt-[62.5%] sm:w-5/12 w-full sm:mt-0 mt-4'>
-                                        <Image src={'/images/localseo/Improved_Brand_Awareness.png'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
+                                        <Image src={'/images/localseo/Improved_Brand_Awareness.jpg'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
                                     </div>
                                 </div>
                             }
@@ -285,7 +285,7 @@ const Page = () => {
                                         </div>
                                     </div>
                                     <div className='relative before:w-full before:block before:pt-[62.5%] sm:w-5/12 w-full sm:mt-0 mt-4'>
-                                        <Image src={'/images/localseo/Long_Term_ROI.png'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
+                                        <Image src={'/images/localseo/Long_Term_ROI.jpg'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
                                     </div>
                                 </div>
                             }
@@ -299,7 +299,7 @@ const Page = () => {
                                         </div>
                                     </div>
                                     <div className='relative before:w-full before:block before:pt-[62.5%] sm:w-5/12 w-full sm:mt-0 mt-4'>
-                                        <Image src={'/images/localseo/Lead_Generation.png'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
+                                        <Image src={'/images/localseo/Lead_Generation.jpg'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
                                     </div>
                                 </div>
                             }
