@@ -82,7 +82,7 @@ export default function Header() {
                             </li>
 
                             {/* services for responsive  */}
-                            <button onClick={ToggleServicesRes} className={`${pathname.startsWith('/services/') ? 'text-[#5db947]' : 'text-black '} w-full text-left lg:hidden pt-[10px] px-[30px] font-[750] text-sm uppercase flex items-center ${isServicesOpen ? 'pb-0' : 'pb-[10px]'}`}> <span>Services</span>
+                            <button onClick={ToggleServicesRes} className={`${pathname.startsWith('/services/') ? 'text-[#5db947]' : 'text-black '} w-full text-left lg:hidden pt-[10px] px-[30px] font-[750] text-[16px] lg:text-base uppercase flex items-center ${isServicesOpen ? 'pb-0' : 'pb-[10px]'}`}> <span>Services</span>
                                 <span className={`lg:hidden px-2 ${isServicesOpen ? 'rotate-[180deg]' : ''}`}>
                                     <svg stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M256 294.1L383 167c9.4-9.4 24.6-9.4 33.9 0s9.3 24.6 0 34L273 345c-9.1 9.1-23.7 9.3-33.1.7L95 201.1c-4.7-4.7-7-10.9-7-17s2.3-12.3 7-17c9.4-9.4 24.6-9.4 33.9 0l127.1 127z"></path>
@@ -94,7 +94,7 @@ export default function Header() {
                                 <li className='lg:mr-[40px] lg:hidden block py-[30px] w-full lg:w-auto ease_in_out navlist_link'>
                                     <div className='mega_menu lg:space-y-0 space-y-4 lg:divide-x-[1px] divide-slate-200 ease_in_out absolute w-full max-w-[760px] right-0 lg:shadow grid lg:grid-cols-3 grid-cols-1 bg-white rounded-b-2xl p-[10px] z-30 ml-2'>
                                         <div className='lg:px-4 '>
-                                            <button onClick={() => toggleDropMenu(0)} className={`${['/services/mobile-app-design', '/services/saas-design', '/services/uiux-design', '/services/wordpress-design', '/services/B2B-web-design', '/services/e-commerce-web-design', '/services/web-design-&-development', '/services/website-maintenance' ].includes(pathname) ? 'text-[#5db947]' : 'text-black'} lg:pointer-events-none flex items-center -mb-1 text-sm lg:text-base lg:font-bold font-[750] ${openIndex === 1 ? 'active-rotate' : ''}`}>
+                                            <button onClick={() => toggleDropMenu(0)} className={`${['/services/mobile-app-design', '/services/saas-design', '/services/uiux-design', '/services/wordpress-design', '/services/B2B-web-design', '/services/e-commerce-web-design', '/services/web-design-&-development', '/services/website-maintenance' ].includes(pathname) ? 'text-[#5db947]' : 'text-black'} lg:pointer-events-none flex items-center -mb-1 text-[15px] lg:text-base lg:font-bold font-[750] ${openIndex === 1 ? 'active-rotate' : ''}`}>
                                                 Design & Development
                                                 <span className='lg:hidden px-2'>
                                                     <svg stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
@@ -130,7 +130,7 @@ export default function Header() {
                                             </ul>
                                         </div>
                                         <div className='lg:px-4 '>
-                                            <button onClick={() => toggleDropMenu(1)} className={`${['/services/search-engine-optimization', '/services/local-seo', '/services/ecommerce-seo', '/services/seo-audit'].includes(pathname) ? 'text-[#5db947]' : 'text-black'} lg:pointer-events-none flex items-center -mb-1 text-sm lg:text-base lg:font-bold font-[750] ${openIndex === 1 ? 'active-rotate' : ''}`}>
+                                            <button onClick={() => toggleDropMenu(1)} className={`${['/services/search-engine-optimization', '/services/local-seo', '/services/ecommerce-seo', '/services/seo-audit'].includes(pathname) ? 'text-[#5db947]' : 'text-black'} lg:pointer-events-none flex items-center -mb-1 text-[15px] lg:text-base lg:font-bold font-[750] ${openIndex === 1 ? 'active-rotate' : ''}`}>
                                                 SEO
                                                 <span className='lg:hidden px-2'>
                                                     <svg stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
@@ -154,7 +154,7 @@ export default function Header() {
                                             </ul>
                                         </div>
                                         <div className='lg:px-4'>
-                                            <button onClick={() => toggleDropMenu(2)} className={`${['/services/google-ads', '/services/meta-ads', '/services/amazon-marketing', '/services/youtube-advertising'].includes(pathname) ? 'text-[#5db947]' : 'text-black'} lg:pointer-events-none flex items-center -mb-1 text-sm lg:text-base lg:font-bold font-[750] ${openIndex === 2 ? 'active-rotate' : ''}`}>
+                                            <button onClick={() => toggleDropMenu(2)} className={`${['/services/google-ads', '/services/meta-ads', '/services/amazon-marketing', '/services/youtube-advertising'].includes(pathname) ? 'text-[#5db947]' : 'text-black'} lg:pointer-events-none flex items-center -mb-1 text-[15px] lg:text-base lg:font-bold font-[750] ${openIndex === 2 ? 'active-rotate' : ''}`}>
                                                 Paid Advertising
                                                 <span className='lg:hidden px-2'>
                                                     <svg stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
@@ -178,7 +178,7 @@ export default function Header() {
                                             </ul>
                                         </div>
                                         <div className='lg:px-4'>
-                                            <button onClick={() => toggleDropMenu(3)} className={`${['/services/social-media-marketing', '/services/email-marketing', '/services/reputation-management', '/services/content-marketing'].includes(pathname) ? 'text-[#5db947]' : 'text-black'} lg:pointer-events-none flex items-center -mb-1 text-sm lg:text-base lg:font-bold font-[750] ${openIndex === 3 ? 'active-rotate' : ''}`}>
+                                            <button onClick={() => toggleDropMenu(3)} className={`${['/services/social-media-marketing', '/services/email-marketing', '/services/reputation-management', '/services/content-marketing'].includes(pathname) ? 'text-[#5db947]' : 'text-black'} lg:pointer-events-none flex items-center -mb-1 text-[15px] lg:text-base lg:font-bold font-[750] ${openIndex === 3 ? 'active-rotate' : ''}`}>
                                                 Online Marketing
                                                 <span className='lg:hidden px-2'>
                                                     <svg stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
