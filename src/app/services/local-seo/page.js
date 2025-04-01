@@ -34,13 +34,13 @@ const Page = () => {
     // };
 
 
-    const handleMouseEnter = (index) => {
+    const handleMouseEnter2 = (index) => {
         setActiveIndex(index);
         setBackgroundImage(services[index]?.image || "");
     };
 
     // Remove handleMouseLeave so the hover effect persists
-    const handleClick = (index) => {
+    const handleClick2 = (index) => {
         setActiveIndex(activeIndex === index ? null : index);
     };
 
@@ -324,8 +324,8 @@ const Page = () => {
                                 key={service.id}
                                 className={`flex flex-col justify-end main-box px-4 xl:py-8 py-5 cursor-pointer xl:h-[460px] overflow-hidden relative ${activeIndex === index ? "xl:bg-black xl:bg-opacity-50 bg-transparent" : "bg-black xl:bg-opacity-25 bg-opacity-5"
                                     }`}
-                                onMouseEnter={() => handleMouseEnter(index)}
-                                onClick={() => handleClick(index)}
+                                onMouseEnter={() => handleMouseEnter2(index)}
+                                onClick={() => handleClick2(index)}
                             >
                                 <div className="flex items-center click-box justify-between">
                                     <div className="flex items-center">
