@@ -7,7 +7,7 @@ import Link from 'next/link';
 import { BtnArrow } from '@/app/assets';
 import Growing from '@/app/Component/Widgets/Homepagegreen/Growing';
 import WorkWthUsModal from "../../Component/Widgets/Modal/WorkWithUs/WorkWthUsModal"
-import { BgGrain, IserviceBannerOne, Servicebg, ServiceIconone, ServiceIcontwo, ServiceIconthree, downArrow,ServiceIconfour } from "../../assets/index";
+import { BgGrain, IserviceBannerOne, Servicebg, ServiceIconone, ServiceIcontwo, ServiceIconthree, downArrow, ServiceIconfour } from "../../assets/index";
 
 const Page = () => {
     const [isModalOpen, setIsModalOpen] = useState(false);
