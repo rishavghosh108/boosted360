@@ -342,7 +342,7 @@ const Page = () => {
                                         <h3 className="text-3xl lg:text-[56px] xl:text-[65px] font-bold leading-none text-[#5db947]">
                                             {`0${service.id}`}
                                         </h3>
-                                        <h4 className="text-xl lg:text-2xl font-bold xl:text-neutral-300 text-neutral-700 leading-[1.6] pl-4">
+                                        <h4 className="text-xl lg:text-2xl font-bold xl:text-neutral-300 text-neutral-700 leading-[1.6] pl-4 pr-5">
                                             {service.title}
                                         </h4>
                                     </div>

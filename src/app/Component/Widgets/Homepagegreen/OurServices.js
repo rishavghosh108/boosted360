@@ -55,8 +55,9 @@ export default function OurServices()  {
                                 </Link>
                             </div>
                         </div>
+
                         <div className="lg:w-4/12 md:w-6/12 w-full p-[4px] md:p-[6px] relative">
-                            <div className="h-full text-center p-[15px] lg:p-[20px] xl:p-[30px] sm:pb-[60px] bg-[#292929] rounded-[10px] relative">
+                            <div className="h-full text-center p-[15px] lg:p-[20px] xl:p-[30px] pb-[60px] bg-[#292929] rounded-[10px] relative">
                                 <Image src={EmailMarketing} alt='Service-Icon-one' className="max-h-[80px] lg:max-h-[100px] m-auto object-contain" />
                                 <h2 className="mt-[30px] text-[20px] xl:text-[22px] text-white leading-[1.26] font-bold text-center">Email Marketing</h2>
                                 <p className="text-[15px] text-[#bcbcbc] leading-[1.39] mt-[15px] pb-[30px]">Our email marketing experts create personalized, conversion-focused campaigns to help you nurture leads and retain customers. From segmented lists to automated workflows, we ensure your emails drive results.</p>
@@ -67,7 +68,7 @@ export default function OurServices()  {
                             </div>
                         </div>
                         <div className="lg:w-4/12 md:w-6/12 w-full p-[4px] md:p-[6px] relative">
-                            <div className="h-full text-center p-[15px] lg:p-[20px] xl:p-[30px] sm:pb-[60px] bg-[#292929] rounded-[10px] relative">
+                            <div className="h-full text-center p-[15px] lg:p-[20px] xl:p-[30px] pb-[60px] bg-[#292929] rounded-[10px] relative">
                                 <Image src={ContentMarketingDd} alt='Service-Icon-one' className="max-h-[80px] lg:max-h-[100px] m-auto object-contain" />
                                 <h2 className="mt-[30px] text-[20px] xl:text-[22px] text-white leading-[1.26] font-bold text-center">Content Marketing</h2>
                                 <p className="text-[15px] text-[#bcbcbc] leading-[1.39] mt-[15px] pb-[30px]">Our content writers produce high-quality, SEO-optimized content that not only attracts traffic but also converts visitors into loyal customers. Our <strong>digital marketing solution</strong> develops a strategy that resonates with your target audience and supports your overall marketing goals.</p>

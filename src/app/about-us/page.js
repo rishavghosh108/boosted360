@@ -64,7 +64,7 @@ const Page = () => {
                                 Our goal is simple: to empower businesses by offering high-performing digital marketing strategies that connect with your audience, grow your online presence, and increase conversions. We thrive on innovation, and we&#39;re passionate about crafting bespoke strategies that stand out in today&#39;s competitive digital world.
                             </p>
                         </div>
-                        <div className='relative before:w-full before:block lg:pr-10 before:pt-[62.5%] sm:ml-8 ml-4'>
+                        <div className='relative before:w-full before:block lg:pr-10 before:pt-[62.5%] sm:ml-8 ml-0'>
                             <Image src={abtWwa} alt="arrow" width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' />
                         </div>
                     </div>

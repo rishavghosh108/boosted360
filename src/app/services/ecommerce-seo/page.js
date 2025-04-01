@@ -87,7 +87,7 @@ const Page = () => {
             <div className='pt-6 lg:pt-12 bg-no-repeat' style={{ backgroundImage: `url(${BgGrain.src})`, }}>
                 <div className='container'>
                     <div className='grid sm:grid-cols-2 grid-cols-1 items-start'>
-                        <div className="sm:order-none order-2 md:mt-0 mt-5">
+                        <div className="sm:order-none order-2 md:mt-0 mt-5 pr-0 sm:pr-[30px]">
                             <h1 className='text-3xl lg:text-4xl xl:text-5xl font-bold text-black leading-none'>Ecommerce SEO Agency: <span className='text-[#5db947]'>Drive Traffic and Boost Sales </span></h1>
                             <p className='text-lg lg:text-xl font-medium text-black leading-[1.6] pt-5 lg:pt-6'>As a leading ecommerce SEO agency, we specialize in helping ecommerce businesses increase online visibility. Our ecommerce SEO services focus on optimizing your website&apos;s structure, content, and user experience to ensure maximum rankings, improved sales and growth.</p>
                             <button onClick={openModal} className="ease_in_out box-shadows bg-[#2a2a2a] text-sm font-bold text-white uppercase inline-flex border border-solid border-[#3e3e3e] px-[30px] md:px-[55px] py-[15px] md:py-[20px] my-5 lg:my-8 hover:bg-[#404040] hover:border-[#404040]">

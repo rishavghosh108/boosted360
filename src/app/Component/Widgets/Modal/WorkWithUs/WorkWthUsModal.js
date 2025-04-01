@@ -226,7 +226,7 @@ const WorkWthUsModal = ({ isOpen, onClose }) => {
                       value={formik.values.select_value} // Controlled by Formik
                       onChange={formik.handleChange}
                       onBlur={formik.handleBlur}
-                      className="w-full h-[50px] rounded-[4px] bg-[#fff] border border-solid border-[#ececec] outline-none px-[25px] text-[16px] text-[#666]"
+                      className="w-full h-[50px] rounded-[4px] bg-transparent border border-solid border-[#ececec] outline-none px-[25px] text-[16px] text-[#666]"
                     >
                       <option value="" disabled>
                         I&apos;d like to talk about
