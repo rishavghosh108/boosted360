@@ -49,25 +49,25 @@ const Page = () => {
             id: 1,
             title: "Expert Web Designers",
             description: "Our professional website designer team creates customized designs to meet your business objectives and enhance user engagement.",
-            image: "/images/Digital-Marketing-Strategy.jpg",
+            image: "/images/web-design-&-development/whychooseus/Expert_Web_Designers.png",
         },
         {
             id: 2,
             title: "Comprehensive Web Development",
             description: "We offer end-to-end website development services that ensure your website is functional, secure, and scalable for future growth.",
-            image: "/images/Search-Engine-Optimization.jpg",
+            image: "/images/web-design-&-development/whychooseus/Comprehensive_Web_Development.png",
         },
         {
             id: 3,
             title: "Dedicated Support",
             description: "Our website design company provides ongoing support and maintenance to ensure your website remains fully optimized and competitive in the market.",
-            image: "/images/image_2025_02_11T11_09_35_485Z.jpg",
+            image: "/images/web-design-&-development/whychooseus/Dedicated_Support.png",
         },
         {
             id: 4,
             title: "Proven Results",
             description: "Our web design agency has a track record of delivering websites that drive results and help businesses achieve their goals.",
-            image: "/images/Copywriting-Content-Marketing.jpg",
+            image: "/images/web-design-&-development/whychooseus/Proven_Results.png",
         },
     ];
 
@@ -108,7 +108,7 @@ const Page = () => {
                             </div> */}
                         </div>
                         <div className='relative before:w-full before:block before:pt-[62.5%]'>
-                            <Image src={IserviceBannerOne} alt="arrow" width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' />
+                            <Image src={'/images/web-design-&-development/Website_Design.png'} alt="arrow" width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' />
                         </div>
                     </div>
                 </div>
@@ -248,7 +248,7 @@ const Page = () => {
                                         </div>
                                     </div>
                                     <div className='relative before:w-full before:block before:pt-[62.5%] sm:w-5/12 w-full sm:mt-0 mt-4'>
-                                        <Image src={'/images/work-4.jpg'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
+                                        <Image src={'/images/web-design-&-development/Custom_Web_Design.png'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
                                     </div>
                                 </div>
                             }
@@ -263,7 +263,7 @@ const Page = () => {
                                         </div>
                                     </div>
                                     <div className='relative before:w-full before:block before:pt-[62.5%] sm:w-5/12 w-full sm:mt-0 mt-4'>
-                                        <Image src={'/images/SaaS-Marketing-HIGH-ROI.png'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
+                                        <Image src={'/images/web-design-&-development/E-Com_Website_Development.png'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
                                     </div>
                                 </div>
                             }
@@ -278,7 +278,7 @@ const Page = () => {
                                         </div>
                                     </div>
                                     <div className='relative before:w-full before:block before:pt-[62.5%] sm:w-5/12 w-full sm:mt-0 mt-4'>
-                                        <Image src={'/images/sddefault1.jpg'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
+                                        <Image src={'/images/web-design-&-development/WordPress_Development.png'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
                                     </div>
                                 </div>
                             }
@@ -293,7 +293,7 @@ const Page = () => {
                                         </div>
                                     </div>
                                     <div className='relative before:w-full before:block before:pt-[62.5%] sm:w-5/12 w-full sm:mt-0 mt-4'>
-                                        <Image src={'/images/SG-Elevate-Your-Search-Presence-by-Outsourcing-Enterprise-SEO.png'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
+                                        <Image src={'/images/web-design-&-development/Web_AppDevelopment.png'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
                                     </div>
                                 </div>
                             }
@@ -308,7 +308,7 @@ const Page = () => {
                                         </div>
                                     </div>
                                     <div className='relative before:w-full before:block before:pt-[62.5%] sm:w-5/12 w-full sm:mt-0 mt-4'>
-                                        <Image src={'/images/sddefault1.jpg'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
+                                        <Image src={'/images/web-design-&-development/Maintenance_Support.png'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
                                     </div>
                                 </div>
                             }

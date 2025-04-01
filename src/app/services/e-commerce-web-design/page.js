@@ -49,25 +49,25 @@ const Page = () => {
             id: 1,
             title: "Shopify Web Developers",
             description: "Our Shopify web developers have the expertise to create stores that are both functional and visually stunning.",
-            image: "/images/Digital-Marketing-Strategy.jpg",
+            image: "/images/e-commerce-webdesign/whychooseus/Shopify_Web_Developers.png",
         },
         {
             id: 2,
             title: "Tailored Solutions",
             description: "We offer personalized ecommerce web design services to ensure your online store meets your specific business needs.",
-            image: "/images/Search-Engine-Optimization.jpg",
+            image: "/images/e-commerce-webdesign/whychooseus/Tailored_Solutions.png",
         },
         {
             id: 3,
             title: "Proven Track Record",
             description: "We have helped numerous clients increase sales and enhance their online presence.",
-            image: "/images/image_2025_02_11T11_09_35_485Z.jpg",
+            image: "/images/e-commerce-webdesign/whychooseus/Proven_Track_Record.png",
         },
         {
             id: 4,
             title: "Dedicated Support",
             description: "Our ecommerce website design agency offers ongoing support to ensure your website remains optimized and up-to-date.",
-            image: "/images/Copywriting-Content-Marketing.jpg",
+            image: "/images/e-commerce-webdesign/whychooseus/Dedicated_Support.png",
         },
     ];
 
@@ -108,7 +108,7 @@ const Page = () => {
                             </div> */}
                         </div>
                         <div className='relative before:w-full before:block before:pt-[62.5%]'>
-                            <Image src={IserviceBannerOne} alt="arrow" width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' />
+                            <Image src={'/images/e-commerce-webdesign/Ecommerce_Website.png'} alt="arrow" width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' />
                         </div>
                     </div>
                 </div>
@@ -248,7 +248,7 @@ const Page = () => {
                                         </div>
                                     </div>
                                     <div className='relative before:w-full before:block before:pt-[62.5%] sm:w-5/12 w-full sm:mt-0 mt-4'>
-                                        <Image src={'/images/work-4.jpg'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
+                                        <Image src={'/images/e-commerce-webdesign/Custom_eCommerce_Design.png'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
                                     </div>
                                 </div>
                             }
@@ -263,7 +263,7 @@ const Page = () => {
                                         </div>
                                     </div>
                                     <div className='relative before:w-full before:block before:pt-[62.5%] sm:w-5/12 w-full sm:mt-0 mt-4'>
-                                        <Image src={'/images/SaaS-Marketing-HIGH-ROI.png'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
+                                        <Image src={'/images/e-commerce-webdesign/Shopify_Web_Developers.png'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
                                     </div>
                                 </div>
                             }
@@ -278,7 +278,7 @@ const Page = () => {
                                         </div>
                                     </div>
                                     <div className='relative before:w-full before:block before:pt-[62.5%] sm:w-5/12 w-full sm:mt-0 mt-4'>
-                                        <Image src={'/images/sddefault1.jpg'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
+                                        <Image src={'/images/e-commerce-webdesign/E-Com_Platform_Integration.png'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
                                     </div>
                                 </div>
                             }
@@ -293,7 +293,7 @@ const Page = () => {
                                         </div>
                                     </div>
                                     <div className='relative before:w-full before:block before:pt-[62.5%] sm:w-5/12 w-full sm:mt-0 mt-4'>
-                                        <Image src={'/images/SG-Elevate-Your-Search-Presence-by-Outsourcing-Enterprise-SEO.png'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
+                                        <Image src={'/images/e-commerce-webdesign/E-Commerce_SEO.png'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
                                     </div>
                                 </div>
                             }
@@ -309,7 +309,7 @@ const Page = () => {
                                         </div>
                                     </div>
                                     <div className='relative before:w-full before:block before:pt-[62.5%] sm:w-5/12 w-full sm:mt-0 mt-4'>
-                                        <Image src={'/images/sddefault1.jpg'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
+                                        <Image src={'/images/e-commerce-webdesign/Website_Maintenance.png'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
                                     </div>
                                 </div>
                             }

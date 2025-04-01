@@ -52,25 +52,25 @@ const Page = () => {
             id: 1,
             title: "Expertise in Google Ads Marketing",
             description: "With years of experience, our Google ads company has helped businesses across various industries achieve their digital marketing goals through customized PPC strategies.",
-            image: "/images/Digital-Marketing-Strategy.jpg",
+            image: "/images/Google-ads/Expertise_Google_Ads_Marketing.png",
         },
         {
             id: 2,
             title: "Tailored Google PPC Services",
             description: "As a trusted Google ads agency, we understand that each business is unique. That’s why we offer bespoke Google ads services that align with your specific business objectives and budget.",
-            image: "/images/Search-Engine-Optimization.jpg",
+            image: "/images/Google-ads/Tailored_Google_PPC_Services.png",
         },
         {
             id: 3,
             title: "Proven Success in Google Ads",
             description: "As trusted Google ads consultants, we have a track record of success in running campaigns that deliver measurable results, improve brand visibility, and drive conversions.",
-            image: "/images/image_2025_02_11T11_09_35_485Z.jpg",
+            image: "/images/Google-ads/Proven_Success_Google_Ads.png",
         },
         {
             id: 4,
             title: "Transparent Reporting & Continuous Support",
             description: "We pride ourselves on providing transparent reports and ongoing support. Our Google PPC agency is always available to help you analyze your campaigns and adjust your strategy for the best possible outcome.",
-            image: "/images/Copywriting-Content-Marketing.jpg",
+            image: "/images/Google-ads/Transparent_Reporting.png",
         },
     ];
 
@@ -88,7 +88,7 @@ const Page = () => {
             <div className='pt-6 lg:pt-12 bg-no-repeat' style={{ backgroundImage: `url(${BgGrain.src})`, }}>
                 <div className='container'>
                     <div className='grid sm:grid-cols-2 grid-cols-1 items-start'>
-                        <div className="sm:order-none order-2 md:mt-0 mt-5">
+                        <div className="sm:order-none order-2 md:mt-0 mt-5 sm:pr-[30px] pr-0">
                             <h1 className='text-3xl lg:text-4xl xl:text-5xl font-bold text-black leading-none'>Google PPC Agency: <span className='text-[#5db947]'>Boost Your Business </span></h1>
                             <p className='text-lg lg:text-xl font-medium text-black leading-[1.6] pt-5 lg:pt-6'>At our <strong>Google PPC agency,</strong> we specialize in delivering top-notch Google ads services to help your business achieve measurable success. Whether you&apos;re looking to increase website traffic, generate leads, or enhance your online presence, our team of Google ads specialists creates tailored campaigns designed to meet your goals and deliver results.</p>
                             <button onClick={openModal} className="ease_in_out box-shadows bg-[#2a2a2a] text-sm font-bold text-white uppercase inline-flex border border-solid border-[#3e3e3e] px-[30px] md:px-[55px] py-[15px] md:py-[20px] my-5 lg:my-8 hover:bg-[#404040] hover:border-[#404040]">
@@ -110,7 +110,7 @@ const Page = () => {
                             </div> */}
                         </div>
                         <div className='relative before:w-full before:block before:pt-[62.5%]'>
-                            <Image src={IserviceBannerOne} alt="arrow" width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' />
+                            <Image src={'/images/Google-ads/Google_PPC_Agency.png'} alt="arrow" width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' />
                         </div>
                     </div>
                 </div>
@@ -251,7 +251,7 @@ const Page = () => {
                                         </div>
                                     </div>
                                     <div className='relative before:w-full before:block before:pt-[62.5%] sm:w-5/12 w-full sm:mt-0 mt-4'>
-                                        <Image src={'/images/work-4.jpg'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
+                                        <Image src={'/images/Google-ads/Increased_Website_Traffic.png'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
                                     </div>
                                 </div>
                             }
@@ -266,7 +266,7 @@ const Page = () => {
                                         </div>
                                     </div>
                                     <div className='relative before:w-full before:block before:pt-[62.5%] sm:w-5/12 w-full sm:mt-0 mt-4'>
-                                        <Image src={'/images/SaaS-Marketing-HIGH-ROI.png'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
+                                        <Image src={'/images/Google-ads/Higher_Conversion_Rates.png'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
                                     </div>
                                 </div>
                             }
@@ -280,7 +280,7 @@ const Page = () => {
                                         </div>
                                     </div>
                                     <div className='relative before:w-full before:block before:pt-[62.5%] sm:w-5/12 w-full sm:mt-0 mt-4'>
-                                        <Image src={'/images/sddefault1.jpg'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
+                                        <Image src={'/images/Google-ads/Improved_ROI.png'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
                                     </div>
                                 </div>
                             }
@@ -295,7 +295,7 @@ const Page = () => {
                                         </div>
                                     </div>
                                     <div className='relative before:w-full before:block before:pt-[62.5%] sm:w-5/12 w-full sm:mt-0 mt-4'>
-                                        <Image src={'/images/SG-Elevate-Your-Search-Presence-by-Outsourcing-Enterprise-SEO.png'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
+                                        <Image src={'/images/Google-ads/Brand_Visibility.png'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
                                     </div>
                                 </div>
                             }
