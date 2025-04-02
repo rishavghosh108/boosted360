@@ -52,25 +52,25 @@ const Page = () => {
             id: 1,
             title: "Proven Expertise in Meta Ads",
             description: "Our team has years of experience delivering successful campaigns across Meta platforms. We understand the nuances of Facebook and Instagram advertising and know what works.",
-            image: "/images/Digital-Marketing-Strategy.jpg",
+            image: "/images/meta-ads/Proven_Expertise_Meta.png",
         },
         {
             id: 2,
             title: "Customized Facebook Marketing Services",
             description: "Every business is unique, which is why we offer tailored Facebook marketing services that align with your specific needs, goals, and audience.",
-            image: "/images/Search-Engine-Optimization.jpg",
+            image: "/images/meta-ads/Customized_Facebook_Marketing_Services.png",
         },
         {
             id: 3,
             title: "Comprehensive Campaign Management",
             description: "From audience research to ad creation and optimization, our Meta ads agency handles every step of your campaign to ensure maximum results.",
-            image: "/images/image_2025_02_11T11_09_35_485Z.jpg",
+            image: "/images/meta-ads/Comprehensive_Campaign_Management.png",
         },
         {
             id: 4,
             title: "Transparent Reporting & Insights",
             description: "We believe in clear, actionable reporting that empowers you to make informed decisions about your Meta ads strategy, helping you refine your campaigns for continued success.",
-            image: "/images/Copywriting-Content-Marketing.jpg",
+            image: "/images/meta-ads/Transparent_Reporting_Insights.png",
         },
     ];
 
@@ -110,7 +110,7 @@ const Page = () => {
                             </div> */}
                         </div>
                         <div className='relative before:w-full before:block before:pt-[62.5%]'>
-                            <Image src={IserviceBannerOne} alt="arrow" width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' />
+                            <Image src={'/images/meta-ads/Meta_Advertising.png'} alt="arrow" width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' />
                         </div>
                     </div>
                 </div>
@@ -250,7 +250,7 @@ const Page = () => {
                                         </div>
                                     </div>
                                     <div className='relative before:w-full before:block before:pt-[62.5%] sm:w-5/12 w-full sm:mt-0 mt-4'>
-                                        <Image src={'/images/work-4.jpg'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
+                                        <Image src={'/images/meta-ads/Increased_Brand_Visibility.png'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
                                     </div>
                                 </div>
                             }
@@ -264,7 +264,7 @@ const Page = () => {
                                         </div>
                                     </div>
                                     <div className='relative before:w-full before:block before:pt-[62.5%] sm:w-5/12 w-full sm:mt-0 mt-4'>
-                                        <Image src={'/images/SaaS-Marketing-HIGH-ROI.png'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
+                                        <Image src={'/images/meta-ads/Higher_Engagement.png'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
                                     </div>
                                 </div>
                             }
@@ -278,7 +278,7 @@ const Page = () => {
                                         </div>
                                     </div>
                                     <div className='relative before:w-full before:block before:pt-[62.5%] sm:w-5/12 w-full sm:mt-0 mt-4'>
-                                        <Image src={'/images/sddefault1.jpg'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
+                                        <Image src={'/images/meta-ads/Optimized_Advertising_Spend.png'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
                                     </div>
                                 </div>
                             }
@@ -292,7 +292,7 @@ const Page = () => {
                                         </div>
                                     </div>
                                     <div className='relative before:w-full before:block before:pt-[62.5%] sm:w-5/12 w-full sm:mt-0 mt-4'>
-                                        <Image src={'/images/SG-Elevate-Your-Search-Presence-by-Outsourcing-Enterprise-SEO.png'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
+                                        <Image src={'/images/meta-ads/Long-Term_Growth_ROI.png'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
                                     </div>
                                 </div>
                             }

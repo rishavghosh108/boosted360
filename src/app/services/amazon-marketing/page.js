@@ -52,25 +52,25 @@ const Page = () => {
             id: 1,
             title: "Expertise in Amazon Marketing",
             description: "Our team has years of experience helping businesses like yours succeed on Amazon. From advertising to optimization, we know what it takes to drive growth on the platform.",
-            image: "/images/Digital-Marketing-Strategy.jpg",
+            image: "/images/Amazon-Marketing/Expertise_Amazon_Marketing.png",
         },
         {
             id: 2,
             title: "Customized Solutions for Every Business",
             description: "We understand that each Amazon store is unique. That’s why we offer tailored Amazon marketing services designed to meet your specific needs and business goals.",
-            image: "/images/Search-Engine-Optimization.jpg",
+            image: "/images/Amazon-Marketing/Customized_Solutions_Every_Business.png",
         },
         {
             id: 3,
             title: "Proven Success in Amazon PPC",
             description: "As a dedicated Amazon PPC agency, we’ve successfully managed campaigns for numerous clients, delivering measurable results and boosting their sales on Amazon.",
-            image: "/images/image_2025_02_11T11_09_35_485Z.jpg",
+            image: "/images/Amazon-Marketing/Proven_Success_Amazon_PPC.png",
         },
         {
             id: 4,
             title: "Transparent and Detailed Reporting",
             description: "Our Amazon marketing agency believes in transparency. Our detailed reports allow you to monitor your campaigns and make informed decisions to enhance your advertising efforts.",
-            image: "/images/Copywriting-Content-Marketing.jpg",
+            image: "/images/Amazon-Marketing/Proven_Success_Amazon_PPC.png",
         },
     ];
 
@@ -109,7 +109,7 @@ const Page = () => {
                             </div> */}
                         </div>
                         <div className='relative before:w-full before:block before:pt-[62.5%]'>
-                            <Image src={IserviceBannerOne} alt="arrow" width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' />
+                            <Image src={'/images/Amazon-Marketing/Amazon_Marketing_Agency.png'} alt="arrow" width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' />
                         </div>
                     </div>
                 </div>
@@ -243,7 +243,7 @@ const Page = () => {
                                         </div>
                                     </div>
                                     <div className='relative before:w-full before:block before:pt-[62.5%] sm:w-5/12 w-full sm:mt-0 mt-4'>
-                                        <Image src={'/images/work-4.jpg'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
+                                        <Image src={'/images/Amazon-Marketing/Increased_Product_Visibility.png'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
                                     </div>
                                 </div>
                             }
@@ -257,7 +257,7 @@ const Page = () => {
                                         </div>
                                     </div>
                                     <div className='relative before:w-full before:block before:pt-[62.5%] sm:w-5/12 w-full sm:mt-0 mt-4'>
-                                        <Image src={'/images/SaaS-Marketing-HIGH-ROI.png'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
+                                        <Image src={'/images/Amazon-Marketing/Higher_Conversion_Rates.png'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
                                     </div>
                                 </div>
                             }
@@ -271,7 +271,7 @@ const Page = () => {
                                         </div>
                                     </div>
                                     <div className='relative before:w-full before:block before:pt-[62.5%] sm:w-5/12 w-full sm:mt-0 mt-4'>
-                                        <Image src={'/images/sddefault1.jpg'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
+                                        <Image src={'/images/Amazon-Marketing/Optimized_Advertising_Spend.png'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
                                     </div>
                                 </div>
                             }
@@ -285,7 +285,7 @@ const Page = () => {
                                         </div>
                                     </div>
                                     <div className='relative before:w-full before:block before:pt-[62.5%] sm:w-5/12 w-full sm:mt-0 mt-4'>
-                                        <Image src={'/images/SG-Elevate-Your-Search-Presence-by-Outsourcing-Enterprise-SEO.png'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
+                                        <Image src={'/images/Amazon-Marketing/Sustained_Growth_ROI.png'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
                                     </div>
                                 </div>
                             }
