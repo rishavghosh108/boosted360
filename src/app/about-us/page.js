@@ -51,7 +51,7 @@ const Page = () => {
             <div className="container">
                 <div className="sm:py-[40px] py-8 lg:mt-[50px]">
                     <div className='bg-white md:p-10 p-4 rounded-lg flex flex-col-reverse sm:grid sm:grid-cols-2 gap-y-6 '>
-                        <div className='border-r flex-1 pr-2'>
+                        <div className='border-r flex-1 pr-2 sm:mt-0 mt-5'>
                             <div>
                                 <h2 className="text-[30px] lg:text-[50px] xl:text-[55px] font-bold pb-2">
                                     Who We Are
