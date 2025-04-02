@@ -372,7 +372,6 @@ const Page = () => {
                         ))}
                     </div>
                 </div>
-
                 {/* mobile  */}
                 <div className="px-4 max-w-[700px] mx-auto xl:max-w-fit xl:hidden block">
                     <div className="xl:border-b-4 border-solid border-[#5db947] xl:divide-x-[1px] divide-[#6abd71] grid xl:grid-cols-4 grid-cols-1 gap-y-1 relative xld-bx" style={{ backgroundImage: `url(${backgroundImage})`, backgroundSize: "cover", backgroundPosition: "center", transition: "background-image 0.5s ease-in-out", }}>
@@ -381,7 +380,6 @@ const Page = () => {
                                 key={service.id}
                                 className={`flex flex-col justify-end main-box px-4 xl:py-8 py-5 cursor-pointer xl:h-[460px] overflow-hidden relative ${activeIndex === index ? "xl:bg-black xl:bg-opacity-50 bg-transparent" : "bg-black xl:bg-opacity-25 bg-opacity-5"
                                     }`}
-                                onMouseEnter={() => handleMouseEnter(index)}
                                 onClick={() => handleClick(index)}
                             >
                                 <div className="flex items-center click-box justify-between">
