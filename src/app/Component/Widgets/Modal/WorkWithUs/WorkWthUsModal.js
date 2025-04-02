@@ -163,7 +163,7 @@ const WorkWthUsModal = ({ isOpen, onClose }) => {
   
 
   return (
-    <div id="modal" className='fixed top-0 left-0 w-screen backdrop-filter backdrop-blur-[1px] h-screen bg-black bg-opacity-50 overflow-auto z-[9999] px-2'>
+    <div id="modal" className='fixed top-0 left-0 w-screen backdrop-filter backdrop-blur-[2px] h-screen bg-black bg-opacity-50 overflow-auto z-[9999] px-2'>
       <div className='modal-centered flex items-center'>
         <div className='container mx-auto relative xl:max-w-[1000px] bg-[#f8f8f8] border-[1px] border-solid border-[#00000033] rounded-[10px] !p-[10px] md:p-[16px]'>
           <button onClick={() => {
