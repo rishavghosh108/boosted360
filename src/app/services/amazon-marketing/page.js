@@ -70,7 +70,7 @@ const Page = () => {
             id: 4,
             title: "Transparent and Detailed Reporting",
             description: "Our Amazon marketing agency believes in transparency. Our detailed reports allow you to monitor your campaigns and make informed decisions to enhance your advertising efforts.",
-            image: "/images/Amazon-Marketing/Proven_Success_Amazon_PPC.png",
+            image: "/images/Amazon-Marketing/Transparent-Detailed-Reporting.jpg",
         },
     ];
 
