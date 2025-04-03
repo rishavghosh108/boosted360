@@ -171,30 +171,30 @@ const WorkWthUsModal = ({ isOpen, onClose }) => {
               formik.resetForm({ values: "" });
             }} className='text-[16px] text-[#666] font-bold absolute top-[10px] right-[10px] size-[30px] border border-[#5db947] hover:bg-[#5db947] rounded-full pt-[2px] hover:text-white pl-[1px]'>&#10005;</button>
           <div className='max-w-[100%] lg:max-w-[90%] m-auto'>
-            <div className='py-[20px] xxl:py-[32px] md:mt-0 mt-6'>
-              <h2 className='text-[20px] md:text-[26px] lg:text-[30px] font-bold leading-[1.25] text-black text-center'>
+            <div className='py-[20px] xxl:py-[28px] md:mt-0 mt-6'>
+              <h2 className='text-[20px] md:text-[26px] lg:text-[28px] font-bold leading-[1.25] text-black text-center'>
                 Accelerate Your Marketing Without Growing Headcount
               </h2>
-              <p className='text-[16px] md:text-[18px] lg:text-[20px] pt-[8px] leading-[1.25] text-black text-center'>
+              <p className='text-[16px] md:text-[18px] lg:text-[20px] pt-[5px] leading-[1.25] text-black text-center'>
                 Fill out the form below to speak with someone from our team.
               </p>
             </div>
             <div>
               <form onSubmit={formik.handleSubmit}>
                 <div className='grid grid-cols-1 md:grid-cols-2'>
-                  <div className='px-[8px] pb-[20px]'>
+                  <div className='px-[8px] pb-[12px]'>
                    
                       <input type="text" name="name" onChange={formik.handleChange}
-                      value={removeExtraSpace(formik.values.name)} onBlur={formik.handleBlur} className='w-full h-[50px] rounded-[4px] bg-[#fff] border border-solid border-[#ececec] outline-none px-[25px] text-[16px] text-[#666]' placeholder="Full name *" />
+                      value={removeExtraSpace(formik.values.name)} onBlur={formik.handleBlur} className='w-full h-[40px] rounded-[4px] bg-[#fff] border border-solid border-[#ececec] outline-none px-[25px] text-[16px] text-[#666]' placeholder="Full name *" />
                       {formik.touched.name && formik.errors.name ? <div style={{color: '#ff0000'}}>{formik.errors.name}</div> : null}
                   </div>
-                  <div className='px-[8px] pb-[20px]'>
+                  <div className='px-[8px] pb-[12px]'>
                     
                     <input type="text" name="email" onChange={formik.handleChange}
-                      value={removeExtraSpace(formik.values.email)} onBlur={formik.handleBlur} className='w-full h-[50px] rounded-[4px] bg-[#fff] border border-solid border-[#ececec] outline-none px-[25px] text-[16px] text-[#666]' placeholder="Work email*" />
+                      value={removeExtraSpace(formik.values.email)} onBlur={formik.handleBlur} className='w-full h-[40px] rounded-[4px] bg-[#fff] border border-solid border-[#ececec] outline-none px-[25px] text-[16px] text-[#666]' placeholder="Work email*" />
                       {formik.touched.email && formik.errors.email ? <div style={{color: '#ff0000'}}>{formik.errors.email}</div> : null}
                   </div>
-                  <div className='px-[8px] pb-[20px]'>
+                  <div className='px-[8px] pb-[12px]'>
                     <PhoneInput
                       placeholder="Enter phone number*"
                       value={formik.values.phone}
@@ -202,31 +202,31 @@ const WorkWthUsModal = ({ isOpen, onClose }) => {
                       defaultCountry="US"
                       international
                       countryCallingCodeEditable={true}
-                      className='w-full h-[50px] rounded-[4px] bg-[#fff] border border-solid border-[#ececec] outline-none pl-[10px] pr-[25px] text-[16px] text-[#666]'
+                      className='w-full h-[40px] rounded-[4px] bg-[#fff] border border-solid border-[#ececec] outline-none pl-[10px] pr-[25px] text-[16px] text-[#666]'
                     />
                      {formik.touched.phone && formik.errors.phone ? <div style={{ color: '#ff0000' }}>{formik.errors.phone}</div> :
                     error?.phone ? (<div style={{ color: '#ff0000' }}>{errors.phone}</div>) : null}
                   </div>
                  
-                  <div className='px-[8px] pb-[20px]'>
+                  <div className='px-[8px] pb-[12px]'>
                     <input
                       type='text'
                       name="website"
                       onChange={formik.handleChange}
                       value={removeExtraSpace(formik.values.website)} onBlur={formik.handleBlur}
                       placeholder='Website'
-                      className='w-full h-[50px] rounded-[4px] bg-[#fff] border border-solid border-[#ececec] outline-none px-[25px] text-[16px] text-[#666]'
+                      className='w-full h-[40px] rounded-[4px] bg-[#fff] border border-solid border-[#ececec] outline-none px-[25px] text-[16px] text-[#666]'
                     />
                     {formik.touched.website && formik.errors.website ? <div style={{ color: '#ff0000' }}>{formik.errors.website}</div> :
                       error?.website ? (<div style={{ color: '#ff0000' }}>{error.website}</div>) : null}
                   </div>
-                  <div className="px-[8px] pb-[20px]">
+                  <div className="px-[8px] pb-[12px]">
                     <select
                       name="select_value"
                       value={formik.values.select_value} // Controlled by Formik
                       onChange={formik.handleChange}
                       onBlur={formik.handleBlur}
-                      className="w-full h-[50px] rounded-[4px] bg-transparent border border-solid border-[#ececec] outline-none px-[25px] text-[16px] text-[#666]"
+                      className="w-full h-[40px] rounded-[4px] bg-transparent border border-solid border-[#ececec] outline-none px-[25px] text-[16px] text-[#666]"
                     >
                       <option value="" disabled>
                         I&apos;d like to talk about
@@ -249,31 +249,31 @@ const WorkWthUsModal = ({ isOpen, onClose }) => {
                     
                   </div>
 
-                  <div className='px-[8px] pb-[20px]'>
+                  <div className='px-[8px] pb-[12px]'>
                     <input 
                       type='text'
                       name="company"
                       onChange={formik.handleChange}
                       value={removeExtraSpace(formik.values.company)} onBlur={formik.handleBlur}
                       placeholder='Company'
-                      className='w-full h-[50px] rounded-[4px] bg-[#fff] border border-solid border-[#ececec] outline-none px-[25px] text-[16px] text-[#666]'
+                      className='w-full h-[40px] rounded-[4px] bg-[#fff] border border-solid border-[#ececec] outline-none px-[25px] text-[16px] text-[#666]'
                     />
                   </div>
                   
-                  <div className='px-[8px] pb-[20px] md:col-span-2'>
+                  <div className='px-[8px] pb-[12px] md:col-span-2'>
                    
 
                     <textarea type="text" name="message" onChange={formik.handleChange}
-                    value={removeExtraSpace(formik.values.message)} onBlur={formik.handleBlur} rows={3} placeholder='Your message/requirements*' className='w-full p-3 rounded-sm resize-y h-36 border border-solid border-[#ececec]' />
+                    value={removeExtraSpace(formik.values.message)} onBlur={formik.handleBlur} rows={3} placeholder='Your message/requirements*' className='w-full p-3 rounded-sm resize-y h-28 border border-solid border-[#ececec]' />
                     {formik.touched.message && formik.errors.message ? <div style={{color: '#ff0000'}}>{formik.errors.message}</div> : null}
                   </div>
-                  <div className='px-[8px] pb-[20px] md:col-span-2'>
+                  <div className='px-[8px] pb-[12px] md:col-span-2'>
                    
                     <input type="file" className='hidden' id="fileUpload" onChange={(event) => {
                       formik.setFieldValue("document_file", event.currentTarget.files[0]);
                       }} name='document_file' accept=".doc, .docx" />
-                    <label htmlFor="fileUpload" className='text-[16px] text-[#666] flex items-center border rounded border-solid border-[#ececec] px-4 py-2.5'>
-                      <div className='size-7 shrink-0 flex text-white items-center justify-center rounded-full bg-[#5db947] mr-3'>
+                    <label htmlFor="fileUpload" className='text-[16px] text-[#666] flex items-center border rounded border-solid border-[#ececec] px-4 py-2'>
+                      <div className='size-6 shrink-0 flex text-white items-center justify-center rounded-full bg-[#5db947] mr-3'>
                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path fill="currentColor" d="M11.5 15.577v-8.65l-2.33 2.33l-.708-.718L12 5l3.539 3.539l-.708.719L12.5 6.927v8.65zM6.616 19q-.691 0-1.153-.462T5 17.384v-2.423h1v2.423q0 .231.192.424t.423.192h10.77q.23 0 .423-.192t.192-.424v-2.423h1v2.423q0 .691-.462 1.153T17.384 19z"/></svg>
                       </div>
                       {formik.values.document_file ? `...${formik.values.document_file.name.slice(-25)}`:'Upload a .doc or .docx file for the project brief.'}
@@ -300,7 +300,7 @@ const WorkWthUsModal = ({ isOpen, onClose }) => {
                     </button> */}
 
 
-                    <button type="submit" disabled={btnLoader} className="ease_in_out bg-[#5db947] text-[14px] md:text-[15px] font-bold text-white uppercase inline-flex border border-solid border-[#5db947] md:mb-4 mb-[20px] px-[20px] xxl:px-[30px] md:px-[55px] py-[15px] md:py-[16px] xxl:py-[20px] mt-[20px] xxl:mt-[40px] hover:bg-[#5db947]">
+                    <button type="submit" disabled={btnLoader} className="ease_in_out bg-[#5db947] text-[14px] md:text-[15px] font-bold text-white uppercase inline-flex border border-solid border-[#5db947] md:mb-4 mb-[20px] px-[20px] xxl:px-[30px] md:px-[55px] py-[15px] mt-[18px] hover:bg-[#5db947]">
                       Submit Your Query 
                       {btnLoader ? (
                           <span className='btn-ring-animation'></span>
@@ -331,10 +331,10 @@ const WorkWthUsModal = ({ isOpen, onClose }) => {
               <div className='hidden lg:block'>
                 <div className='flex items-center justify-center'>
                   <div>
-                    <Image src={Exrinceone} alt="profile" className="w-[100px] h-[100px] rounded-full object-cover" />
+                    <Image src={Exrinceone} alt="profile" className="size-[80px] rounded-full object-cover" />
                   </div>
-                  <div className='pl-[32px] max-w-[450px] py-[32px]'>
-                    <h3 className='text-[24px] font-bold leading-[1.25] text-black text-left'>
+                  <div className='pl-[25px] max-w-[450px] py-[20px]'>
+                    <h3 className='text-[20px] font-bold leading-[1.25] text-black text-left'>
                       “We can count on them to bring new ideas to the table consistently”
                     </h3>
                     <p className='mt-[15px] text-[14px] font-medium leading-[1.25] text-[#666]'>
