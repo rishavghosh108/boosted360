@@ -3,7 +3,7 @@
 import React, { useState } from 'react';
 import { Layouts } from '@/app/Component';
 import Image from 'next/image';
-import { Companie7, sliderInLogoOne, sliderInLogoThree, sliderInLogoTwo, sliderInLogoTdffe, sliderInLogolop, sliderInLogoafr, sliderInLogondg, sliderInLogocxml, sliderInLogorei, sliderInLogovbg, sliderInLogojjjd, sliderInLogomasla, sliderInLogodff, sliderInLogonnjdvd, BtnArrow, work1, anthem_google, } from '@/app/assets';
+import { Companie7, sliderInLogoOne, sliderInLogoThree, sliderInLogoTwo, sliderInLogoTdffe, sliderInLogolop, sliderInLogoafr, sliderInLogondg, sliderInLogocxml, sliderInLogorei, sliderInLogovbg, sliderInLogojjjd, sliderInLogomasla, sliderInLogodff, sliderInLogonnjdvd, BtnArrow, work1, anthem_google,work2 } from '@/app/assets';
 import Growing from '@/app/Component/Widgets/Homepagegreen/Growing';
 import WorkWthUsModal from "../../Component/Widgets/Modal/WorkWithUs/WorkWthUsModal"
 import Companies from '@/app/Component/Widgets/Homepagegreen/Companies';
@@ -44,7 +44,7 @@ const Page = () => {
           </div>
 
           <div className=''>
-            <Image src={work1} className='max-w-3xl mx-auto w-full h-96 object-cover' alt={`Slide`} />
+            <Image width={597} height={100} src={work2} className='max-w-3xl mx-auto w-full h-96 object-contain' alt={`Slide`} />
           </div>
         </div>
       </div>

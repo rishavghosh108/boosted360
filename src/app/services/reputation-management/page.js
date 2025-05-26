@@ -52,25 +52,25 @@ const Page = () => {
             id: 1,
             title: "Expertise in Reputation Management",
             description: "With years of experience, our reputation management consultants understand the complexities of online reputation and have a proven track record of helping businesses protect their image and rebuild trust",
-            image: "/images/Digital-Marketing-Strategy.jpg",
+            image: "/images/reputation-management/reputation-management-btm1.png",
         },
         {
             id: 2,
             title: "Customized Solutions for Every Business",
             description: "We recognize that every brand has unique needs. That’s why we offer tailored reputation management solutions that are specifically designed to address your reputation challenges.",
-            image: "/images/Search-Engine-Optimization.jpg",
+            image: "/images/reputation-management/reputation-management-btm2.png",
         },
         {
             id: 3,
             title: "Transparent and Ongoing Support",
             description: "Our reputation management agency believes in transparency. We provide regular reports and ongoing support, ensuring that you are always informed about the progress and success of your reputation management efforts.",
-            image: "/images/image_2025_02_11T11_09_35_485Z.jpg",
+            image: "/images/reputation-management/reputation-management-btm3.png",
         },
         {
             id: 4,
             title: "Proven Success in Reputation Management",
             description: "As a trusted reputation management company, we have successfully helped businesses across various industries repair and maintain their online reputation, boosting their credibility and visibility.",
-            image: "/images/Copywriting-Content-Marketing.jpg",
+            image: "/images/reputation-management/reputation-management-btm4.png",
         },
     ];
 
@@ -109,7 +109,7 @@ const Page = () => {
                             </div> */}
                         </div>
                         <div className='relative before:w-full before:block before:pt-[62.5%]'>
-                            <Image src={IserviceBannerOne} alt="arrow" width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' />
+                            <Image src={'/images/reputation-management/reputation-management-banner.png'} alt="arrow" width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' />
                         </div>
                     </div>
                 </div>
@@ -241,7 +241,7 @@ const Page = () => {
                                         </div>
                                     </div>
                                     <div className='relative before:w-full before:block before:pt-[62.5%] sm:w-5/12 w-full sm:mt-0 mt-4'>
-                                        <Image src={'/images/work-4.jpg'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
+                                        <Image src={'/images/reputation-management/reputation-management-tab1.png'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
                                     </div>
                                 </div>
                             }
@@ -255,7 +255,7 @@ const Page = () => {
                                         </div>
                                     </div>
                                     <div className='relative before:w-full before:block before:pt-[62.5%] sm:w-5/12 w-full sm:mt-0 mt-4'>
-                                        <Image src={'/images/SaaS-Marketing-HIGH-ROI.png'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
+                                        <Image src={'/images/reputation-management/reputation-management-tab2.png'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
                                     </div>
                                 </div>
                             }
@@ -269,7 +269,7 @@ const Page = () => {
                                         </div>
                                     </div>
                                     <div className='relative before:w-full before:block before:pt-[62.5%] sm:w-5/12 w-full sm:mt-0 mt-4'>
-                                        <Image src={'/images/sddefault1.jpg'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
+                                        <Image src={'/images/reputation-management/reputation-management-tab3.png'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
                                     </div>
                                 </div>
                             }
@@ -283,7 +283,7 @@ const Page = () => {
                                         </div>
                                     </div>
                                     <div className='relative before:w-full before:block before:pt-[62.5%] sm:w-5/12 w-full sm:mt-0 mt-4'>
-                                        <Image src={'/images/SG-Elevate-Your-Search-Presence-by-Outsourcing-Enterprise-SEO.png'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
+                                        <Image src={'/images/reputation-management/reputation-management-tab4.png'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
                                     </div>
                                 </div>
                             }

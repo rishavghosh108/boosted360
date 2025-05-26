@@ -52,25 +52,25 @@ const Page = () => {
             id: 1,
             title: "Expertise in Content Marketing",
             description: "With years of experience, our content marketing agency has helped businesses across various industries build and grow their brand through effective content strategies. We know what it takes to drive engagement and results.",
-            image: "/images/Digital-Marketing-Strategy.jpg",
+            image: "/images/content-marketing/content-marketing-bottom1.png",
         },
         {
             id: 2,
             title: "Customized Content Marketing Solutions",
             description: "We understand that each business is unique. That’s why we offer tailored content marketing services that align with your specific needs, whether you’re a small startup or a large corporation.",
-            image: "/images/Search-Engine-Optimization.jpg",
+            image: "/images/content-marketing/content-marketing-bottom2.png",
         },
         {
             id: 3,
             title: "Proven Success in SEO Content Marketing",
             description: "As an SEO content marketing agency, we have successfully executed content strategies that improve search engine rankings, drive traffic, and increase conversions for our clients.",
-            image: "/images/image_2025_02_11T11_09_35_485Z.jpg",
+            image: "/images/content-marketing/content-marketing-bottom3.png",
         },
         {
             id: 4,
             title: "Transparent Reporting and Ongoing Support",
             description: "Our content marketing agency believes in transparency. We provide you with regular reports on campaign performance, along with insights and recommendations to help you continuously improve your content strategy.",
-            image: "/images/Copywriting-Content-Marketing.jpg",
+            image: "/images/content-marketing/content-marketing-bottom4.png",
         },
     ];
 
@@ -110,7 +110,7 @@ const Page = () => {
                             </div> */}
                         </div>
                         <div className='relative before:w-full before:block before:pt-[62.5%]'>
-                            <Image src={IserviceBannerOne} alt="arrow" width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' />
+                            <Image src={'/images/content-marketing/content-marketing-banner1.png'} alt="arrow" width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' />
                         </div>
                     </div>
                 </div>
@@ -241,7 +241,7 @@ const Page = () => {
                                         </div>
                                     </div>
                                     <div className='relative before:w-full before:block before:pt-[62.5%] sm:w-5/12 w-full sm:mt-0 mt-4'>
-                                        <Image src={'/images/work-4.jpg'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
+                                        <Image src={'/images/content-marketing/content-marketing-tab1.png'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
                                     </div>
                                 </div>
                             }
@@ -255,7 +255,7 @@ const Page = () => {
                                         </div>
                                     </div>
                                     <div className='relative before:w-full before:block before:pt-[62.5%] sm:w-5/12 w-full sm:mt-0 mt-4'>
-                                        <Image src={'/images/SaaS-Marketing-HIGH-ROI.png'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
+                                        <Image src={'/images/content-marketing/content-marketing-tab2.png'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
                                     </div>
                                 </div>
                             }
@@ -269,7 +269,7 @@ const Page = () => {
                                         </div>
                                     </div>
                                     <div className='relative before:w-full before:block before:pt-[62.5%] sm:w-5/12 w-full sm:mt-0 mt-4'>
-                                        <Image src={'/images/sddefault1.jpg'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
+                                        <Image src={'/images/content-marketing/content-marketing-tab3.png'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
                                     </div>
                                 </div>
                             }
@@ -283,7 +283,7 @@ const Page = () => {
                                         </div>
                                     </div>
                                     <div className='relative before:w-full before:block before:pt-[62.5%] sm:w-5/12 w-full sm:mt-0 mt-4'>
-                                        <Image src={'/images/SG-Elevate-Your-Search-Presence-by-Outsourcing-Enterprise-SEO.png'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
+                                        <Image src={'/images/content-marketing/content-marketing-tab4.png'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
                                     </div>
                                 </div>
                             }

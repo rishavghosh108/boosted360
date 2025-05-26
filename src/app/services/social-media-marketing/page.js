@@ -7,7 +7,7 @@ import Link from 'next/link';
 import { BtnArrow } from '@/app/assets';
 import Growing from '@/app/Component/Widgets/Homepagegreen/Growing';
 import WorkWthUsModal from "../../Component/Widgets/Modal/WorkWithUs/WorkWthUsModal"
-import { BgGrain, IserviceBannerOne, Servicebg, ServiceIconone, ServiceIcontwo, ServiceIconthree, downArrow, sliderInLogoOne, Product_AudienceResearch, Campaign_Strategy_Setup, ContinuousOptimization_Management, ReportingPerformanceTracking} from "../../assets/index";
+import { BgGrain, Servicebg,  downArrow,  Product_AudienceResearch, Campaign_Strategy_Setup, ContinuousOptimization_Management, ReportingPerformanceTracking} from "../../assets/index";
 
 const Page = () => {
     const [isModalOpen, setIsModalOpen] = useState(false);
@@ -52,25 +52,25 @@ const Page = () => {
             id: 1,
             title: "Expertise in Social Media Marketing",
             description: "With years of experience, our social media marketing consultants have helped businesses build and grow their social media presence. Our team understands the intricacies of social platforms and knows how to maximize their potential.",
-            image: "/images/Digital-Marketing-Strategy.jpg",
+            image: "/images/social-media-marketing/social-media-marketing-btm1.png",
         },
         {
             id: 2,
             title: "Customized Solutions for Every Business",
             description: "We recognize that every business is different. That's why we offer tailored social media marketing services to meet your specific goals and challenges.",
-            image: "/images/Search-Engine-Optimization.jpg",
+            image: "/images/social-media-marketing/social-media-marketing-btm2.png",
         },
         {
             id: 3,
             title: "Proven Success in Social Media Marketing",
             description: "As a trusted social media management agency, we have a proven track record of successfully managing campaigns and delivering tangible results for clients across various industries.",
-            image: "/images/image_2025_02_11T11_09_35_485Z.jpg",
+            image: "/images/social-media-marketing/social-media-marketing-btm3.png",
         },
         {
             id: 4,
             title: "Transparent and Detailed Reporting",
             description: "Our social media marketing agency believes in transparency. We provide you with detailed reports that allow you to monitor your campaigns' success, making it easier to refine and enhance your strategies over time.",
-            image: "/images/Copywriting-Content-Marketing.jpg",
+            image: "/images/social-media-marketing/social-media-marketing-btm4.png",
         },
     ];
 
@@ -110,7 +110,7 @@ const Page = () => {
                             </div> */}
                         </div>
                         <div className='relative before:w-full before:block before:pt-[62.5%]'>
-                            <Image src={IserviceBannerOne} alt="arrow" width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' />
+                            <Image src={'/images/social-media-marketing/Social-Media-Marketing-banner.png'} alt="arrow" width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' />
                         </div>
                     </div>
                 </div>
@@ -242,7 +242,7 @@ const Page = () => {
                                         </div>
                                     </div>
                                     <div className='relative before:w-full before:block before:pt-[62.5%] sm:w-5/12 w-full sm:mt-0 mt-4'>
-                                        <Image src={'/images/work-4.jpg'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
+                                        <Image src={'/images/social-media-marketing/social-media-marketing-tab1.png'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
                                     </div>
                                 </div>
                             }
@@ -256,7 +256,7 @@ const Page = () => {
                                         </div>
                                     </div>
                                     <div className='relative before:w-full before:block before:pt-[62.5%] sm:w-5/12 w-full sm:mt-0 mt-4'>
-                                        <Image src={'/images/SaaS-Marketing-HIGH-ROI.png'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
+                                        <Image src={'/images/social-media-marketing/social-media-marketing-tab2.png'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
                                     </div>
                                 </div>
                             }
@@ -270,7 +270,7 @@ const Page = () => {
                                         </div>
                                     </div>
                                     <div className='relative before:w-full before:block before:pt-[62.5%] sm:w-5/12 w-full sm:mt-0 mt-4'>
-                                        <Image src={'/images/sddefault1.jpg'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
+                                        <Image src={'/images/social-media-marketing/social-media-marketing-tab3.png'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
                                     </div>
                                 </div>
                             }
@@ -284,7 +284,7 @@ const Page = () => {
                                         </div>
                                     </div>
                                     <div className='relative before:w-full before:block before:pt-[62.5%] sm:w-5/12 w-full sm:mt-0 mt-4'>
-                                        <Image src={'/images/SG-Elevate-Your-Search-Presence-by-Outsourcing-Enterprise-SEO.png'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
+                                        <Image src={'/images/social-media-marketing/social-media-marketing-tab4.png'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
                                     </div>
                                 </div>
                             }

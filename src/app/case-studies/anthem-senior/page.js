@@ -42,7 +42,7 @@ const Page = () => {
           </div>
 
           <div className=''>
-            <Image src={work1} className='max-w-3xl mx-auto w-full h-96 object-cover' alt={`Slide`} />
+            <Image width={597} height={100} src={work1} className='max-w-3xl mx-auto w-full h-96 object-contain' alt={`Slide`} />
           </div>
         </div>
       </div>
