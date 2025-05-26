@@ -16,22 +16,22 @@ export default function AgencyAccordian() {
     const items = [
         {
             title: 'SEO Services',
-            content: 'Online marketing campaigns based on your business goals that convert.',
+            content: 'Our SEO services include tactics and strategies for improving ranking and visibility of a website.',
             ctaLink: '/services/search-engine-optimization'
         },
         {
             title: 'Pay-Per-Click (PPC) Advertising',
-            content: 'Online marketing campaigns based on your business goals that convert.',
+            content: 'From Google ads to Facebook ads, we help our clients to accelerate sales and with lead generation.',
             ctaLink: '/services/google-ads'
         },
         {
             title: 'Social Media Marketing',
-            content: 'Online marketing campaigns based on your business goals that convert.',
+            content: 'Our SMM services are for managing social media presence, engaging audiences and reach target goals.',
             ctaLink: '/services/social-media-marketing'
         },
         {
             title: 'Content Marketing',
-            content: 'Online marketing campaigns based on your business goals that convert.',
+            content: 'Our content marketing helps in creating and distributing valuable content for attracting and engaging target people. ',
             ctaLink: '/services/content-marketing'
         },
     ];

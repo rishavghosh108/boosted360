@@ -52,25 +52,25 @@ const Page = () => {
             id: 1,
             title: "Expertise in Video Marketing",
             description: "Our team specializes in creating high-performance YouTube ads, with years of experience helping businesses like yours succeed on the platform.",
-            image: "/images/Digital-Marketing-Strategy.jpg",
+            image: "/images/youtube-advertising/hover1.png",
         },
         {
             id: 2,
             title: "Customized Campaigns for Every Business",
             description: "We understand that each business is unique. That's why we offer tailored YouTube marketing services to meet your specific needs and objectives.",
-            image: "/images/Search-Engine-Optimization.jpg",
+            image: "/images/youtube-advertising/hover2.png",
         },
         {
             id: 3,
             title: "Proven Track Record",
             description: "We have a history of delivering exceptional results for our clients, improving brand visibility and generating substantial ROI through YouTube advertising.",
-            image: "/images/image_2025_02_11T11_09_35_485Z.jpg",
+            image: "/images/youtube-advertising/hover3.png",
         },
         {
             id: 4,
             title: "Transparent Reporting and Continuous Optimization",
             description: "Our YouTube Ads Agency provides regular performance reports and keep optimizing your campaigns to ensure that your business gets the best possible results.",
-            image: "/images/Copywriting-Content-Marketing.jpg",
+            image: "/images/youtube-advertising/hover4.png",
         },
     ];
 
@@ -109,7 +109,7 @@ const Page = () => {
                             </div> */}
                         </div>
                         <div className='relative before:w-full before:block before:pt-[62.5%]'>
-                            <Image src={IserviceBannerOne} alt="arrow" width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' />
+                            <Image src={'/images/youtube-advertising/youtube-top.png'} alt="arrow" width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' />
                         </div>
                     </div>
                 </div>
@@ -249,7 +249,7 @@ const Page = () => {
                                         </div>
                                     </div>
                                     <div className='relative before:w-full before:block before:pt-[62.5%] sm:w-5/12 w-full sm:mt-0 mt-4'>
-                                        <Image src={'/images/work-4.jpg'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
+                                        <Image src={'/images/youtube-advertising/youtube-tab1.png'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
                                     </div>
                                 </div>
                             }
@@ -263,7 +263,7 @@ const Page = () => {
                                         </div>
                                     </div>
                                     <div className='relative before:w-full before:block before:pt-[62.5%] sm:w-5/12 w-full sm:mt-0 mt-4'>
-                                        <Image src={'/images/SaaS-Marketing-HIGH-ROI.png'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
+                                        <Image src={'/images/youtube-advertising/youtube-tab2.png'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
                                     </div>
                                 </div>
                             }
@@ -277,7 +277,7 @@ const Page = () => {
                                         </div>
                                     </div>
                                     <div className='relative before:w-full before:block before:pt-[62.5%] sm:w-5/12 w-full sm:mt-0 mt-4'>
-                                        <Image src={'/images/sddefault1.jpg'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
+                                        <Image src={'/images/youtube-advertising/youtube-tab3.png'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
                                     </div>
                                 </div>
                             }
@@ -291,7 +291,7 @@ const Page = () => {
                                         </div>
                                     </div>
                                     <div className='relative before:w-full before:block before:pt-[62.5%] sm:w-5/12 w-full sm:mt-0 mt-4'>
-                                        <Image src={'/images/SG-Elevate-Your-Search-Presence-by-Outsourcing-Enterprise-SEO.png'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
+                                        <Image src={'/images/youtube-advertising/youtube-tab4.png'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
                                     </div>
                                 </div>
                             }
