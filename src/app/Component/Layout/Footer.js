@@ -178,6 +178,7 @@ export default function FooterGreen() {
             </ul>
           </div>
         </div>
+         <Link className='text-white font-bold' href={'/boosted360'}>Social Media Marketing</Link>
       </div>
 
       <div className='container '>
