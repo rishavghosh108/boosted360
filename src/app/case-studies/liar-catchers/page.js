@@ -3,7 +3,7 @@
 import React, { useState } from 'react';
 import { Layouts } from '@/app/Component';
 import Image from 'next/image';
-import { Companie7, sliderInLogoOne, sliderInLogoThree, sliderInLogoTwo, sliderInLogoTdffe, sliderInLogolop, sliderInLogoafr, sliderInLogondg, sliderInLogocxml, sliderInLogorei, sliderInLogovbg, sliderInLogojjjd, sliderInLogomasla, sliderInLogodff, sliderInLogonnjdvd, BtnArrow, work1, anthem_google, } from '@/app/assets';
+import { Companie7, sliderInLogoOne, sliderInLogoThree, sliderInLogoTwo, sliderInLogoTdffe, sliderInLogolop, sliderInLogoafr, sliderInLogondg, sliderInLogocxml, sliderInLogorei, sliderInLogovbg, sliderInLogojjjd, sliderInLogomasla, sliderInLogodff, sliderInLogonnjdvd, BtnArrow, work1, anthem_google,work6 } from '@/app/assets';
 import Growing from '@/app/Component/Widgets/Homepagegreen/Growing';
 import WorkWthUsModal from "../../Component/Widgets/Modal/WorkWithUs/WorkWthUsModal"
 import Companies from '@/app/Component/Widgets/Homepagegreen/Companies';
@@ -44,7 +44,7 @@ const Page = () => {
                     </div>
 
                     <div className=''>
-                        <Image src={work1} className='max-w-3xl mx-auto w-full h-96 object-cover' alt={`Slide`} />
+                        <Image src={work6} className='max-w-3xl mx-auto w-full h-96 object-contain' alt={`Slide`} />
                     </div>
                 </div>
             </div>
@@ -217,7 +217,7 @@ const Page = () => {
                     <h1>
                         Content Marketing
                     </h1>
-                    <p>Our content marketing strategy involved publishing blog posts and resources that addressed critical topics such as &quot;When to hire a private investigator&quot; and &quot;Understanding legal disclaimers.&quot; These pieces of content not only boosted SEO rankings but also helped potential clients better understand the services offered by Liar Catchers, reinforcing their credibility as an expert in the private investigation field.</p>
+                    <p>Our content marketing strategy involved publishing blog posts and resources that addressed critical topics such as &quot;When to hire a private investigator&quot; and &quot;Understanding legal disclaimers.&quot; These pieces of content not only Boosted SEO rankings but also helped potential clients better understand the services offered by Liar Catchers, reinforcing their credibility as an expert in the private investigation field.</p>
 
                     {/* <h1>Ad Campaigns (PPC)</h1>
                     <p>We executed highly targeted PPC campaigns, including search ads, display ads, and remarketing efforts, to drive qualified traffic to ACLS Solutions&apos; class registration pages. These campaigns focused on individuals actively searching for ACLS and CPR certification in the St. Louis area, resulting in increased site traffic and higher conversion rates for class sign-ups.</p> */}

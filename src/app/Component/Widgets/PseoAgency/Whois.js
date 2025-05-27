@@ -16,7 +16,7 @@ export default function Whois()  {
                         Who is Eric Siu?
                     </h2>
                     <p className="text-[17px] lg:text-[19px] text-[#666] leading-[140%] mt-[20px] lg:mt-[35px] text-left">
-                        Eric Siu is the founder of digital marketing agency boosted 360. He also hosts two podcasts: Marketing School & Leveling Up, which get over 2.1M monthly downloads combined. Over the years, Eric has helped companies such as Amazon, Uber, Airbnb, and Salesforce acquire more customers.
+                        Eric Siu is the founder of digital marketing agency Boosted 360. He also hosts two podcasts: Marketing School & Leveling Up, which get over 2.1M monthly downloads combined. Over the years, Eric has helped companies such as Amazon, Uber, Airbnb, and Salesforce acquire more customers.
                     </p>
                     <p className="text-[17px] lg:text-[19px] text-[#666] leading-[140%] mt-[20px] lg:mt-[35px] text-left">
                         Eric hosts a marketing mastermind where 100 of the best in media, marketing, and business get together twice a year in Miami and Beverly Hills. He is also the author of Leveling Up: How to Master the Game of Life.

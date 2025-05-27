@@ -23,7 +23,7 @@ export default function Unlocking()  {
                         Enter pSEO, the next horizon in scalable, intelligent search marketing. This approach empowers companies to transcend traditional SEO limits through data-driven automation and tailored content strategies.
                     </p>
                     <p className="max-w-[100%] lg:max-w-[510px] text-[17px] lg:text-[19px] text-[#666] leading-[1.63] mt-[20px] lg:mt-[35px] text-left">
-                        At boosted 360, we specialize in harnessing the full power of pSEO to elevate your brand&apos;s digital presence. Our pSEO services turn the formidable web into navigable terrain, paving a clear path for your growth and success.
+                        At Boosted 360, we specialize in harnessing the full power of pSEO to elevate your brand&apos;s digital presence. Our pSEO services turn the formidable web into navigable terrain, paving a clear path for your growth and success.
                     </p>
                 </div>
                 <div>
@@ -41,7 +41,7 @@ export default function Unlocking()  {
                         Mastery
                     </h2>
                     <p className="max-w-[100%] lg:max-w-[510px] text-[17px] lg:text-[19px] text-[#666] leading-[1.63] mt-[20px] lg:mt-[35px] text-left">
-                        Recognizing the unique challenges of our clients, boosted 360 crafts a bespoke pSEO campaign that fits your business like a glove. We begin by analyzing your current digital footprint, pinpointing opportunities and setting the stage for a comprehensive pSEO journey.
+                        Recognizing the unique challenges of our clients, Boosted 360 crafts a bespoke pSEO campaign that fits your business like a glove. We begin by analyzing your current digital footprint, pinpointing opportunities and setting the stage for a comprehensive pSEO journey.
                     </p>
                     <p className="max-w-[100%] lg:max-w-[510px] text-[17px] lg:text-[19px] text-[#666] leading-[1.63] mt-[20px] lg:mt-[35px] text-left">
                         Next, we deploy AI-driven tactics to automate the generation of high-quality content that engages and converts. Our targeted approach means every piece of content serves a purpose, ensuring that none of your marketing spend is wasted.

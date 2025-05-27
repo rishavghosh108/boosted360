@@ -114,10 +114,10 @@ import Bulletpoint from './images/pseo-agenchy/bullet-point.png';
 
 import work1 from './images/work/work-1.png';
 import work2 from './images/work/work-2.png';
-import work3 from './images/work/work-3.jpg';
-import work4 from './images/work/work-4.jpg';
-import work5 from './images/work/work-5.jpg';
-import work6 from './images/work/work-6.jpg';
+import work3 from './images/work/work-3.png';
+import work4 from './images/work/work-4.png';
+import work5 from './images/work/work-5.png';
+import work6 from './images/work/work-6.png';
 
 import sliderInLogoOne from './images/sliderLogo/brand-15.png';
 import sliderInLogoTwo from './images/sliderLogo/brand-6.png';

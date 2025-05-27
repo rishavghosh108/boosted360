@@ -195,7 +195,7 @@ const Page = () => {
 
 
           <h1>Local SEO</h1>
-          <p>We strategically focused on Local SEO to enhance Anthem Senior Living&apos;s search engine ranking. By optimizing their website with location-specific keywords like &quot;Senior care living in Anthem,&quot; &quot;Anthem assisted living,&quot; and &quot;Senior living in Anthem,&quot; we ensured that Anthem Senior Living ranked #1 for these critical terms. This approach significantly boosted their local visibility, driving more targeted traffic from people specifically looking for senior living options in the Anthem area.</p>
+          <p>We strategically focused on Local SEO to enhance Anthem Senior Living&apos;s search engine ranking. By optimizing their website with location-specific keywords like &quot;Senior care living in Anthem,&quot; &quot;Anthem assisted living,&quot; and &quot;Senior living in Anthem,&quot; we ensured that Anthem Senior Living ranked #1 for these critical terms. This approach significantly Boosted their local visibility, driving more targeted traffic from people specifically looking for senior living options in the Anthem area.</p>
           <div className='mb-3 '>
             <Image width={600} height={100} src={'/images/details-image/Antham_google.png'} alt={`Slide`} className='w-full' />
           </div>
@@ -223,7 +223,7 @@ const Page = () => {
           <h1>
             Content Marketing
           </h1>
-          <p>We implemented a comprehensive content marketing strategy for Anthem Senior Living, focusing on creating informative, engaging, and valuable content for their audience. By producing blog posts, guides, and videos, we educated potential customers on senior care options and assisted living services in Anthem. This approach not only boosted SEO rankings but also helped Anthem Senior Living build trust and long-term relationships with their audience, positioning them as a leader in the senior care industry. </p>
+          <p>We implemented a comprehensive content marketing strategy for Anthem Senior Living, focusing on creating informative, engaging, and valuable content for their audience. By producing blog posts, guides, and videos, we educated potential customers on senior care options and assisted living services in Anthem. This approach not only Boosted SEO rankings but also helped Anthem Senior Living build trust and long-term relationships with their audience, positioning them as a leader in the senior care industry. </p>
 
           <h1>
             Ad Campaign (PPC/Facebook Ads)

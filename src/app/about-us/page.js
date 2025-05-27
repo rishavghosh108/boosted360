@@ -31,7 +31,7 @@ const Page = () => {
                                 Drive Your Success with Innovative Digital Marketing Solutions
                             </h1>
                             <p className='text-lg lg:text-xl font-medium text-black leading-[1.6] pt-5'>
-                                Let us handle your digital presence - with creative campaigns, effective strategies, boosted visibility, and seamless results.
+                                Let us handle your digital presence - with creative campaigns, effective strategies, Boosted visibility, and seamless results.
                             </p>
                             <button onClick={openModal} className="ease_in_out box-shadows bg-[#2a2a2a] text-sm font-bold text-white uppercase inline-flex border border-solid border-[#3e3e3e] px-[25px] md:px-[45px] py-[15px] md:py-[15px] mt-5 lg:mt-10 hover:bg-[#404040] hover:border-[#404040]">
                                 Work With Us

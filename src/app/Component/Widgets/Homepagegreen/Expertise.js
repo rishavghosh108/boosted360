@@ -32,10 +32,10 @@ export default function Expertise()  {
                     </div>
                     <div className="mt-[12px]">
                         <h3 className="max-w-[740px] text-[18px] md:text-[20px] lg:text-[40px] font-bold text-black pb-[15px] lg:pb-[31px] leading-[1.25] text-center m-auto">
-                        &quot;boosted 360 enables us to increase our impact without increasing our headcount&quot;
+                        &quot;Boosted 360 enables us to increase our impact without increasing our headcount&quot;
                         </h3>
                         <p className="max-w-[800px] text-[18px] lg:text-[25px] text-black leading-[1.44] text-center m-auto">
-                            We really lean on boosted 360 as an extension of our team, which enables us to increase our impact without increasing our headcount.
+                            We really lean on Boosted 360 as an extension of our team, which enables us to increase our impact without increasing our headcount.
                         </p>
                     </div>
                     <div className="mt-[20px] lg:mt-[35px] text-center">
@@ -52,7 +52,7 @@ export default function Expertise()  {
                     </div>
                     <div className="mt-[12px]">
                         <h3 className="max-w-[740px] text-[18px] md:text-[20px] lg:text-[40px] font-bold text-black pb-[15px] lg:pb-[31px] leading-[1.25] text-center m-auto">
-                            &quot;boosted 360 has transformed the way we approach our projects.&quot;
+                            &quot;Boosted 360 has transformed the way we approach our projects.&quot;
                         </h3>
                         <p className="max-w-[800px] text-[18px] lg:text-[25px] text-black leading-[1.44] text-center m-auto">
                         &quot;Their tools and support have been invaluable in helping us streamline operations and achieve better results.&quot;
@@ -72,7 +72,7 @@ export default function Expertise()  {
                     </div>
                     <div className="testimonial mt-[12px]">
                         <h3 className="max-w-[740px] text-[18px] md:text-[20px] lg:text-[40px] font-bold text-black pb-[15px] lg:pb-[31px] leading-[1.25] text-center m-auto">
-                        &quot;The best decision we made was partnering with boosted 360.&quot;
+                        &quot;The best decision we made was partnering with Boosted 360.&quot;
                         </h3>
                         <p className="max-w-[800px] text-[18px] lg:text-[25px] text-black leading-[1.44] text-center m-auto">
                         &quot;Their platform has helped us scale our business efficiently and effectively.&quot;

@@ -423,7 +423,7 @@ export default function FooterGreen() {
             <Image src={Greenfooterlogo} alt='logo' className="w-[200px]" />
           </div>
           <div className='w-full lg:w-[51%] xl:w-[62%] py-[20px] lg:py-0 md:pl-0 lg:pl-[10px] xl:pl-0'>
-            <h3 className='text-[#f8f8f8] text-[16px] font-medium pb-[2px] leading-[1.75]'>boosted 360 is a full-service digital marketing agency that helps great companies grow their revenues online.</h3>
+            <h3 className='text-[#f8f8f8] text-[16px] font-medium pb-[2px] leading-[1.75]'>Boosted 360 is a full-service digital marketing agency that helps great companies grow their revenues online.</h3>
             <p className='text-[#fff] text-[16px] font-extrabold pb-[20px] leading-[1.75]'>
               Get in touch: 
               <Link href="#" className='text-[#adadad] text-[16px] font-medium pl-[4px] hover:underline'>contact@singlegrain.com</Link>
@@ -479,7 +479,7 @@ export default function FooterGreen() {
               </li>
             </ul>
             <p className='text-[#adadad] text-[16px] font-medium pt-[25px] leading-[1.75]'>
-              © 2024 boosted 360. All rights reserved.
+              © 2024 Boosted 360. All rights reserved.
             </p>
           </div>
         </div>

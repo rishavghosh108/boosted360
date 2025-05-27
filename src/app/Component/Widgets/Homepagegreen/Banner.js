@@ -81,7 +81,7 @@ export default function Banner()  {
                                 </div>
                                 <div className="mt-[15px]">
                                     <h3 className="lg:text-[28px] xl:text-[35px] font-bold text-white leading-[1.25] text-center m-auto">
-                                    boosted 360 has transformed the way we approach our projects.
+                                    Boosted 360 has transformed the way we approach our projects.
                                     </h3>
                                 </div>
                                 <div className="mt-[30px] text-center">
@@ -95,7 +95,7 @@ export default function Banner()  {
                                 </div>
                                 <div className="mt-[15px]">
                                     <h3 className="lg:text-[28px] xl:text-[35px] font-bold text-white leading-[1.25] text-center m-auto">
-                                    The best decision we made was partnering with boosted 360.
+                                    The best decision we made was partnering with Boosted 360.
                                     </h3>
                                 </div>
                                 <div className="mt-[30px] text-center">

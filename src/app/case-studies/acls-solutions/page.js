@@ -3,7 +3,7 @@
 import React, { useState } from 'react';
 import { Layouts } from '@/app/Component';
 import Image from 'next/image';
-import { Companie7, sliderInLogoOne, sliderInLogoThree, sliderInLogoTwo, sliderInLogoTdffe, sliderInLogolop, sliderInLogoafr, sliderInLogondg, sliderInLogocxml, sliderInLogorei, sliderInLogovbg, sliderInLogojjjd, sliderInLogomasla, sliderInLogodff, sliderInLogonnjdvd, BtnArrow, work1, anthem_google, } from '@/app/assets';
+import { Companie7, sliderInLogoOne, sliderInLogoThree, sliderInLogoTwo, sliderInLogoTdffe, sliderInLogolop, sliderInLogoafr, sliderInLogondg, sliderInLogocxml, sliderInLogorei, sliderInLogovbg, sliderInLogojjjd, sliderInLogomasla, sliderInLogodff, sliderInLogonnjdvd, BtnArrow, work1, anthem_google,work3 } from '@/app/assets';
 import Growing from '@/app/Component/Widgets/Homepagegreen/Growing';
 import WorkWthUsModal from "../../Component/Widgets/Modal/WorkWithUs/WorkWthUsModal"
 import Companies from '@/app/Component/Widgets/Homepagegreen/Companies';
@@ -42,7 +42,7 @@ const Page = () => {
                     </div>
 
                     <div className=''>
-                        <Image src={work1} className='max-w-3xl mx-auto w-full h-96 object-cover' alt={`Slide`} />
+                        <Image src={work3} className='max-w-3xl mx-auto w-full h-96 object-contain' alt={`Slide`} />
                     </div>
                 </div>
             </div>
@@ -216,7 +216,7 @@ const Page = () => {
                     <h1>
                     Content Marketing
                     </h1>
-                    <p>The content marketing strategy for ACLS Solutions focused on delivering informative and relevant content such as blog posts, tutorials, and infographics. Topics covered critical aspects of ACLS and BLS training, highlighting their importance in life-saving scenarios. This content not only boosted SEO rankings but also helped ACLS Solutions build authority in their niche, establishing them as a trusted resource for healthcare certification.</p>
+                    <p>The content marketing strategy for ACLS Solutions focused on delivering informative and relevant content such as blog posts, tutorials, and infographics. Topics covered critical aspects of ACLS and BLS training, highlighting their importance in life-saving scenarios. This content not only Boosted SEO rankings but also helped ACLS Solutions build authority in their niche, establishing them as a trusted resource for healthcare certification.</p>
 
                     <h1>Ad Campaigns (PPC)</h1>
                     <p>We executed highly targeted PPC campaigns, including search ads, display ads, and remarketing efforts, to drive qualified traffic to ACLS Solutions&apos; class registration pages. These campaigns focused on individuals actively searching for ACLS and CPR certification in the St. Louis area, resulting in increased site traffic and higher conversion rates for class sign-ups.</p>

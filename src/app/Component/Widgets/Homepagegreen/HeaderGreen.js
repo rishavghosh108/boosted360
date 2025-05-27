@@ -50,7 +50,7 @@ export default function HeaderGreen() {
             <div className='bg-[#5db947] p-[15px] text-center text-[#fff] mb-[20px]'>
                 <div className='container'>
                     <p className='text-[17px] font-medium'>
-                        We&apos;re actively hiring paid media and SEO roles at boosted 360!
+                        We&apos;re actively hiring paid media and SEO roles at Boosted 360!
                         <Link href="#" className='pl-[10px] underline'>Learn More</Link>
                     </p>
                 </div>

@@ -18,7 +18,7 @@ export default function OurServices()  {
                             Our Services
                         </h2>
                         <p className="text-[14px] lg:text-[16px] px-[10px] m-auto text-[#bcbcbc] leading-[1.6] text-center max-w-[1113px] font-normal">
-                        At boosted 360, our team of highly specialized marketing experts — ecommerce, pay-per-click, search engine optimization, lead generation, conversion rate optimization, performance marketing, and more — are here to ensure that you get the results you want. We focus on data that truly matters to inform our every conversation and decision with constant testing, tweaking, and optimizing. Our <strong>digital marketing company</strong> makes sure every opportunity is realized.
+                        At Boosted 360, our team of highly specialized marketing experts — ecommerce, pay-per-click, search engine optimization, lead generation, conversion rate optimization, performance marketing, and more — are here to ensure that you get the results you want. We focus on data that truly matters to inform our every conversation and decision with constant testing, tweaking, and optimizing. Our <strong>digital marketing company</strong> makes sure every opportunity is realized.
                         </p>
                     </div>
                     <div className="flex flex-wrap justify-center pt-[20px] lg:pt-[30px] px-[10px] md:px-[30px] lg:px-[40px]">

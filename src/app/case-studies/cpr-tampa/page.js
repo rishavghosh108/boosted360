@@ -3,7 +3,7 @@
 import React, { useState } from 'react';
 import { Layouts } from '@/app/Component';
 import Image from 'next/image';
-import { Companie7, sliderInLogoOne, sliderInLogoThree, sliderInLogoTwo, sliderInLogoTdffe, sliderInLogolop, sliderInLogoafr, sliderInLogondg, sliderInLogocxml, sliderInLogorei, sliderInLogovbg, sliderInLogojjjd, sliderInLogomasla, sliderInLogodff, sliderInLogonnjdvd, BtnArrow, work1, anthem_google, } from '@/app/assets';
+import { Companie7, sliderInLogoOne, sliderInLogoThree, sliderInLogoTwo, sliderInLogoTdffe, sliderInLogolop, sliderInLogoafr, sliderInLogondg, sliderInLogocxml, sliderInLogorei, sliderInLogovbg, sliderInLogojjjd, sliderInLogomasla, sliderInLogodff, sliderInLogonnjdvd, BtnArrow, work1, anthem_google,work4 } from '@/app/assets';
 import Growing from '@/app/Component/Widgets/Homepagegreen/Growing';
 import WorkWthUsModal from "../../Component/Widgets/Modal/WorkWithUs/WorkWthUsModal"
 import Companies from '@/app/Component/Widgets/Homepagegreen/Companies';
@@ -46,7 +46,7 @@ const Page = () => {
                     </div>
 
                     <div className=''>
-                        <Image src={work1} className='max-w-3xl mx-auto w-full h-96 object-cover' alt={`Slide`} />
+                        <Image src={work4} className='max-w-3xl mx-auto w-full h-96 object-contain' alt={`Slide`} />
                     </div>
                 </div>
             </div>
@@ -139,7 +139,7 @@ const Page = () => {
                             Success story:
                         </h2>
                         <p className='text-neutral-700 font-light text-base pt-5'>
-                            CPR Tampa has seen remarkable growth due to our tailored digital marketing efforts. By focusing on SEO, content marketing, and targeted campaigns, we were able to help them increase organic traffic and registrations. Notably, we boosted the visibility of the site for critical keywords like “ACLS class Tampa,&quot; &quot;PALS class Tampa,&quot; and “Basic Life Support Tampa,&quot; leading to a notable increase in leads and conversions.
+                            CPR Tampa has seen remarkable growth due to our tailored digital marketing efforts. By focusing on SEO, content marketing, and targeted campaigns, we were able to help them increase organic traffic and registrations. Notably, we Boosted the visibility of the site for critical keywords like “ACLS class Tampa,&quot; &quot;PALS class Tampa,&quot; and “Basic Life Support Tampa,&quot; leading to a notable increase in leads and conversions.
                         </p>
                     </div>
 
@@ -204,7 +204,7 @@ const Page = () => {
                     <h1>
                         Social Media Marketing
                     </h1>
-                    <p>Boosted 360 amplified CPR Tampa&apos;s social media presence by developing targeted campaigns aimed at educating the community and generating leads. Regular content posts, paid social ads, and community engagement efforts increased brand awareness by 35%, boosted audience interaction by 40%, and led to a 20% increase in class sign-ups. We strategically used social media to connect with both individuals and businesses seeking CPR training.</p>
+                    <p>Boosted 360 amplified CPR Tampa&apos;s social media presence by developing targeted campaigns aimed at educating the community and generating leads. Regular content posts, paid social ads, and community engagement efforts increased brand awareness by 35%, Boosted audience interaction by 40%, and led to a 20% increase in class sign-ups. We strategically used social media to connect with both individuals and businesses seeking CPR training.</p>
                     <div className='bg-white p-5 mb-3 '>
                         <div className='w-[70%] mx-auto'>
                             <Image width={600} height={100} src={'/images/details-image/contactform.png'} alt={`Slide`} className='w-full' />
@@ -218,7 +218,7 @@ const Page = () => {
                     <h1>
                         Content Marketing
                     </h1>
-                    <p>Our content marketing strategy for CPR Tampa focused on creating relevant and educational content such as blog posts, video tutorials, and infographics on life-saving techniques. This content not only boosted SEO rankings but also helped CPR Tampa establish credibility and trust among their audience. By providing value-driven content, CPR Tampa positioned itself as the go-to authority for CPR, ACLS, PALS, and BLS certifications.</p>
+                    <p>Our content marketing strategy for CPR Tampa focused on creating relevant and educational content such as blog posts, video tutorials, and infographics on life-saving techniques. This content not only Boosted SEO rankings but also helped CPR Tampa establish credibility and trust among their audience. By providing value-driven content, CPR Tampa positioned itself as the go-to authority for CPR, ACLS, PALS, and BLS certifications.</p>
 
                     <h1>Ad Campaigns (PPC)</h1>
                     <p>We implemented targeted PPC campaigns to drive qualified traffic to CPR Tampa&apos;s registration pages. These campaigns, including search ads, display ads, and remarketing efforts, were highly focused on capturing individuals actively searching for CPR and first aid certification in Tampa. The targeted ads resulted in increased website traffic and a higher conversion rate for class sign-ups.</p>

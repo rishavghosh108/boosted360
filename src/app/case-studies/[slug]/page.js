@@ -88,7 +88,7 @@ const Page = () => {
           </h2>
 
           <p className='text-xl pt-4 font-light max-w-3xl mx-auto text-center'>
-          Curb Appeal Lawn is dedicated to enhancing the beauty of residential and commercial properties. Over the years, Boosted 360 has worked closely with Curb Appeal Lawn to transform their digital presence, drive traffic, and convert leads into long-term clients. Through a strategic blend of SEO and content marketing, we significantly boosted their online visibility and brand recognition.
+          Curb Appeal Lawn is dedicated to enhancing the beauty of residential and commercial properties. Over the years, Boosted 360 has worked closely with Curb Appeal Lawn to transform their digital presence, drive traffic, and convert leads into long-term clients. Through a strategic blend of SEO and content marketing, we significantly Boosted their online visibility and brand recognition.
           </p>
         </div>
 
