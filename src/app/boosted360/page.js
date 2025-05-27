@@ -5,6 +5,7 @@ import Image from "next/image";
 import SlickSlider from "../Component/Widgets/boosted360/SlickSlider";
 import AutoPlay from "../Component/Widgets/boosted360/CompaniesSlider";
 import Head from "next/head";
+import { Greenlogolandingpage } from "../assets";
 
 const Page = () => {
   const [isScrollable, setIsScrollable] = useState(false);
@@ -83,7 +84,7 @@ const Page = () => {
       borderColor: '#f30081',
       btnBg: '#f30081',
       hoverBtn: '#bd0064'
-    }
+    },
   ]
   return (
     <>
@@ -102,9 +103,10 @@ const Page = () => {
           <div className="container bg-black">
             <div className="flex items-center justify-between py-[16px] md:py-[20px]">
               <Link href="/">
-                <h3 className="font-[800] text-[24px] sm:text-[28px] thicccboiBold logo_gradient">
+                {/* <h3 className="font-[800] text-[24px] sm:text-[28px] thicccboiBold logo_gradient">
                   Boosted 360
-                </h3>
+                </h3> */}
+                <Image width={100} height={100} src={Greenlogolandingpage} alt="Boosted360" className='w-[172px]'/>
               </Link>
 
               {/* Hamburger Button */}
@@ -156,20 +158,20 @@ const Page = () => {
 
 
 
-                <li className="font-medium thicccboiRegular text-[18px] border-b-[#dfd1dfdd] border-b md:border-b-transparent md:text-[16px] p-4">
+                {/* <li className="font-medium thicccboiRegular text-[18px] border-b-[#dfd1dfdd] border-b md:border-b-transparent md:text-[16px] p-4">
                   <Link className="hover:underline" href="#">About Us</Link>
+                </li> */}
+                <li className="font-medium thicccboiRegular text-[18px] border-b-[#dfd1dfdd] border-b md:border-b-transparent md:text-[16px] p-4">
+                  <Link className="hover:underline" href="#services">Services</Link>
                 </li>
                 <li className="font-medium thicccboiRegular text-[18px] border-b-[#dfd1dfdd] border-b md:border-b-transparent md:text-[16px] p-4">
-                  <Link className="hover:underline" href="#">Services</Link>
+                  <Link className="hover:underline" href="#packages">Packages</Link>
                 </li>
                 <li className="font-medium thicccboiRegular text-[18px] border-b-[#dfd1dfdd] border-b md:border-b-transparent md:text-[16px] p-4">
-                  <Link className="hover:underline" href="#">Packages</Link>
+                  <Link className="hover:underline" href="#testimonials">Testimonials</Link>
                 </li>
                 <li className="font-medium thicccboiRegular text-[18px] border-b-[#dfd1dfdd] border-b md:border-b-transparent md:text-[16px] p-4">
-                  <Link className="hover:underline" href="#">Testimonials</Link>
-                </li>
-                <li className="font-medium thicccboiRegular text-[18px] border-b-[#dfd1dfdd] border-b md:border-b-transparent md:text-[16px] p-4">
-                  <Link className="hover:underline" href="#">Contact</Link>
+                  <Link className="hover:underline" href="#contact">Contact</Link>
                 </li>
               </ul>
             </div>
@@ -245,7 +247,7 @@ const Page = () => {
               <div className="flex justify-between md:flex-row flex-col">
                 <div className="">
                   <h2 className="futuramaxicgBold md:text-left text-center md:mx-0 mx-auto text-[32px] sm:text-[60px] md:text-[48px] xl:text-[70px] xxl:text-[72px] w-fit font-bold uppercase text-white leading-[1] relative">
-                    Great <br className="md:hidden block" /> <span className="allura_regular normal-case text-[38px] sm:text-[60px] lg:text-[80px] xl:text-[100px] text-[#E6C32B] leading-[0.9]"> Social  <br className="md:block hidden" /> <span className="sm:tracking-[15px]"> Media </span></span> <br />
+                    Great <br className="md:hidden block" /> <span className="allura_regular normal-case text-[38px] sm:text-[60px] lg:text-[80px] xl:text-[100px] text-[#ffcf00] leading-[0.9]"> Social  <br className="md:block hidden" /> <span className="sm:tracking-[15px]"> Media </span></span> <br />
                     Pages?
                     <Image
                       className="xl:block hidden absolute top-[80%] lg:top-[60%] -translate-y-1/2 right-[-155px] lg:right-[-229px] xxl:right-[-256px] z-[2]"
@@ -259,7 +261,7 @@ const Page = () => {
                   <div className="my-6">
                     <p className="lg:pr-0 md:pr-5 sofiaProLight font-thin text-[18px] md:text-left text-center sm:w-[85%] md:mx-0 mx-auto md:w-[440px] leading-[1.6] lg:leading-[2] text-white">
                       Social presence is more
-                      <span className="sofiaProMedium">important than ever</span>
+                      <span className="sofiaProMedium"> important than ever </span>
                       because it shapes how we connect, communicate, and influence
                       others in a rapidly evolving digital world.
                     </p>
@@ -371,7 +373,7 @@ const Page = () => {
         </div>
 
         {/* specialized in  */}
-        <div className="pt-[80px] bg-black relative">
+        <div id="services" className="pt-[80px] bg-black relative">
           <Image
             width={100}
             height={100}
@@ -462,66 +464,65 @@ const Page = () => {
                 </div>
               </div>
 
-              <h2 className="futuramaxicgBold text-[22px] sm:text-[30px] lg:text-[40px] xl:text-[46px] xxl:text-[50px] mx-auto text-center w-fit font-bold uppercase text-black leading-[1] relative">
-                Here is what <br /> our customers say
-              </h2>
-              <p className="thicccboiBold text-[18px] sm:text-[22px] lg:text-[25px] xl:text-[30px] xxl:text-[32px] text-black text-center mt-5"> <span className="text-[#F30081]">329+</span> social accounts <span className="text-[#A500F7]">trust us</span></p>
 
+              <div  id="testimonials">
+                <h2 className="futuramaxicgBold text-[22px] sm:text-[30px] lg:text-[40px] xl:text-[46px] xxl:text-[50px] mx-auto text-center w-fit font-bold uppercase text-black leading-[1] relative">
+                  Here is what <br /> our customers say
+                </h2>
+                <p className="thicccboiBold text-[18px] sm:text-[22px] lg:text-[25px] xl:text-[30px] xxl:text-[32px] text-black text-center mt-5"> <span className="text-[#F30081]">329+</span> social accounts <span className="text-[#A500F7]">trust us</span></p>
+                <div className="relative mt-[65px] sm:mx-6">
+                  <div className="absolute left-[50px] right-[20px] bottom-[100px] bg-[#E2E2E2] top-[-6%] rounded-[20px] rotate-[175deg] origin-center z-0 translate-y-[30px] sm:block hidden" />
+                  <div className="absolute left-0 right-0 bottom-[100px] bg-[#EFC923] top-[-4%] lg:top-[-3%] rounded-[20px] rotate-[176deg] origin-center z-0 translate-y-[30px] sm:block hidden " />
 
+                  <div className="relative z-2 bg-[#000000] rounded-[20px] px-[16px] sm:px-[35px] lg:px-[50px] xl:px-[60px] pt-[10px] sm:pt-[35px] lg:pt-[50px] xl:pt-[60px] pb-[60px] lg:pb-[75px] xl:pb-[90px]">
+                    <Image
+                      width={400}
+                      height={100}
+                      className="w-[180px] sm:w-[300px] lg:w-[350px] absolute right-0 bottom-0"
+                      src="/images/new-landing-page/dots.png"
+                      alt="dots"
+                    />
 
-
-              <div className="relative mt-[65px] sm:mx-6">
-                <div className="absolute left-[50px] right-[20px] bottom-[100px] bg-[#E2E2E2] top-[-6%] rounded-[20px] rotate-[175deg] origin-center z-0 translate-y-[30px] sm:block hidden" />
-                <div className="absolute left-0 right-0 bottom-[100px] bg-[#EFC923] top-[-4%] lg:top-[-3%] rounded-[20px] rotate-[176deg] origin-center z-0 translate-y-[30px] sm:block hidden " />
-
-                <div className="relative z-2 bg-[#000000] rounded-[20px] px-[16px] sm:px-[35px] lg:px-[50px] xl:px-[60px] pt-[10px] sm:pt-[35px] lg:pt-[50px] xl:pt-[60px] pb-[60px] lg:pb-[75px] xl:pb-[90px]">
-                  <Image
-                    width={400}
-                    height={100}
-                    className="w-[180px] sm:w-[300px] lg:w-[400px] absolute right-0 bottom-0"
-                    src="/images/new-landing-page/dots.png"
-                    alt="dots"
-                  />
-
-                  <div className="clippath_custom py-[8px] sm:py-[17px] px-[18px] bg-[#165F5A] lg:mb-0 mb-[10px] sm:mb-[20px] lg:hidden block w-fit mx-auto ">
-                    <p className="thicccboiBold font-[800] text-white text-[18px] sm:text-[22px] lg:text-[30px] xl:text-[38px] xxl:text-[40px]">
-                      “The quality is unmatched”
-                    </p>
-                  </div>
-                  <div className="flex items-center justify-between md:flex-row flex-col">
-                    <div className="w-full md:w-[42%] xxl:w-[45%] md:mr-[30px] lg:mr-[40px] xl:mr-[55px]">
-                      <div className="relative before:block before:w-full before:pt-[95%] md:before:pt-[145%] lg:before:pt-[124%] xxl:before:pt-[122%]">
-                        <Image
-                          width={400}
-                          height={100}
-                          className="object-cover size-full rounded-[20px] absolute top-0 right-0 bottom-0 left-0 md:object-center object-top"
-                          src="/images/new-landing-page/customer.webp"
-                          alt="customer"
-                        />
-                      </div>
-                    </div>
-                    <div className="w-full md:w-[58%] xxl:w-[55%] md:mt-0 mt-5">
-                      <div className="clippath_custom py-[17px] px-[18px] bg-[#165F5A] lg:mb-0 mb-[20px] lg:block hidden">
-                        <p className="thicccboiBold font-[800] text-white text-[22px] lg:text-[30px] xl:text-[38px] xxl:text-[40px]">
-                          “The quality is unmatched”
-                        </p>
-                      </div>
-
-                      <p className="thicccboiLight text-white text-[15px] sm:text-[22px] md:text-[18px] leading-[1.5] mb-3 lg:my-4 xl:my-6">
-                        I&apos;ve tried a lot of similar options, but this one stands out. The quality is unmatched, and the attention to detail is impressive. In a world where physical distance no longer limits interaction, social presence <span className="text-[#edc948]">fosters relationships</span>, discussions, and movements. People find like-minded communities, support systems, and meaningful connections.
+                    <div className="clippath_custom py-[8px] sm:py-[17px] px-[18px] bg-[#165F5A] lg:mb-0 mb-[10px] sm:mb-[20px] lg:hidden block w-fit mx-auto ">
+                      <p className="thicccboiBold font-[800] text-white text-[18px] sm:text-[22px] lg:text-[30px] xl:text-[38px] xxl:text-[40px]">
+                        “The quality is unmatched”
                       </p>
-
-                      <div className="flex items-center space-x-1">
-                        <Image width={20} height={20} src="/images/new-landing-page/star.svg" alt="star" />
-                        <Image width={20} height={20} src="/images/new-landing-page/star.svg" alt="star" />
-                        <Image width={20} height={20} src="/images/new-landing-page/star.svg" alt="star" />
-                        <Image width={20} height={20} src="/images/new-landing-page/star.svg" alt="star" />
-                        <Image width={20} height={20} src="/images/new-landing-page/star.svg" alt="star" />
+                    </div>
+                    <div className="flex items-center justify-between md:flex-row flex-col">
+                      <div className="w-full md:w-[42%] xxl:w-[45%] md:mr-[30px] lg:mr-[40px] xl:mr-[55px]">
+                        <div className="relative before:block before:w-full before:pt-[95%] md:before:pt-[145%] lg:before:pt-[124%] xxl:before:pt-[122%]">
+                          <Image
+                            width={400}
+                            height={100}
+                            className="object-cover size-full rounded-[20px] absolute top-0 right-0 bottom-0 left-0 md:object-center object-top"
+                            src="/images/new-landing-page/customer.webp"
+                            alt="customer"
+                          />
+                        </div>
                       </div>
+                      <div className="w-full md:w-[58%] xxl:w-[55%] md:mt-0 mt-5">
+                        <div className="clippath_custom py-[17px] px-[18px] bg-[#165F5A] lg:mb-0 mb-[20px] lg:block hidden">
+                          <p className="thicccboiBold font-[800] text-white text-[22px] lg:text-[30px] xl:text-[38px] xxl:text-[40px]">
+                            “The quality is unmatched”
+                          </p>
+                        </div>
 
-                      <div className="mt-7 md:mt-[20px] lg:mt-[40px] xl:mt-[75px]">
-                        <p className="thicccboiLight text-[#FFB55A] text-[15px] sm:text-[22px] md:text-[18px]">Sana Ribog</p>
-                        <p className="thicccboiBold pt-1 text-white text-[15px] sm:text-[22px] md:text-[18px]">Journalist</p>
+                        <p className="thicccboiLight text-white text-[15px] sm:text-[22px] md:text-[18px] leading-[1.5] mb-3 lg:my-4 xl:my-6">
+                          I&apos;ve tried a lot of similar options, but this one stands out. The quality is unmatched, and the attention to detail is impressive. In a world where physical distance no longer limits interaction, social presence <span className="text-[#edc948]">fosters relationships</span>, discussions, and movements. People find like-minded communities, support systems, and meaningful connections.
+                        </p>
+
+                        <div className="flex items-center space-x-1">
+                          <Image width={20} height={20} src="/images/new-landing-page/star.svg" alt="star" />
+                          <Image width={20} height={20} src="/images/new-landing-page/star.svg" alt="star" />
+                          <Image width={20} height={20} src="/images/new-landing-page/star.svg" alt="star" />
+                          <Image width={20} height={20} src="/images/new-landing-page/star.svg" alt="star" />
+                          <Image width={20} height={20} src="/images/new-landing-page/star.svg" alt="star" />
+                        </div>
+
+                        <div className="mt-7 md:mt-[20px] lg:mt-[40px] xl:mt-[75px]">
+                          <p className="thicccboiLight text-[#FFB55A] text-[15px] sm:text-[22px] md:text-[18px]">Sana Ribog</p>
+                          <p className="thicccboiBold pt-1 text-white text-[15px] sm:text-[22px] md:text-[18px]">Journalist</p>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -545,7 +546,7 @@ const Page = () => {
         </div>
 
         {/* subscription  */}
-        <div className="bg-black py-12">
+        <div id="packages" className="bg-black py-12">
           <div className="container">
 
             <div className="flex items-center justify-between md:flex-row flex-col">
@@ -713,18 +714,18 @@ const Page = () => {
                 <AutoPlay />
               </div>
 
-              <div className="bg-[#330B6F] rounded-[20px] px-[18px] sm:px-[25px] lg:px-[56px] xl:px-[70px] pb-[30px] my-7 sm:my-10 xl:my-12 md:mx-[60px] lg:mx-[100px] vbg">
+              <div id="contact" className="bg-[#330B6F] rounded-[20px] px-[18px] sm:px-[25px] lg:px-[56px] xl:px-[70px] pb-[30px] my-7 sm:my-10 xl:my-12 md:mx-[60px] lg:mx-[100px] vbg">
                 <p className="thicccboiBold text-white text-[20px] sm:text-[25px] lg:text-[30px] text-center py-6 sm:py-8 lg:py-10">Got Questions? Ask us</p>
 
                 <div>
                   <form>
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-[10px]">
-                      <input type="text" placeholder="Name" className="text-white w-full p-[12px] sm:p-[15px] outline-none border-none bg-[#B69DEB] rounded-[6px] placeholder:text-white placeholder:font-[300]" />
-                      <input type="email" placeholder="Email" className="text-white w-full p-[12px] sm:p-[15px] outline-none border-none bg-[#B69DEB] rounded-[6px] placeholder:text-white placeholder:font-[300]" />
-                      <input type="number" placeholder="Phone" className="text-white w-full p-[12px] sm:p-[15px] outline-none border-none bg-[#B69DEB] rounded-[6px] placeholder:text-white placeholder:font-[300]" />
+                      <input type="text" placeholder="Name" className="text-black w-full p-[12px] sm:p-[15px] outline-none border-none bg-white rounded-[6px] placeholder:text-black placeholder:font-[300]" />
+                      <input type="email" placeholder="Email" className="text-black w-full p-[12px] sm:p-[15px] outline-none border-none bg-white rounded-[6px] placeholder:text-black placeholder:font-[300]" />
+                      <input type="text" placeholder="Phone" className="text-black w-full p-[12px] sm:p-[15px] outline-none border-none bg-white rounded-[6px] placeholder:text-black placeholder:font-[300]" />
                     </div>
 
-                    <textarea placeholder="Message" className="text-white w-full mt-[10px] md:mt-[16px] h-[125px] md:h-[160px] p-[15px] outline-none border-none bg-[#B69DEB] rounded-[6px] placeholder:text-white placeholder:font-[300]">
+                    <textarea placeholder="Message" className="text-black w-full mt-[10px] md:mt-[16px] h-[125px] md:h-[160px] p-[15px] outline-none border-none bg-white rounded-[6px] placeholder:text-black placeholder:font-[300]">
 
                     </textarea>
                   </form>
@@ -733,17 +734,17 @@ const Page = () => {
                   <div className="flex lg:items-center justify-between mt-5 lg:flex-row flex-col md:items-start items-center">
 
                     <div className="flex items-start sm:items-center sm:space-x-3 xl:space-x-5 sm:flex-row flex-col">
-                      <Link href='#' className="flex items-center">
+                      {/* <Link href='#' className="flex items-center">
                         <Image width={26} height={26} src={'/images/new-landing-page/team.svg'} alt="" />
                         <p className="thicccboiRegular text-white text-[14px] xl:text-[16px] ml-1 xl:ml-2">Boosted360 connect</p>
                       </Link>
                       <Link href={'#'} className="flex items-center sm:my-0 my-3">
                         <Image width={26} height={26} src={'/images/new-landing-page/wp.svg'} alt="" />
                         <p className="thicccboiRegular text-white text-[14px] xl:text-[16px] ml-1 xl:ml-2">+91 9830445152</p>
-                      </Link>
+                      </Link> */}
                       <Link href='#' className="flex items-center">
                         <Image width={26} height={26} src={'/images/new-landing-page/email.svg'} alt="" />
-                        <p className="thicccboiRegular text-white text-[14px] xl:text-[16px] ml-1 xl:ml-2">team@boosted.com</p>
+                        <p className="thicccboiRegular text-white text-[14px] xl:text-[16px] ml-1 xl:ml-2">info@boosted360.com</p>
                       </Link>
                     </div>
 
@@ -773,10 +774,10 @@ const Page = () => {
 
         {/* footer */}
         <div className="bg-[#F2F2F2]">
-          <div className="container">
+          {/* <div className="container">
             <footer className="text-black py-10 lg:py-12">
               <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-7 lg:gap-12">
-                {/* Left Column */}
+         
                 <div>
                   <div>
                     <h2 className="text-2xl font-bold">
@@ -803,7 +804,7 @@ const Page = () => {
                   </div>
                 </div>
 
-                {/* Company Column */}
+         
                 <div>
                   <div>
                     <h3 className="font-bold mb-4 thicccboiBold text-[22px]">Company</h3>
@@ -819,7 +820,7 @@ const Page = () => {
                   </div>
                 </div>
 
-                {/* Services Column */}
+             
                 <div>
                   <div>
                     <h3 className="font-bold mb-4 thicccboiBold text-[22px]">Services</h3>
@@ -835,7 +836,7 @@ const Page = () => {
                   </div>
                 </div>
 
-                {/* Knowledgebase Column */}
+                
                 <div>
                   <div>
                     <h3 className="font-bold mb-4 thicccboiBold text-[22px]">Knowledgebase</h3>
@@ -852,17 +853,17 @@ const Page = () => {
               </div>
 
             </footer>
-          </div>
+          </div> */}
 
           <div className="bg-[#EFC923]">
             <div className="container">
-              <div className="py-2 lg:py-4 flex flex-col md:flex-row justify-between items-center text-sm text-black">
+              <div className="py-2 lg:py-4 flex flex-col md:flex-row justify-center items-center text-sm text-black">
                 <p className="thicccboiMedium text-[12px] sm:text-[16px]">Copyright © {new Date().getFullYear()} Boosted 360. All Right reserved.</p>
-                <div className="flex space-x-3 ">
+                {/* <div className="flex space-x-3 ">
                   <a href="#" className="hover:underline thicccboiMedium text-[12px] sm:text-[16px]">Privacy Policy</a>
                   <span>|</span>
                   <a href="#" className="hover:underline thicccboiMedium text-[12px] sm:text-[16px]">Terms & Conditions</a>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

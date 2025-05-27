@@ -1,6 +1,7 @@
 import BtnArrow from './images/Homepage/cta-large.svg';
 
 import Greenlogo from './images/Homepage/green-logo.svg';
+import Greenlogolandingpage from './images/Homepage/green-logo-new-landing-page.svg';
 import Greenfooterlogo from './images/Homepage/footer-logo.svg';
 import BannerBackgroundGreen from './images/Homepage/bg-green.jpg';
 
@@ -179,7 +180,7 @@ import Ongoing_Monitoring_Adjustment from './images/Homepage/Ongoing_Monitoring_
 import Content_Creation_Distribution from './images/Homepage/Content_Creation_Distribution.svg';
 
 
-export {abtWwatwo,
+export {abtWwatwo,Greenlogolandingpage,
     sliderInLogoOne,sliderInLogoTwo,sliderInLogoThree,sliderInLogoTdffe,sliderInLogolop,
     Greenfooterlogo,Greenlogo,sliderInLogoafr,sliderInLogojjjd,sliderInLogonnjdvd,
     BannerBackgroundGreen,sliderInLogocxml,sliderInLogovbg,sliderInLogodff,
