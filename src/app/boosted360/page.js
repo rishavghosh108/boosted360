@@ -13,7 +13,6 @@ const Page = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [hoveredIndex, setHoveredIndex] = useState(null);
 
-
   const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
 
   const handleToggle = () => {
@@ -98,7 +97,7 @@ const Page = () => {
 
       <div className="socialMediaMagic">
         <header
-          className={` transition-all ease duration-300 sticky top-0 bg-black text-white  z-[999]`}
+          className={`${isScrollable ? 'shadow-lg':''} transition-all ease duration-300 sticky top-0 bg-black text-white  z-[999]`}
         >
           <div className="container bg-black">
             <div className="flex items-center justify-between py-[16px] md:py-[20px]">
@@ -106,7 +105,7 @@ const Page = () => {
                 {/* <h3 className="font-[800] text-[24px] sm:text-[28px] thicccboiBold logo_gradient">
                   Boosted 360
                 </h3> */}
-                <Image width={100} height={100} src={Greenlogolandingpage} alt="Boosted360" className='w-[172px]'/>
+                <Image width={100} height={100} src={Greenlogolandingpage} alt="Boosted360" className='w-[172px]' />
               </Link>
 
               {/* Hamburger Button */}
@@ -465,7 +464,7 @@ const Page = () => {
               </div>
 
 
-              <div  id="testimonials">
+              <div id="testimonials">
                 <h2 className="futuramaxicgBold text-[22px] sm:text-[30px] lg:text-[40px] xl:text-[46px] xxl:text-[50px] mx-auto text-center w-fit font-bold uppercase text-black leading-[1] relative">
                   Here is what <br /> our customers say
                 </h2>
