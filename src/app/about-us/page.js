@@ -3,7 +3,7 @@
 import React, { useState } from 'react';
 import { Layouts } from '@/app/Component';
 import Image from 'next/image';
-import { BgGrain, BtnArrow, sliderInLogoOne, sliderInLogoThree, sliderInLogoTwo, sliderInLogoTdffe, sliderInLogolop, sliderInLogoafr, sliderInLogondg, sliderInLogocxml, sliderInLogorei, sliderInLogovbg, sliderInLogojjjd, sliderInLogomasla, sliderInLogodff, sliderInLogonnjdvd, CtaSmall, abtBnnr, abtWwa, Servicebg, consultationStrategyDevelopmentop, ServiceIconone, ServiceIconthree, ServiceIcontwo, WebsAlyticsNitoring } from '@/app/assets';
+import { BgGrain, BtnArrow, sliderInLogoOne, sliderInLogoThree, sliderInLogoTwo, sliderInLogoTdffe, sliderInLogolop, sliderInLogoafr, sliderInLogondg, sliderInLogocxml, sliderInLogorei, sliderInLogovbg, sliderInLogojjjd, sliderInLogomasla, sliderInLogodff, sliderInLogonnjdvd, CtaSmall, abtBnnr, abtWwa, Servicebg, consultationStrategyDevelopmentop, ServiceIconone, ServiceIconthree, ServiceIcontwo, WebsAlyticsNitoring,abtWwatwo } from '@/app/assets';
 import Growing from '@/app/Component/Widgets/Homepagegreen/Growing';
 import Link from 'next/link';
 import WorkWthUsModal from "../Component/Widgets/Modal/WorkWithUs/WorkWthUsModal"
@@ -42,7 +42,7 @@ const Page = () => {
 
                         </div>
                         <div className='relative before:w-full before:block lg:pl-10 before:pt-[62.5%]'>
-                            <Image src={abtBnnr} alt="arrow" width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' />
+                            <Image src={abtBnnr} alt="arrow" width="538" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' />
                         </div>
                     </div>
                 </div>
@@ -65,14 +65,14 @@ const Page = () => {
                             </p>
                         </div>
                         <div className='relative before:w-full before:block lg:pr-10 before:pt-[62.5%] sm:ml-8 ml-0'>
-                            <Image src={abtWwa} alt="arrow" width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' />
+                            <Image src={abtWwa} alt="arrow" width="538" height="351" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' />
                         </div>
                     </div>
 
                     <div className='grid sm:grid-cols-2 grid-cols-1 lg:pt-24 pt-10 gap-5'>
 
                         <div className='relative before:w-full before:block lg:pr-10 before:pt-[62.5%]'>
-                            <Image src={abtWwa} alt="arrow" width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' />
+                            <Image src={abtWwatwo} alt="arrow" width="538" height="351" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' />
                         </div>
 
                         <div>

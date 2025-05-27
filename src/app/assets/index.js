@@ -63,6 +63,7 @@ import Companies24 from './images/Homepage/Companies24.svg';
 
 import JoinImage from './images/Homepage/join-image.png';
 import abtWwa from './images/Homepage/abt-who-we-are.png';
+import abtWwatwo from './images/Homepage/abt-how-we-are-two.png';
 import abtBnnr from './images/Homepage/abt-banner.png';
 import GrowingImage from './images/Homepage/growing-image.png';
 import IserviceBannerOne from './images/Homepage/service-banner-1.jpg';
@@ -178,7 +179,7 @@ import Ongoing_Monitoring_Adjustment from './images/Homepage/Ongoing_Monitoring_
 import Content_Creation_Distribution from './images/Homepage/Content_Creation_Distribution.svg';
 
 
-export {
+export {abtWwatwo,
     sliderInLogoOne,sliderInLogoTwo,sliderInLogoThree,sliderInLogoTdffe,sliderInLogolop,
     Greenfooterlogo,Greenlogo,sliderInLogoafr,sliderInLogojjjd,sliderInLogonnjdvd,
     BannerBackgroundGreen,sliderInLogocxml,sliderInLogovbg,sliderInLogodff,
