@@ -719,4 +719,265 @@ header.active  {
   }
 }
 
+
+
+
+/* new landing page start here  */
+@font-face {
+  font-family: 'thicccboiBold';
+  src: url('/fonts/THICCCBOI-Bold.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'thicccboiMedium';
+  src: url('/fonts/THICCCBOI-Medium.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'thicccboiRegular';
+  src: url('/fonts/THICCCBOI-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'thicccboiLight';
+  src: url('/fonts/THICCCBOI-Light.ttf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'HelveticaNeue';
+  src: url('/fonts/HelveticaNeueMedium.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'sofiaProMedium';
+  src: url('/fonts/Sofia-Pro-Medium.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'sofiaProLight';
+  src: url('/fonts/Sofia-Pro-Light.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'sofiaProSemiBold';
+  src: url('/fonts/Sofia-Pro-Semi-Bold.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'sofiaProRegular';
+  src: url('/fonts/Sofia-Pro-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'futuramaxicgBold';
+  src: url('/fonts/futuramaxicgboldopentype.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'sriracharegulaar';
+  src: url('/fonts/Sriracha-Regular.ttf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'allura_regular';
+  src: url('/fonts/Allura-Regular.ttf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+.sofiaProSemiBold {
+  font-family: 'sofiaProSemiBold', sans-serif;
+}
+
+.futuramaxicgBold {
+  font-family: 'futuramaxicgBold', sans-serif;
+}
+
+.sofiaProMedium {
+  font-family: 'sofiaProMedium', sans-serif;
+}
+
+.sofiaProLight {
+  font-family: 'sofiaProLight', sans-serif;
+}
+
+.sofiaProRegular {
+  font-family: 'sofiaProRegular', sans-serif;
+}
+
+.thicccboiBold {
+  font-family: 'thicccboiBold', sans-serif;
+}
+
+.thicccboiMedium {
+  font-family: 'thicccboiMedium', sans-serif;
+}
+
+.thicccboiRegular {
+  font-family: 'thicccboiRegular', sans-serif;
+}
+
+.thicccboiLight {
+  font-family: 'thicccboiLight', sans-serif;
+}
+
+.HelveticaNeue {
+  font-family: 'HelveticaNeue', sans-serif;
+}
+
+.sriracharegulaar {
+  font-family: 'sriracharegulaar', sans-serif;
+}
+
+.allura_regular {
+  font-family: 'allura_regular', sans-serif;
+}
+
+.logo_gradient {
+  background: #6a2ee7;
+  background: linear-gradient(180deg,
+      rgb(83 0 255) 0%,
+      rgb(246 246 246) 51%,
+      rgb(83 0 255) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  /* For better browser support */
+  background-clip: text;
+  color: transparent;
+}
+
+.bannergradient_one {
+  background: #1c1c67;
+  background: linear-gradient(180deg,
+      rgba(28, 28, 103, 1) 35%,
+      rgba(0, 0, 0, 1) 85%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  /* For better browser support */
+  background-clip: text;
+  color: transparent;
+}
+
+.bannergradient_two {
+  background: #1c1c67;
+  background: linear-gradient(180deg,
+      rgba(28, 28, 103, 1) 30%,
+      rgba(243, 0, 129, 1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  /* For better browser support */
+  background-clip: text;
+  color: transparent;
+}
+
+.bannerleftbefore::before {
+  background: url('/images/new-landing-page/bannerleftbg.webp') no-repeat center center/contain;
+}
+
+.bannerbr {
+  background: url('/images/new-landing-page/bannerrightbg.webp') no-repeat right bottom;
+  background-size: 18%;
+}
+
+.bannerbr::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background: url('/images/new-landing-page/bannerbg.webp') no-repeat center center/cover;
+}
+
+.bannerbr::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  background: url('/images/new-landing-page/lines.webp') no-repeat center center/cover;
+}
+
+
+.social_media_pages {
+  background: #6324e7;
+  background: linear-gradient(90deg,
+      rgba(99, 36, 231, 1) 80%,
+
+    );
+}
+
+.clippath_custom {
+  clip-path: polygon(0 0%, 100% 2%, 97% 82%, 0 94%);
+}
+
+.socialMediaMagic .slick-list {
+  margin: 0 -10px;
+}
+
+.socialMediaMagic .slick-slide>div {
+  padding: 8px 10px;
+}
+
+
+.vbg {
+  background: url('/images/new-landing-page/dotss.webp') no-repeat center center/cover #330B6F;
+}
+
+
+@media (max-width:1024px) {
+  .socialMediaMagic .slick-slide>div {
+    padding: 20px 10px 55px;
+  }
+}
+
+@media (max-width:768px) {
+  .socialMediaMagic .slick-slide>div {
+    padding: 20px 10px 4px;
+  }
+
+  .bannerbr {
+    background-size: 33%;
+  }
+}
+
+/* new landing page end here  */
  
