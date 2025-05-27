@@ -214,10 +214,10 @@ const Page = () => {
                   <h2 className="bannergradient_one pt-[10px] allura_regular text-[68px] sm:text-[80px] md:text-[60px] lg:text-[75px] xl:text-[90px] font-medium relative leading-[0.7]">
                     with
                   </h2>
-                  <h2 className="bannergradient_two HelveticaNeue text-[50px] sm:text-[70px] md:text-[52px] lg:text-[70px] xl:text-[80px] xxl:text-[90px] font-[600] relative before:absolute before:h-[1px] before:bg-[#F30081] before:bottom-[6px] sm:before:bottom-[3px] before:left-0 leading-[1] sm:leading-[0.8] before:w-full sm:before:w-[425px] md:before:w-[335px] lg:before:w-[475px] xl:before:w-[555px] xxl:before:w-[600px]">
+                  <h2 className="bannergradient_two HelveticaNeue text-[50px] sm:text-[70px] md:text-[52px] lg:text-[70px] xl:text-[80px] xxl:text-[90px] font-[600] relative before:absolute before:h-[1px] before:bg-[#F30081] before:bottom-[6px] sm:before:bottom-[3px] before:left-0 leading-[1] sm:leading-[0.8] before:w-full sm:before:w-[425px] md:before:w-[335px] lg:before:w-[475px] xl:before:w-[530px] xxl:before:w-[600px]">
                     Social media
                   </h2>
-                  <h2 className="bannergradient_two HelveticaNeue text-[50px] sm:text-[70px] md:text-[52px] lg:text-[70px] xl:text-[80px] xxl:text-[90px] font-[600] relative before:absolute before:h-[1px] before:bg-[#a1a1a1] before:bottom-[12px] lg:before:bottom-[25px] before:left-0 leading-[0.8] pb-[10px] md:pb-[8px] lg:pb-[20px] before:w-full sm:before:w-[200px] md:mx-0 mx-auto md:before:w-[240px] xl:before:w-[300px] before:z-[-1] xl:pl-[10px] md:w-full w-fit">
+                  <h2 className="bannergradient_two HelveticaNeue text-[50px] sm:text-[70px] md:text-[52px] lg:text-[70px] xl:text-[80px] xxl:text-[90px] font-[600] relative before:absolute before:h-[1px] before:bg-[#a1a1a1] before:bottom-[12px] lg:before:bottom-[25px] before:left-0 leading-[0.8] pb-[10px] md:pb-[8px] lg:pb-[20px] before:w-full sm:before:w-[200px] md:mx-0 mx-auto md:before:w-[240px] xl:before:w-[260px] before:z-[-1] xl:pl-[10px] md:w-full w-fit">
                     magic
                   </h2>
                 </div>
