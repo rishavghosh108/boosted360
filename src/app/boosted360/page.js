@@ -741,7 +741,7 @@ const Page = () => {
                         <Image width={26} height={26} src={'/images/new-landing-page/wp.svg'} alt="" />
                         <p className="thicccboiRegular text-white text-[14px] xl:text-[16px] ml-1 xl:ml-2">+91 9830445152</p>
                       </Link> */}
-                      <Link href='#' className="flex items-center">
+                      <Link href="mailto:info@boosted360.com" className="flex items-center">
                         <Image width={26} height={26} src={'/images/new-landing-page/email.svg'} alt="" />
                         <p className="thicccboiRegular text-white text-[14px] xl:text-[16px] ml-1 xl:ml-2">info@boosted360.com</p>
                       </Link>
