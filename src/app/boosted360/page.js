@@ -175,6 +175,7 @@ const Page = () => {
             </div>
           </div>
         </header>
+
         {/* banner  */}
         <div className="relative bannerbr md:pt-0 pt-10">
           <div className="container">
@@ -785,16 +786,16 @@ const Page = () => {
                       Save time and get Real results on social media. Boosted 360 makes it easy.
                     </p>
                     <div className="flex space-x-2 mt-4 text-white">
-                      <Link href={'#'} className="bg-[#330B6F] p-2 size-8 flex items-center justify-center rounded-full">
+                      <Link href={'#'} className="bg-[#330B6F] hover:bg-[#261142] p-2 size-8 flex items-center justify-center rounded-full">
                         <Image width={10} height={10} src={'/images/new-landing-page/facebooklogo.svg'} alt="" />
                       </Link>
-                      <Link href='#' className="bg-[#330B6F] p-2 size-8 flex items-center justify-center rounded-full">
+                      <Link href='#' className="bg-[#330B6F] hover:bg-[#261142] p-2 size-8 flex items-center justify-center rounded-full">
                         <Image width={10} height={10} src={'/images/new-landing-page/x.svg'} alt="" />
                       </Link>
-                      <Link href='#' className="bg-[#330B6F] p-2 size-8 flex items-center justify-center rounded-full">
+                      <Link href='#' className="bg-[#330B6F] hover:bg-[#261142] p-2 size-8 flex items-center justify-center rounded-full">
                         <Image width={10} height={10} src={'/images/new-landing-page/linke.svg'} alt="" />
                       </Link>
-                      <Link href={'#'} className="bg-[#330B6F] p-2 size-8 flex items-center justify-center rounded-full">
+                      <Link href={'#'} className="bg-[#330B6F] hover:bg-[#261142] p-2 size-8 flex items-center justify-center rounded-full">
                         <Image width={12} height={12} src={'/images/new-landing-page/insta.svg'} alt="" />
                       </Link>
 
