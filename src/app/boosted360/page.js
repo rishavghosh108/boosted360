@@ -1,5 +1,5 @@
 "use client";
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useRef } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import SlickSlider from "../Component/Widgets/boosted360/SlickSlider";
@@ -9,17 +9,17 @@ import { Greenlogolandingpage } from "../assets";
 
 const Page = () => {
   const [isScrollable, setIsScrollable] = useState(false);
-  const [enabled, setEnabled] = useState(false);
+  // const [enabled, setEnabled] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [hoveredIndex, setHoveredIndex] = useState(null);
 
   const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
 
-  const handleToggle = () => {
-    const newValue = !enabled;
-    setEnabled(newValue);
-    console.log('Toggle value:', newValue ? 'ON' : 'OFF');
-  };
+  // const handleToggle = () => {
+  //   const newValue = !enabled;
+  //   setEnabled(newValue);
+  //   console.log('Toggle value:', newValue ? 'ON' : 'OFF');
+  // };
 
   useEffect(() => {
     const handleScroll = () => {
@@ -29,7 +29,32 @@ const Page = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  const subscriptionData = [
+
+
+  const tabOptions = ["1 month", "3 months", "12 months"];
+  const [selected, setSelected] = useState(tabOptions[0]);
+  const [indicatorStyle, setIndicatorStyle] = useState({});
+  const containerRef = useRef(null);
+
+  const handleTabClick = (option) => {
+    setSelected(option);
+    console.log("Selected tab:", option);
+  };
+
+  useEffect(() => {
+    const selectedIndex = tabOptions.indexOf(selected);
+    const container = containerRef.current;
+    const selectedButton = container?.children[selectedIndex + 1];
+
+    if (selectedButton) {
+      setIndicatorStyle({
+        width: `${selectedButton.offsetWidth}px`,
+        transform: `translateX(${selectedButton.offsetLeft}px)`,
+      });
+    }
+  }, [selected]);
+
+  const subscriptionDataOneMonth = [
     {
       id: 0,
       planName: 'Standard',
@@ -85,6 +110,118 @@ const Page = () => {
       hoverBtn: '#bd0064'
     },
   ]
+  const subscriptionDataThreeMonth = [
+    {
+      id: 0,
+      planName: 'Standard',
+      planNameColor: '#000000',
+      subscriptionAmount: '199',
+      isBestValue: false,
+      planBenifits: [
+        'Unlimited post scheduling',
+        'Best time to post recommendations',
+        'Custom analytics and reports',
+        'Competitive benchmarking tool',
+        'AI caption, hashtag, and ideas generator',
+        'One inbox for all social accounts'
+      ],
+      borderColor: '#D1D1D1',
+      btnBg: '#000000',
+      hoverBtn: '#2c2c2c'
+    },
+    {
+      id: 1,
+      planName: 'Most Popular',
+      planNameColor: '#6324e7',
+      subscriptionAmount: '399',
+      isBestValue: true,
+      planBenifits: [
+        'Link in bio tool',
+        'Suspend scheduled posts',
+        'Team roles and permissions',
+        'Assign DMs to teammates',
+        'Video voice over',
+        'Automatic link tracking'
+      ],
+      borderColor: '#6324E7',
+      btnBg: '#6324E7',
+      hoverBtn: '#4311ab'
+    },
+    {
+      id: 2,
+      planName: 'Pro',
+      planNameColor: '#f30081',
+      subscriptionAmount: '699',
+      isBestValue: false,
+      planBenifits: [
+        'Content library',
+        'Automated engagement tools',
+        'Single sign-on (SSO)',
+        'Unlimited ad spend',
+        'Free Hootsuite Academy training',
+        'Advanced analytics'
+      ],
+      borderColor: '#f30081',
+      btnBg: '#f30081',
+      hoverBtn: '#bd0064'
+    },
+  ]
+  const subscriptionDataTwelveMonth = [
+    {
+      id: 0,
+      planName: 'Standard',
+      planNameColor: '#000000',
+      subscriptionAmount: '299',
+      isBestValue: false,
+      planBenifits: [
+        'Unlimited post scheduling',
+        'Best time to post recommendations',
+        'Custom analytics and reports',
+        'Competitive benchmarking tool',
+        'AI caption, hashtag, and ideas generator',
+        'One inbox for all social accounts'
+      ],
+      borderColor: '#D1D1D1',
+      btnBg: '#000000',
+      hoverBtn: '#2c2c2c'
+    },
+    {
+      id: 1,
+      planName: 'Most Popular',
+      planNameColor: '#6324e7',
+      subscriptionAmount: '699',
+      isBestValue: true,
+      planBenifits: [
+        'Link in bio tool',
+        'Suspend scheduled posts',
+        'Team roles and permissions',
+        'Assign DMs to teammates',
+        'Video voice over',
+        'Automatic link tracking'
+      ],
+      borderColor: '#6324E7',
+      btnBg: '#6324E7',
+      hoverBtn: '#4311ab'
+    },
+    {
+      id: 2,
+      planName: 'Pro',
+      planNameColor: '#f30081',
+      subscriptionAmount: '1299',
+      isBestValue: false,
+      planBenifits: [
+        'Content library',
+        'Automated engagement tools',
+        'Single sign-on (SSO)',
+        'Unlimited ad spend',
+        'Free Hootsuite Academy training',
+        'Advanced analytics'
+      ],
+      borderColor: '#f30081',
+      btnBg: '#f30081',
+      hoverBtn: '#bd0064'
+    },
+  ]
   return (
     <>
       <Head>
@@ -97,7 +234,7 @@ const Page = () => {
 
       <div className="socialMediaMagic">
         <header
-          className={`${isScrollable ? 'shadow-lg':''} transition-all ease duration-300 sticky top-0 bg-black text-white  z-[999]`}
+          className={`${isScrollable ? 'shadow-lg' : ''} transition-all ease duration-300 sticky top-0 bg-black text-white  z-[999]`}
         >
           <div className="container bg-black">
             <div className="flex items-center justify-between py-[16px] md:py-[20px]">
@@ -549,7 +686,7 @@ const Page = () => {
           <div className="container">
 
             <div className="flex items-center justify-between md:flex-row flex-col">
-              <div className="flex items-center sm:flex-row flex-col">
+              {/* <div className="flex items-center sm:flex-row flex-col">
                 <p className="thicccboiMedium text-white text-[16px]">Pay annually <span className="thicccboiLight">(Save up to 38%)</span></p>
 
                 <button
@@ -568,52 +705,185 @@ const Page = () => {
               <button className="md:mt-0 mt-5 thicccboiBold text-[15px] sm:text-[16px] text-[#EFC923] border border-[#EFC923] flex items-center py-[10px] px-[20px] rounded-full">
                 <Image className="mr-2" width={18} height={18} src={'/images/new-landing-page/yellowplus.svg'} alt="" />
                 Create Custom Package
-              </button>
+              </button> */}
+
+              <div
+                ref={containerRef}
+                className="mx-auto relative border border-[#ededed] rounded-xl text-white p-[6px] thicccboiRegular flex gap-[6px] bg-[#1f1f1f] overflow-hidden"
+              >
+
+                <div
+                  className="absolute top-[6px] left-0 h-[calc(100%-12px)] bg-purple-700 rounded-md transition-all duration-300 ease-in-out z-0"
+                  style={indicatorStyle}
+                ></div>
+                {tabOptions.map((label, index) => {
+                  const isPopular = label === "12 months"; // Only "12 months" is popular
+
+                  return (
+                    <button
+                      key={index}
+                      onClick={() => handleTabClick(label)}
+                      className="px-[25px] py-[10px] text-[14px] rounded-md z-10 relative"
+                    >
+                      {label}
+                      {isPopular && (
+                        <p className="absolute  top-[-5px] -right-[2px] text-[11px] bg-red-600 text-white rounded-xl px-[4px] py-[2px]">
+                          Popular
+                        </p>
+                      )}
+                    </button>
+                  );
+                })}
+
+              </div>
             </div>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-[12px] lg:gap-[24px] xl:gap-[28px] mt-8 xl:mt-12">
 
-              {subscriptionData.map((item, index) => (
-                <div key={index} className={`flex flex-col border-[4px] rounded-[12px] bg-[#FFFFFF] pt-[20px] pb-[25px] px-[15px] lg:px-[28px]`} style={{ borderColor: `${item.borderColor}` }}>
-                  <h4 className={`thicccboiBold text-[25px] lg:text-[28px] xl:text-[32px] font-bold mb-6`} style={{ color: `${item.planNameColor}` }}>{item.planName}</h4>
-                  <p className="thicccboiMedium text-[26px] lg:text-[34px] text-black font-semibold mb-4 xl:mb-6">
-                    $<span>{item.subscriptionAmount}</span> <sub className="text-[#626262] text-[18px] right-0 bottom-0 thicccboiLight">/month</sub></p>
-                  <div>
-                    <p className="thicccboiMedium text-[#767676] text-[16px] bg-[#F6F6F6] py-2 pl-4 pr-7 w-fit rounded-full">Features included</p>
+              {selected === '1 month' &&
+                subscriptionDataOneMonth.map((item, index) => (
+                  <div key={index} className={`flex flex-col border-[4px] rounded-[12px] bg-[#FFFFFF] pt-[20px] pb-[25px] px-[15px] lg:px-[28px]`} style={{ borderColor: `${item.borderColor}` }}>
+                    <div className="flex items-center mb-6 justify-between">
+                      <h4 className={`thicccboiBold text-[25px] lg:text-[28px] xl:text-[32px] font-bold`} style={{ color: `${item.planNameColor}` }}>{item.planName}</h4>
+
+                      {/* <p className="text-[12px] rounded-full bg-red-600 text-white py-[3px] px-[8px]">save 33%</p>*/}
+                    </div>
+                    <p className="thicccboiMedium text-[26px] lg:text-[34px] text-black font-semibold mb-4 xl:mb-6">
+                      $<span>{item.subscriptionAmount}</span> <sub className="text-[#626262] text-[18px] right-0 bottom-0 thicccboiLight">/month</sub></p>
+                    <div>
+                      <p className="thicccboiMedium text-[#767676] text-[16px] bg-[#F6F6F6] py-2 pl-4 pr-7 w-fit rounded-full">Features included</p>
+                    </div>
+
+                    <ul className="space-y-3 xl:space-y-6 xl:mt-6 mt-4 mb-8">
+
+                      {item.planBenifits.map((benefits, index) => (
+                        <li key={index} className="flex items-start text-black font-[500]">
+                          <Image className="mr-2" width={16} height={16} src={'/images/new-landing-page/ultick.svg'} alt="" />
+                          {benefits}
+                        </li>
+                      ))}
+                    </ul>
+
+                    <button className={`thicccboiBold group mt-auto md:mt-auto text-white text-center text-[16px] xl:text-[18px] font-semibold transition-all duration-[0.3s] pl-[30px] pr-[10px] py-[8px] rounded-[50px] flex items-center justify-between w-full`} style={{
+                      backgroundColor: hoveredIndex === index ? item.hoverBtn : item.btnBg
+                    }}
+                      onMouseEnter={() => setHoveredIndex(index)}
+                      onMouseLeave={() => setHoveredIndex(null)}
+                    >
+                      <span className="flex-[1]">Get Started</span>
+                      <span className="transition-colors duration-[0.3s] bg-white rounded-full size-[35px] flex items-center justify-center ml-4">
+                        <div className="relative w-[18px] h-[18px]">
+                          <Image
+                            className="absolute inset-0 transition-opacity duration-[0.3s] object-contain"
+                            width={18}
+                            height={18}
+                            src="/images/new-landing-page/rightarrowblack.svg"
+                            alt=""
+                          />
+                        </div>
+                      </span>
+                    </button>
+
                   </div>
+                ))
+              }
+              {selected === '3 months' &&
+                subscriptionDataThreeMonth.map((item, index) => (
+                  <div key={index} className={`flex flex-col border-[4px] rounded-[12px] bg-[#FFFFFF] pt-[20px] pb-[25px] px-[15px] lg:px-[28px]`} style={{ borderColor: `${item.borderColor}` }}>
+                    <div className="flex items-center mb-6 justify-between">
+                      <h4 className={`thicccboiBold text-[25px] lg:text-[28px] xl:text-[32px] font-bold`} style={{ color: `${item.planNameColor}` }}>{item.planName}</h4>
 
-                  <ul className="space-y-3 xl:space-y-6 xl:mt-6 mt-4 mb-8">
+                      {/* <p className="text-[12px] rounded-full bg-red-600 text-white py-[3px] px-[8px]">save 33%</p>*/}
+                    </div>
+                    <p className="thicccboiMedium text-[26px] lg:text-[34px] text-black font-semibold mb-4 xl:mb-6">
+                      $<span>{item.subscriptionAmount}</span> <sub className="text-[#626262] text-[18px] right-0 bottom-0 thicccboiLight">/month</sub></p>
+                    <div>
+                      <p className="thicccboiMedium text-[#767676] text-[16px] bg-[#F6F6F6] py-2 pl-4 pr-7 w-fit rounded-full">Features included</p>
+                    </div>
 
-                    {item.planBenifits.map((benefits, index) => (
-                      <li key={index} className="flex items-start text-black font-[500]">
-                        <Image className="mr-2" width={16} height={16} src={'/images/new-landing-page/ultick.svg'} alt="" />
-                        {benefits}
-                      </li>
-                    ))}
-                  </ul>
+                    <ul className="space-y-3 xl:space-y-6 xl:mt-6 mt-4 mb-8">
 
-                  <button className={`thicccboiBold group mt-auto md:mt-auto text-white text-center text-[16px] xl:text-[18px] font-semibold transition-all duration-[0.3s] pl-[30px] pr-[10px] py-[8px] rounded-[50px] flex items-center justify-between w-full`} style={{
-                    backgroundColor: hoveredIndex === index ? item.hoverBtn : item.btnBg
-                  }}
-                    onMouseEnter={() => setHoveredIndex(index)}
-                    onMouseLeave={() => setHoveredIndex(null)}
-                  >
-                    <span className="flex-[1]">Get Started</span>
-                    <span className="transition-colors duration-[0.3s] bg-white rounded-full size-[35px] flex items-center justify-center ml-4">
-                      <div className="relative w-[18px] h-[18px]">
-                        <Image
-                          className="absolute inset-0 transition-opacity duration-[0.3s] object-contain"
-                          width={18}
-                          height={18}
-                          src="/images/new-landing-page/rightarrowblack.svg"
-                          alt=""
-                        />
+                      {item.planBenifits.map((benefits, index) => (
+                        <li key={index} className="flex items-start text-black font-[500]">
+                          <Image className="mr-2" width={16} height={16} src={'/images/new-landing-page/ultick.svg'} alt="" />
+                          {benefits}
+                        </li>
+                      ))}
+                    </ul>
+
+                    <button className={`thicccboiBold group mt-auto md:mt-auto text-white text-center text-[16px] xl:text-[18px] font-semibold transition-all duration-[0.3s] pl-[30px] pr-[10px] py-[8px] rounded-[50px] flex items-center justify-between w-full`} style={{
+                      backgroundColor: hoveredIndex === index ? item.hoverBtn : item.btnBg
+                    }}
+                      onMouseEnter={() => setHoveredIndex(index)}
+                      onMouseLeave={() => setHoveredIndex(null)}
+                    >
+                      <span className="flex-[1]">Get Started</span>
+                      <span className="transition-colors duration-[0.3s] bg-white rounded-full size-[35px] flex items-center justify-center ml-4">
+                        <div className="relative w-[18px] h-[18px]">
+                          <Image
+                            className="absolute inset-0 transition-opacity duration-[0.3s] object-contain"
+                            width={18}
+                            height={18}
+                            src="/images/new-landing-page/rightarrowblack.svg"
+                            alt=""
+                          />
+                        </div>
+                      </span>
+                    </button>
+
+                  </div>
+                ))
+              }
+              {selected === '12 months' &&
+                subscriptionDataTwelveMonth.map((item, index) => (
+                  <div key={index} className={`flex flex-col border-[4px] rounded-[12px] bg-[#FFFFFF] pt-[20px] pb-[25px] px-[15px] lg:px-[28px]`} style={{ borderColor: `${item.borderColor}` }}>
+                    <div className="flex items-center mb-6 justify-between">
+                      <h4 className={`thicccboiBold text-[25px] lg:text-[28px] xl:text-[32px] font-bold`} style={{ color: `${item.planNameColor}` }}>{item.planName}</h4>
+
+                      <div className="flex items-center">
+                        <p className="text-[12px] rounded-full mr-2 bg-red-600 text-white py-[3px] px-[8px]">save 33%</p>
+                        <Image width={28} height={28} src={'/images/new-landing-page/crownicon.svg'} alt="crown icon" />
                       </div>
-                    </span>
-                  </button>
+                    </div>
+                    <p className="thicccboiMedium text-[26px] lg:text-[34px] text-black font-semibold mb-4 xl:mb-6">
+                      $<span>{item.subscriptionAmount}</span> <sub className="text-[#626262] text-[18px] right-0 bottom-0 thicccboiLight">/month</sub></p>
+                    <div>
+                      <p className="thicccboiMedium text-[#767676] text-[16px] bg-[#F6F6F6] py-2 pl-4 pr-7 w-fit rounded-full">Features included</p>
+                    </div>
 
-                </div>
-              ))}
+                    <ul className="space-y-3 xl:space-y-6 xl:mt-6 mt-4 mb-8">
+
+                      {item.planBenifits.map((benefits, index) => (
+                        <li key={index} className="flex items-start text-black font-[500]">
+                          <Image className="mr-2" width={16} height={16} src={'/images/new-landing-page/ultick.svg'} alt="" />
+                          {benefits}
+                        </li>
+                      ))}
+                    </ul>
+
+                    <button className={`thicccboiBold group mt-auto md:mt-auto text-white text-center text-[16px] xl:text-[18px] font-semibold transition-all duration-[0.3s] pl-[30px] pr-[10px] py-[8px] rounded-[50px] flex items-center justify-between w-full`} style={{
+                      backgroundColor: hoveredIndex === index ? item.hoverBtn : item.btnBg
+                    }}
+                      onMouseEnter={() => setHoveredIndex(index)}
+                      onMouseLeave={() => setHoveredIndex(null)}
+                    >
+                      <span className="flex-[1]">Get Started</span>
+                      <span className="transition-colors duration-[0.3s] bg-white rounded-full size-[35px] flex items-center justify-center ml-4">
+                        <div className="relative w-[18px] h-[18px]">
+                          <Image
+                            className="absolute inset-0 transition-opacity duration-[0.3s] object-contain"
+                            width={18}
+                            height={18}
+                            src="/images/new-landing-page/rightarrowblack.svg"
+                            alt=""
+                          />
+                        </div>
+                      </span>
+                    </button>
+
+                  </div>
+                ))
+              }
               {/* <div className="flex flex-col border-[4px] border-[#6324E7] rounded-[12px] bg-[#FFFFFF] pt-[20px] pb-[25px] px-[15px] lg:px-[28px]">
                 <h4 className="thicccboiBold text-[#6324E7] text-[26px] lg:text-[28px] xl:text-[32px] font-bold mb-6">Most Popular</h4>
                 <div className="flex items-center mb-4 xl:mb-6 justify-between">
