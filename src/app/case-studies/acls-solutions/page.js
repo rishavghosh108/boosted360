@@ -29,7 +29,7 @@ const Page = () => {
                             </h1>
 
                             <p className='pt-5 md:text-xl text-base text-neutral-800 text-center lg:text-left'>
-                            Boosted 360 enhanced CPR Classes, St. Louis' <span className='font-bold text-[#459231]'> digital marketing </span>
+                            Boosted 360 enhanced CPR Classes, St. Louis&apos; <span className='font-bold text-[#459231]'> digital marketing </span>
                             by leveraging targeted <span className='font-bold text-[#459231]'>content, SEO, social media, and lead generation strategies.</span>
                              This significantly improved their online visibility, resulting in more leads and class registrations for ACLS certification in St. Louis.
                             </p>
