@@ -24,8 +24,8 @@ const page = () => {
         },
         {
             imageUrl: work3,
-            title: 'ACLS Solutions',
-            description: 'ACLS Solutions provides the best CPR classes in St. Louis along with certification to provide the best lifesaving skills for the emergencies.',
+            title: 'CPR Classes, St. Louis',
+            description: 'CPR Classes provides the best CPR classes in St. Louis along with certification to provide the best lifesaving skills for the emergencies including BLS, ACLS and PALS. ',
             slug: '/case-studies/acls-solutions'
         },
         {
