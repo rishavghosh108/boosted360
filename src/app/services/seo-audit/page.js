@@ -106,7 +106,7 @@ const Page = () => {
                                 </div>
                             </div> */}
                         </div>
-                        <div className='relative before:w-full before:block before:pt-[62.5%]'>
+                        <div className='relative before:w-full before:block before:pt-[62.5%] sm:ml-3'>
                             <Image src={'/images/seo-audit/SEO_Audit_Services.jpg'} alt="arrow" width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' />
                         </div>
                     </div>
@@ -211,7 +211,7 @@ const Page = () => {
                     </div>
                     <div className="w-full mx-auto md:mt-10 mt-7">
                         {/* Tab Headers */}
-                        <div className="flex lg:justify-center text-center mb-7 border-b border-neutral-200 overflow-auto lg:overflow-visible">
+                        <div className="flex lg:justify-center text-center mb-7 border-b border-neutral-200 overflow-x-auto overflow-y-hidden">
                             <button className={`text-base font-medium lg:border-b-4 lg:-mb-[3px] px-4  py-3 shrink-0 ${activeTab === "tab1" ? "border-[#5db947] lg:bg-transparent bg-[#5db947] lg:text-black text-white" : "border-transparent"}`} onClick={() => setActiveTab("tab1")}>
                                 Increased Organic Traffic
                             </button>
@@ -240,7 +240,7 @@ const Page = () => {
                                             <p className="text-sm font-light lg:text-lg text-neutral-600 leading-[1.6]">By addressing SEO issues, we improve your website&apos;s visibility, resulting in increased organic traffic from targeted keywords.</p>
                                         </div>
                                     </div>
-                                    <div className='relative before:w-full before:block before:pt-[62.5%] sm:w-5/12 w-full sm:mt-0 mt-4'>
+                                    <div className='relative before:w-full before:block before:pt-[62.5%] sm:ml-3 sm:w-5/12 w-full sm:mt-0 mt-4'>
                                         <Image src={'/images/seo-audit/Increased_Organic_Traffic.jpg'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
                                     </div>
                                 </div>
@@ -254,7 +254,7 @@ const Page = () => {
                                             <p className="text-sm font-light lg:text-lg text-neutral-600 leading-[1.6]">An optimized site leads to higher user engagement and better conversion rates, turning more visitors into paying customers.</p>
                                         </div>
                                     </div>
-                                    <div className='relative before:w-full before:block before:pt-[62.5%] sm:w-5/12 w-full sm:mt-0 mt-4'>
+                                    <div className='relative before:w-full before:block before:pt-[62.5%] sm:ml-3 sm:w-5/12 w-full sm:mt-0 mt-4'>
                                         <Image src={'/images/seo-audit/Higher_Conversion_Rates.jpg'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
                                     </div>
                                 </div>
@@ -268,7 +268,7 @@ const Page = () => {
                                             <p className="text-sm font-light lg:text-lg text-neutral-600 leading-[1.6]">With better search engine rankings, your brand becomes more visible to your target audience, increasing awareness and credibility in your market..</p>
                                         </div>
                                     </div>
-                                    <div className='relative before:w-full before:block before:pt-[62.5%] sm:w-5/12 w-full sm:mt-0 mt-4'>
+                                    <div className='relative before:w-full before:block before:pt-[62.5%] sm:ml-3 sm:w-5/12 w-full sm:mt-0 mt-4'>
                                         <Image src={'/images/seo-audit/Improved_Brand_Awareness.jpg'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
                                     </div>
                                 </div>
@@ -282,7 +282,7 @@ const Page = () => {
                                             <p className="text-sm font-light lg:text-lg text-neutral-600 leading-[1.6]">By continually improving your site&apos;s SEO health, our audits contribute to sustained growth, delivering long-term ROI with ongoing results.</p>
                                         </div>
                                     </div>
-                                    <div className='relative before:w-full before:block before:pt-[62.5%] sm:w-5/12 w-full sm:mt-0 mt-4'>
+                                    <div className='relative before:w-full before:block before:pt-[62.5%] sm:ml-3 sm:w-5/12 w-full sm:mt-0 mt-4'>
                                         <Image src={'/images/seo-audit/Long_Term_ROI.jpg'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
                                     </div>
                                 </div>
@@ -296,7 +296,7 @@ const Page = () => {
                                             <p className="text-sm font-light lg:text-lg text-neutral-600 leading-[1.6]">Our website audit services help you identify and fix lead generation barriers, improving your site&apos;s ability to attract and convert qualified leads.</p>
                                         </div>
                                     </div>
-                                    <div className='relative before:w-full before:block before:pt-[62.5%] sm:w-5/12 w-full sm:mt-0 mt-4'>
+                                    <div className='relative before:w-full before:block before:pt-[62.5%] sm:ml-3 sm:w-5/12 w-full sm:mt-0 mt-4'>
                                         <Image src={'/images/seo-audit/Lead_Generation.jpg'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
                                     </div>
                                 </div>

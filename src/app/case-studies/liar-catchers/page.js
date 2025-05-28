@@ -19,9 +19,7 @@ const Page = () => {
                 <div className='grid lg:grid-cols-2 gap-8 items-center pt-5 lg:pb-20 pb-10'>
                     <div>
                         <div className='max-w-3xl mx-auto'>
-                            {/* Companie7 */}
-                            <Image src={'/images/details-image/curbappeal.png'} width={100} height={100} alt={`Slide`} className='w-40 mx-auto lg:mx-0 brightness-75' />
-
+                            <Image src={sliderInLogonnjdvd} width={80} height={80} alt={`Slide`} className='w-20 mx-auto lg:mx-0 mix-blend-darken' />
                             <h1 className='lg:text-5xl md:text-4xl text-3xl text-neutral-800 md:pt-10 pt-5 font-light text-center lg:text-left'>
                                 Empowering Liar Catchers&apos; Success in the Private Investigation Industry Through Strategic
                                 {/* <br className='hidden lg:block' /> */}
@@ -177,7 +175,7 @@ const Page = () => {
                     </p>
 
                     <div className='mb-3 '>
-                        <Image width={600} height={100} src={'/images/details-image/Anthamreview.png'} alt={`Slide`} className='w-full' />
+                        <Image width={600} height={100} src={'/images/details-image/liar_catchers_review_dtl.png'} alt={`Slide`} className='w-full' />
 
                     </div>
 
@@ -194,7 +192,7 @@ const Page = () => {
                     <p>Local SEO played a pivotal role in increasing Liar Catchers&apos; visibility in Lexington. By targeting geo-specific keywords like &quot;private investigator in Lexington&quot; and &quot;detective agency in Lexington,&quot; we were able to secure top rankings in local searches, driving organic traffic from individuals in need of private investigation services in the area.
                     </p>
                     <div className='mb-3 '>
-                        <Image width={600} height={100} src={'/images/details-image/Antham_google.png'} alt={`Slide`} className='w-full' />
+                        <Image width={600} height={100} src={'/images/details-image/liar_catchers_browser.png'} alt={`Slide`} className='w-full' />
                     </div>
 
 
@@ -203,17 +201,19 @@ const Page = () => {
                         Social Media Marketing
                     </h1>
                     <p>Through targeted social media campaigns, we increased brand awareness for Liar Catchers by sharing valuable content related to civil investigations, legal disclaimers, and evidence collection. Our efforts, including regular posts and sponsored ads, led to a 50% rise in engagement and a 30% increase in inquiries about their investigative services. Social media helped build a community of potential clients actively seeking professional investigation help.</p>
-                    <div className='bg-white p-5 mb-3 '>
+                    {/* <div className='bg-white p-5 mb-3 '>
                         <div className='w-[70%] mx-auto'>
                             <Image width={600} height={100} src={'/images/details-image/contactform.png'} alt={`Slide`} className='w-full' />
                         </div>
-                    </div>
+                    </div> */}
 
                     <h1>
                         Lead Generation
                     </h1>
                     <p>We optimized the lead generation process by enhancing the website with user-friendly contact forms and integrating effective CTAs that encouraged website visitors to reach out for consultations. This seamless lead generation system allowed us to capture inquiries and convert them into actionable leads for civil investigations and legal support services.</p>
-
+                    <div className='mb-3 '>
+                        <Image width={600} height={100} src={'/images/details-image/liar_catchers_contact-ldf.png'} alt={`Slide`} className='w-full' />
+                    </div>
                     <h1>
                         Content Marketing
                     </h1>

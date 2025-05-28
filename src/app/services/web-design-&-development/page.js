@@ -107,7 +107,7 @@ const Page = () => {
                                 </div>
                             </div> */}
                         </div>
-                        <div className='relative before:w-full before:block before:pt-[62.5%]'>
+                        <div className='relative before:w-full before:block before:pt-[62.5%] sm:ml-3'>
                             <Image src={'/images/web-design-&-development/Website_Design.png'} alt="arrow" width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' />
                         </div>
                     </div>
@@ -217,7 +217,7 @@ const Page = () => {
                     </div>
                     <div className="w-full mx-auto md:mt-10 mt-7">
                         {/* Tab Headers */}
-                        <div className="flex lg:justify-center text-center mb-7 border-b border-neutral-200 overflow-auto lg:overflow-visible">
+                        <div className="flex lg:justify-center text-center mb-7 border-b border-neutral-200 overflow-x-auto overflow-y-hidden">
                             <button className={`text-base font-medium lg:border-b-4 lg:-mb-[3px] px-4  py-3 shrink-0 ${activeTab === "tab1" ? "border-[#5db947] lg:bg-transparent bg-[#5db947] lg:text-black text-white" : "border-transparent"}`} onClick={() => setActiveTab("tab1")}>
                                 Custom Web Design
                             </button>
@@ -247,7 +247,7 @@ const Page = () => {
                                             </p>
                                         </div>
                                     </div>
-                                    <div className='relative before:w-full before:block before:pt-[62.5%] sm:w-5/12 w-full sm:mt-0 mt-4'>
+                                    <div className='relative before:w-full before:block before:pt-[62.5%] sm:ml-3 sm:w-5/12 w-full sm:mt-0 mt-4'>
                                         <Image src={'/images/web-design-&-development/Custom_Web_Design.png'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
                                     </div>
                                 </div>
@@ -262,7 +262,7 @@ const Page = () => {
                                             </p>
                                         </div>
                                     </div>
-                                    <div className='relative before:w-full before:block before:pt-[62.5%] sm:w-5/12 w-full sm:mt-0 mt-4'>
+                                    <div className='relative before:w-full before:block before:pt-[62.5%] sm:ml-3 sm:w-5/12 w-full sm:mt-0 mt-4'>
                                         <Image src={'/images/web-design-&-development/E-Com_Website_Development.png'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
                                     </div>
                                 </div>
@@ -277,7 +277,7 @@ const Page = () => {
                                             </p>
                                         </div>
                                     </div>
-                                    <div className='relative before:w-full before:block before:pt-[62.5%] sm:w-5/12 w-full sm:mt-0 mt-4'>
+                                    <div className='relative before:w-full before:block before:pt-[62.5%] sm:ml-3 sm:w-5/12 w-full sm:mt-0 mt-4'>
                                         <Image src={'/images/web-design-&-development/WordPress_Development.png'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
                                     </div>
                                 </div>
@@ -292,7 +292,7 @@ const Page = () => {
                                             </p>
                                         </div>
                                     </div>
-                                    <div className='relative before:w-full before:block before:pt-[62.5%] sm:w-5/12 w-full sm:mt-0 mt-4'>
+                                    <div className='relative before:w-full before:block before:pt-[62.5%] sm:ml-3 sm:w-5/12 w-full sm:mt-0 mt-4'>
                                         <Image src={'/images/web-design-&-development/Web_AppDevelopment.png'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
                                     </div>
                                 </div>
@@ -307,7 +307,7 @@ const Page = () => {
                                             </p>
                                         </div>
                                     </div>
-                                    <div className='relative before:w-full before:block before:pt-[62.5%] sm:w-5/12 w-full sm:mt-0 mt-4'>
+                                    <div className='relative before:w-full before:block before:pt-[62.5%] sm:ml-3 sm:w-5/12 w-full sm:mt-0 mt-4'>
                                         <Image src={'/images/web-design-&-development/Maintenance_Support.png'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
                                     </div>
                                 </div>

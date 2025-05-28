@@ -56,6 +56,12 @@ const page = () => {
 
             <div className='pt-8 pb-16'>
                 <div className='container'>
+                    <div className='text-center w-full max-w-[578px] mb-6 mx-auto'>
+                        <h2 className='text-[18px] md:text-[21px] lg:text-[26px] xl:text-[30px] font-bold text-black mb-1'>
+                            Our Portfolio
+                        </h2>
+                        <p className='text-[18px] lg:text-[20px] font-normal text-[#000] leading-[1.2]'>Check here our success stories, how we have transformed businesses into brands.</p>
+                    </div>
                     <div className='grid grid-cols-1 lg:grid-cols-2 gap-[18px] sm:gap-[25px] lg:px-0 px-0 sm:px-10 nn1:px-[15%]'>
                         {SlideItems.map((item, index) => (
                             <div key={index} className='bg-blue-950 hover:shadow-md rounded-xl overflow-hidden relative group'>

@@ -107,7 +107,7 @@ const Page = () => {
                                 </div>
                             </div> */}
                         </div>
-                        <div className='relative before:w-full before:block before:pt-[62.5%]'>
+                        <div className='relative before:w-full before:block before:pt-[62.5%] sm:ml-3'>
                             <Image src={'/images/localseo/local_SEO_company.jpg'} alt="arrow" width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' />
                         </div>
                     </div>
@@ -212,7 +212,7 @@ const Page = () => {
                     </div>
                     <div className="w-full mx-auto md:mt-10 mt-7">
                         {/* Tab Headers */}
-                        <div className="flex lg:justify-center text-center mb-7 border-b border-neutral-200 overflow-auto lg:overflow-visible">
+                        <div className="flex lg:justify-center text-center mb-7 border-b border-neutral-200 overflow-x-auto overflow-y-hidden">
                             <button className={`text-base font-medium lg:border-b-4 lg:-mb-[3px] px-4  py-3 shrink-0 ${activeTab === "tab1" ? "border-[#5db947] lg:bg-transparent bg-[#5db947] lg:text-black text-white" : "border-transparent"}`} onClick={() => setActiveTab("tab1")}>
                                 Increased Organic Traffic
                             </button>
@@ -241,7 +241,7 @@ const Page = () => {
                                             <p className="text-sm font-light lg:text-lg text-neutral-600 leading-[1.6]">By focusing on local SEO, we drive more organic traffic to your website from users in your area, leading to more qualified leads and increased opportunities for conversions.</p>
                                         </div>
                                     </div>
-                                    <div className='relative before:w-full before:block before:pt-[62.5%] sm:w-5/12 w-full sm:mt-0 mt-4'>
+                                    <div className='relative before:w-full before:block before:pt-[62.5%] sm:ml-3 sm:w-5/12 w-full sm:mt-0 mt-4'>
                                         <Image src={'/images/localseo/Increased_Organic_Traffic.jpg'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
                                     </div>
                                 </div>
@@ -255,7 +255,7 @@ const Page = () => {
                                             <p className="text-sm font-light lg:text-lg text-neutral-600 leading-[1.6]">Targeting local customers helps increase your chances of conversion, as visitors are more likely to take action when they find relevant, location-based information.</p>
                                         </div>
                                     </div>
-                                    <div className='relative before:w-full before:block before:pt-[62.5%] sm:w-5/12 w-full sm:mt-0 mt-4'>
+                                    <div className='relative before:w-full before:block before:pt-[62.5%] sm:ml-3 sm:w-5/12 w-full sm:mt-0 mt-4'>
                                         <Image src={'/images/localseo/Higher_Conversion_Rates.jpg'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
                                     </div>
                                 </div>
@@ -269,7 +269,7 @@ const Page = () => {
                                             <p className="text-sm font-light lg:text-lg text-neutral-600 leading-[1.6]">Through strategic local SEO practices, your business gains greater visibility within your community, strengthening brand recognition and trust among local customers.</p>
                                         </div>
                                     </div>
-                                    <div className='relative before:w-full before:block before:pt-[62.5%] sm:w-5/12 w-full sm:mt-0 mt-4'>
+                                    <div className='relative before:w-full before:block before:pt-[62.5%] sm:ml-3 sm:w-5/12 w-full sm:mt-0 mt-4'>
                                         <Image src={'/images/localseo/Improved_Brand_Awareness.jpg'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
                                     </div>
                                 </div>
@@ -283,7 +283,7 @@ const Page = () => {
                                             <p className="text-sm font-light lg:text-lg text-neutral-600 leading-[1.6]">Investing in local SEO leads to sustainable, long-term results. As your online presence improves, your business enjoys continued ROI through consistent local traffic and customer engagement.</p>
                                         </div>
                                     </div>
-                                    <div className='relative before:w-full before:block before:pt-[62.5%] sm:w-5/12 w-full sm:mt-0 mt-4'>
+                                    <div className='relative before:w-full before:block before:pt-[62.5%] sm:ml-3 sm:w-5/12 w-full sm:mt-0 mt-4'>
                                         <Image src={'/images/localseo/Long_Term_ROI.jpg'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
                                     </div>
                                 </div>
@@ -297,7 +297,7 @@ const Page = () => {
                                             <p className="text-sm font-light lg:text-lg text-neutral-600 leading-[1.6]">Our local SEO experts help generate quality leads by ensuring your business appears in front of the right local audience, turning visitors into loyal customers.</p>
                                         </div>
                                     </div>
-                                    <div className='relative before:w-full before:block before:pt-[62.5%] sm:w-5/12 w-full sm:mt-0 mt-4'>
+                                    <div className='relative before:w-full before:block before:pt-[62.5%] sm:ml-3 sm:w-5/12 w-full sm:mt-0 mt-4'>
                                         <Image src={'/images/localseo/Lead_Generation.jpg'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
                                     </div>
                                 </div>

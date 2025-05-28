@@ -109,7 +109,7 @@ const Page = () => {
                                 </div>
                             </div> */}
                         </div>
-                        <div className='relative before:w-full before:block before:pt-[62.5%]'>
+                        <div className='relative before:w-full before:block before:pt-[62.5%] sm:ml-3'>
                             <Image src={'/images/email-marketing-agency/Email-Marketing-Agency-banner1.png'} alt="arrow" width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' />
                         </div>
                     </div>
@@ -215,7 +215,7 @@ const Page = () => {
                     </div>
                     <div className="w-full mx-auto md:mt-10 mt-7">
                         {/* Tab Headers */}
-                        <div className="flex lg:justify-center text-center mb-7 border-b border-neutral-200 overflow-auto lg:overflow-visible">
+                        <div className="flex lg:justify-center text-center mb-7 border-b border-neutral-200 overflow-x-auto overflow-y-hidden">
                             <button className={`text-base font-medium lg:border-b-4 lg:-mb-[3px] px-4  py-3 shrink-0 ${activeTab === "tab1" ? "border-[#5db947] lg:bg-transparent bg-[#5db947] lg:text-black text-white" : "border-transparent"}`} onClick={() => setActiveTab("tab1")}>
                                 Increased Engagement
                             </button>
@@ -241,7 +241,7 @@ const Page = () => {
                                             <p className="text-sm font-light lg:text-lg text-neutral-600 leading-[1.6]">Our <strong>email marketing services</strong> enhance engagement, ensuring that your emails get opened, read, and acted upon by your audience, resulting in stronger customer relationships.</p>
                                         </div>
                                     </div>
-                                    <div className='relative before:w-full before:block before:pt-[62.5%] sm:w-5/12 w-full sm:mt-0 mt-4'>
+                                    <div className='relative before:w-full before:block before:pt-[62.5%] sm:ml-3 sm:w-5/12 w-full sm:mt-0 mt-4'>
                                         <Image src={'/images/email-marketing-agency/email-marketing-tab1.png'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
                                     </div>
                                 </div>
@@ -255,7 +255,7 @@ const Page = () => {
                                             <p className="text-sm font-light lg:text-lg text-neutral-600 leading-[1.6]">Through targeted and well-crafted emails, we drive higher conversion rates, whether you&apos;re looking to make a sale, gather feedback, or nurture leads.</p>
                                         </div>
                                     </div>
-                                    <div className='relative before:w-full before:block before:pt-[62.5%] sm:w-5/12 w-full sm:mt-0 mt-4'>
+                                    <div className='relative before:w-full before:block before:pt-[62.5%] sm:ml-3 sm:w-5/12 w-full sm:mt-0 mt-4'>
                                         <Image src={'/images/email-marketing-agency/email-marketing-tab2.png'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
                                     </div>
                                 </div>
@@ -269,7 +269,7 @@ const Page = () => {
                                             <p className="text-sm font-light lg:text-lg text-neutral-600 leading-[1.6]">Our expertise in <strong>email marketing solutions</strong> ensures that your marketing budget is effectively allocated to get the best return on every email sent.</p>
                                         </div>
                                     </div>
-                                    <div className='relative before:w-full before:block before:pt-[62.5%] sm:w-5/12 w-full sm:mt-0 mt-4'>
+                                    <div className='relative before:w-full before:block before:pt-[62.5%] sm:ml-3 sm:w-5/12 w-full sm:mt-0 mt-4'>
                                         <Image src={'/images/email-marketing-agency/email-marketing-tab3.png'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
                                     </div>
                                 </div>
@@ -283,7 +283,7 @@ const Page = () => {
                                             <p className="text-sm font-light lg:text-lg text-neutral-600 leading-[1.6]">By continuously refining your campaigns, we help you achieve long-term, sustainable growth and maximize the value of your email marketing efforts.</p>
                                         </div>
                                     </div>
-                                    <div className='relative before:w-full before:block before:pt-[62.5%] sm:w-5/12 w-full sm:mt-0 mt-4'>
+                                    <div className='relative before:w-full before:block before:pt-[62.5%] sm:ml-3 sm:w-5/12 w-full sm:mt-0 mt-4'>
                                         <Image src={'/images/email-marketing-agency/email-marketing-tab4.png'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
                                     </div>
                                 </div>

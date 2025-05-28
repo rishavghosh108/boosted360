@@ -21,7 +21,8 @@ const Page = () => {
             <div className='max-w-3xl mx-auto'>
               {/* Companie7 */}
               <Image src={'/images/details-image/anthem_png.png'} width={100} height={100} alt={`Slide`} className='w-40 mx-auto lg:mx-0 brightness-75' />
-
+              {/* sliderInLogonnjdvd */}
+              
               <h1 className='lg:text-5xl md:text-4xl text-3xl text-neutral-800 md:pt-10 pt-5 font-light text-center lg:text-left'>
                 Empowering Anthem Senior
                 {/* <br className='hidden lg:block' /> */}
@@ -156,9 +157,9 @@ const Page = () => {
             Anthem Senior Living has achieved remarkable growth through our bespoke digital marketing efforts.
           </p>
 
-          <div className='bg-white p-5 mb-3'>
+          {/* <div className='bg-white p-5 mb-3'>
             <Image width={600} height={100} src={'/images/details-image/details-image2.png'} alt={`Slide`} className='w-full' />
-          </div>
+          </div> */}
 
           <p>
             With a focus on organic growth, we helped them increase blog organic sessions by 810% and attributed user sign-ups grew by 400X. Through a mix of SEO, content strategy, and paid campaigns,

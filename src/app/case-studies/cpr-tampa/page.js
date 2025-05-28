@@ -19,9 +19,8 @@ const Page = () => {
                 <div className='grid lg:grid-cols-2 gap-8 items-center pt-5 lg:pb-20 pb-10'>
                     <div>
                         <div className='max-w-3xl mx-auto'>
-                            {/* Companie7 */}
-                            <Image src={'/images/details-image/curbappeal.png'} width={100} height={100} alt={`Slide`} className='w-40 mx-auto lg:mx-0 brightness-75' />
 
+                            <Image src={sliderInLogolop} width={80} height={80} alt={`Slide`} className='w-20 mx-auto lg:mx-0 mix-blend-darken' />
                             <h1 className='lg:text-5xl md:text-4xl text-3xl text-neutral-800 md:pt-10 pt-5 font-light text-center lg:text-left'>
                                 Empowering CPR Tampa&apos;s Growth Through
                                 {/* <br className='hidden lg:block' /> */}
@@ -161,9 +160,9 @@ const Page = () => {
                         CPR Tampa has experienced significant growth thanks to our bespoke digital marketing strategy. With a focus on SEO and content, we helped increase organic sessions by 650% and drove a 300% increase in online class registrations.
                     </p>
 
-                    <div className='bg-white p-5 mb-3'>
+                    {/* <div className='bg-white p-5 mb-3'>
                         <Image width={600} height={100} src={'/images/details-image/details-image2.png'} alt={`Slide`} className='w-full' />
-                    </div>
+                    </div> */}
 
                     <p>
                         By leveraging a combination of targeted SEO, content creation, and PPC campaigns, CPR Tampa achieved a steady rise in qualified leads and conversions.
@@ -179,7 +178,7 @@ const Page = () => {
                     </p>
 
                     <div className='mb-3 '>
-                        <Image width={600} height={100} src={'/images/details-image/Anthamreview.png'} alt={`Slide`} className='w-full' />
+                        <Image width={600} height={100} src={'/images/details-image/CPR_tampa_review.png'} alt={`Slide`} className='w-full' />
 
                     </div>
 
@@ -196,7 +195,7 @@ const Page = () => {
                     <p>Local SEO played a critical role in enhancing CPR Tampa&apos;s visibility within Tampa and surrounding areas. By targeting high-value keywords like &quot;ACLS class Tampa,&quot; &quot;PALS class Tampa,&quot; and &quot;Basic Life Support Tampa,&quot; we ensured CPR Tampa ranked high on search engines for these crucial search terms. This led to improved local search results, increasing organic traffic from people specifically searching for CPR certification in the area.
                     </p>
                     <div className='mb-3 '>
-                        <Image width={600} height={100} src={'/images/details-image/Antham_google.png'} alt={`Slide`} className='w-full' />
+                        <Image width={600} height={100} src={'/images/details-image/CPR_tampa_browser.png'} alt={`Slide`} className='w-full' />
                     </div>
 
 
@@ -205,11 +204,11 @@ const Page = () => {
                         Social Media Marketing
                     </h1>
                     <p>Boosted 360 amplified CPR Tampa&apos;s social media presence by developing targeted campaigns aimed at educating the community and generating leads. Regular content posts, paid social ads, and community engagement efforts increased brand awareness by 35%, Boosted audience interaction by 40%, and led to a 20% increase in class sign-ups. We strategically used social media to connect with both individuals and businesses seeking CPR training.</p>
-                    <div className='bg-white p-5 mb-3 '>
+                    {/* <div className='bg-white p-5 mb-3 '>
                         <div className='w-[70%] mx-auto'>
                             <Image width={600} height={100} src={'/images/details-image/contactform.png'} alt={`Slide`} className='w-full' />
                         </div>
-                    </div>
+                    </div> */}
 
                     <h1>
                         Lead Generation

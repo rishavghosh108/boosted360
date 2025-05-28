@@ -108,7 +108,7 @@ const Page = () => {
                                 </div>
                             </div> */}
                         </div>
-                        <div className='relative before:w-full before:block before:pt-[62.5%]'>
+                        <div className='relative before:w-full before:block before:pt-[62.5%] sm:ml-3'>
                             <Image src={'/images/e-commerce-seo/Ecommerce_SEO.jpg'} alt="arrow" width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' />
                         </div>
                     </div>
@@ -213,7 +213,7 @@ const Page = () => {
                     </div>
                     <div className="w-full mx-auto md:mt-10 mt-7">
                         {/* Tab Headers */}
-                        <div className="flex lg:justify-center text-center mb-7 border-b border-neutral-200 overflow-auto lg:overflow-visible">
+                        <div className="flex lg:justify-center text-center mb-7 border-b border-neutral-200 overflow-x-auto overflow-y-hidden">
                             <button className={`text-base font-medium lg:border-b-4 lg:-mb-[3px] px-4  py-3 shrink-0 ${activeTab === "tab1" ? "border-[#5db947] lg:bg-transparent bg-[#5db947] lg:text-black text-white" : "border-transparent"}`} onClick={() => setActiveTab("tab1")}>
                                 Increased Organic Traffic
                             </button>
@@ -242,7 +242,7 @@ const Page = () => {
                                             <p className="text-sm font-light lg:text-lg text-neutral-600 leading-[1.6]">Through strategic keyword optimization, we drive highly-targeted organic traffic to your ecommerce site, ensuring more potential customers visit your store.</p>
                                         </div>
                                     </div>
-                                    <div className='relative before:w-full before:block before:pt-[62.5%] sm:w-5/12 w-full sm:mt-0 mt-4'>
+                                    <div className='relative before:w-full before:block before:pt-[62.5%] sm:ml-3 sm:w-5/12 w-full sm:mt-0 mt-4'>
                                         <Image src={'/images/e-commerce-seo/Increased_Organic_Traffic.jpg'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
                                     </div>
                                 </div>
@@ -256,7 +256,7 @@ const Page = () => {
                                             <p className="text-sm font-light lg:text-lg text-neutral-600 leading-[1.6]">Optimizing your product pages and site structure leads to a smoother user experience, improving your conversion rates and increasing sales.</p>
                                         </div>
                                     </div>
-                                    <div className='relative before:w-full before:block before:pt-[62.5%] sm:w-5/12 w-full sm:mt-0 mt-4'>
+                                    <div className='relative before:w-full before:block before:pt-[62.5%] sm:ml-3 sm:w-5/12 w-full sm:mt-0 mt-4'>
                                         <Image src={'/images/e-commerce-seo/Higher_Conversion_Rates.jpg'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
                                     </div>
                                 </div>
@@ -270,7 +270,7 @@ const Page = () => {
                                             <p className="text-sm font-light lg:text-lg text-neutral-600 leading-[1.6]">As your store ranks higher in search engines, more customers will discover your brand, resulting in increased recognition and trust in your business.</p>
                                         </div>
                                     </div>
-                                    <div className='relative before:w-full before:block before:pt-[62.5%] sm:w-5/12 w-full sm:mt-0 mt-4'>
+                                    <div className='relative before:w-full before:block before:pt-[62.5%] sm:ml-3 sm:w-5/12 w-full sm:mt-0 mt-4'>
                                         <Image src={'/images/e-commerce-seo/Improved_Brand_Awareness.jpg'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
                                     </div>
                                 </div>
@@ -284,7 +284,7 @@ const Page = () => {
                                             <p className="text-sm font-light lg:text-lg text-neutral-600 leading-[1.6]">Our ecommerce SEO packages provide sustainable, long-term growth. By improving your site’s SEO, we ensure ongoing ROI from organic traffic and customer engagement.</p>
                                         </div>
                                     </div>
-                                    <div className='relative before:w-full before:block before:pt-[62.5%] sm:w-5/12 w-full sm:mt-0 mt-4'>
+                                    <div className='relative before:w-full before:block before:pt-[62.5%] sm:ml-3 sm:w-5/12 w-full sm:mt-0 mt-4'>
                                         <Image src={'/images/e-commerce-seo/Long-Term-ROI.jpg'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
                                     </div>
                                 </div>
@@ -298,7 +298,7 @@ const Page = () => {
                                             <p className="text-sm font-light lg:text-lg text-neutral-600 leading-[1.6]">We help generate quality leads by optimizing your ecommerce site for local and global searches, converting visitors into loyal customers who make repeat purchases.</p>
                                         </div>
                                     </div>
-                                    <div className='relative before:w-full before:block before:pt-[62.5%] sm:w-5/12 w-full sm:mt-0 mt-4'>
+                                    <div className='relative before:w-full before:block before:pt-[62.5%] sm:ml-3 sm:w-5/12 w-full sm:mt-0 mt-4'>
                                         <Image src={'/images/e-commerce-seo/Lead_Generation.jpg'} width="610" height="650" className='size-full absolute top-0 right-0 bottom-0 left-0 object-cover' alt="arrow" />
                                     </div>
                                 </div>

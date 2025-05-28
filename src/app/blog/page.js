@@ -9,35 +9,35 @@ const Page = () => {
     const blogdata = [
         {
             id: 0,
-            blogImage:'/images/blog/blog-1.jpg',
+            blogImage: '/images/blog/blog-1.jpg',
             publishDate: 'September 30, 2018 ',
             userProfile: '',
             userName: 'Braxton Noble',
             title: 'Google My Business Optimization: A Step-by-Step Guide for Local Rankings',
             description: 'Businesses may manage their online presence across Google Maps and Google Search with Google My Business (GMB), a free product from Google. Businesses can use it to build a profile that includes important details like their address, phone number, website, business hours, and client reviews. Businesses may improve their exposure in local search results and give prospective clients the information they need to make educated decisions by optimizing their Google My Business listing.',
-            dedicatedPageLink:'/blog/google-business'
+            dedicatedPageLink: '/blog/google-business'
         },
         {
             id: 1,
-            blogImage:'/images/blog/blog-2.png',
-            publishDate: 'September 30, 2018', 
+            blogImage: '/images/blog/blog-2.png',
+            publishDate: 'September 30, 2018',
             userProfile: '',
             userName: 'Braxton Noble',
             title: 'Email Marketing Trends in 2025: What Businesses Need to Know',
             description: "It's difficult to manage email marketing for small business campaigns and an e-commerce firm at the same time, to be honest. Meeting client expectations and boosting sales are just two of the many responsibilities you have.",
-            dedicatedPageLink:'/blog/email-marketing-trends'
+            dedicatedPageLink: '/blog/email-marketing-trends'
         },
         {
             id: 2,
-            blogImage:'/images/blog/googleadsvsmetaads.webp',
-            publishDate: 'March 28, 2025', 
+            blogImage: '/images/blog/googleadsvsmetaads.webp',
+            publishDate: 'March 28, 2025',
             userProfile: '',
             userName: 'Braxton Noble',
             title: 'Meta Ads vs. Google Ads: Which One Delivers Better ROI for Your Business?',
             description: "Google Ads and Meta Ads are two platforms that have become leaders in the ever-changing field of digital marketing. Although each has special benefits, which one offers a higher return on investment (ROI)? The features, affordability, and overall effect on good roi for business of each platform will be covered in greater detail in this blog article.",
-            dedicatedPageLink:'/blog/meta-ads-vs-google-ads'
+            dedicatedPageLink: '/blog/meta-ads-vs-google-ads'
         }
-        
+
     ]
     return (
         <Layouts>
@@ -46,13 +46,19 @@ const Page = () => {
             <meta name="description" content="Stay ahead with the latest marketing insights! Explore Boosted360’s blog for expert tips, trends, and strategies. Read now & boost your growth!" />
 
 
-            <div className='xl:py-16 md:py-10 py-6'>
+            <div className='xl:pb-16 md:pb-10 pb-6 pt-4'>
                 <div className='container'>
+                    <div className='text-center w-full max-w-[470px] mb-6 mx-auto'>
+                        <h2 className='text-[18px] md:text-[21px] lg:text-[26px] xl:text-[30px] font-bold text-black mb-1'>
+                            Knowledge Base
+                        </h2>
+                        <p className='text-[18px] lg:text-[20px] font-normal text-[#000] leading-[1.2]'>Follow here for regular insights on our work and industry updates. </p>
+                    </div>
                     <div className='flex flex-wrap'>
                         <div className='md:w-2/3 w-full'>
                             <div className='grid sm:grid-cols-2 grid-cols-1 gap-3'>
-
-                                {blogdata.map((item,index) => (
+                                
+                                {blogdata.map((item, index) => (
                                     <Link key={index} href={item.dedicatedPageLink} className='no-underline text-black'>
                                         <div className='border border-solid border-neutral-200 p-2 rounded-md'>
                                             <div className='relative before:w-full before:block before:pt-[56.6%]'>
@@ -72,8 +78,6 @@ const Page = () => {
                                                     <span className='truncate-lines inline-block'>{item.description}</span>
                                                     <span className="text-blue-600 font-normal read-more"> read more</span>
                                                 </p>
-
-
                                             </div>
                                         </div>
                                     </Link>
@@ -194,7 +198,7 @@ const Page = () => {
                                 </div>
                                 <div className='p-4 rounded-md space-y-4'>
                                     <h5 className='text-lg lg:text-xl font-semibold text-black lg:leading-[1.2]'>Subscribe Newsletter</h5>
-                                    <div className='border border-solid border-neutral-200 rounded-md flex items-center p-2'>
+                                    <div className='flex items-center'>
                                         <input type='email' className='text-base font-light text-black lg:leading-[1.4] p-2 w-full outline-none' placeholder='Email address' />
                                         <button type='submit' className=' text-white bg-[#5db947] border-[#5db947] border sm:text-sm text-xs font-medium rounded-none inline-block lg:px-6 px-4 sm:py-2 py-1.5'>
                                             Subscribe

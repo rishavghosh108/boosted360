@@ -20,8 +20,7 @@ const Page = () => {
                     <div>
                         <div className='max-w-3xl mx-auto'>
                             {/* Companie7 */}
-                            <Image src={'/images/details-image/curbappeal.png'} width={100} height={100} alt={`Slide`} className='w-40 mx-auto lg:mx-0 brightness-75' />
-
+                            <Image src={sliderInLogovbg} width={80} height={80} alt={`Slide`} className='w-20 mx-auto lg:mx-0 mix-blend-darken' />
                             <h1 className='lg:text-5xl md:text-4xl text-3xl text-neutral-800 md:pt-10 pt-5 font-light text-center lg:text-left'>
                                 Empowering Tidy Up Angels&apos; Success in House Cleaning Services Through
                                 {/* <br className='hidden lg:block' /> */}
@@ -176,7 +175,7 @@ const Page = () => {
                     </p>
 
                     <div className='mb-3 '>
-                        <Image width={600} height={100} src={'/images/details-image/Anthamreview.png'} alt={`Slide`} className='w-full' />
+                        <Image width={600} height={100} src={'/images/details-image/tidy_up_angels_review.png'} alt={`Slide`} className='w-full' />
 
                     </div>
 
@@ -193,7 +192,7 @@ const Page = () => {
                     <p>Local SEO played a central role in driving Tidy Up Angels&apos; growth. By optimizing their website for location-based keywords such as &quot;house cleaning services in Overland Park, KS&quot; and &quot;recurring cleaning services in Overland Park, KS,&quot; we ensured that they ranked highly in local search results. This resulted in a significant increase in organic traffic from individuals searching for cleaning services in Overland Park.
                     </p>
                     <div className='mb-3 '>
-                        <Image width={600} height={100} src={'/images/details-image/Antham_google.png'} alt={`Slide`} className='w-full' />
+                        <Image width={600} height={100} src={'/images/details-image/tidy_ungels_rowser.png'} alt={`Slide`} className='w-full' />
                     </div>
 
 
@@ -202,16 +201,20 @@ const Page = () => {
                         Social Media Marketing
                     </h1>
                     <p>Through social media campaigns, Tidy Up Angels increased their brand awareness and connected with potential clients. By sharing educational content about cleaning tips and the importance of professional cleaning, we saw a 40% boost in engagement. Additionally, targeted paid ads for their services contributed to a 25% increase in bookings. Social media helped amplify their reputation as a trusted provider of quality cleaning services.</p>
-                    <div className='bg-white p-5 mb-3 '>
+                    {/* <div className='bg-white p-5 mb-3 '>
                         <div className='w-[70%] mx-auto'>
                             <Image width={600} height={100} src={'/images/details-image/contactform.png'} alt={`Slide`} className='w-full' />
                         </div>
-                    </div>
+                    </div> */}
 
                     <h1>
                         Lead Generation
                     </h1>
                     <p>We optimized Tidy Up Angels&apos; website for lead generation by incorporating clear CTAs, easy-to-use contact forms, and simplified service booking options. We also implemented lead nurturing strategies, such as personalized follow-up emails and special offers, to convert website visitors into paying clients. These efforts led to a substantial increase in service inquiries and recurring bookings.</p>
+                    <div className='mb-3 '>
+                        <Image width={600} height={100} src={'/images/details-image/tidy_ontact.png'} alt={`Slide`} className='w-full' />
+                    </div>
+                    
                     <h1>
                         Content Marketing
                     </h1>

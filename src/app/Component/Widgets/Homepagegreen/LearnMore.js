@@ -49,15 +49,14 @@ export default function LearnMore() {
                         <div className="flex flex-col h-full justify-between relative z-10">
                             <div className="pr-5 w-36">
                                 <h2 className="text-[30px] lg:text-4xl text-2xl font-bold flex items-center">
-                                    <span>5k/</span><sub className="text-sm pt-[4px]">month</sub>
-                                </h2>
+                                    <span>1.8k/</span><sub className="text-sm pt-[4px]">month</sub>                                </h2>
                                 <p className="md:text-sm text-xs text-white">
                                     Page views
                                 </p>
                             </div>
                             <div className="pr-5 w-36">
                                 <h2 className="text-[30px] lg:text-4xl text-2xl font-bold flex items-center">
-                                    50%
+                                    66%
                                 </h2>
                                 <p className="md:text-sm text-xs text-white">
                                     Lead generation
@@ -65,7 +64,7 @@ export default function LearnMore() {
                             </div>
                             <div className="pr-5 w-36">
                                 <h2 className="text-[30px] lg:text-4xl text-2xl font-bold flex items-center">
-                                    8X
+                                    10X
                                 </h2>
                                 <p className="md:text-sm text-xs text-white">
                                     Growth rate
@@ -84,7 +83,7 @@ export default function LearnMore() {
                         <div className="flex flex-col h-full justify-between relative z-10">
                             <div className="pr-5 w-36">
                                 <h2 className="text-[30px] lg:text-4xl text-2xl font-bold flex items-center">
-                                    <span>5k/</span><sub className="text-sm pt-[4px]">month</sub>
+                                    <span>3.2k/</span><sub className="text-sm pt-[4px]">month</sub>
                                 </h2>
                                 <p className="md:text-sm text-xs text-white">
                                     Page views
@@ -92,7 +91,7 @@ export default function LearnMore() {
                             </div>
                             <div className="pr-5 w-36">
                                 <h2 className="text-[30px] lg:text-4xl text-2xl font-bold flex items-center">
-                                    50%
+                                    80%
                                 </h2>
                                 <p className="md:text-sm text-xs text-white">
                                     Lead generation
@@ -100,7 +99,7 @@ export default function LearnMore() {
                             </div>
                             <div className="pr-5 w-36">
                                 <h2 className="text-[30px] lg:text-4xl text-2xl font-bold flex items-center">
-                                    8X
+                                    10X
                                 </h2>
                                 <p className="md:text-sm text-xs text-white">
                                     Growth rate
@@ -154,7 +153,7 @@ export default function LearnMore() {
                         <div className="flex flex-col h-full justify-between relative z-10">
                             <div className="pr-5 w-36">
                                 <h2 className="text-[30px] lg:text-4xl text-2xl font-bold flex items-center">
-                                    <span>5k/</span><sub className="text-sm pt-[4px]">month</sub>
+                                    <span>2.5k/</span><sub className="text-sm pt-[4px]">month</sub>
                                 </h2>
                                 <p className="md:text-sm text-xs text-white">
                                     Page views
@@ -162,7 +161,7 @@ export default function LearnMore() {
                             </div>
                             <div className="pr-5 w-36">
                                 <h2 className="text-[30px] lg:text-4xl text-2xl font-bold flex items-center">
-                                    50%
+                                    75%
                                 </h2>
                                 <p className="md:text-sm text-xs text-white">
                                     Lead generation
@@ -234,9 +233,9 @@ export default function LearnMore() {
             </div>
 
             <div className="pt-[27px] text-[20px] leading-[1.6] text-center">
-                <Link href="/case-studies" className='mt-[20px] inline-flex border px-5 py-1.5 uppercase items-center text-[15px] font-extrabold text-[#5db947]'>
+                <Link href="/case-studies" className='mt-[20px] inline-flex border px-5 py-1.5 uppercase items-center text-[15px] font-extrabold text-[#5db947] hover:bg-[#5db947] hover:text-white group'>
                     All Case Studies
-                    <span className='ml-[6px]'><Image src={CtaSmall} alt='cta-small' /></span>
+                    <span className='ml-[6px]'><Image className="group-hover:filter group-hover:brightness-0 group-hover:invert" src={CtaSmall} alt='cta-small' /></span>
                 </Link>
             </div>
         </div>

@@ -159,9 +159,9 @@ const Page = () => {
           Through our strategic marketing campaigns, Curb Appeal Lawn experienced substantial growth in visibility and engagement. We successfully implemented a variety of digital strategies that resulted in a remarkable 400% increase in organic search traffic and a 500X increase in online lead generation.
           </p>
 
-          <div className='bg-white p-5 mb-3'>
+          {/* <div className='bg-white p-5 mb-3'>
             <Image width={600} height={100} src={'/images/details-image/details-image2.png'} alt={`Slide`} className='w-full' />
-          </div>
+          </div> */}
 
           <p>
           By focusing on long-term SEO strategies, content marketing, and leveraging local search opportunities, we were able to create a sustainable, impactful online presence that consistently attracted new customers.
@@ -177,7 +177,7 @@ const Page = () => {
           </p>
 
           <div className='mb-3 '>
-            <Image width={600} height={100} src={'/images/details-image/Anthamreview.png'} alt={`Slide`} className='w-full' />
+            <Image width={600} height={100} src={'/images/details-image/curb_appeal_review.png'} alt={`Slide`} className='w-full' />
 
           </div>
 
@@ -194,7 +194,7 @@ const Page = () => {
           <p>Focusing on Local SEO, we targeted location-specific keywords such as &quot;Lawn care services Simpsonville&quot; and &quot;Affordable lawn care Simpsonville&quot;. This tactic enabled Curb Appeal Lawn to rank highly for critical search terms in their service areas. As a result, the company experienced increased local visibility, attracting clients who were actively searching for lawn care services within their geographic region.
           </p>
           <div className='mb-3 '>
-            <Image width={600} height={100} src={'/images/details-image/Antham_google.png'} alt={`Slide`} className='w-full' />
+            <Image width={600} height={100} src={'/images/details-image/curb_appeal_browser.png'} alt={`Slide`} className='w-full' />
           </div>
 
        
@@ -205,7 +205,7 @@ const Page = () => {
           <p>We implemented a multi-faceted lead generation strategy for Curb Appeal Lawn, incorporating email marketing, web forms, phone call tracking, and social media inquiries. Our approach involved creating high-quality landing pages, valuable lead magnets like downloadable guides, and compelling calls-to-action. This resulted in an increase in high-quality leads and improved conversion rates, nurturing these leads through personalized email follow-ups and phone consultations.</p>
           <div className='bg-white p-5 mb-3 '>
             <div className='w-[70%] mx-auto'>
-              <Image width={600} height={100} src={'/images/details-image/contactform.png'} alt={`Slide`} className='w-full' />
+              <Image width={600} height={100} src={'/images/details-image/curb_appeal_contact.png'} alt={`Slide`} className='w-full' />
             </div>
           </div>
 
