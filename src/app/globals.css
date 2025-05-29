@@ -909,10 +909,10 @@ header.active  {
   background: url('/images/new-landing-page/bannerleftbg.webp') no-repeat center center/contain;
 }
 
-.bannerbr {
+/* .bannerbr {
   background: url('/images/new-landing-page/bannerrightbg.webp') no-repeat right bottom;
   background-size: 18%;
-}
+} */
 
 .bannerbr::after {
   content: '';
@@ -922,23 +922,23 @@ header.active  {
   top: 0;
   left: 0;
   z-index: -1;
-  background: url('/images/new-landing-page/bannerbg.webp') no-repeat center center/cover;
+  background: url('/images/new-landing-page/bannerbg-new.webp') no-repeat center center/cover;
 }
 
-.bannerbr::before {
+/* .bannerbr::before {
   content: '';
   position: absolute;
   width: 100%;
   height: 100%;
   top: 0;
   left: 0;
-  z-index: 2;
+  z-index: 3;
   background: url('/images/new-landing-page/lines.webp') no-repeat center center/cover;
-}
+} */
 
 
 .social_media_pages {
-  background: #5db947;
+  background: #ffffff;
   background: linear-gradient(90deg,
       rgba(99, 36, 231, 1) 80%,
 
@@ -958,9 +958,28 @@ header.active  {
 }
 
 
-.vbg {
+/* .vbg {
   background: url('/images/new-landing-page/dotss.webp') no-repeat center center/cover #330B6F;
+} */
+.subscriptionpagebefore::before{
+ background: url('/images/new-landing-page/plansbefore.png') no-repeat center center/contain;
+ z-index: -1;
 }
+.subscriptionpagebeforetwo::before{
+ background: url('/images/new-landing-page/formbg.png') no-repeat center center/contain;
+ z-index: -1;
+}
+.afterthat::after {
+  content: "";
+  background: url('/images/new-landing-page/bannergirlbganother.webp') no-repeat center center/cover ;
+  z-index: 0; 
+  position: absolute;
+  width: 92%;
+  height: 92%;
+  top: 0;
+  left: 0;
+}
+
 
 
 @media (max-width:1024px) {

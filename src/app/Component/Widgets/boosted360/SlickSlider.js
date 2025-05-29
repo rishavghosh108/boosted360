@@ -15,7 +15,7 @@ const StaticSlider = () => {
         infinite: true,
         slidesToShow: 2,
         slidesToScroll: 2,
-        autoplay: true,
+        autoplay: false,
         autoplaySpeed: 5000,
         speed: 1500,
         pauseOnHover: false,
@@ -35,28 +35,30 @@ const StaticSlider = () => {
             description: `I'm always immersed in my blogging work, <strong>so LynkMe 360 takes care of managing all my social media pages.</strong> I trust them completely.`,
             name: "Richard O Nil",
             role: "Food Blogger, Canada",
-            roleColor: "#6324E7",
-            bgColor: "#FCF6E7",
-            borderColor: "#EFC923",
-            labelBgColor: "#FFF36D",
+            roleColor: "#4AA732",
+            bgColor: "#EAFFE4",
+            borderColor: "#4AA732",
+            labelBgColor: "#4AA732",
             image: "/images/new-landing-page/lookingfor.png",
+            beforeImageBg: '#4AA732'
         },
         {
             quote: "I love my Insta page",
             description: `I travel a lot and want to showcase all my tour photos in creative manner. <strong>LynkMe 360 made it possible</strong>. I love my instagram page`,
             name: "Christina Haul",
             role: "Traveler, California",
-            roleColor: "#F30081",
-            bgColor: "#E5FFFD",
-            borderColor: "#93E9CF",
-            labelBgColor: "#A6E7E9",
+            roleColor: "#6B21A8",
+            bgColor: "#F7EDFF",
+            borderColor: "#6B21A8",
+            labelBgColor: "#6B21A8",
             image: "/images/new-landing-page/lokkingforfemale.png",
+            beforeImageBg: '#6B21A8'
         },
     ];
 
     return (
         <div className="mx-0 sm:mx-6 mt-4">
-            
+
             <Slider ref={sliderRef} {...settings}>
                 {testimonials.map((item, index) => (
                     <div key={index}>
@@ -65,7 +67,7 @@ const StaticSlider = () => {
                             style={{ backgroundColor: item.bgColor, border: `1px solid ${item.borderColor}` }}
                         >
                             <div
-                                className={`border px-[15px] pt-[5px] lg:pt-0 pb-[12px] w-fit ${index % 2 == !0 ? 'ml-auto' :''}`}
+                                className={`border px-[15px] pt-[5px] lg:pt-0 pb-[12px] w-fit ${index % 2 == !0 ? 'ml-auto' : ''}`}
                                 style={{
                                     backgroundColor: item.labelBgColor,
                                     clipPath:
@@ -74,7 +76,7 @@ const StaticSlider = () => {
                                             : 'polygon(0 0%, 100% 0%, 90% 85%, 0 100%)',
                                 }}
                             >
-                                <p className="thicccboiBold leading-[0.8] font-bold text-black text-[14px] sm:text-[16px] lg:text-[20px] xl:text-[23px] xxl:text-[25px]">
+                                <p className="thicccboiBold leading-[0.8] font-bold text-white text-[14px] sm:text-[16px] lg:text-[20px] xl:text-[23px] xxl:text-[25px]">
                                     <span className="text-[30px] lg:text-[50px]">“</span>
                                     {item.quote}
                                     <span className="text-[30px] lg:text-[50px]">”</span>
@@ -91,7 +93,7 @@ const StaticSlider = () => {
                                             src={item.image}
                                             alt="customer"
                                         />
-                                        <div className="absolute top-[10px] left-[3px] size-full bg-[#FFECA8] z-[-1] rounded-[20px]"></div>
+                                        <div className="absolute top-[10px] left-0 size-full bg-[#FFECA8] z-[-1] rounded-[20px]" style={{ backgroundColor: `${item.beforeImageBg}` }}></div>
                                     </div>
                                 </div>
 
@@ -99,8 +101,8 @@ const StaticSlider = () => {
                                     <div>
                                         <p
                                             className="thicccboiRegular text-black text-[15px] sm:text-[22px] md:text-[15px] xl:text-[17px] leading-[1.5] my-2 xl:my-3"
-                                            dangerouslySetInnerHTML={{ __html: `"${item.description}"` }}
-                                        />
+                                            dangerouslySetInnerHTML={{ __html: `"${item.description}"` }} ></p>
+                                        
                                         <div className="flex items-center space-x-1">
                                             {[...Array(5)].map((_, i) => (
                                                 <Image
@@ -131,7 +133,7 @@ const StaticSlider = () => {
 
 
 
-            <div className="flex justify-center mt-5 sm:mt-10 space-x-4">
+            {/* <div className="flex justify-center mt-5 sm:mt-10 space-x-4">
                 <button
                     onClick={() => sliderRef.current?.slickPrev()}
                     className="bg-[#F30081] text-white size-[36px] flex items-center justify-center rounded-full transition"
@@ -144,7 +146,7 @@ const StaticSlider = () => {
                 >
                     <Image width={16} height={16} src={'/images/new-landing-page/slidernext.svg'} alt="prev" />
                 </button>
-            </div>
+            </div> */}
 
         </div>
     );
