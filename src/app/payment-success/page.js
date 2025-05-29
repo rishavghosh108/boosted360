@@ -102,9 +102,11 @@ export default function PaymentSuccess() {
                   <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z" />
                 </svg>
               </div>
-              <h2 className="lg:text-4xl sm:text-3xl text-2xl font-semibold mt-2 mb-3">Your payment was <br /> successful</h2>
+              <h2 className="lg:text-4xl sm:text-3xl text-2xl font-semibold mt-2 mb-3">Payment Successful</h2>
               <p className="lg:text-lg text-sm text-gray-700 font-medium">
-                Thank you for your payment. We will <br className="hidden sm:block" /> be in contact with more details shortly.
+                Thank you for your payment,<br/>
+                Your transaction has been completed successfully.<br/>
+                We&apos;ll contact you shortly with further details.
               </p>
               {/* {!loggedInUserData && (
                 <div className='lg:ml-5 flex items-center justify-center space-x-4 mt-4'>

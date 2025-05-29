@@ -102,7 +102,8 @@ export default function PaymentSuccess() {
                   <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M5.354 4.646a.5.5 0 1 0-.708.708L7.293 8l-2.647 2.646a.5.5 0 0 0 .708.708L8 8.707l2.646 2.647a.5.5 0 0 0 .708-.708L8.707 8l2.647-2.646a.5.5 0 0 0-.708-.708L8 7.293z" />
                 </svg>
               </div>
-              <h2 className="lg:text-4xl sm:text-3xl text-2xl font-semibold mt-2 mb-3">Your payment was failed</h2>
+              <h2 className="lg:text-4xl sm:text-3xl text-2xl font-semibold mt-2 mb-3">Payment Failed</h2>
+              <p className='lg:text-lg text-sm text-gray-700 font-medium'>We couldn&apos;t process your payment.</p>
               <p className="lg:text-lg text-sm text-gray-700 font-medium">
                 Try again later
               </p>
