@@ -6,15 +6,20 @@ import SlickSlider from "../Component/Widgets/boosted360/SlickSlider";
 import AutoPlay from "../Component/Widgets/boosted360/CompaniesSlider";
 import Head from "next/head";
 import { Greenlogolandingpage } from "../assets";
+import axios from "axios";
+import WorkWthUsModal from "../Component/Widgets/Modal/WorkWithUs/WorkWthUsModal";
 
 const Page = () => {
+  const [scheduleCall,setScheduleCall] = useState(false)
+  const [paymentLoading,setpaymentLoading] = useState(false)
+  const[allPlans,setallPlans] = useState([])
   const [isScrollable, setIsScrollable] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [hoveredIndex, setHoveredIndex] = useState(null);
 
   const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
-
-
+  const openModal = () => setScheduleCall(true);
+  const closeModal = () => setScheduleCall(false);
   useEffect(() => {
     const handleScroll = () => {
       setIsScrollable(window.scrollY > 0);
@@ -23,7 +28,47 @@ const Page = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+  const getStarted = async (package_id) => {
+    setpaymentLoading(true)
+    
+       await axios.post(
+        'http://192.168.1.78:8000/api/paypal/create',
+        { package_id:  package_id },
+        {
+          headers: {
+            'Content-Type': 'application/json',
+          },
+        }
+      ).then((response) => {
+        console.log('Response:', response);
+        if (response.data.approval_url) {
+          window.location.href = response.data.approval_url;
+        } else {
+          console.error('Approval URL not found in response:', response.data);
+          alert('Failed to get PayPal redirect URL.');
+        }
+      }).catch((error)=>{
+        console.error('Payment Error:', error.response?.data || error.message);
+        alert('Something went wrong!');
+      }).finally(()=>{
+          setpaymentLoading(false)
+      })
+    
+  }
 
+   useEffect(()=>{
+     const getAllPlans = async()=>{
+       await axios.get('http://192.168.1.78:8000/api/plan')
+       .then((response)=>{
+          console.log('all planssss',response);
+          setallPlans(response.data)
+       }).catch((error)=>{
+          console.log('error',error);
+          
+       })
+     }
+     getAllPlans()
+   },[])
 
   const tabOptions = ["1 month", "3 months", "12 months"];
   const [selected, setSelected] = useState(tabOptions[2]);
@@ -48,183 +93,183 @@ const Page = () => {
     }
   }, [selected]);
 
-  const subscriptionDataOneMonth = [
-    {
-      id: 0,
-      planName: 'Standard',
-      planType: '1month',
-      planNameColor: '#000000',
-      subscriptionAmount: '20',
-      isBestValue: false,
-      planBenifits: [
-        'Unlimited post scheduling',
-        'Best time to post recommendations',
-        'Custom analytics and reports',
-        'Competitive benchmarking tool',
-        'AI caption, hashtag, and ideas generator',
-        'One inbox for all social accounts'
-      ],
-      borderColor: '#D1D1D1',
-      btnBg: '#000000',
-      hoverBtn: '#2c2c2c',
-    },
-    {
-      id: 1,
-      planName: 'Most Popular',
-      planType: '3months',
-      planNameColor: '#4AA732',
-      subscriptionAmount: '36',
-      isBestValue: false,
-      planBenifits: [
-        'Link in bio tool',
-        'Suspend scheduled posts',
-        'Team roles and permissions',
-        'Assign DMs to teammates',
-        'Video voice over',
-        'Automatic link tracking'
-      ],
-      borderColor: '#4AA732',
-      btnBg: '#4AA732',
-      hoverBtn: '#2a8912'
-    },
-    {
-      id: 2,
-      planName: 'Pro',
-      planNameColor: '#6B21A8',
-      planType: '12months',
-      subscriptionAmount: '20',
-      isBestValue: false,
-      planBenifits: [
-        'Content library',
-        'Automated engagement tools',
-        'Single sign-on (SSO)',
-        'Unlimited ad spend',
-        'Free Hootsuite Academy training',
-        'Advanced analytics'
-      ],
-      borderColor: '#6B21A8',
-      btnBg: '#6B21A8',
-      hoverBtn: '#511583'
-    },
-  ]
-  const subscriptionDataThreeMonth = [
-    {
-      id: 0,
-      planName: 'Standard',
-      planNameColor: '#000000',
-      subscriptionAmount: '199',
-      isBestValue: false,
-      planBenifits: [
-        'Unlimited post scheduling',
-        'Best time to post recommendations',
-        'Custom analytics and reports',
-        'Competitive benchmarking tool',
-        'AI caption, hashtag, and ideas generator',
-        'One inbox for all social accounts'
-      ],
-      borderColor: '#D1D1D1',
-      btnBg: '#000000',
-      hoverBtn: '#2c2c2c'
-    },
-    {
-      id: 1,
-      planName: 'Most Popular',
-      planNameColor: '#4AA732',
-      subscriptionAmount: '399',
-      isBestValue: false,
-      planBenifits: [
-        'Link in bio tool',
-        'Suspend scheduled posts',
-        'Team roles and permissions',
-        'Assign DMs to teammates',
-        'Video voice over',
-        'Automatic link tracking'
-      ],
-      borderColor: '#4AA732',
-      btnBg: '#4AA732',
-      hoverBtn: '#2a8912'
-    },
-    {
-      id: 2,
-      planName: 'Pro',
-      planNameColor: '#6B21A8',
-      subscriptionAmount: '699',
-      isBestValue: false,
-      planBenifits: [
-        'Content library',
-        'Automated engagement tools',
-        'Single sign-on (SSO)',
-        'Unlimited ad spend',
-        'Free Hootsuite Academy training',
-        'Advanced analytics'
-      ],
-      borderColor: '#6B21A8',
-      btnBg: '#6B21A8',
-      hoverBtn: '#511583'
-    },
-  ]
-  const subscriptionDataTwelveMonth = [
-    {
-      id: 0,
-      planName: 'Standard',
-      planNameColor: '#000000',
-      subscriptionAmount: '299',
-      isBestValue: false,
-      planBenifits: [
-        'Unlimited post scheduling',
-        'Best time to post recommendations',
-        'Custom analytics and reports',
-        'Competitive benchmarking tool',
-        'AI caption, hashtag, and ideas generator',
-        'One inbox for all social accounts'
-      ],
-      borderColor: '#D1D1D1',
-      btnBg: '#000000',
-      hoverBtn: '#2c2c2c'
-    },
-    {
-      id: 1,
-      planName: 'Most Popular',
-      planNameColor: '#4AA732',
-      subscriptionAmount: '699',
-      isBestValue: true,
-      planBenifits: [
-        'Link in bio tool',
-        'Suspend scheduled posts',
-        'Team roles and permissions',
-        'Assign DMs to teammates',
-        'Video voice over',
-        'Automatic link tracking'
-      ],
-      borderColor: '#4AA732',
-      btnBg: '#4AA732',
-      hoverBtn: '#2a8912'
-    },
-    {
-      id: 2,
-      planName: 'Pro',
-      planNameColor: '#6B21A8',
-      subscriptionAmount: '1299',
-      isBestValue: false,
-      planBenifits: [
-        'Content library',
-        'Automated engagement tools',
-        'Single sign-on (SSO)',
-        'Unlimited ad spend',
-        'Free Hootsuite Academy training',
-        'Advanced analytics'
-      ],
-      borderColor: '#6B21A8',
-      btnBg: '#6B21A8',
-      hoverBtn: '#511583'
-    },
-  ]
+  // const subscriptionDataOneMonth = [
+  //   {
+  //     id: 0,
+  //     planName: 'Standard',
+  //     planType: '1month',
+  //     planNameColor: '#000000',
+  //     subscriptionAmount: '20',
+  //     isBestValue: false,
+  //     planBenifits: [
+  //       'Unlimited post scheduling',
+  //       'Best time to post recommendations',
+  //       'Custom analytics and reports',
+  //       'Competitive benchmarking tool',
+  //       'AI caption, hashtag, and ideas generator',
+  //       'One inbox for all social accounts'
+  //     ],
+  //     borderColor: '#D1D1D1',
+  //     btnBg: '#000000',
+  //     hoverBtn: '#2c2c2c',
+  //   },
+  //   {
+  //     id: 1,
+  //     planName: 'Most Popular',
+  //     planType: '3months',
+  //     planNameColor: '#4AA732',
+  //     subscriptionAmount: '36',
+  //     isBestValue: false,
+  //     planBenifits: [
+  //       'Link in bio tool',
+  //       'Suspend scheduled posts',
+  //       'Team roles and permissions',
+  //       'Assign DMs to teammates',
+  //       'Video voice over',
+  //       'Automatic link tracking'
+  //     ],
+  //     borderColor: '#4AA732',
+  //     btnBg: '#4AA732',
+  //     hoverBtn: '#2a8912'
+  //   },
+  //   {
+  //     id: 2,
+  //     planName: 'Pro',
+  //     planNameColor: '#6B21A8',
+  //     planType: '12months',
+  //     subscriptionAmount: '20',
+  //     isBestValue: false,
+  //     planBenifits: [
+  //       'Content library',
+  //       'Automated engagement tools',
+  //       'Single sign-on (SSO)',
+  //       'Unlimited ad spend',
+  //       'Free Hootsuite Academy training',
+  //       'Advanced analytics'
+  //     ],
+  //     borderColor: '#6B21A8',
+  //     btnBg: '#6B21A8',
+  //     hoverBtn: '#511583'
+  //   },
+  // ]
+  // const subscriptionDataThreeMonth = [
+  //   {
+  //     id: 0,
+  //     planName: 'Standard',
+  //     planNameColor: '#000000',
+  //     subscriptionAmount: '199',
+  //     isBestValue: false,
+  //     planBenifits: [
+  //       'Unlimited post scheduling',
+  //       'Best time to post recommendations',
+  //       'Custom analytics and reports',
+  //       'Competitive benchmarking tool',
+  //       'AI caption, hashtag, and ideas generator',
+  //       'One inbox for all social accounts'
+  //     ],
+  //     borderColor: '#D1D1D1',
+  //     btnBg: '#000000',
+  //     hoverBtn: '#2c2c2c'
+  //   },
+  //   {
+  //     id: 1,
+  //     planName: 'Most Popular',
+  //     planNameColor: '#4AA732',
+  //     subscriptionAmount: '399',
+  //     isBestValue: false,
+  //     planBenifits: [
+  //       'Link in bio tool',
+  //       'Suspend scheduled posts',
+  //       'Team roles and permissions',
+  //       'Assign DMs to teammates',
+  //       'Video voice over',
+  //       'Automatic link tracking'
+  //     ],
+  //     borderColor: '#4AA732',
+  //     btnBg: '#4AA732',
+  //     hoverBtn: '#2a8912'
+  //   },
+  //   {
+  //     id: 2,
+  //     planName: 'Pro',
+  //     planNameColor: '#6B21A8',
+  //     subscriptionAmount: '699',
+  //     isBestValue: false,
+  //     planBenifits: [
+  //       'Content library',
+  //       'Automated engagement tools',
+  //       'Single sign-on (SSO)',
+  //       'Unlimited ad spend',
+  //       'Free Hootsuite Academy training',
+  //       'Advanced analytics'
+  //     ],
+  //     borderColor: '#6B21A8',
+  //     btnBg: '#6B21A8',
+  //     hoverBtn: '#511583'
+  //   },
+  // ]
+  // const subscriptionDataTwelveMonth = [
+  //   {
+  //     id: 0,
+  //     planName: 'Standard',
+  //     planNameColor: '#000000',
+  //     subscriptionAmount: '299',
+  //     isBestValue: false,
+  //     planBenifits: [
+  //       'Unlimited post scheduling',
+  //       'Best time to post recommendations',
+  //       'Custom analytics and reports',
+  //       'Competitive benchmarking tool',
+  //       'AI caption, hashtag, and ideas generator',
+  //       'One inbox for all social accounts'
+  //     ],
+  //     borderColor: '#D1D1D1',
+  //     btnBg: '#000000',
+  //     hoverBtn: '#2c2c2c'
+  //   },
+  //   {
+  //     id: 1,
+  //     planName: 'Most Popular',
+  //     planNameColor: '#4AA732',
+  //     subscriptionAmount: '699',
+  //     isBestValue: true,
+  //     planBenifits: [
+  //       'Link in bio tool',
+  //       'Suspend scheduled posts',
+  //       'Team roles and permissions',
+  //       'Assign DMs to teammates',
+  //       'Video voice over',
+  //       'Automatic link tracking'
+  //     ],
+  //     borderColor: '#4AA732',
+  //     btnBg: '#4AA732',
+  //     hoverBtn: '#2a8912'
+  //   },
+  //   {
+  //     id: 2,
+  //     planName: 'Pro',
+  //     planNameColor: '#6B21A8',
+  //     subscriptionAmount: '1299',
+  //     isBestValue: false,
+  //     planBenifits: [
+  //       'Content library',
+  //       'Automated engagement tools',
+  //       'Single sign-on (SSO)',
+  //       'Unlimited ad spend',
+  //       'Free Hootsuite Academy training',
+  //       'Advanced analytics'
+  //     ],
+  //     borderColor: '#6B21A8',
+  //     btnBg: '#6B21A8',
+  //     hoverBtn: '#511583'
+  //   },
+  // ]
 
-  const subscriptionDataMap = {
-    '1 month': subscriptionDataOneMonth,
-    '3 months': subscriptionDataThreeMonth,
-    '12 months': subscriptionDataTwelveMonth
-  };
+  // const subscriptionDataMap = {
+  //   '1 month': subscriptionDataOneMonth,
+  //   '3 months': subscriptionDataThreeMonth,
+  //   '12 months': subscriptionDataTwelveMonth
+  // };
 
   return (
     <>
@@ -238,11 +283,12 @@ const Page = () => {
 
       <div className="socialMediaMagic">
         <header
-          className={`${isScrollable ? 'shadow-lg' : ''} transition-all ease duration-300 sticky top-0 bg-black text-white  z-[999]`}
+          className={`${isScrollable ? 'shadow-lg' : ''} transition-all ease duration-300 sticky top-0 bg-white text-black z-[999]`}
         >
-          <div className="container bg-black">
+          <div className="py-4 px-8 text-lg leading-5 bg-[#4aa732] text-center text-white text-shadow-[0_2px_3px_1px_rgba(0_0_0_0.55)]">Enjoy our top-selling package at only <span>$36/month</span></div>
+          <div className="container ">
             <div className="flex items-center justify-between py-[16px] md:py-[20px]">
-              <Link href="/">
+              <Link href="/" className="text-[#272727]">
                 {/* <h3 className="font-[800] text-[24px] sm:text-[28px] thicccboiBold logo_gradient">
                   Boosted 360
                 </h3> */}
@@ -273,7 +319,7 @@ const Page = () => {
               <ul
                 className={` md:pt-0 pt-[90px]
               md:flex md:flex-row flex-col md:static fixed top-0 left-0 w-full h-screen md:h-auto md:w-auto 
-              bg-white md:bg-transparent text-black md:text-white z-[99] transition-all duration-300 ease-in-out 
+              bg-white md:bg-transparent text-black font-semibold z-[99] transition-all duration-300 ease-in-out 
               ${isMenuOpen ? "translate-x-0" : "-translate-x-full"} md:translate-x-0
             `}
               >
@@ -710,7 +756,7 @@ const Page = () => {
 
               <div
                 ref={containerRef}
-                className="mx-auto relative border border-[#ededed] rounded-xl text-white p-[6px] thicccboiRegular flex gap-[6px] bg-[#1f1f1f] overflow-hidden"
+                className="mx-auto relative border border-[#ededed] rounded-xl text-white p-[6px] thicccboiRegular flex gap-[6px] bg-[#1f1f1f]"
               >
 
                 <div
@@ -728,7 +774,7 @@ const Page = () => {
                     >
                       {label}
                       {isPopular && (
-                        <p className="absolute  top-[-5px] -right-[2px] text-[11px] bg-red-600 text-white rounded-xl px-[4px] py-[2px]">
+                        <p className="tag_icon">
                           Popular
                         </p>
                       )}
@@ -741,28 +787,37 @@ const Page = () => {
 
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-[12px] lg:gap-[24px] xl:gap-[28px] mt-8 xl:mt-12">
 
-              {subscriptionDataMap[selected]?.map((item, index) => (
-                <div key={index} className="flex flex-col border-[4px] rounded-[12px] bg-[#FFFFFF] pt-[20px] pb-[25px] px-[15px] lg:px-[28px]" style={{ borderColor: item.borderColor }}>
+              {allPlans[selected]?.map((item, index) => (
+                // style={{ borderColor: item.borderColor }}
+                <div key={index} className="relative overflow-hidden p-1.5">
+                <div key={index} className={`flex flex-col border-[9px] rounded-[12px] bg-[#FFFFFF] pt-[20px] pb-[25px] px-[15px] lg:px-[28px] ${item.plan_name == 'Elite'? 'border-9 border-[#4aa732]':item.plan_name == 'Pro'? 'border-9 border-[#6b21a8]':'border-9 border-[#d1d1d1]'}`}> 
                   <div className="flex items-center mb-6 justify-between">
-                    <h4 className="thicccboiBold text-[25px] lg:text-[28px] xl:text-[32px] font-bold" style={{ color: item.planNameColor }}>{item.planName}</h4>
+                    {/* style={{ color: item.planNameColor }} */}
+                    <h4 className={`thicccboiBold text-[25px] lg:text-[28px] xl:text-[32px] font-bold ${item.plan_name == 'Elite'? 'text-[#4aa732]':item.plan_name == 'Pro'? 'text-[#6b21a8]':'text-[#000]'}`} >{item.plan_name}</h4>
 
                     {/* Extra badge for 12 months */}
-                    {selected === '12 months' && (
+                    {/* {selected === '12 months' && (
                       <div className="flex items-center">
                         <p className="text-[12px] rounded-full mr-2 bg-red-600 text-white py-[3px] px-[8px]">save 33%</p>
                         <Image width={28} height={28} src="/images/new-landing-page/crownicon.svg" alt="crown icon" />
                       </div>
-                    )}
+                    )} */}
                   </div>
-
+                     {
+                      item.plan_name == 'Elite' && (
+                        <div className="ribonWpr">
+                          <div className="ribon">MOST POPULAR</div>
+                        </div>
+                      )
+                     }
                   <div className="flex items-center justify-between  mb-4 xl:mb-6">
                     <p className="thicccboiMedium text-[26px] lg:text-[34px] text-black font-semibold">
                       $<span>{item.subscriptionAmount}</span>
-                      <sub className="text-[#626262] text-[18px] right-0 bottom-0 thicccboiLight">/month</sub>
+                      <sub className="text-[#626262] text-[18px] right-0 bottom-0 thicccboiLight"></sub>
                     </p>
-                    {selected === '12 months' && (item.isBestValue === true &&
+                    {/* {selected === '12 months' && (item.isBestValue === true &&
                       <button className="thicccboiMedium text-[8px] lg:text-[10px] xl:text-[14px] py-[10px] px-3 xl:px-5 rounded-full bg-[#4AA732] text-white">BEST VALUE</button>
-                    )}
+                    )} */}
                   </div>
 
 
@@ -771,19 +826,20 @@ const Page = () => {
                   </div>
 
                   <ul className="space-y-3 xl:space-y-6 xl:mt-6 mt-4 mb-8">
-                    {item.planBenifits.map((benefit, bIndex) => (
+                    {item.benifits.map((benefit, bIndex) => (
                       <li key={bIndex} className="flex items-start text-black font-[500]">
                         <Image className="mr-2" width={16} height={16} src="/images/new-landing-page/ultick.svg" alt="" />
                         {benefit}
                       </li>
                     ))}
                   </ul>
-
-                  <button
+                    {/* style={{ backgroundColor: hoveredIndex === index ? item.hoverBtn : item.btnBg }} */}
+                    {/* onMouseEnter={() => setHoveredIndex(index)}
+                    onMouseLeave={() => setHoveredIndex(null)} */}
+                  {/* <button
                     className="thicccboiBold group mt-auto md:mt-auto text-white text-center text-[16px] xl:text-[18px] font-semibold transition-all duration-[0.3s] pl-[30px] pr-[10px] py-[8px] rounded-[50px] flex items-center justify-between w-full"
-                    style={{ backgroundColor: hoveredIndex === index ? item.hoverBtn : item.btnBg }}
-                    onMouseEnter={() => setHoveredIndex(index)}
-                    onMouseLeave={() => setHoveredIndex(null)}
+                    
+                    
                   >
                     <span className="flex-[1]">Get Started</span>
                     <span className="transition-colors duration-[0.3s] bg-white rounded-full size-[35px] flex items-center justify-center ml-4">
@@ -797,7 +853,28 @@ const Page = () => {
                         />
                       </div>
                     </span>
-                  </button>
+                  </button> */}
+                  {/* style={{
+                      backgroundColor: hoveredIndex === index ? item.hoverBtn : item.btnBg
+                    }} */}
+                  <button onClick={()=>getStarted(item.package_id)} disabled={paymentLoading} className={`thicccboiBold group mt-auto md:mt-auto text-white text-center text-[16px] xl:text-[18px] font-semibold transition-all duration-[0.3s] pl-[30px] pr-[10px] py-[8px] rounded-[50px] flex items-center justify-between w-full ${item.plan_name == 'Elite'? 'bg-[#4aa732] hover:bg-[#2a8912]':item.plan_name == 'Pro'? 'bg-[#6b21a8] hover:bg-[#511583]':'bg-[#000] hover:bg-[#2c2c2c]'}`} 
+                      onMouseEnter={() => setHoveredIndex(index)}
+                      onMouseLeave={() => setHoveredIndex(null)}
+                    >
+                      <span className="flex-[1]">Get Started</span>
+                      <span className="transition-colors duration-[0.3s] bg-white rounded-full size-[35px] flex items-center justify-center ml-4">
+                        <div className="relative w-[18px] h-[18px]">
+                          <Image
+                            className="absolute inset-0 transition-opacity duration-[0.3s] object-contain"
+                            width={18}
+                            height={18}
+                            src="/images/new-landing-page/rightarrowblack.svg"
+                            alt=""
+                          />
+                        </div>
+                      </span>
+                    </button>
+                </div>
                 </div>
               ))}
               {/* <div>
@@ -888,7 +965,7 @@ const Page = () => {
 
               <div className="flex items-center mt-3 md:justify-start justify-center sm:flex-row flex-col">
                 <h3 className="thicccboiBold text-white text-[26px] sm:text-[40px] lg:text-[46px] xl:text-[68px] xxl:text-[80px]">Let&apos;s begin here</h3>
-                <Link href={'#'} className="text-[#4AA732] pt-[5px] ml-6 thicccboiRegular font-[500] text-[18px] sm:text-[22px] lg:text-[24px] xl:text-[30px] flex items-center">Schedule Call <Image className="ml-3" width={18} height={18} src={'/images/new-landing-page/schecall.svg'} alt="" /></Link>
+                <button type="button" onClick={openModal} className="text-[#4AA732] pt-[5px] ml-6 thicccboiRegular font-[500] text-[18px] sm:text-[22px] lg:text-[24px] xl:text-[30px] flex items-center">Schedule Call <Image className="ml-3" width={18} height={18} src={'/images/new-landing-page/schecall.svg'} alt="" /></button>
               </div>
             </div>
           </div>
@@ -1057,7 +1134,7 @@ const Page = () => {
             </div>
           </div>
         </div>
-
+           <WorkWthUsModal isOpen={scheduleCall} onClose={closeModal} />
       </div>
     </>
   );

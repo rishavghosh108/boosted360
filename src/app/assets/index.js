@@ -1,7 +1,7 @@
 import BtnArrow from './images/Homepage/cta-large.svg';
 
 import Greenlogo from './images/Homepage/green-logo.svg';
-import Greenlogolandingpage from './images/Homepage/green-logo-new-landing-page.svg';
+import Greenlogolandingpage from './images/Homepage/green-logo.svg';
 import Greenfooterlogo from './images/Homepage/footer-logo.svg';
 import BannerBackgroundGreen from './images/Homepage/bg-green.jpg';
 
