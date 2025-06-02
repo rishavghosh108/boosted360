@@ -10,7 +10,7 @@ export default function Logos() {
 
     const imgData = [sliderInLogovbg, sliderInLogoOne, sliderInLogojjjd, sliderInLogoThree, sliderInLogoTwo, sliderInLogoTdffe, sliderInLogorei, sliderInLogolop, sliderInLogoafr, sliderInLogocxml, sliderInLogonnjdvd, sliderInLogondg
     ]
-    console.log(imgData)
+    // console.log(imgData)
     return (
         <div className="container">
             {/* <ul className="flex flex-wrap lg:flex-nowrap justify-center items-center px-[30px] py-[35px] bg-[#fff] rounded-b-[10px]">
@@ -56,8 +56,8 @@ export default function Logos() {
                 <Swiper
                     spaceBetween={0}
                     slidesPerView={12}
-                    onSlideChange={() => console.log('slide change')}
-                    onSwiper={(swiper) => console.log(swiper)}
+                    // onSlideChange={() => //console.log('slide change')}
+                    // onSwiper={(swiper) => /*</div>console.log(swiper)*/}
                     modules={[Autoplay]}
                     autoplay={{
                         delay: 1300,

@@ -8,14 +8,74 @@ import Head from "next/head";
 import { Greenlogolandingpage } from "../assets";
 import axios from "axios";
 import WorkWthUsModal from "../Component/Widgets/Modal/WorkWithUs/WorkWthUsModal";
+import { useFormik } from "formik";
+import * as Yup from 'yup';
+import { useRouter } from "next/navigation";
 
 const Page = () => {
+  const router = useRouter()
   const [scheduleCall,setScheduleCall] = useState(false)
   const [paymentLoading,setpaymentLoading] = useState(false)
   const[allPlans,setallPlans] = useState([])
   const [isScrollable, setIsScrollable] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [hoveredIndex, setHoveredIndex] = useState(null);
+  const [btnLoader, setBtnLoader] = useState(false);
+    const [isThankYou, setIsThankYou] = useState(false);
+    const [isError, setIsError] = useState(false);
+    function myGreeting() {
+    setIsThankYou(false);
+    setIsError(false);
+  }
+
+  const initialValues = {
+    name:"",
+    email:"",
+    phone:"",
+    message:"",
+  }
+  const formValidationSchema = Yup.object({
+    name:Yup.string().min(3,'Name must be at least 3 characters.').required('Name is required'),
+    email:Yup.string().test(
+      'email',
+      'Please Enter a valid email',
+      value =>
+            /\S+@\S+\.\S+/.test(value)
+    ).required('Email is required'),
+    phone:Yup.number().test(
+      'phone number',
+      'Phone number must be a 10 digits number',
+      value=> /^\d{10}$/.test(value)
+    ).required('Phone number is required'),
+    message:Yup.string().required('Messege field is required')
+  })
+  const { values, errors, touched, handleBlur, handleChange, handleSubmit, resetForm ,} = useFormik({
+    initialValues: initialValues,
+    validationSchema: formValidationSchema,
+    onSubmit: async (values) => {
+      // console.log('form values', values);
+      setBtnLoader(true)
+      axios.post(`https://works-reddensoft.com/bwd_cta/admin/api/boosted360-work-with-us`, values, {
+        headers: {
+          'Content-Type': 'multipart/form-data'
+        }
+      })
+        .then(function (response) {
+          setIsThankYou(true);
+          resetForm({ values: "" });
+          router.push('/thank-you');
+        })
+        .catch(function (error) {
+          setIsError(error?.message ? error.message : "Network Error")
+        })
+        .finally(() => {
+          setBtnLoader(false);
+          setTimeout(myGreeting, 10000);
+        });
+    }
+  })
+ 
+  
 
   const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
   const openModal = () => setScheduleCall(true);
@@ -32,7 +92,7 @@ const Page = () => {
     setpaymentLoading(true)
     
        await axios.post(
-        'http://192.168.1.78:8000/api/paypal/create',
+        `${process.env.NEXT_PUBLIC_BACKEND_URL_P}/paypal/create`,
         { package_id:  package_id },
         {
           headers: {
@@ -40,15 +100,15 @@ const Page = () => {
           },
         }
       ).then((response) => {
-        console.log('Response:', response);
+        // console.log('Response:', response);
         if (response.data.approval_url) {
           window.location.href = response.data.approval_url;
         } else {
-          console.error('Approval URL not found in response:', response.data);
+          // console.error('Approval URL not found in response:', response.data);
           alert('Failed to get PayPal redirect URL.');
         }
       }).catch((error)=>{
-        console.error('Payment Error:', error.response?.data || error.message);
+        // console.error('Payment Error:', error.response?.data || error.message);
         alert('Something went wrong!');
       }).finally(()=>{
           setpaymentLoading(false)
@@ -58,13 +118,12 @@ const Page = () => {
 
    useEffect(()=>{
      const getAllPlans = async()=>{
-       await axios.get('http://192.168.1.78:8000/api/plan')
+       await axios.get(`${process.env.NEXT_PUBLIC_BACKEND_URL_P}/plan`)
        .then((response)=>{
-          console.log('all planssss',response);
+          // console.log('all planssss',response);
           setallPlans(response.data)
        }).catch((error)=>{
-          console.log('error',error);
-          
+          // console.log('error',error);
        })
      }
      getAllPlans()
@@ -77,7 +136,7 @@ const Page = () => {
 
   const handleTabClick = (option) => {
     setSelected(option);
-    console.log("Selected tab:", option);
+    // console.log("Selected tab:", option);
   };
 
   useEffect(() => {
@@ -285,7 +344,7 @@ const Page = () => {
         <header
           className={`${isScrollable ? 'shadow-lg' : ''} transition-all ease duration-300 sticky top-0 bg-white text-black z-[999]`}
         >
-          <div className="py-4 px-8 text-lg leading-5 bg-[#4aa732] text-center text-white text-shadow-[0_2px_3px_1px_rgba(0_0_0_0.55)]">Enjoy our top-selling package at only <span>$36/month</span></div>
+          <div className="py-4 px-8 text-lg leading-5 bg-[#4aa732] text-center text-white text-shadow-[0_2px_3px_1px_rgba(0_0_0_0.55)]">Enjoy our top-selling package at only <span>$199/month</span></div>
           <div className="container ">
             <div className="flex items-center justify-between py-[16px] md:py-[20px]">
               <Link href="/" className="text-[#272727]">
@@ -398,12 +457,12 @@ const Page = () => {
                 <Image width={527} height={100} className="w-[360px] mt-2" src={'/images/new-landing-page/influence.svg'} alt="influence"/>
 
                 <div className="mt-[20px] xl:mt-[35px] mb-0">
-                  <h2 className="text-[#6B21A8] pt-[10px] allura_regular text-[68px] sm:text-[80px] md:text-[60px] lg:text-[75px] xl:text-[90px] font-medium relative leading-[0.7]">
+                  <h2 className="text-[#6B21A8]sm:mb-0 mb-6 pt-[10px] allura_regular text-[68px] sm:text-[80px] md:text-[60px] lg:text-[75px] xl:text-[90px] font-medium relative leading-[0.7]">
                     with
                   </h2>
                   <h2 className="HelveticaNeue text-[50px] sm:text-[70px] md:text-[52px] lg:text-[70px] xl:text-[80px] xxl:text-[90px] font-[600] relative leading-[1] sm:leading-[0.8]">
                     Social <span className="inline-block"><span className="text-[70px]">media</span> 
-                      <Image width={395} height={100} className="w-[225px] absolute top-[-20px] right-[-14px]" src={'/images/new-landing-page/mediacircle.svg'} alt="circle"/>
+                      <Image width={395} height={100} className="w-[225px] absolute top-[-37px] right-[-14px]" src={'/images/new-landing-page/mediacircle.svg'} alt="circle"/>
                     </span>
                   </h2>
                   <h2 className="HelveticaNeue text-[50px] sm:text-[70px] md:text-[52px] lg:text-[70px] xl:text-[80px] xxl:text-[90px] font-[600] relative leading-[0.8] pb-[10px] md:pb-[8px] lg:pb-[20px] md:mx-0 mx-auto w-fit mt-2">
@@ -414,7 +473,7 @@ const Page = () => {
                   <Image width={100} height={100} className="w-[80px] ml-auto"
                    src={'/images/new-landing-page/greenbannerarrow.svg'} alt="banenrbg"/>
                 </div>
-                <button className="thicccboiBold text-white text-[16px] xl:text-[18px] font-semibold bg-[#6B21A8] transition-all duration-[0.3s] hover:bg-[#e6c32b] pl-[20px] lg:pl-[30px] pr-[10px] lg:pr-[20px] py-[8px] lg:py-[14px] rounded-[50px] flex items-center justify-between w-fit">
+                <Link className="thicccboiBold text-white text-[16px] xl:text-[18px] font-semibold bg-[#6B21A8] transition-all duration-[0.3s] hover:bg-[#e6c32b] pl-[20px] lg:pl-[30px] pr-[10px] lg:pr-[20px] py-[8px] lg:py-[14px] rounded-[50px] flex items-center justify-between w-fit" href={"#contact"}>
                   Start Your Growth Journey
                   <span className="bg-white rounded-full size-[30px] flex items-center justify-center ml-4">
                     <Image
@@ -424,7 +483,7 @@ const Page = () => {
                       alt=""
                     />
                   </span>
-                </button>
+                </Link>
               </div>
             </div>
           </div>
@@ -519,7 +578,7 @@ const Page = () => {
                 </h2>
 
                 <div className="flex items-center justify-center mt-4 md:mt-7 sm:flex-row flex-col">
-                  <button className="thicccboiRegular text-white text-[16px] xl:text-[18px] font-semibold bg-[#6324e7] md:bg-[#2A2A2A] transition-all duration-[0.3s] hover:bg-[#181818] pl-[20px] lg:pl-[35px] pr-[10px] lg:pr-[12px] py-[8px] lg:py-[10px] rounded-[50px] flex items-center justify-between w-fit">
+                  <button onClick={openModal} className="thicccboiRegular text-white text-[16px] xl:text-[18px] font-semibold bg-[#6324e7] md:bg-[#2A2A2A] transition-all duration-[0.3s] hover:bg-[#181818] pl-[20px] lg:pl-[35px] pr-[10px] lg:pr-[12px] py-[8px] lg:py-[10px] rounded-[50px] flex items-center justify-between w-fit">
                     Hire Boosted 360 Team
                     <span className="transition-colors duration-[0.3s] bg-white rounded-full size-[35px] flex items-center justify-center ml-4">
                       <div className="relative w-[18px] h-[18px]">
@@ -535,7 +594,7 @@ const Page = () => {
                     </span>
                   </button>
 
-                  <button className="md:ml-5 thicccboiRegular text-white hover:text-white text-[16px] xl:text-[18px] font-semibold bg-[#6B21A8] transition-all duration-[0.3s] hover:bg-[#5e1b95] pl-8 lg:pl-14 pr-[10px] lg:pr-[12px] py-[8px] lg:py-[10px] rounded-[50px] flex items-center justify-between w-fit sm:mt-0 mt-[15px]">
+                  <Link href="/case-studies" className="md:ml-5 thicccboiRegular text-white hover:text-white text-[16px] xl:text-[18px] font-semibold bg-[#6B21A8] transition-all duration-[0.3s] hover:bg-[#5e1b95] pl-8 lg:pl-14 pr-[10px] lg:pr-[12px] py-[8px] lg:py-[10px] rounded-[50px] flex items-center justify-between w-fit sm:mt-0 mt-[15px]">
                     See Our Works
                     <span className="transition-colors duration-[0.3s] bg-white rounded-full size-[35px] flex items-center justify-center ml-8 lg:ml-12">
                       <div className="relative w-[18px] h-[18px]">
@@ -548,7 +607,7 @@ const Page = () => {
                         />
                       </div>
                     </span>
-                  </button>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -619,7 +678,7 @@ const Page = () => {
         <div className="pt-10 bg-[#fefefe]">
           <div className="container">
             <div>
-              <button className="thicccboiBold group mx-auto text-white text-[16px] xl:text-[22px] font-semibold bg-[#6820A2] transition-all duration-[0.3s] hover:bg-[#511681] pl-[20px] lg:pl-[30px] pr-[10px] lg:pr-[20px] py-[8px] lg:py-[12px] rounded-[50px] flex items-center justify-between w-fit">
+              <button onClick={openModal} className="thicccboiBold group mx-auto text-white text-[16px] xl:text-[22px] font-semibold bg-[#6820A2] transition-all duration-[0.3s] hover:bg-[#511681] pl-[20px] lg:pl-[30px] pr-[10px] lg:pr-[20px] py-[8px] lg:py-[12px] rounded-[50px] flex items-center justify-between w-fit">
                 Let&apos;s Talk and Start
                 <span className="transition-colors duration-[0.3s] bg-white rounded-full size-[35px] flex items-center justify-center ml-4">
                   <div className="relative w-[18px] h-[18px]">
@@ -984,17 +1043,29 @@ const Page = () => {
                 <p className="thicccboiBold text-[#2A2A2A] text-[20px] sm:text-[25px] lg:text-[30px] text-center py-6 sm:py-8 lg:py-10">Got Questions? <span className="text-[#4AA732]">Ask us</span></p>
 
                 <div>
-                  <form>
-                    <div className="grid grid-cols-1 md:grid-cols-3 gap-[10px]">
-                      <input type="text" placeholder="Name" className="text-black outline-none border border-[#B2B2B2] w-full p-[12px] sm:p-[15px] bg-white rounded-[6px] placeholder:text-[#B2B2B2] placeholder:font-[300]" />
-                      <input type="email" placeholder="Email" className="text-black outline-none border border-[#B2B2B2] w-full p-[12px] sm:p-[15px] bg-white rounded-[6px] placeholder:text-[#B2B2B2] placeholder:font-[300]" />
-                      <input type="text" placeholder="Phone" className="text-black outline-none border border-[#B2B2B2] w-full p-[12px] sm:p-[15px] bg-white rounded-[6px] placeholder:text-[#B2B2B2] placeholder:font-[300]" />
+                  <form onSubmit={handleSubmit}>
+                    <div className="grid grid-cols-1 md:grid-cols-3 gap-[10px] pb-4">
+                      <div>
+                      <input type="text" name="name" onChange={handleChange} onBlur={handleBlur} value={values.name} placeholder="Name" className="text-black outline-none border border-[#B2B2B2] w-full p-[12px] sm:p-[15px] bg-white rounded-[6px] placeholder:text-[#B2B2B2] placeholder:font-[300]" />
+                        {touched.name && errors.name ? <div style={{ color: '#ff0000' }} className="md:absolute mt-1">{errors.name}</div> : null}
+                        </div>
+                        <div>
+                      <input type="email" name="email" onChange={handleChange} onBlur={handleBlur} value={values.email} placeholder="Email" className="text-black outline-none border border-[#B2B2B2] w-full p-[12px] sm:p-[15px] bg-white rounded-[6px] placeholder:text-[#B2B2B2] placeholder:font-[300]" />
+                           {touched.email && errors.email ? <div style={{ color: '#ff0000' }} className="md:absolute mt-1">{errors.email}</div> : null}
+                           </div>
+                        <div>   
+                      <input type="text" name="phone" onChange={handleChange} onBlur={handleBlur} value={values.phone} placeholder="Phone" className="text-black outline-none border border-[#B2B2B2] w-full p-[12px] sm:p-[15px] bg-white rounded-[6px] placeholder:text-[#B2B2B2] placeholder:font-[300]" />
+                           {touched.phone && errors.phone ? <div style={{ color: '#ff0000' }} className="md:absolute mt-1">{errors.phone}</div> : null}
+                           </div>
                     </div>
-
-                    <textarea placeholder="Message" className="text-black outline-none border border-[#B2B2B2] w-full mt-[10px] md:mt-[16px] h-[125px] md:h-[160px] p-[15px] bg-white rounded-[6px] placeholder:text-[#B2B2B2] placeholder:font-[300]">
+                     <div>
+                    <textarea placeholder="Message" name="message" onChange={handleChange} onBlur={handleBlur} value={values.message} className="text-black outline-none border border-[#B2B2B2] w-full mt-[10px] md:mt-[16px] h-[125px] md:h-[160px] p-[15px] bg-white rounded-[6px] placeholder:text-[#B2B2B2] placeholder:font-[300]">
+                         {touched.message && errors.message ? <div style={{ color: '#ff0000' }} className="md:absolute mt-1">{errors.message}</div> : null}
+                         
 
                     </textarea>
-                  </form>
+                    </div>
+                  
 
 
                   <div className="flex lg:items-center justify-between mt-5 lg:flex-row flex-col md:items-start items-center">
@@ -1015,8 +1086,8 @@ const Page = () => {
                     </div>
 
                     <div className="lg:mt-0 mt-[15px]">
-                      <button className="mt-5 thicccboiBold group sm:mt-auto text-white text-center text-[16px] xl:text-[18px] font-semibold bg-[#2A2A2A] transition-all duration-[0.3s] pl-[16px] pr-[5px] xl:pr-[9px] py-[6px] rounded-[50px] flex items-center justify-between w-full">
-                        <span className="flex-[1]">Send</span>
+                      <button disabled={btnLoader} className="mt-5 thicccboiBold group sm:mt-auto text-white text-center text-[16px] xl:text-[18px] font-semibold bg-[#2A2A2A] transition-all duration-[0.3s] pl-[16px] pr-[5px] xl:pr-[9px] py-[6px] rounded-[50px] flex items-center justify-between w-full">
+                        {btnLoader?<span className="flex-[1]">Sending...</span>:<span className="flex-[1]">Send</span>}
                         <span className="transition-colors duration-[0.3s] bg-white rounded-full size-[25px] lg:size-[30px] flex items-center justify-center ml-4">
                           <div className="relative size-[14px]">
                             <Image
@@ -1029,9 +1100,20 @@ const Page = () => {
                           </div>
                         </span>
                       </button>
+                      {isThankYou && (
+                      <div className='alert alert-success mt-3'>
+                          Thank you for getting in touch!
+                      </div>
+                      )}
+                      {isError && (
+                      <div className='alert alert-error mt-3'>
+                          {isError}
+                      </div>
+                      )}
                     </div>
 
                   </div>
+                  </form>
                 </div>
               </div>
             </div>

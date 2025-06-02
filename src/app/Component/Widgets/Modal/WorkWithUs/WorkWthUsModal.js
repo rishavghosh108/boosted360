@@ -96,7 +96,7 @@ const WorkWthUsModal = ({ isOpen, onClose }) => {
     initialValues: WorkWithUsData,
     validate,
     onSubmit: (values, {resetForm}) => {
-      console.log('WorkWithUsData',WorkWithUsData);
+      // console.log('WorkWithUsData',WorkWithUsData);
       setBtnLoader(true);
       const data = {
         name: values.name,
