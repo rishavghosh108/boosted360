@@ -120,10 +120,10 @@ const Page = () => {
      const getAllPlans = async()=>{
        await axios.get(`${process.env.NEXT_PUBLIC_BACKEND_URL_P}/plan`)
        .then((response)=>{
-          // console.log('all planssss',response);
+          console.log('all plans',response);
           setallPlans(response.data)
        }).catch((error)=>{
-          // console.log('error',error);
+          console.log('error',error);
        })
      }
      getAllPlans()
