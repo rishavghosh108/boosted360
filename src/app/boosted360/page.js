@@ -285,7 +285,17 @@ const Page = () => {
                   </h2>
                   <h2 className="HelveticaNeue text-[50px] sm:text-[70px] md:text-[52px] lg:text-[70px] xl:text-[80px] xxl:text-[90px] font-[600] relative leading-[1] sm:leading-[0.8]">
                     Social <span className="inline-block"><span className="text-[70px]">media</span> 
-                      <Image width={395} height={100} className="w-[225px] absolute top-[-37px] right-[-14px]" src={'/images/new-landing-page/mediacircle.svg'} alt="circle"/>
+                      <Image
+                        width={395}
+                        height={100}
+                        className={`
+                          absolute
+                          w-[225px] top-[-37px] right-[-14px]
+                          max-[425px]:w-[200px] max-[425px]:top-[30px] max-[425px]:left-[45px] max-[425px]:right-auto
+                        `}
+                        src="/images/new-landing-page/mediacircle.svg"
+                        alt="circle"
+                      />
                     </span>
                   </h2>
                   <h2 className="HelveticaNeue text-[50px] sm:text-[70px] md:text-[52px] lg:text-[70px] xl:text-[80px] xxl:text-[90px] font-[600] relative leading-[0.8] pb-[10px] md:pb-[8px] lg:pb-[20px] md:mx-0 mx-auto w-fit mt-2">
