@@ -117,15 +117,16 @@ const Page = () => {
   }
 
    useEffect(()=>{
-     const getAllPlans = async()=>{
-       await axios.get(`${process.env.NEXT_PUBLIC_BACKEND_URL_P}/plan`)
-       .then((response)=>{
-          console.log('all plans',response);
-          setallPlans(response.data)
-       }).catch((error)=>{
-          console.log('error',error);
-       })
-     }
+     const getAllPlans = async () => {
+        try {
+          const response = await axios.get(`${process.env.NEXT_PUBLIC_BACKEND_URL_P}/plan`);
+          console.log('all plans', response);
+          setallPlans(response.data);
+        } catch (error) {
+          console.error('Error fetching plans:', error);
+        }
+      };
+
      getAllPlans()
    },[])
 
@@ -151,184 +152,6 @@ const Page = () => {
       });
     }
   }, [selected]);
-
-  // const subscriptionDataOneMonth = [
-  //   {
-  //     id: 0,
-  //     planName: 'Standard',
-  //     planType: '1month',
-  //     planNameColor: '#000000',
-  //     subscriptionAmount: '20',
-  //     isBestValue: false,
-  //     planBenifits: [
-  //       'Unlimited post scheduling',
-  //       'Best time to post recommendations',
-  //       'Custom analytics and reports',
-  //       'Competitive benchmarking tool',
-  //       'AI caption, hashtag, and ideas generator',
-  //       'One inbox for all social accounts'
-  //     ],
-  //     borderColor: '#D1D1D1',
-  //     btnBg: '#000000',
-  //     hoverBtn: '#2c2c2c',
-  //   },
-  //   {
-  //     id: 1,
-  //     planName: 'Most Popular',
-  //     planType: '3months',
-  //     planNameColor: '#4AA732',
-  //     subscriptionAmount: '36',
-  //     isBestValue: false,
-  //     planBenifits: [
-  //       'Link in bio tool',
-  //       'Suspend scheduled posts',
-  //       'Team roles and permissions',
-  //       'Assign DMs to teammates',
-  //       'Video voice over',
-  //       'Automatic link tracking'
-  //     ],
-  //     borderColor: '#4AA732',
-  //     btnBg: '#4AA732',
-  //     hoverBtn: '#2a8912'
-  //   },
-  //   {
-  //     id: 2,
-  //     planName: 'Pro',
-  //     planNameColor: '#6B21A8',
-  //     planType: '12months',
-  //     subscriptionAmount: '20',
-  //     isBestValue: false,
-  //     planBenifits: [
-  //       'Content library',
-  //       'Automated engagement tools',
-  //       'Single sign-on (SSO)',
-  //       'Unlimited ad spend',
-  //       'Free Hootsuite Academy training',
-  //       'Advanced analytics'
-  //     ],
-  //     borderColor: '#6B21A8',
-  //     btnBg: '#6B21A8',
-  //     hoverBtn: '#511583'
-  //   },
-  // ]
-  // const subscriptionDataThreeMonth = [
-  //   {
-  //     id: 0,
-  //     planName: 'Standard',
-  //     planNameColor: '#000000',
-  //     subscriptionAmount: '199',
-  //     isBestValue: false,
-  //     planBenifits: [
-  //       'Unlimited post scheduling',
-  //       'Best time to post recommendations',
-  //       'Custom analytics and reports',
-  //       'Competitive benchmarking tool',
-  //       'AI caption, hashtag, and ideas generator',
-  //       'One inbox for all social accounts'
-  //     ],
-  //     borderColor: '#D1D1D1',
-  //     btnBg: '#000000',
-  //     hoverBtn: '#2c2c2c'
-  //   },
-  //   {
-  //     id: 1,
-  //     planName: 'Most Popular',
-  //     planNameColor: '#4AA732',
-  //     subscriptionAmount: '399',
-  //     isBestValue: false,
-  //     planBenifits: [
-  //       'Link in bio tool',
-  //       'Suspend scheduled posts',
-  //       'Team roles and permissions',
-  //       'Assign DMs to teammates',
-  //       'Video voice over',
-  //       'Automatic link tracking'
-  //     ],
-  //     borderColor: '#4AA732',
-  //     btnBg: '#4AA732',
-  //     hoverBtn: '#2a8912'
-  //   },
-  //   {
-  //     id: 2,
-  //     planName: 'Pro',
-  //     planNameColor: '#6B21A8',
-  //     subscriptionAmount: '699',
-  //     isBestValue: false,
-  //     planBenifits: [
-  //       'Content library',
-  //       'Automated engagement tools',
-  //       'Single sign-on (SSO)',
-  //       'Unlimited ad spend',
-  //       'Free Hootsuite Academy training',
-  //       'Advanced analytics'
-  //     ],
-  //     borderColor: '#6B21A8',
-  //     btnBg: '#6B21A8',
-  //     hoverBtn: '#511583'
-  //   },
-  // ]
-  // const subscriptionDataTwelveMonth = [
-  //   {
-  //     id: 0,
-  //     planName: 'Standard',
-  //     planNameColor: '#000000',
-  //     subscriptionAmount: '299',
-  //     isBestValue: false,
-  //     planBenifits: [
-  //       'Unlimited post scheduling',
-  //       'Best time to post recommendations',
-  //       'Custom analytics and reports',
-  //       'Competitive benchmarking tool',
-  //       'AI caption, hashtag, and ideas generator',
-  //       'One inbox for all social accounts'
-  //     ],
-  //     borderColor: '#D1D1D1',
-  //     btnBg: '#000000',
-  //     hoverBtn: '#2c2c2c'
-  //   },
-  //   {
-  //     id: 1,
-  //     planName: 'Most Popular',
-  //     planNameColor: '#4AA732',
-  //     subscriptionAmount: '699',
-  //     isBestValue: true,
-  //     planBenifits: [
-  //       'Link in bio tool',
-  //       'Suspend scheduled posts',
-  //       'Team roles and permissions',
-  //       'Assign DMs to teammates',
-  //       'Video voice over',
-  //       'Automatic link tracking'
-  //     ],
-  //     borderColor: '#4AA732',
-  //     btnBg: '#4AA732',
-  //     hoverBtn: '#2a8912'
-  //   },
-  //   {
-  //     id: 2,
-  //     planName: 'Pro',
-  //     planNameColor: '#6B21A8',
-  //     subscriptionAmount: '1299',
-  //     isBestValue: false,
-  //     planBenifits: [
-  //       'Content library',
-  //       'Automated engagement tools',
-  //       'Single sign-on (SSO)',
-  //       'Unlimited ad spend',
-  //       'Free Hootsuite Academy training',
-  //       'Advanced analytics'
-  //     ],
-  //     borderColor: '#6B21A8',
-  //     btnBg: '#6B21A8',
-  //     hoverBtn: '#511583'
-  //   },
-  // ]
-
-  // const subscriptionDataMap = {
-  //   '1 month': subscriptionDataOneMonth,
-  //   '3 months': subscriptionDataThreeMonth,
-  //   '12 months': subscriptionDataTwelveMonth
-  // };
 
   return (
     <>
