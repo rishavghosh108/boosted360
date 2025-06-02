@@ -1,4 +1,6 @@
-import BtnArrow from './images/Homepage/cta-large.svg';
+import BtnArrow from './images/Homepage/cta-large.svg';``
+// import BtnArrow from '../../public/cta-large.svg';
+
 
 import Greenlogo from './images/Homepage/green-logo.svg';
 import Greenlogolandingpage from './images/Homepage/green-logo.svg';

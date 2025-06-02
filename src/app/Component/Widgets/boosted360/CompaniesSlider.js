@@ -75,7 +75,7 @@ function AutoPlay() {
             img: '/images/new-landing-page/collaborate-9.png'
         },
     ]
-    .log(data)
+    // .log(data)
     return (
         <div className="slider-container">
             <Slider {...settings}>

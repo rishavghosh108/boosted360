@@ -56,8 +56,8 @@ export default function Logos() {
                 <Swiper
                     spaceBetween={0}
                     slidesPerView={12}
-                    // onSlideChange={() => //console.log('slide change')}
-                    // onSwiper={(swiper) => /*</div>console.log(swiper)*/}
+                    // onSlideChange={() => console.log('slide change')}
+                    // onSwiper={(swiper) => console.log(swiper)}
                     modules={[Autoplay]}
                     autoplay={{
                         delay: 1300,
