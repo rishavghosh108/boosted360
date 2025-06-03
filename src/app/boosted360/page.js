@@ -248,10 +248,10 @@ const Page = () => {
 
         {/* banner  */}
         <div className="relative bannerbr md:pt-0 pt-10">
-          <div className="container">
+          <div className="container afterthat">
             <div className="flex justify-between md:flex-row flex-col-reverse">
               <div
-                className={`md:pl-[10px] md:w-[44%] lg:pl-[50px] relative before:absolute before:size-[90%] bannerleftbefore before:z-[0] before:top-[-17%] md:before:top-[-10%] afterthat`}
+                className={`md:pl-[10px] md:w-[44%] lg:pl-[50px] relative before:absolute before:size-[90%] bannerleftbefore before:z-[0] before:top-[-17%] md:before:top-[-10%]`}
               >
                 <div className="relative before:block before:w-full before:pt-[110%] sm:before:pt-[90%] md:before:pt-[135%] z-[1]">
                   <Image
@@ -277,32 +277,31 @@ const Page = () => {
                 <p className="uppercase thicccboiRegular font-semibold text-[16px] lg:text-[26px] tracking-[6px] w-fit mt-2 ">
                   Elevate your brand
                 </p>
-                <Image width={527} height={100} className="w-[360px] mt-2" src={'/images/new-landing-page/influence.svg'} alt="influence"/>
+                <Image width={527} height={100} className="w-[330px] mt-2" src={'/images/new-landing-page/influence.svg'} alt="influence"/>
 
                 <div className="mt-[20px] xl:mt-[35px] mb-0">
-                  <h2 className="text-[#6B21A8]sm:mb-0 mb-6 pt-[10px] allura_regular text-[68px] sm:text-[80px] md:text-[60px] lg:text-[75px] xl:text-[90px] font-medium relative leading-[0.7]">
+                  <h2 className="text-[#6B21A8]sm:mb-0 mb-3 sm:mb-6 pt-[10px] allura_regular text-[68px] sm:text-[80px] md:text-[60px] lg:text-[75px] xl:text-[90px] font-medium relative leading-[0.7]">
                     with
                   </h2>
                   <h2 className="HelveticaNeue text-[50px] sm:text-[70px] md:text-[52px] lg:text-[70px] xl:text-[80px] xxl:text-[90px] font-[600] relative leading-[1] sm:leading-[0.8]">
-                    Social <span className="inline-block"><span className="text-[70px]">media</span> 
+                    Social <span className="inline-block"><span className="text-[45px] sm:text-[65px] md:text-[52px] lg:text-[70px] xl:text-[70px] xxl:text-[70px]">media</span> 
                       <Image
                         width={395}
                         height={100}
                         className={`
                           absolute
-                          w-[225px] top-[-37px] right-[-14px]
-                          max-[425px]:w-[200px] max-[425px]:top-[30px] max-[425px]:left-[45px] max-[425px]:right-auto
+                          w-[150px] sm:w-[220px] md:w-[170px] lg:w-[222px] top-[-14px] sm:top-[-32px] md:top-[-22px] lg:top-[-28px] xl:top-[-22px] xxl:top-[-12px] right-[-12px] sm:right-[-20px] md:right-[-12px]
                         `}
                         src="/images/new-landing-page/mediacircle.svg"
                         alt="circle"
                       />
                     </span>
                   </h2>
-                  <h2 className="HelveticaNeue text-[50px] sm:text-[70px] md:text-[52px] lg:text-[70px] xl:text-[80px] xxl:text-[90px] font-[600] relative leading-[0.8] pb-[10px] md:pb-[8px] lg:pb-[20px] md:mx-0 mx-auto w-fit mt-2">
+                  <h2 className="HelveticaNeue text-[50px] sm:text-[70px] md:text-[52px] lg:text-[70px] xl:text-[80px] xxl:text-[90px] font-[600] relative leading-[0.8] pb-[28px] md:pb-[8px] lg:pb-[20px] md:mx-0 mx-auto w-fit mt-4 sm:mt-7 md:mt-2">
                     magic
                   </h2>
                 </div>
-                <div className="w-[319px]">
+                <div className="w-[80px] md:w-[319px]">
                   <Image width={100} height={100} className="w-[80px] ml-auto"
                    src={'/images/new-landing-page/greenbannerarrow.svg'} alt="banenrbg"/>
                 </div>

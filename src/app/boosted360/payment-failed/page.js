@@ -21,9 +21,9 @@ export default function PaymentSuccess() {
   return (
     <>
       <header
-        className={`${isScrollable ? 'shadow-lg' : ''} transition-all ease duration-300 sticky top-0 bg-black text-white  z-[999]`}
+        className={`${isScrollable ? 'shadow-lg' : ''} transition-all ease duration-300 sticky top-0 bg-white text-black  z-[999]`}
       >
-        <div className="container bg-black">
+        <div className="container bg-white">
           <div className="flex items-center justify-between py-[16px] md:py-[20px]">
             <Link href="/">
               <Image width={100} height={100} src={Greenlogolandingpage} alt="Boosted360" className='w-[172px]' />
@@ -53,7 +53,7 @@ export default function PaymentSuccess() {
             <ul
               className={` md:pt-0 pt-[90px]
               md:flex md:flex-row flex-col md:static fixed top-0 left-0 w-full h-screen md:h-auto md:w-auto
-              bg-white md:bg-transparent text-black md:text-white z-[99] transition-all duration-300 ease-in-out
+              bg-white md:bg-transparent text-black z-[99] transition-all duration-300 ease-in-out
               ${isMenuOpen ? "translate-x-0" : "-translate-x-full"} md:translate-x-0
             `}
             >
@@ -93,7 +93,7 @@ export default function PaymentSuccess() {
         </div>
       </header>
  
-      <div className="lg:py-20 py-12 h-[86vh] flex items-center">
+      <div className="lg:py-20 py-12 h-[calc(100vh-107px)] md:h-[calc(100vh-127px)] lg:h-[calc(100vh-143px)] flex items-center bg-[#ececec]">
         <div className="container mx-auto">
           <div className="w-full lg:w-2/5 md:w-3/5 mx-auto">
             <div className="message-box bg-white shadow-lg py-10 px-5 text-center border-b-4 border-solid border-[#45a6ff]">
