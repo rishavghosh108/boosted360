@@ -1199,6 +1199,9 @@ header.active {
   .bannerbr {
     background-size: 33%;
   }
+  .afterthat::after {
+    content: none;
+}
 }
 
 /* new landing page end here  */
