@@ -1189,16 +1189,27 @@ header.active {
   .socialMediaMagic .slick-slide > div {
     padding: 20px 10px 55px;
   }
+  .afterthat::after {
+    width: 52%;
+  }
 }
-
+ 
 @media (max-width: 768px) {
   .socialMediaMagic .slick-slide > div {
     padding: 20px 10px 4px;
   }
-
+ 
   .bannerbr {
     background-size: 33%;
   }
+  .afterthat::after {
+    width: 100%;
+    height: 48%;
+    top: auto;
+    bottom: -28px;
+    left: 8px;
+  }
 }
+ 
 
 /* new landing page end here  */
