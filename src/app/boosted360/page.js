@@ -290,7 +290,7 @@ const Page = () => {
                         height={100}
                         className={`
                           absolute
-                          w-[150px] sm:w-[220px] md:w-[170px] lg:w-[222px] top-[-14px] sm:top-[-32px] md:top-[-22px] lg:top-[-28px] xl:top-[-22px] xxl:top-[-12px] right-[-12px] sm:right-[-20px] md:right-[-12px]
+                          w-[150px] sm:w-[220px] md:w-[170px] lg:w-[230px] top-[-14px] sm:top-[-32px] md:top-[-22px] lg:top-[-28px] xl:top-[-28px] xxl:top-[-20px] right-[-12px] sm:right-[-20px] md:right-[-15px]
                         `}
                         src="/images/new-landing-page/mediacircle.svg"
                         alt="circle"
